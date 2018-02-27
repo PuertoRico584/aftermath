@@ -1,0 +1,38 @@
+{
+  "name": "puertorico584",
+  "version": "0.2.5",
+  "description": "A website about Puerto Rico in the wake of Hurricane Maria.",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sass": "node_modules/.bin/node-sass sass/ -o public/stylesheets/"
+  },
+  "dependencies": {
+    "archieml": "^0.4.2",
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "fullpage.js": "^2.9.6",
+    "google-auth-library": "^0.12.0",
+    "google-drive": "0.0.8",
+    "google-oauth2": "^0.1.0",
+    "googleapis": "^26.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "http-server": "^0.11.1",
+    "json": "^9.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puertorico584"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="<%= espanol ? "es":"en" %>">
+<head>
+  <% include ../partials/header.ejs %>
+  <% var URL_LANG = espanol ? "?lang=es":"";  %>
+  <title><%= espanol ? "Wavy":"Wavy - A lightweight Node app for multimedia projects." %></title>
+  <meta property="og:title" content="<%= espanol ? "Wavy - Un proyecto multimedia por UNC School of Media and Journalism": "Wavy - A lightweight Node app for multimedia projects." %>" />
+  <meta property="og:image" content="http://cubasnewwave.unc.edu/assets/images/features/home.jpg" />
+
+</head>
+
+<body class="homepage">
+
+  <% include ../partials/nav.ejs %>
+
+
+<video autoplay muted loop preload="auto" id="click-event" class="video" src="assets/images/default.mp4"></video>
+<div id="click-event2"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-1.mp4"></video></div>
+<div id="click-event3"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-2.mp4"></video></div>
+<div id="click-event4"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-3.mp4"></video></div>
+  <!-- <a href="#" id="click-me"></a> -->
+
+  <div class="content">
+    <h1>Aftermath</h1>
+    <p>Puerto Rico after Hurricane Maria</p>
+  <button id="click-me2" class="button" onmouseover="switchVideo1">arches</button>
+  <button id="click-me3" class="button">kiddos</button>
+  <button id="click-me4" class="button">feet</button>
+
+</div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="<%= espanol ? "es":"en" %>">
+<head>
+  <title><%= espanol ? "Sobre Nosotros":"About the Project"%></title>
+  <meta property="og:title" content="<%= espanol ? "Sobre Nosotros":"About the Project"%>" />
+  <meta property="og:image" content="http://cubayouth.herokuapp.com/assets/images/features/about.jpg" />
+
+  <link href="/stylesheets/bootstrap.min.css.map">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+  <% include ../partials/header.ejs %>
+  <script>
+  var currentPage = 'about';
+  var currentNav = '.' + currentPage;
+  var mobileNav = ".overlay-content .about";
+  </script>
+</head>
+
+<body id="about-body">
+    <% include ../partials/nav.ejs %>
+<div class="about-cinema-wrapper">
+  <video id="cinemagraph" data-autoplay autoplay muted playsinline>
+  <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
+</div>
+
+</video>
+
+    <div id="title-box" class="center-wrapper about-title">
+      <div class="about change-bg" id="inner-title-box">
+        <h1><%= espanol ? "Sobre Nosotros":"About the Project"%></h1>
+      </div>
+    </div>
+
+<section id="about-intro-text" class="container max-width">
+  <div class="row justify-content-center">
+
+  <div class="about">
+
+	<% if (espanol) { %>
+    <p>Somos un grupo de alumnos de camarógrafos, diseñadores y desarrolladores web, periodistas y facultad unido por un objetivo común: compartir las voces de la juventud de Cuba.</p>
+
+    <p>Somos parte de un proyecto anual de La Escuela de los Medios de Comunicación y Periodismo de UNC-Chapel Hill. En los proyectos pasados, alumnos han reportado en cinco continentes y han producido trabajo premiado. Como estudiantes, estamos aprendiendo los beneficios y desafíos de reportar sobre culturas distintas; como periodistas, estamos trabajando juntos a contar las historias que moldean el mundo.</p>
+
+  	<% } else { %>
+      <p>We are a group of student videographers, web designers and developers, reporters and faculty brought together by a common goal: to paint an honest portrait of Puerto Rico in the wake of Hurricane Maria, and looking toward future storms.</p>
+      <p>We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.</p>
+    <% } %>
+	</div>
+
+
+</div><!-- end row-->
+
+</section> <!--end container -->
+
+  <div class="team-nav">
+    <ul>
+      <li data-filter="all" class="active everyone about-nav"><%= espanol ? "Todos":"Everyone"%></li>
+      <li data-filter=".vid" class="videographer about-nav"><%= espanol ? "Videógrafa/o":"Videographer"%></li>
+      <li data-filter=".rep" class="reporter about-nav"><%= espanol ? "Periodista":"Reporter"%></li>
+      <li data-filter=".des" class="designdev about-nav"><%= espanol ? "Diseñadora":"Designer"%></li>
+      <li data-filter=".dev" class="designdev about-nav"><%= espanol ? "Desarrollador/a":"Developer"%></li>
+      <li data-filter=".coach" class="coaches about-nav"><%= espanol ? "Instructor":"Coach"%></li>
+    </ul>
+  </div>
+  <p class="mobile-only-text">Tap on a photo to learn more about each team member.</p>
+
+  <!-- fa-github,  -->
+
+  <div class="container">
+  <div class="row" id="team-photos">
+
+    <% for (i in team) {  %>
+        <div class="mix col-xs-12 col-md-6 col-xl-4 <%=team[i]["roleid"] %>">
+          <div class="team-image-box">
+            <p class="bio">
+              <%= espanol ? team[i]["biospanish"]:team[i]["bio"] %> </p>
+            <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg">
+          </div>
+          <div class="team-info">
+            <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
+            <p class="team-name"><%=team[i]["fullname"]%> </p>
+            <% if ( team[i]["portfolio"]){ %>
+            <p class="portfolio">
+              <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
+            </p>
+            <% if (team[i]["portfolio"] && team[i]["social"]){ %>
+            <span> | </span>
+            <% } %>
+            <% } else { }%>
+            <% if (team[i]["social"]){ %>
+              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
+                 <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
+              </a>
+
+
+
+            <% } else { }%>
+          </div>
+        </div>
+        <% } %>
+    </div>
+</div> <!--end container -->
+
+  <div id="special-thanks">
+    <div class="about-container">
+ 	<% if (espanol) { %>
+	<h3>Gracias Especiales</h3>
+	<% } else { %>
+	<h3>Special Thanks</h3>
+  	<% } %>
+    <ul>
+      <div class="row">
+      <div class="col-xs-12 col-sm-4 col-lg-4 col-xs-3">
+        <li><strong>Marla Recio</strong>, On-the-ground Support in Havana</li>
+        <li><strong>Cuba Educational Travel</strong></li>
+        <li><strong>Michael Penny</strong>, Director of Global, Immersive and Professional Programs for the MJ-school</li>
+        <li><strong>Kammy Liu</strong>, Developer</li>
+        <li><strong>Melissa Hudgens</strong>, MJ-school Adjunct Instructor</li>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-lg-4">
+        <li><strong>Susan King</strong>, Dean of the MJ-school</li>
+        <li><strong>Louise Spieler</strong>, Senior Associate Dean for Strategy and Administration of the MJ-school</li>
+        <li><strong>Andy Bechtel</strong>, MJ-school Associate Professor</li>
+
+      </div>
+      <div class="col-xs-12 col-sm-4 col-lg-4">
+
+        <li><strong>Copy Editors</strong>: Luke Bollinger, Elise Clouser, Paige Connelly, Bridget Dye, Alison Krug, Sam Miner, Sarah Muzzillo, Danny Nett, Sara Salinas, Hannah Smoot, Molly Weybright, Jordan Wilkie, Avery Williams, Ryan Wilusz, Matt Wotus</li>
+      </div>
+    </ul>
+
+    </div>
+  </div>
+  </div>
+
+</div>
+
+    <% include ../partials/footer.ejs %>
+	<script src="/js/tether.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/mixitup.min.js"></script>
+  <script type="text/javascript" src="/js/about.js"></script>
+
+  <script>var mixer = mixitup('#team-photos');</script>
+</body>
+</html>

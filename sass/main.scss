@@ -1,0 +1,301 @@
+@import '_vars';
+@import '_include-media';
+
+/*this mixin applies bgr-color and color to anything with classes
+that are defined in the include below. You can override either of these colors
+further down on the page or in any of the other .SCSS files.
+*/
+@mixin config-page-colors($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+            &.subhead{
+              color: nth($i, 2);
+            }
+          }
+        }
+    }
+
+@mixin config-page-background($colors...) {
+    @each $i in $colors {
+        .#{nth($i, 1)} {
+          @include media("screen", ">=md"){
+            &.change-mobile-bg{
+              background: none;
+              background-size:cover;
+              color: nth($i, 2);
+            }
+          }
+          }
+        }
+      }
+
+
+@include config-page-colors(
+    'hiphop'  $orange,
+    'dorian' $green,
+    'skate' $purple,
+    'family' $yellow,
+    'harbor' $blue,
+    'about' $neutral
+);
+
+html {font-size:.7em;}
+
+body {
+  font-size: 1.375em;
+  letter-spacing:.01em;
+  background-color: white;
+  font-weight: 300;
+  line-height: 1.45;
+  color: $main-text-color;
+  margin:0;
+  transition: 2s background-color;
+}
+
+body a{
+  cursor: pointer;
+}
+
+p {margin-bottom: 1.3em;
+line-height: 2em;}
+
+h1, h2, h3, h4 {
+  font-family: $montserrat;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.7em;
+  font-weight:600;
+}
+
+h2 {font-size: 2.25em;}
+
+h3 {font-size: 1.75em;}
+
+h4 {font-size: 1.125em;
+}
+
+.instagram {
+  &:hover{
+    color:$instagram!important;
+  }
+}
+.facebook{
+  &:hover{
+    color:$facebook!important;
+  }
+}
+.twitter{
+  &:hover{
+    color:$twitter!important;
+  }
+}
+.github{
+  &:hover{
+    color:$github!important;
+  }
+}
+.italic {
+  font-style: italic;
+}
+
+/* ------------------  Header ------------------ */
+
+@mixin header-footer {
+  text-align: left;
+  padding: 1rem;
+}
+
+header {
+  @include header-footer;
+}
+/* ------------------ HOMEPAGE ------------------ */
+
+
+/* ------------------ Navigation ------------------ */
+
+header{
+  left:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  z-index:9;
+}
+nav {
+  height: $nav-height;
+  background-color: #000;
+  opacity: 1;
+  font-family: $montserrat;
+  font-size:.93em;
+  letter-spacing: .03em;
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  font-weight: 400;
+  margin:0;
+    a {
+      color: #fff;
+      position: relative;
+      text-decoration: none;
+      background-color:transparent;
+      //for hover styles, look at mix-in
+    }
+  }
+  .wrapper {
+    margin: 0 auto;
+    width:100%;
+    align-items: center;
+    display: flex;
+    height: $nav-height;
+    padding: 5px 0 3px 0;
+    justify-content: space-between;
+    background: transparent;
+  }
+  .label-toggle {
+    display: none;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .nav-icons, .icons {
+    display: flex;
+    margin: 0 5px 0 5px;
+  }
+  .nav-icons {
+    flex-wrap: wrap;
+    margin:0;
+  }
+  .logo-wrapper {
+    margin-left:20px;
+  }
+  .sm-icons {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    opacity:.8;
+    margin-right: 20px;
+    .insta {
+      padding-right: .3em;
+      &:hover{
+        color:$instagram;
+      }
+    }
+    .fb{
+      &:hover{
+        color:$facebook;
+      }
+    }
+    .twit{
+      &:hover{
+        color:$twitter;
+      }
+    }
+    .nav-line {
+     margin:0 0.6em 0 0.5em;
+     height:27px;
+     border-left: 1px solid $dark-gray;
+   }
+   #trans-btn, #about-btn {
+     font-size: .9em;
+   }
+    a{
+      color:#fff;
+      text-decoration:none;
+    }
+  }
+  .trans-wrapper{
+    #trans-btn{
+      &:hover{
+        cursor:pointer;
+        font-weight:600;
+      }
+    }
+    hr{
+      width:13pt;
+      margin:0;
+    }
+  }
+  .about-wrapper {
+    #about-btn{
+      &:hover{
+        cursor:pointer;
+        font-weight:600;
+      }
+    }
+  }
+}
+  .default {
+      top: 0;
+  }
+  .fixed {
+      top: -85px;
+  }
+
+  /* ------- MOBILE NAVIGATION --------*/
+
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-color:rgb(0,0,0);
+  background-color:white;
+  opacity: .94;
+  overflow-x: hidden;
+   transition: 0.5s opacity;
+   -webkit-transition:  5s opacity ;
+   -moz-transition: 0.5s opacity;
+  .overlay-content{
+    position:relative;
+    top:15%;
+    width:100%;
+    margin-left: 8%;
+    margin-top:30px;
+    // transition-duration:0s;
+    -webkit-transition: 5s opacity;
+    // -moz-transition-duration:0s;
+    a{
+      text-decoration:none;
+      font-size:1.7em;
+      font-weight: 300;
+      line-height: 2.6em;
+      padding: 0.5%;
+      display: flex;
+      align-items: center;
+    }
+    .mobile-home-link {
+      color: black;
+      position: absolute;
+      top: -24.5%;
+      right: 11%;
+      font-size: 1.5em;
+    }
+    #closebtn{
+      position:absolute;
+      top:-42.5%;
+      left: -5%;
+      font-size:75px;
+      color: black;
+      font-weight: 100;
+      transition: none;
+    }
+    .overlay-item{
+      color:black;
+      span{
+        font-size:1em;
+        display: inline-flex;
+      }
+    }
+
+  }
+}

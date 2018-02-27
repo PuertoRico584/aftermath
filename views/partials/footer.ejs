@@ -1,0 +1,42 @@
+<% var URL_LANG = espanol ? "?lang=es":"";  %>
+
+<footer>
+
+  <div class="wrapper">
+    <div class="item centered">
+      <ul class="change-bg change-mobile-bg <%= body["master-class"]["class"] %>">
+        <li id="nav-art"><a class="hiphop nav-title-footer nav-indiv" href="/pages/hiphop<%=URL_LANG%>"><span>
+          <%= espanol ? navSpan[0] : navEng[0] %></span>
+			</a></li>
+        <li><a class="dorian nav-title-footer nav-indiv" href="/pages/dorian<%=URL_LANG%>"><span>
+          <%= espanol ? navSpan[1] : navEng[1] %></span>
+			</a></li>
+        <li><a class="harbor nav-title-footer nav-indiv" href="/pages/harbor<%=URL_LANG%>"><span>
+          <%= espanol ? navSpan[2] : navEng[2] %></span>
+			</a></li>
+        <li><a class="family nav-title-footer nav-indiv" href="/pages/family<%=URL_LANG%>"><span>
+          <%= espanol ? navSpan[3] : navEng[3] %></span>
+			</a></li>
+        <li><a class="skate nav-title-footer nav-indiv" href="/pages/skate<%=URL_LANG%>"><span>
+          <%= espanol ? navSpan[4] : navEng[4] %></span>
+			</a></li>
+      </ul>
+
+    </div>
+    <div class="item centered links">
+      <div id="about-footer">
+      <a href="/about<%=URL_LANG%>">
+        <%= espanol ? navSpan[6] : navEng[6] %>
+      </a></li><br>
+      </div>
+        <div class="sm-icons">
+           <a class="facebook" href="https://www.facebook.com/CubasNewWave/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+           <a class="twitter" href="https://www.twitter.com/CubasNewWave/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+           <a class="instagram" href="https://www.instagram.com/CubasNewWave/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+        </div>
+
+    </div> <!--Close item -->
+
+   </div>  <!--Close wrapper -->
+
+</footer>

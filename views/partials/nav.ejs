@@ -1,0 +1,159 @@
+<% var URL_LANG = espanol ? "?lang=es":"";  %>
+
+  <header id="nav-header">
+   <nav class="nav-bar">
+
+     <nav class="wrapper">
+       <label for="menu-toggle" class="label-toggle">
+         <div id="nav-container">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+         </div>
+       </label>
+
+      <div class="logo-wrapper">
+
+        <a href="/<%=URL_LANG%>">
+          <!-- Logo Filename goes here! -->
+          <img src="../assets/images/wavvy-logo.png" />
+        </a>
+
+      </div>
+       <input type="checkbox" id="menu-toggle">
+
+      </input>
+
+
+      <ul>
+
+
+        <li><a class="hiphop nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+
+			   <%= espanol ? navSpan[0] : navEng[0] %>
+			</a>
+      <!-- <span class="middle-dot">&#x2022;</span> -->
+
+</li>
+        <li><a class="dorian nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+          <%= espanol ? navSpan[1] : navEng[1] %>
+
+			</a>
+
+</li>
+        <li><a class="harbor nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+          <%= espanol ? navSpan[2] : navEng[2] %>
+
+			</a>
+
+</li>
+        <li><a class="family nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+          <%= espanol ? navSpan[3] : navEng[3] %>
+
+			</a>
+
+</li>
+        <li><a class="skate nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+          <%= espanol ? navSpan[4] : navEng[4] %>
+
+
+			</a></li>
+
+
+      </ul>
+       <div class="nav-icons">
+         <div class="sm-icons">
+            <a class="facebook" href="https://www.facebook.com/Wavy/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+            <a class="twitter" href="https://www.twitter.com/Wavy/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+            <a class="instagram" href="https://www.instagram.com/Wavy/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+
+            <div class="nav-line"></div>
+
+            <div class="trans-wrapper">
+
+              <a class="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
+
+            </div>
+
+            <div class="nav-line"></div>
+
+            <div class="about-wrapper">
+                <a id="about-btn" class="about" href="/about">
+                  <%= espanol ? navSpan[5] : navEng[5] %>
+                </a>
+            </div>
+
+          </div> <!--/sm-icons-->
+
+      </div><!--/nav-icons-->
+
+<div id="hidden-nav" class="overlay">
+    <div class="overlay-content">
+       <a href="javascript:void(0)" id="closebtn">&times;</a>
+
+       <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
+
+      <a class="hiphop overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+        <span>
+			     <%= espanol ? navSpan[0] : navEng[0] %>
+        </span>
+		  </a>
+      <a class="dorian overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[1] : navEng[1] %>
+        </span>
+		  </a>
+      <a class="harbor overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+			<span>
+          <%= espanol ? navSpan[2] : navEng[2] %>
+      </span>
+  		</a>
+      <a class="family overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[3] : navEng[3] %>
+        </span>
+    	</a>
+      <a class="skate overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+  			<span>
+          <%= espanol ? navSpan[4] : navEng[4] %>
+        </span>
+  		</a>
+
+      <div class="nav-icons-mobile">
+         <div class="sm-icons">
+           <a class="about overlay-item" href="/about<%=URL_LANG%>">
+             <span>
+               <%= espanol ? navSpan[5] : navEng[5] %>
+             </span>
+           </a>
+           <div class="mobile-icons">
+
+             <a class="trans-link"><span><%= espanol ? "EN":"ES" %></span></a>
+
+            <div class="nav-line"></div>
+
+             <a id="fb" href="https://www.facebook.com/Wavy/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+             <a id="twit" href="https://www.twitter.com/Wavy/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+             <a id="insta" href="https://www.instagram.com/Wavy/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+           </div>
+
+          </div>
+    </div>
+  </div>
+</div>
+
+    </nav>
+  </nav>
+</header>
+<script>
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+//
+// var transLink = document.getElementsByClassName('trans-link');
+// var espanol = <%= espanol ? "true":"false" %>;
+// transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+
+
+
+</script>

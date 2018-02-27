@@ -1,0 +1,133 @@
+{
+  "master-class": {
+    "class": "aging"
+  },
+  "cinemagraph": {
+    "src": "aging_cinemagraph.mp4"
+  },
+  "header": {
+    "text": "A New Understanding",
+    "subtitle": "Multi-generational families show that age is just a number."
+  },
+  "lede": {
+    "text": "One multi-generational family shows us what it means to live and innovate in a new Cuba."
+  },
+  "reporters": [
+    {
+      "name": "John Doe"
+    },
+    {
+      "name": "Jane Doe"
+    }
+  ],
+  "videographers": [
+    {
+      "name": "Jill Doe"
+    },
+    {
+      "name": "Jordan Doe"
+    }
+  ],
+  "designers": [
+    {
+      "name": "Joseph Doe"
+    },
+    {
+      "name": "Jenna Doe"
+    }
+  ],
+  "text": [
+    {
+      "type": "text",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum nibh imperdiet dolor maximus tempor. Morbi at dui et sem semper rhoncus eget vel ex. Nulla ante mi, maximus quis risus ut, egestas gravida lacus. Donec ornare finibus lectus gravida egestas. Cras lobortis ultricies massa, id luctus risus semper vitae. Suspendisse sodales mauris sed ex malesuada porta. Praesent a commodo mi, ut convallis lacus. Vivamus rhoncus velit vel arcu efficitur, id blandit libero dictum. Etiam vitae velit turpis. Nunc quis imperdiet erat. Nulla sodales eros at erat lacinia eleifend. Aliquam erat volutpat. Maecenas enim lectus, facilisis ac suscipit a, dictum nec dui. Sed in lectus aliquet, tristique sem id, convallis neque."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "200984993"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Donec gravida vestibulum nisl ut ullamcorper. Donec efficitur efficitur feugiat. Pellentesque eu turpis sit amet lectus interdum scelerisque. Nam a mi non ante auctor molestie. Duis ut faucibus ligula, sed viverra magna. Duis id lacus posuere, hendrerit magna vitae, fringilla lectus. Sed pulvinar suscipit convallis."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "A broken down ferry"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Etiam condimentum porta quam ut luctus. Vestibulum condimentum, libero et efficitur faucibus, lacus erat luctus elit, a commodo turpis tellus nec odio. Cras at dui est. Pellentesque eget orci tortor. Aliquam sagittis augue vitae mi imperdiet, sit amet eleifend nisl egestas. Duis elementum porttitor enim ornare pretium. Suspendisse aliquam elit vel libero ultricies efficitur. Nam non vestibulum felis. Sed cursus nec justo sit amet eleifend. Etiam placerat, lectus ut semper sodales, risus diam mollis mi, accumsan sodales arcu lacus id nulla. Integer erat ante, dapibus a risus volutpat, vestibulum pulvinar orci. Vivamus condimentum cursus malesuada. Sed justo sem, aliquam sit amet tincidunt porttitor, posuere in justo. Nam consequat ipsum in lacinia aliquet. Nulla est neque, aliquet et laoreet consectetur, imperdiet a nisi."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "Donec in euismod lectus, eget sollicitudin ante. Cras porta sapien quis finibus pulvinar."
+      }
+    },
+    {
+      "type": "text",
+      "value": "Suspendisse ullamcorper iaculis diam, quis tristique metus mollis maximus. Donec fermentum, nunc ac mattis sagittis, orci felis pharetra odio, non dignissim dui magna a mi. Sed venenatis varius massa a rhoncus. Morbi erat dolor, lacinia vel dapibus cursus, molestie et mi. Nullam nibh diam, facilisis a ultrices ullamcorper, auctor id ante. Suspendisse tempor urna id ornare condimentum. Phasellus vitae quam vestibulum, maximus turpis ac, congue tellus. Praesent congue eget nisl et lacinia. In hac habitasse platea dictumst."
+    },
+    {
+      "type": "text",
+      "value": "Suspendisse potenti. Quisque luctus faucibus dolor quis egestas. Integer fermentum arcu nulla, id finibus diam molestie condimentum. Aenean ullamcorper ultrices tellus quis vulputate. Proin dictum sem nisi, id iaculis mauris vehicula vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero arcu, bibendum ac arcu non, tincidunt ullamcorper leo."
+    },
+    {
+      "type": "story-image",
+      "value": {
+        "src": "/assets/images/aging/aging1.jpg",
+        "alt": "Tourism",
+        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+      }
+    },
+    {
+      "type": "text",
+      "value": "Quisque ultrices, arcu sed lobortis ullamcorper, purus ex egestas justo, at faucibus orci diam et quam. Nullam volutpat ullamcorper arcu eu imperdiet. Maecenas euismod libero eget pharetra pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra neque ut magna semper, id dictum eros consequat. Nullam mollis neque ac odio pellentesque sagittis. Proin ornare nunc sed velit lobortis, ut convallis sapien efficitur. Donec elementum felis ut ligula convallis, vel faucibus arcu tempor. Aenean mollis id ante sed ornare. Mauris non porta magna, eu lacinia mauris. Nulla facilisi."
+    },
+    {
+      "type": "text",
+      "value": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dapibus mi et rutrum hendrerit. Quisque orci nisl, ornare id eros at, posuere accumsan purus. Donec dignissim magna id tincidunt faucibus. Proin venenatis justo ut metus vehicula sagittis. Nulla facilisi. Nunc hendrerit ornare justo, in imperdiet ligula pharetra quis. Duis mauris velit, rutrum mollis vestibulum ac, maximus sed purus."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "text": "this is an interactive description."
+      }
+    },
+    {
+      "type": "text",
+      "value": "Donec pulvinar arcu odio, sodales dignissim neque varius eget. Vivamus pretium risus sit amet ornare efficitur. Nullam ullamcorper turpis quis nisi molestie faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pharetra eros ut augue convallis cursus. Mauris pharetra dolor quis libero pellentesque finibus. Nunc mollis consectetur enim, eget pellentesque quam tristique non. Maecenas id faucibus enim. Nunc feugiat est vitae vulputate condimentum. Nulla feugiat lectus magna, id dignissim massa elementum at. Phasellus turpis diam, mollis varius commodo sed, efficitur ut orci."
+    },
+    {
+      "type": "text",
+      "value": "Nam scelerisque massa ut dolor maximus consectetur. Quisque maximus in turpis eu condimentum. Donec eget laoreet augue, et ullamcorper enim. Mauris eu elit at justo mattis mattis eu at mauris. Praesent cursus fringilla quam eu hendrerit. Vestibulum vel enim vel tellus vehicula faucibus et eget leo. Nullam facilisis ante sed diam pulvinar, at hendrerit augue viverra. Curabitur in orci aliquam, imperdiet tortor et, fringilla lectus. Morbi dapibus in mauris non fringilla. Morbi urna urna, tempus eu lacinia at, tempus et nisl. Fusce in ex elementum, eleifend magna quis, ultrices neque. Suspendisse imperdiet at sapien sagittis gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam viverra consectetur tortor, vitae tempus mauris volutpat et. Nunc auctor magna a nisl vulputate, vitae consequat justo euismod. Donec hendrerit lorem id volutpat euismod."
+    },
+    {
+      "type": "story-image",
+      "value": {
+        "src": "/assets/images/aging/aging2.jpg",
+        "alt": "Tourism",
+        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+      }
+    },
+    {
+      "type": "text",
+      "value": "Ut vehicula tortor id leo mattis, tincidunt pharetra lacus dapibus. Aliquam quis sem metus. Nulla volutpat dignissim ex nec tempor. Nulla facilisi. Integer congue aliquet mi in sollicitudin. Vestibulum ut sem tempus, luctus arcu at, faucibus mi. Nam in quam tortor. Ut euismod ornare maximus. Aenean finibus, neque sit amet ullamcorper tempor, ipsum magna dictum orci, sit amet rhoncus augue dolor eget ligula. Cras sem tellus, egestas sit amet risus dictum, sagittis feugiat massa. Aenean efficitur justo eu mauris facilisis, non mollis quam euismod. Vivamus vitae fermentum arcu. Praesent sagittis efficitur neque, ultrices facilisis nibh feugiat non. Vestibulum sed arcu ut velit ullamcorper pulvinar."
+    },
+    {
+      "type": "text",
+      "value": "Vestibulum dapibus gravida interdum. Etiam convallis feugiat urna, vel fermentum libero vestibulum quis. Sed quam ipsum, dapibus at suscipit eget, placerat eu lorem. Nunc vulputate enim eros, ut consequat diam scelerisque non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ornare dolor vel ante sodales bibendum at sed dolor. Vestibulum at purus euismod, suscipit lorem eleifend, varius massa. Nullam vel vestibulum turpis, ut pulvinar lorem."
+    },
+    {
+      "type": "story-image",
+      "value": {
+        "src": "/assets/images/aging/aging3.jpg",
+        "alt": "Tourism",
+        "caption": "Morbi et accumsan ex. Mauris ac elit blandit mi sollicitudin interdum sit amet non mi. Pellentesque nunc lectus, laoreet at auctor at, scelerisque ut odio."
+      }
+    }
+  ]
+}
