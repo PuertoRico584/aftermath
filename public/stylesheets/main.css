@@ -90,7 +90,7 @@ header {
   z-index: 9; }
 
 nav {
-  height: 40px;
+  height: 60px;
   background-color: #000;
   opacity: 1;
   font-family: "Montserrat", sans-serif;
@@ -116,7 +116,7 @@ nav {
     width: 100%;
     align-items: center;
     display: flex;
-    height: 40px;
+    height: 60px;
     padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
@@ -131,7 +131,8 @@ nav {
     flex-wrap: wrap;
     margin: 0; }
   nav .logo-wrapper {
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-bottom: 10px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;

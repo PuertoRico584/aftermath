@@ -7,7 +7,8 @@
   left: 0;
   min-width: 100vw;
   min-height: 100vh;
-  display: block; }
+  display: block;
+  margin-top: 60px; }
 
 .button {
   width: 200px;
@@ -30,14 +31,22 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 60px; }
 
 .header {
   min-height: 500px; }
+
+h1 {
+  color: black;
+  font-family: sans-serif; }
+
+.homepage-subtitle {
+  color: black;
+  font-family: sans-serif; }
 
 .homepage-container {
   position: absolute;
