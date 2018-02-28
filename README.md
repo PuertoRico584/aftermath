@@ -1,4 +1,4 @@
-# Wavy - A Node App
+# Aftermath - A multimedia project of the UNC School of Media and Journalism
 From Cuba's News Wave - Node App written by Lindsay Carbonell & Kate Boyd
 This App is perfect for longform multimedia projects.
 
@@ -16,7 +16,7 @@ This App is perfect for longform multimedia projects.
 
 3. Clone this repository by running:
 
-  `git clone https://github.com/PuertoRico584/node-sandbox`
+  `git clone https://github.com/PuertoRico584/aftermath`
 
   And then cd into that folder:
 
@@ -30,7 +30,7 @@ You are now set up to run the project locally, and unless you delete this folder
 
 5. Retrieve a client_secret.json file from the Slack (you'll have to change the file extension to .json when you download it) to put in your directory.
 
-6. Log in to the Cuba 584 Gmail account (login details are in our Drive) in your browser.
+6. Log in to your gmail account in your browser.
 
 7. Run:
 
@@ -48,7 +48,7 @@ You are now set up to run the project locally, and unless you delete this folder
 
 2. Open the browser of your choice and navigate to:
 
-  `localhost:5000`
+  `localhost:8080`
 
 ## Updating Articles
 
