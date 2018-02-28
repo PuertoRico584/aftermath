@@ -28,32 +28,32 @@
       <ul>
 
 
-        <li><a class="hiphop nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <li><a class="nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
 
 			   <%= espanol ? navSpan[0] : navEng[0] %>
 			</a>
       <!-- <span class="middle-dot">&#x2022;</span> -->
 
 </li>
-        <li><a class="dorian nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <li><a class="nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
           <%= espanol ? navSpan[1] : navEng[1] %>
 
 			</a>
 
 </li>
-        <li><a class="harbor nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <li><a class="nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
           <%= espanol ? navSpan[2] : navEng[2] %>
 
 			</a>
 
 </li>
-        <li><a class="family nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <li><a class="nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
           <%= espanol ? navSpan[3] : navEng[3] %>
 
 			</a>
 
 </li>
-        <li><a class="skate nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <li><a class="nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
           <%= espanol ? navSpan[4] : navEng[4] %>
 
 
@@ -63,9 +63,9 @@
       </ul>
        <div class="nav-icons">
          <div class="sm-icons">
-            <a class="facebook" href="https://www.facebook.com/Wavy/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-            <a class="twitter" href="https://www.twitter.com/Wavy/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-            <a class="instagram" href="https://www.instagram.com/Wavy/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+            <a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+            <a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+            <a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
 
             <div class="nav-line"></div>
 
@@ -93,27 +93,27 @@
 
        <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
 
-      <a class="hiphop overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+      <a class="overlay-item" href="/pages/sample-story<%=URL_LANG%>">
         <span>
 			     <%= espanol ? navSpan[0] : navEng[0] %>
         </span>
 		  </a>
-      <a class="dorian overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+      <a class="overlay-item" href="/pages/sample-story<%=URL_LANG%>">
   			<span>
           <%= espanol ? navSpan[1] : navEng[1] %>
         </span>
 		  </a>
-      <a class="harbor overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+      <a class="overlay-item" href="/pages/sample-story<%=URL_LANG%>">
 			<span>
           <%= espanol ? navSpan[2] : navEng[2] %>
       </span>
   		</a>
-      <a class="family overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+      <a class="overlay-item" href="/pages/sample-story<%=URL_LANG%>">
   			<span>
           <%= espanol ? navSpan[3] : navEng[3] %>
         </span>
     	</a>
-      <a class="skate overlay-item" href="/pages/sample-story<%=URL_LANG%>">
+      <a class="overlay-item" href="/pages/sample-story<%=URL_LANG%>">
   			<span>
           <%= espanol ? navSpan[4] : navEng[4] %>
         </span>
@@ -132,9 +132,9 @@
 
             <div class="nav-line"></div>
 
-             <a id="fb" href="https://www.facebook.com/Wavy/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-             <a id="twit" href="https://www.twitter.com/Wavy/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-             <a id="insta" href="https://www.instagram.com/Wavy/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
+             <a id="fb" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+             <a id="twit" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+             <a id="insta" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
            </div>
 
           </div>
@@ -148,7 +148,5 @@
 <script>
  var espanol = <%= espanol ? "true":"false" %>;
 $('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
-
-
 
 </script>
