@@ -20,7 +20,7 @@ This App is perfect for longform multimedia projects.
 
   And then cd into that folder:
 
-  `cd main-site`
+  `cd aftermath`
 
 4. Install the NodeJS packages by running:
 
