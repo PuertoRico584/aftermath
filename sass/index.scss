@@ -12,28 +12,20 @@
     display: block;
     margin-top: 60px;
 }
-.button {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
+
+.homepage-icon-row{
+      margin-top: 60px;
+    .homepage-icon{
+      height: 100px;
+      width: auto;
+      padding: 0 60px 60px 60px;
+    }
 }
-.button:hover {
-    background: #ddd;
-    color: black;
-}
-.hidden{
-  display: none;
-}
+
 .content {
     position: fixed;
     top: 0;
     left: 0;
-    // background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -46,11 +38,12 @@
 }
 h1{
   color: black;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;;
+  width: 100%;
 }
 .homepage-subtitle{
   color: black;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;;
 }
 
 .homepage{
