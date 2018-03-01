@@ -4,16 +4,7 @@
 <head>
   <% include ../partials/header.ejs %>
 
-  <script>
-  var currentPage = "<%= page %>";
-  var currentNav = '.' + currentPage.substring(7) + '.nav-indiv';
-  var mobileNav = ".overlay-content ." + currentPage.substring(7);
-
-  //get just page name
-  // var where = currentPage.lastIndexOf('/');
-  // var cleanPage = currentPage.substring(where+1);
-  </script>
-  <meta property="og:image" content="http://cubasnewwave.unc.edu/assets/images/features/<%= body["master-class"]["class"] %>.jpg" />
+  <meta property="og:image"/>
 
     <title><%= body["header"]["seo"] %></title>
     <meta property="og:title" content="<%= body["header"]["seo"] %>" />
