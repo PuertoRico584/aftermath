@@ -7,37 +7,37 @@
   left: 0;
   min-width: 100vw;
   min-height: 100vh;
-  display: block; }
+  display: block;
+  margin-top: 60px; }
 
-.button {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.4s ease-in-out; }
-
-.button:hover {
-  background: #ddd;
-  color: black; }
-
-.hidden {
-  display: none; }
+.homepage-icon-row {
+  margin-top: 60px; }
+  .homepage-icon-row .homepage-icon {
+    height: 100px;
+    width: auto;
+    padding: 0 60px 60px 60px; }
 
 .content {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 60px; }
 
 .header {
   min-height: 500px; }
+
+h1 {
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  width: 100%; }
+
+.homepage-subtitle {
+  color: black;
+  font-family: 'Questrial', sans-serif; }
 
 .homepage-container {
   position: absolute;

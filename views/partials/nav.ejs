@@ -1,9 +1,42 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
+
+
+
+<div id="sections_btn_holder">
+    <div class="toggle"><button onclick="toggleNavPanel('sections-panel')"><i class="fa fa-bars hamburger" aria-hidden="true"></i></button></div>
+  </div>
+  <div class="sections-panel">
+    <ul>
+      <li><a class="hiphop nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+       <%= espanol ? navSpan[0] : navEng[0] %></a>
+      </li>
+      <li><a class="dorian nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <%= espanol ? navSpan[1] : navEng[1] %></a>
+      </li>
+      <li><a class="harbor nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <%= espanol ? navSpan[2] : navEng[2] %></a>
+      </li>
+      <li><a class="family nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <%= espanol ? navSpan[3] : navEng[3] %></a>
+      </li>
+      <li><a class="skate nav-title nav-indiv" href="/pages/sample-story<%=URL_LANG%>">
+        <%= espanol ? navSpan[4] : navEng[4] %></a>
+      </li>
+    </ul>
+  </div>
+  <!-- <div id="sections_panel">
+    <div>
+      Try adding things like more child div containers, links, buttons, menus, pictures, paragraphs, videos, etc... This area can display way more than just menu buttons or links. You will see a lot of modern sites even adding graphics, icons, animations and images to their drop down menus nowadays. So get creative partner.
+    </div>
+  </div> -->
+
+
   <header id="nav-header">
    <nav class="nav-bar">
 
      <nav class="wrapper">
+
        <label for="menu-toggle" class="label-toggle">
          <div id="nav-container">
            <div class="bar1"></div>
@@ -23,6 +56,8 @@
        <input type="checkbox" id="menu-toggle">
 
       </input>
+
+
 
 
       <ul>
@@ -60,7 +95,11 @@
 			</a></li>
 
 
+
       </ul>
+
+
+
        <div class="nav-icons">
          <div class="sm-icons">
             <a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
@@ -145,8 +184,21 @@
     </nav>
   </nav>
 </header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
  var espanol = <%= espanol ? "true":"false" %>;
 $('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+</script>
+<script>
+  function toggleNavPanel (x){
+    var panel = document.getElementById(x), maxH="300px";
+    if (panel.style.height == maxH){
+      panel.style.height = "0px";
+    }else{
+      panel.style.height = maxH;
+    }
+
+  }
 
 </script>

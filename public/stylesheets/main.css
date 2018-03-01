@@ -90,7 +90,7 @@ header {
   z-index: 9; }
 
 nav {
-  height: 40px;
+  height: 60px;
   background-color: #000;
   opacity: 1;
   font-family: "Montserrat", sans-serif;
@@ -110,13 +110,17 @@ nav {
       color: #fff;
       position: relative;
       text-decoration: none;
-      background-color: transparent; }
+      background-color: transparent;
+      margin-left: 20px;
+      margin-right: 20px; }
+      nav ul a:hover {
+        color: lightblue; }
   nav .wrapper {
     margin: 0 auto;
     width: 100%;
     align-items: center;
     display: flex;
-    height: 40px;
+    height: 60px;
     padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
@@ -131,7 +135,8 @@ nav {
     flex-wrap: wrap;
     margin: 0; }
   nav .logo-wrapper {
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-bottom: 10px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -165,6 +170,25 @@ nav {
   nav .about-wrapper #about-btn:hover {
     cursor: pointer;
     font-weight: 600; }
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none; }
+
+.sections-panel {
+  display: none; }
+
+@media (max-width: 768px) {
+  .toggle {
+    display: block; }
+  nav {
+    display: none; } }
 
 .default {
   top: 0; }
