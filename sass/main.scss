@@ -50,6 +50,7 @@ body {
   color: $main-text-color;
   margin:0;
   transition: 2s background-color;
+  font-family: $body-font;
 }
 
 body a{
@@ -60,7 +61,7 @@ p {margin-bottom: 1.3em;
 line-height: 2em;}
 
 h1, h2, h3, h4 {
-  font-family: $montserrat;
+  font-family: $heading-font;
   line-height: 1.2;
 }
 
@@ -129,7 +130,7 @@ nav {
   height: $nav-height;
   background-color: #000;
   opacity: 1;
-  font-family: $montserrat;
+  font-family: $heading-font;
   font-size:.93em;
   letter-spacing: .03em;
   transition: all 0.3s linear;
