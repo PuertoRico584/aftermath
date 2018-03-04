@@ -13,7 +13,11 @@
     margin-top: 60px;
 }
 
-.homepage-icon-row{
+.homepage-icon{
+  height: 30%;
+  width: auto;
+  padding: 0 60px 60px 60px;
+    &-row{
       margin-top: 60px;
     .homepage-icon{
       height: 30%;
@@ -21,7 +25,6 @@
       padding: 0 60px 60px 60px;
     }
 }
-
 .content {
     position: fixed;
     top: 0;
