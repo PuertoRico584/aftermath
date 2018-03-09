@@ -14,6 +14,10 @@
     &-box {
       text-align: center;
       padding-top: 10%;
+      & .title-line-two{
+        text-transform: uppercase;
+        font-size: 4em;
+      }
     }
   }
 
@@ -51,6 +55,7 @@
 
   .pull {
     &-quote {
+      color: $block-quote;
       &-box {
         padding-left: 15%;
       }

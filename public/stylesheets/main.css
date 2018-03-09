@@ -1,5 +1,6 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
@@ -34,7 +35,7 @@ body {
   color: #000;
   margin: 0;
   transition: 2s background-color;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Avenir", sans-serif; }
 
 body a {
   cursor: pointer; }
@@ -44,7 +45,7 @@ p {
   line-height: 2em; }
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quasimoda", sans-serif;
   line-height: 1.2; }
 
 h1 {
@@ -94,7 +95,7 @@ nav {
   height: 60px;
   background-color: #000;
   opacity: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quasimoda", sans-serif;
   font-size: .93em;
   letter-spacing: .03em;
   transition: all 0.3s linear;
@@ -160,7 +161,7 @@ nav {
     nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
       font-size: .9em; }
     nav .sm-icons a {
-      color: #fff;
+      color: #fff !important;
       text-decoration: none; }
   nav .trans-wrapper #trans-btn:hover {
     cursor: pointer;
