@@ -11,7 +11,8 @@ $(document).ready(function(){
       <div>
 		    <div id="title-box" class="center-wrapper">
 		      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
-		        <h1><%=body["header"]["text"] %></h1>
+		        <h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
+						<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 		        <h3><%=body["header"]["subtitle"] %></h3>
 		      </div>
 		    </div>

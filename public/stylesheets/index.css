@@ -1,5 +1,6 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
 /* ------------------  Index ------------------ */
 .video {
   position: fixed;
@@ -33,15 +34,6 @@
 
 .header {
   min-height: 500px; }
-
-h1 {
-  color: black;
-  font-family: 'Questrial', sans-serif;
-  width: 100%; }
-
-.homepage-subtitle {
-  color: black;
-  font-family: 'Questrial', sans-serif; }
 
 .homepage-container {
   position: absolute;

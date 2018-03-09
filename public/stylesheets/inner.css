@@ -1,5 +1,6 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
 .inner .center-wrapper {
   max-width: 80%;
   margin: 0 auto; }
@@ -7,6 +8,9 @@
 .inner #title-box {
   text-align: center;
   padding-top: 10%; }
+  .inner #title-box .title-line-two {
+    text-transform: uppercase;
+    font-size: 4em; }
 
 .inner .byline-box {
   text-align: center;
