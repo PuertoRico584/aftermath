@@ -125,6 +125,8 @@ header{
   width:100%;
   z-index:9;
 }
+
+
 nav {
   height: $nav-height;
   background-color: #000;
@@ -135,6 +137,7 @@ nav {
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
+
   ul {
   display: flex;
   justify-content: space-around;
@@ -142,11 +145,17 @@ nav {
   padding: 0;
   font-weight: 400;
   margin:0;
+
     a {
       color: #fff;
       position: relative;
       text-decoration: none;
       background-color:transparent;
+      margin-left: 20px;
+      margin-right: 20px;
+      &:hover{
+        color: lightblue;
+      }
       //for hover styles, look at mix-in
     }
   }
@@ -176,6 +185,7 @@ nav {
   }
   .logo-wrapper {
     margin-left:20px;
+    margin-bottom: 10px;
   }
   .sm-icons {
     display: inline-flex;
@@ -209,7 +219,7 @@ nav {
      font-size: .9em;
    }
     a{
-      color:#fff;
+      color:#fff!important;
       text-decoration:none;
     }
   }
@@ -234,6 +244,40 @@ nav {
     }
   }
 }
+
+
+.toggle{
+  width: 100%;
+  padding: 10px 20px;
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+
+.sections-panel{
+  display: none;
+}
+@media (max-width:768px){
+  .toggle{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+}
+//   // ul{
+//   //   display: none;
+//   //   .active{
+//   //     display: block;
+//   //   }
+//   // }
+// }
+
+
+
   .default {
       top: 0;
   }

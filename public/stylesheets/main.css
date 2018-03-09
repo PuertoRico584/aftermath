@@ -1,5 +1,6 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css';
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
@@ -35,7 +36,7 @@ body {
   color: #000;
   margin: 0;
   transition: 2s background-color;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Avenir", sans-serif; }
 
 body a {
   cursor: pointer; }
@@ -45,7 +46,7 @@ p {
   line-height: 2em; }
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quasimoda", sans-serif;
   line-height: 1.2; }
 
 h1 {
@@ -92,10 +93,10 @@ header {
   z-index: 9; }
 
 nav {
-  height: 40px;
+  height: 60px;
   background-color: #000;
   opacity: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quasimoda", sans-serif;
   font-size: .93em;
   letter-spacing: .03em;
   transition: all 0.3s linear;
@@ -112,13 +113,17 @@ nav {
       color: #fff;
       position: relative;
       text-decoration: none;
-      background-color: transparent; }
+      background-color: transparent;
+      margin-left: 20px;
+      margin-right: 20px; }
+      nav ul a:hover {
+        color: lightblue; }
   nav .wrapper {
     margin: 0 auto;
     width: 100%;
     align-items: center;
     display: flex;
-    height: 40px;
+    height: 60px;
     padding: 5px 0 3px 0;
     justify-content: space-between;
     background: transparent; }
@@ -133,7 +138,8 @@ nav {
     flex-wrap: wrap;
     margin: 0; }
   nav .logo-wrapper {
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-bottom: 10px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -156,7 +162,7 @@ nav {
     nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
       font-size: .9em; }
     nav .sm-icons a {
-      color: #fff;
+      color: #fff !important;
       text-decoration: none; }
   nav .trans-wrapper #trans-btn:hover {
     cursor: pointer;
@@ -167,6 +173,25 @@ nav {
   nav .about-wrapper #about-btn:hover {
     cursor: pointer;
     font-weight: 600; }
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none; }
+
+.sections-panel {
+  display: none; }
+
+@media (max-width: 768px) {
+  .toggle {
+    display: block; }
+  nav {
+    display: none; } }
 
 .default {
   top: 0; }

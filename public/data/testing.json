@@ -3,7 +3,8 @@
     "class": "harbor"
   },
   "header": {
-    "text": "Testing a New Page",
+    "title-line-one": "Testing a New",
+    "title-line-two": "Page",
     "seo": "Testing a New Page: A tiny test information blip",
     "subtitle": "I am working on this"
   },

@@ -13,8 +13,9 @@ $(document).ready(function(){
   <!-- <section id="top-fold"> -->
       <div>
 		    <div id="title-box" class="center-wrapper">
-		      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
-		        <h1><%=body["header"]["text"] %></h1>
+		      <div class="change-bg" id="inner-title-box">
+		        <h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
+						<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 		        <h3><%=body["header"]["subtitle"] %></h3>
 		      </div>
 		    </div>
@@ -56,14 +57,27 @@ $(document).ready(function(){
 		      <div id="video-top"></div>
 		    </div>
 
+<<<<<<< HEAD
 		  </section>
+=======
+  <section class="center-wrapper">
+    <div class="max-width">
+    <% for (i in body["text"]) {
+      if (body["text"][i]["type"] == "text") {%>
+    <p> <%-body["text"][i]["value"] %> </p>
+    <%} else if (body["text"][i]["type"] == "subhead") {%>
+      <h4><%=body["text"][i]["value"]["text"] %></h4>
+    <%} else if (body["text"][i]["type"] == "video") {%>
+      <div id="video-top"></div>
+    </div>
+>>>>>>> ec00cf603bc1213fe830f54772952bf9a89765f2
 
 		</div>
 
 	<% if (body["text"][i]["value"]["is360"] == "true") {%>
 			<div class="interactive-wrapper">
 				<div class="interactive-wrapper-intro">
-					<h1 class="title vid-title <%= body["master-class"]["class"]%>"><%=body["text"][i]["value"]["title"]%></h1>
+					<h1 class="title vid-title"><%=body["text"][i]["value"]["title"]%></h1>
 				</div>
 
 

@@ -1,11 +1,15 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
 .inner .text-row {
   padding-top: 5%; }
 
 .inner #title-box {
   text-align: center;
   padding-top: 10%; }
+  .inner #title-box .title-line-two {
+    text-transform: uppercase;
+    font-size: 4em; }
 
 .inner .byline-box {
   text-align: left;
@@ -27,5 +31,7 @@
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-quote-box {
-  padding-bottom: 3%; }
+.inner .pull-quote {
+  color: #309865; }
+  .inner .pull-quote-box {
+    padding-bottom: 3%; }

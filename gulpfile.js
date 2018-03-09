@@ -44,9 +44,9 @@ gulp.task('connect', function(){
     // internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
 
   	if (isEspanol(req)){
-  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));
+  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'), strict=false);
   	} else {
-  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
+  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'), strict=false);
   	}
       res.render('pages/inner', {pageName: pageName, navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
 

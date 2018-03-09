@@ -3,26 +3,14 @@
 <head>
   <title><%= espanol ? "Sobre Nosotros":"About the Project"%></title>
   <meta property="og:title" content="<%= espanol ? "Sobre Nosotros":"About the Project"%>" />
-  <meta property="og:image" content="http://cubayouth.herokuapp.com/assets/images/features/about.jpg" />
+  <meta property="og:image" content="" />
 
-  <link href="/stylesheets/bootstrap.min.css.map">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
   <% include ../partials/header.ejs %>
-  <script>
-  var currentPage = 'about';
-  var currentNav = '.' + currentPage;
-  var mobileNav = ".overlay-content .about";
-  </script>
 </head>
 
 <body id="about-body">
     <% include ../partials/nav.ejs %>
-<div class="about-cinema-wrapper">
-  <video id="cinemagraph" data-autoplay autoplay muted playsinline>
-  <source src="/assets/video/teamportrait.mp4 %>" type="video/mp4">
-</div>
 
-</video>
 
     <div id="title-box" class="center-wrapper about-title">
       <div class="about change-bg" id="inner-title-box">
@@ -100,43 +88,7 @@
     </div>
 </div> <!--end container -->
 
-  <div id="special-thanks">
-    <div class="about-container">
- 	<% if (espanol) { %>
-	<h3>Gracias Especiales</h3>
-	<% } else { %>
-	<h3>Special Thanks</h3>
-  	<% } %>
-    <ul>
-      <div class="row">
-      <div class="col-xs-12 col-sm-4 col-lg-4 col-xs-3">
-        <li><strong>Marla Recio</strong>, On-the-ground Support in Havana</li>
-        <li><strong>Cuba Educational Travel</strong></li>
-        <li><strong>Michael Penny</strong>, Director of Global, Immersive and Professional Programs for the MJ-school</li>
-        <li><strong>Kammy Liu</strong>, Developer</li>
-        <li><strong>Melissa Hudgens</strong>, MJ-school Adjunct Instructor</li>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-lg-4">
-        <li><strong>Susan King</strong>, Dean of the MJ-school</li>
-        <li><strong>Louise Spieler</strong>, Senior Associate Dean for Strategy and Administration of the MJ-school</li>
-        <li><strong>Andy Bechtel</strong>, MJ-school Associate Professor</li>
-
-      </div>
-      <div class="col-xs-12 col-sm-4 col-lg-4">
-
-        <li><strong>Copy Editors</strong>: Luke Bollinger, Elise Clouser, Paige Connelly, Bridget Dye, Alison Krug, Sam Miner, Sarah Muzzillo, Danny Nett, Sara Salinas, Hannah Smoot, Molly Weybright, Jordan Wilkie, Avery Williams, Ryan Wilusz, Matt Wotus</li>
-      </div>
-    </ul>
-
-    </div>
-  </div>
-  </div>
-
-</div>
-
     <% include ../partials/footer.ejs %>
-	<script src="/js/tether.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/mixitup.min.js"></script>
   <script type="text/javascript" src="/js/about.js"></script>
 

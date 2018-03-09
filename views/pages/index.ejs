@@ -3,10 +3,11 @@
 <head>
   <% include ../partials/header.ejs %>
   <% var URL_LANG = espanol ? "?lang=es":"";  %>
-  <title><%= espanol ? "Wavy":"Wavy - A lightweight Node app for multimedia projects." %></title>
-  <meta property="og:title" content="<%= espanol ? "Wavy - Un proyecto multimedia por UNC School of Media and Journalism": "Wavy - A lightweight Node app for multimedia projects." %>" />
+  <title><%= espanol ? "Aftermath":"Aftermath - A multimedia project of the UNC School of Media and Journalism." %></title>
+  <meta property="og:title" content="<%= espanol ? "Aftermath - Un proyecto multimedia por UNC School of Media and Journalism": "Aftermath - A multimedia project of the UNC School of Media and Journalism." %>" />
   <meta property="og:image" content="http://cubasnewwave.unc.edu/assets/images/features/home.jpg" />
-
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body class="homepage">
@@ -18,20 +19,26 @@
 <div id="click-event2"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-1.mp4"></video></div>
 <div id="click-event3"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-2.mp4"></video></div>
 <div id="click-event4"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-3.mp4"></video></div>
+<div id="click-event5"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-4.mp4"></video></div>
+<div id="click-event6"><video autoplay muted loop preload="auto" class="video" src="assets/images/button-5.mp4"></video></div>
   <!-- <a href="#" id="click-me"></a> -->
 
   <div class="content">
     <h1>Aftermath</h1>
-    <p>Puerto Rico after Hurricane Maria</p>
-  <button id="click-me2" class="button" onmouseover="switchVideo1">arches</button>
-  <button id="click-me3" class="button">kiddos</button>
-  <button id="click-me4" class="button">feet</button>
+    <p class="homepage-subtitle">Puerto Rico after Hurricane Maria</p>
+    <div class="homepage-icon-row">
+      <img id="click-me2" class="homepage-icon" src="../assets/images/homepage-icons/water.png">
+      <img id="click-me3" class="homepage-icon" src="../assets/images/homepage-icons/pollution.png">
+      <img id="click-me4" class="homepage-icon" src="../assets/images/homepage-icons/health.png">
+      <img id="click-me5" class="homepage-icon" src="../assets/images/homepage-icons/electricity.png">
+      <img id="click-me6" class="homepage-icon" src="../assets/images/homepage-icons/Biodiversity.png">
+    </div>
 
 </div>
 
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
