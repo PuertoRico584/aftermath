@@ -55,6 +55,7 @@
 
   .pull {
     &-quote {
+      color: $block-quote;
       &-box {
         padding-left: 15%;
       }

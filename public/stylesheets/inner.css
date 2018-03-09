@@ -32,5 +32,7 @@
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-quote-box {
-  padding-left: 15%; }
+.inner .pull-quote {
+  color: #309865; }
+  .inner .pull-quote-box {
+    padding-left: 15%; }
