@@ -1,12 +1,12 @@
 {
   "master-class": {
-    "class": "harbor"
+    "class": "health"
   },
   "header": {
-    "title-line-one": "There’s Poison in",
-    "title-line-two": "The Water",
-    "seo": "Water: A tiny test information blip",
-    "subtitle": "Making this look like water story"
+    "title-line-one": "In the End You Only Have",
+    "title-line-two": "Your Health",
+    "seo": "Health: A tiny test information blip",
+    "subtitle": "Making this look like health story"
   },
   "reporters": [
     {
@@ -237,9 +237,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Pollution",
-    "step-back-title": "Coal Ash is Really Bad",
-    "step-forward-name": "Power",
-    "step-forward-title": "Turning the Lights Back On"
+    "step-back-name": "Power",
+    "step-back-title": "I’ve Got It",
+    "step-forward-name": "Biodiversity",
+    "step-forward-title": "In This House We Love Plants"
   }
 }
