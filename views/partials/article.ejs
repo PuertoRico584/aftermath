@@ -39,12 +39,7 @@ $(document).ready(function(){
     </div>
 
   </section>
-</div>
 
-
-	<% include ../partials/video.ejs %>
-
-<div class="container inner">
   <section class="center-wrapper">
     <div class="max-width">
     <% for (i in body["text"]) {
@@ -58,11 +53,18 @@ $(document).ready(function(){
 
   </section>
 
+</div>
+	<% include ../partials/video.ejs %>
+
+<!---Old Vimeo player
 	<% if (body["text"][i]["value"]["is360"] == "true") {%>
 			<div class="interactive-wrapper">
 				<div class="interactive-wrapper-intro">
 					<h1 class="title vid-title <%= body["master-class"]["class"]%>"><%=body["text"][i]["value"]["title"]%></h1>
 				</div>
+
+</div>
+
 
 
 
@@ -72,6 +74,9 @@ $(document).ready(function(){
       </div>
 
     </div>
+
+
+
 	</div>
 
 		<%} else {%>
@@ -85,7 +90,8 @@ $(document).ready(function(){
 
 			<% } %>
 
-
+-->
+<div class="container inner">
       <section class="center-wrapper">
         <div class="max-width">
 					<%} else if (body["text"][i]["type"] == "slider"){%>

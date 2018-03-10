@@ -30,3 +30,33 @@
 
 .inner .pull-quote-box {
   padding-left: 15%; }
+
+#morphing {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+
+#video_area {
+  position: relative;
+}
+
+.polymorph_logo {
+  transform-origin: center;
+}
+
+.polymorph {
+  transform-origin: center;
+}
+
+#video-player-trigger {
+  height: 100px;
+}
+
+.plyr__controls {
+  visibility: hidden;
+}
