@@ -45,32 +45,17 @@ $(document).ready(function(){
 
   		<!-- </section> -->
 
-
 		  <section class="center-wrapper col-md-8">
 		    <div class="max-width">
 		    <% for (i in body["text"]) {
 		      if (body["text"][i]["type"] == "text") {%>
 		    <p> <%-body["text"][i]["value"] %> </p>
 		    <%} else if (body["text"][i]["type"] == "subhead") {%>
-		      <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
+		      <h4><%=body["text"][i]["value"]["text"] %></h4>
 		    <%} else if (body["text"][i]["type"] == "video") {%>
 		      <div id="video-top"></div>
 		    </div>
-
-<<<<<<< HEAD
-		  </section>
-=======
-  <section class="center-wrapper">
-    <div class="max-width">
-    <% for (i in body["text"]) {
-      if (body["text"][i]["type"] == "text") {%>
-    <p> <%-body["text"][i]["value"] %> </p>
-    <%} else if (body["text"][i]["type"] == "subhead") {%>
-      <h4><%=body["text"][i]["value"]["text"] %></h4>
-    <%} else if (body["text"][i]["type"] == "video") {%>
-      <div id="video-top"></div>
-    </div>
->>>>>>> ec00cf603bc1213fe830f54772952bf9a89765f2
+			</section>
 
 		</div>
 
@@ -167,7 +152,7 @@ $(document).ready(function(){
 
     </div>
   </section>
-    <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+    <div class="pull-quote-box change-bg col-md-8 offset-md-3 <%= body["master-class"]["class"] %>">
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span>
 				<div class="attribution">

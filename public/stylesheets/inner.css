@@ -2,7 +2,8 @@
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
 .inner .text-row {
-  padding-top: 5%; }
+  padding-top: 5%;
+  padding-bottom: 2%; }
 
 .inner #title-box {
   text-align: center;
@@ -13,7 +14,10 @@
 
 .inner .byline-box {
   text-align: left;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  padding-top: 1%; }
+  .inner .byline-box p {
+    line-height: 1em; }
 
 .inner .byline-item {
   font-size: 0.9em;
@@ -22,9 +26,10 @@
   padding-right: 1%;
   text-align: left;
   vertical-align: text-top; }
-  .inner .byline-item .byline-head {
-    font-size: 0.9em;
-    font-weight: bold; }
+
+.inner .byline-head {
+  font-size: 0.9em;
+  font-weight: bold; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -35,3 +40,9 @@
   color: #309865; }
   .inner .pull-quote-box {
     padding-bottom: 3%; }
+
+@media only screen and (max-width: 766px) {
+  .inner .byline-box {
+    text-align: center; }
+  .inner .byline-item {
+    text-align: center; } }

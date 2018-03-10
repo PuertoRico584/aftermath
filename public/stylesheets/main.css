@@ -36,7 +36,7 @@ body {
   color: #000;
   margin: 0;
   transition: 2s background-color;
-  font-family: "Avenir", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 body a {
   cursor: pointer; }
@@ -61,7 +61,8 @@ h3 {
   font-size: 1.75em; }
 
 h4 {
-  font-size: 1.125em; }
+  font-size: 1.5em;
+  padding-bottom: 0.75em; }
 
 .instagram:hover {
   color: #bc2a8d !important; }
