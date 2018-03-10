@@ -1,7 +1,8 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
-@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
@@ -118,7 +119,8 @@ nav {
       margin-left: 20px;
       margin-right: 20px; }
       nav ul a:hover {
-        color: lightblue; }
+        color: lightblue;
+        text-decoration: none; }
   nav .wrapper {
     margin: 0 auto;
     width: 100%;
