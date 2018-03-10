@@ -3,10 +3,10 @@
     "class": "harbor"
   },
   "header": {
-    "title-line-one": "Testing a New",
-    "title-line-two": "Page",
-    "seo": "Testing a New Page: A tiny test information blip",
-    "subtitle": "I am working on this"
+    "title-line-one": "There’s Poison in",
+    "title-line-two": "The Water",
+    "seo": "Water: A tiny test information blip",
+    "subtitle": "Making this look like water story"
   },
   "reporters": [
     {
@@ -235,5 +235,11 @@
       "type": "text",
       "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
     }
-  ]
+  ],
+  "step-links": {
+    "step-back-name": "Power",
+    "step-back-title": "Turning the Lights Back On",
+    "step-forward-name": "Pollution",
+    "step-forward-title": "Coal Ash is Really Bad"
+  }
 }

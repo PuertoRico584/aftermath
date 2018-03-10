@@ -1,0 +1,30 @@
+@import '_vars';
+@import '_include-media';
+@import url("https://use.typekit.net/hym1sdr.css");
+
+/* ------ Step Link Styles ------*/
+
+
+.step{
+  margin-top: 5%;
+  font-family: 'Quasimoda';
+  & a{
+    text-decoration: none;
+    color: #fff;
+  }
+  & p{
+    margin-bottom: 0.5em;
+  }
+  &-box{
+    min-height: 350px;
+    background-color: $block-quote;
+    text-align: center;
+  }
+  &-name{
+    font-size: 3em;
+  }
+  &-title{
+    font-size: 2em;
+    font-weight: 100!important;
+  }
+}
