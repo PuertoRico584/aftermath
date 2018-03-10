@@ -2,7 +2,6 @@
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
-
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
 further down on the page or in any of the other .SCSS files.
