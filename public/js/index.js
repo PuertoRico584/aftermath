@@ -1,7 +1,5 @@
 $(document).ready(function(){
-  // $("#click-me").hover(function () {
-  //   $("#click-event").toggle();
-  // });
+
 
   var clickMe = $("#click-event");
   var clickMe2 = $("#click-event2");
@@ -15,6 +13,11 @@ $(document).ready(function(){
   $(clickMe4).hide();
   $(clickMe5).hide();
   $(clickMe6).hide();
+  $(".dropdown-pictures-nav").hide();
+
+  $(".expanded-menu").hover(function () {
+    $(".dropdown-pictures-nav").toggle();
+  });
 
   $("#click-me2").hover(function () {
     $("#click-event2").fadeToggle();
@@ -32,7 +35,7 @@ $(document).ready(function(){
     $("#click-event6").fadeToggle();
   });
 
-  
+
 
 
 
