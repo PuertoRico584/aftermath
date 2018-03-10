@@ -59,32 +59,57 @@ $(document).ready(function(){
 
 		</div>
 
-	<% if (body["text"][i]["value"]["is360"] == "true") {%>
-			<div class="interactive-wrapper">
-				<div class="interactive-wrapper-intro">
-					<h1 class="title vid-title"><%=body["text"][i]["value"]["title"]%></h1>
+</div>
+	<% include ../partials/video.ejs %>
+
+<div class="container inner">
+      <section class="center-wrapper">
+        <div class="max-width">
+					<%} else if (body["text"][i]["type"] == "slider"){%>
 				</div>
+				</section>
+				<script>
+				var captionArray = [];
+				</script>
+						<div id="photo-gallery">
 
+						  <div id="custom-slider">
 
+						    <ul id="slider-ul">
+									<% for (s in body["slider-images"]){%>
+							      <li class="slider-section">
+							        <div class="pic-style">
+							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
+							        </div>
+											<script>
+											if (!espanol){
+												captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+													"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+													"<p class='fig-attr'>Photo by&nbsp</p>" +
+													"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+												"</figcaption>");
+											} else {
+												captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+													"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+													"<p class='fig-attr'>foto por&nbsp</p>" +
+													"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+												"</figcaption>");
+											}
 
-  <div class="vimeo-container">
-      <div class="vimeo-wrapper" id="vimeo-wrap">
-        <iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
+											</script>
+							      </li>
+								<% } %>
+							</ul>
+						  </div>
 
-    </div>
-	</div>
-
-		<%} else {%>
-
-			<div class="vimeo-container">
-					<div class="vimeo-wrapper" id="vimeo-wrap">
-						<iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>
-
-				</div>
-
-			<% } %>
+							<div class="caption">
+								 <div class="arrow-wrapper">
+									<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+									<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+								</div>
+								<div id="inner-caption">
+								</div>
+						</div>
 
 			<div class="row text-row">
 	      <section class="center-wrapper col-md-8 offset-md-3">
@@ -133,6 +158,7 @@ $(document).ready(function(){
 									</div>
 									<div id="inner-caption">
 									</div>
+
 							</div>
 								</div>
 								<script src="/js/photo-slider.js"></script>
