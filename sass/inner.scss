@@ -3,10 +3,16 @@
 
 .inner {
 
+  .text {
+    &-row {
+      padding-top: 5%;
+      padding-bottom: 2%;
+    }
+  }
+
   .center {
     &-wrapper {
-      max-width: 80%;
-      margin: 0 auto;
+      // margin: 0 auto;
     }
   }
 
@@ -23,8 +29,12 @@
 
   .byline {
     &-box {
-      text-align: center;
+      text-align: left;
       padding-bottom: 5%;
+      padding-top: 1%;
+      & p{
+        line-height: 1em;
+      }
     }
   }
 
@@ -34,16 +44,16 @@
       display: inline-block;
       padding-left: 1%;
       padding-right: 1%;
-      text-align: center;
+      text-align: left;
       vertical-align: text-top;
-      .byline {
-        &-head {
-          font-size: 0.9em;
-          font-weight: bold;
-        }
+    }
+    &-head {
+      font-size: 0.9em;
+      font-weight: bold;
       }
     }
-  }
+
+
 
   .vimeo {
     &-container {
@@ -57,7 +67,22 @@
     &-quote {
       color: $block-quote;
       &-box {
-        padding-left: 15%;
+        padding-bottom: 3%;
+        // padding-left: 15%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 766px) {
+    .byline {
+      &-box {
+        text-align: center;
+      }
+    }
+
+    .byline {
+      &-item {
+        text-align: center; 
       }
     }
   }
