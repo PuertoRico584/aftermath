@@ -2,6 +2,17 @@
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
 /* ------------------  Index ------------------ */
+.homepage-icon-row {
+  margin-top: 20px; }
+  .homepage-icon-row .homepage-icon {
+    height: 20%;
+    width: auto;
+    padding: 30px; }
+
+.homepage-logo {
+  width: 40%;
+  height: auto; }
+
 .video {
   position: fixed;
   top: 0;
@@ -9,7 +20,7 @@
   min-width: 100vw;
   min-height: 100vh;
   display: block;
-  margin-top: 60px; }
+  margin-top: 0px; }
 
 .homepage-icon {
   height: 30%;
