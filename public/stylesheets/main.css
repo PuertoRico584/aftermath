@@ -29,9 +29,8 @@ html {
 
 body {
   font-size: 1.375em;
-  letter-spacing: .01em;
   background-color: white;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.45;
   color: #000;
   margin: 0;
@@ -85,6 +84,10 @@ header {
   padding: 1rem; }
 
 /* ------------------ HOMEPAGE ------------------ */
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
 /* ------------------ Navigation ------------------ */
 header {
   left: 0;

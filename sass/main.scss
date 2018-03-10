@@ -44,9 +44,8 @@ html {font-size:.7em;}
 
 body {
   font-size: 1.375em;
-  letter-spacing:.01em;
   background-color: white;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.45;
   color: $main-text-color;
   margin:0;
@@ -117,6 +116,10 @@ header {
 }
 /* ------------------ HOMEPAGE ------------------ */
 
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
 
 /* ------------------ Navigation ------------------ */
 
