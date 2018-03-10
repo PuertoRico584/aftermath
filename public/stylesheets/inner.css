@@ -1,27 +1,35 @@
 /* ------------------ Global Styles ------------ */
-/*change page colors here!*/
-.inner .center-wrapper {
-  max-width: 80%;
-  margin: 0 auto; }
+/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
+/* ------ Aftermath Story Page Colors -----*/
+.inner .text-row {
+  padding-top: 5%;
+  padding-bottom: 2%; }
 
 .inner #title-box {
   text-align: center;
   padding-top: 10%; }
+  .inner #title-box .title-line-two {
+    text-transform: uppercase;
+    font-size: 4em; }
 
 .inner .byline-box {
-  text-align: center;
-  padding-bottom: 5%; }
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 1%; }
+  .inner .byline-box p {
+    line-height: 1em; }
 
 .inner .byline-item {
   font-size: 0.9em;
   display: inline-block;
   padding-left: 1%;
   padding-right: 1%;
-  text-align: center;
+  text-align: left;
   vertical-align: text-top; }
-  .inner .byline-item .byline-head {
-    font-size: 0.9em;
-    font-weight: bold; }
+
+.inner .byline-head {
+  font-size: 0.9em;
+  font-weight: bold; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -39,7 +47,6 @@
   height: auto;
   z-index: 2;
 }
-
 
 #video_area {
   position: relative;
@@ -60,3 +67,15 @@
 .plyr__controls {
   visibility: hidden;
 }
+
+.inner .pull-quote {
+  color: #309865; }
+  .inner .pull-quote-box {
+    padding-bottom: 3%; }
+
+@media only screen and (max-width: 766px) {
+  .inner .byline-box {
+    text-align: center; }
+  .inner .byline-item {
+    text-align: center; } }
+

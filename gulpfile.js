@@ -8,13 +8,12 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
-var navEnglish = ["Nav Item 1", "Nav Item 2", "Nav Item 3", "Nav Item 4", "Nav Item 5", "About", "About the Project"];
-var navSpanish = ["Navigacion 1", "Navigacion 2", "Navigacion 3", "Navigacion 4", "Navigacion 5", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["Pollution", "Water", "Power", "Health", "Biodiversity", "About", "About the Project"];
+var navSpanish = ["Polución", "Agua", "Poder", "Salud", "Bioversidad", "Sobre nosotros", "Sobre el proyecto"];
 
 gulp.task('connect', function(){
 
   app.set('port', (process.env.PORT || 8080));
-  console.log("Testing - Willpower");
   app.use(express.static(__dirname + '/public'));
 
   app.set('views', __dirname + '/views');
@@ -44,9 +43,9 @@ gulp.task('connect', function(){
     // internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
 
   	if (isEspanol(req)){
-  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));
+  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'), strict=false);
   	} else {
-  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'));
+  		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + '.json'), strict=false);
   	}
       res.render('pages/inner', {pageName: pageName, navEng: navEnglish, navSpan: navSpanish, internet: internetData, body: bodyData, page: '/pages/' + pageName, espanol: isEspanol(req)});
 

@@ -2,6 +2,18 @@
 @import '_include-media';
 
 /* ------------------  Index ------------------ */
+.homepage-icon-row{
+  margin-top: 20px;
+  .homepage-icon{
+    height: 20%;
+    width: auto;
+    padding: 30px;
+  }
+}
+.homepage-logo{
+  width: 40%;
+  height: auto;
+}
 
 .video {
     position: fixed;
@@ -10,7 +22,7 @@
     min-width: 100vw;
     min-height: 100vh;
     display: block;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .homepage-icon{
@@ -36,20 +48,9 @@
     text-align: center;
     margin-top: 60px;
 }
-
 .header{
   min-height: 500px;
 }
-h1{
-  color: black;
-  font-family: 'Questrial', sans-serif;;
-  width: 100%;
-}
-.homepage-subtitle{
-  color: black;
-  font-family: 'Questrial', sans-serif;;
-}
-
 .homepage{
   &-container{
     position: absolute;

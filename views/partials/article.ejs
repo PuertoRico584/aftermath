@@ -6,91 +6,62 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" /> -->
+
+
 <div class="container inner">
-  <section id="top-fold">
+  <!-- <section id="top-fold"> -->
       <div>
 		    <div id="title-box" class="center-wrapper">
-		      <div class="<%= body["master-class"]["class"] %> change-bg" id="inner-title-box">
-		        <h1><%=body["header"]["text"] %></h1>
+		      <div class="change-bg" id="inner-title-box">
+		        <h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
+						<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 		        <h3><%=body["header"]["subtitle"] %></h3>
 		      </div>
 		    </div>
     </div>
 
-    <div class="byline-box center-wrapper">
-      <div class="byline-item">
-				<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
-        <% for (r in body["reporters"]) {%>
-        <p><%= body["reporters"][r]["name"] %></p>
-        <% } %>
-      </div>
-      <div class="byline-item">
-      <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
-        <% for (v in body["videographers"]) {%>
-        <p><%= body["videographers"][v]["name"] %></p>
-        <% } %>
-      </div>
-      <div class="byline-item">
-      <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
-        <% for (d in body["designers"]) {%>
-        <p><%= body["designers"][d]["name"] %></p>
-        <% } %>
-      </div>
-    </div>
+		<div class="row text-row justify-content-center">
+			<div class="byline-box center-wrapper col-md-2">
+	      <div class="byline-item">
+					<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
+	        <% for (r in body["reporters"]) {%>
+	        <p><%= body["reporters"][r]["name"] %></p>
+	        <% } %>
+	      </div>
+	      <div class="byline-item">
+	      <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
+	        <% for (v in body["videographers"]) {%>
+	        <p><%= body["videographers"][v]["name"] %></p>
+	        <% } %>
+	      </div>
+	      <div class="byline-item">
+	      <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
+	        <% for (d in body["designers"]) {%>
+	        <p><%= body["designers"][d]["name"] %></p>
+	        <% } %>
+	      </div>
+	    </div>
 
-  </section>
+  		<!-- </section> -->
 
-  <section class="center-wrapper">
-    <div class="max-width">
-    <% for (i in body["text"]) {
-      if (body["text"][i]["type"] == "text") {%>
-    <p> <%-body["text"][i]["value"] %> </p>
-    <%} else if (body["text"][i]["type"] == "subhead") {%>
-      <h4 class="subhead <%= body["master-class"]["class"] %>"><%=body["text"][i]["value"]["text"] %></h4>
-    <%} else if (body["text"][i]["type"] == "video") {%>
-      <div id="video-top"></div>
-    </div>
+		  <section class="center-wrapper col-md-8">
+		    <div class="max-width">
+		    <% for (i in body["text"]) {
+		      if (body["text"][i]["type"] == "text") {%>
+		    <p> <%-body["text"][i]["value"] %> </p>
+		    <%} else if (body["text"][i]["type"] == "subhead") {%>
+		      <h4><%=body["text"][i]["value"]["text"] %></h4>
+		    <%} else if (body["text"][i]["type"] == "video") {%>
+		      <div id="video-top"></div>
+		    </div>
+			</section>
 
-  </section>
+		</div>
 
 </div>
 	<% include ../partials/video.ejs %>
 
-<!---Old Vimeo player
-	<% if (body["text"][i]["value"]["is360"] == "true") {%>
-			<div class="interactive-wrapper">
-				<div class="interactive-wrapper-intro">
-					<h1 class="title vid-title <%= body["master-class"]["class"]%>"><%=body["text"][i]["value"]["title"]%></h1>
-				</div>
-
-</div>
-
-
-
-
-  <div class="vimeo-container">
-      <div class="vimeo-wrapper" id="vimeo-wrap">
-        <iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-
-    </div>
-
-
-
-	</div>
-
-		<%} else {%>
-
-			<div class="vimeo-container">
-					<div class="vimeo-wrapper" id="vimeo-wrap">
-						<iframe data-src="https://player.vimeo.com/video/<%=body["text"][i]["value"]["id"]%>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>
-
-				</div>
-
-			<% } %>
-
--->
 <div class="container inner">
       <section class="center-wrapper">
         <div class="max-width">
@@ -139,13 +110,64 @@ $(document).ready(function(){
 								<div id="inner-caption">
 								</div>
 						</div>
+
+			<div class="row text-row">
+	      <section class="center-wrapper col-md-8 offset-md-3">
+	        <div class="max-width">
+						<%} else if (body["text"][i]["type"] == "slider"){%>
+					</div>
+					</section>
+					<script>
+					var captionArray = [];
+					</script>
+							<div id="photo-gallery">
+
+							  <div id="custom-slider">
+
+							    <ul id="slider-ul">
+										<% for (s in body["slider-images"]){%>
+								      <li class="slider-section">
+								        <div class="pic-style">
+								          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
+								        </div>
+												<script>
+												if (!espanol){
+													captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+														"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+														"<p class='fig-attr'>Photo by&nbsp</p>" +
+														"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+													"</figcaption>");
+												} else {
+													captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+														"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+														"<p class='fig-attr'>foto por&nbsp</p>" +
+														"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+													"</figcaption>");
+												}
+
+												</script>
+								      </li>
+									<% } %>
+								</ul>
+							  </div>
+
+								<div class="caption">
+									 <div class="arrow-wrapper">
+										<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+										<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+									</div>
+									<div id="inner-caption">
+									</div>
+
 							</div>
-							<script src="/js/photo-slider.js"></script>
-				<section class="center-wrapper">
-					<div class="max-width">
-      <%} else if (body["text"][i]["type"] == "interactive") {%>
-      </div>
-    </section>
+								</div>
+								<script src="/js/photo-slider.js"></script>
+					<section class="center-wrapper">
+						<div class="max-width">
+	      <%} else if (body["text"][i]["type"] == "interactive") {%>
+	      </div>
+	    </section>
+		</div>
 <!-- This is the lil bit of code that is killing my spirit. -->
     <% var filepath = body["text"][i]["value"]["filename"] %>
 
@@ -156,7 +178,7 @@ $(document).ready(function(){
 
     </div>
   </section>
-    <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+    <div class="pull-quote-box change-bg col-md-8 offset-md-3 <%= body["master-class"]["class"] %>">
       <h3 class="pull-quote">
         <hr> <span><%=body["text"][i]["value"]["text"] %></span>
 				<div class="attribution">
@@ -164,7 +186,7 @@ $(document).ready(function(){
 				</div>
 			 </h3>
     </div>
-    <section class="center-wrapper">
+    <section class="center-wrapper col-md-8 offset-md-3">
       <div class="max-width">
     <% } else if (body["text"][i]["type"] == "image") { %>
     </div>
@@ -184,12 +206,12 @@ $(document).ready(function(){
 		<% } else if (body["text"][i]["type"] == "map") { %>
 		</div>
 	</section>
-			<div class="center-wrapper">
+			<div class="center-wrapper col-md-8">
 				<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 				<%=body["text"][i]["value"]["alt"] %>'>
 			</div>
 
-			<section class="center-wrapper">
+			<section class="center-wrapper col-md-8">
 				<div class="max-width">
 		<%} } %>
 

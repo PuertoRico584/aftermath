@@ -1,5 +1,6 @@
 @import '_vars';
 @import '_include-media';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
 
 /*this mixin applies bgr-color and color to anything with classes
 that are defined in the include below. You can override either of these colors
@@ -75,7 +76,9 @@ h2 {font-size: 2.25em;}
 
 h3 {font-size: 1.75em;}
 
-h4 {font-size: 1.125em;
+h4 {
+  font-size: 1.5em;
+  padding-bottom: 0.75em;
 }
 
 .instagram {
@@ -154,6 +157,7 @@ nav {
       margin-right: 20px;
       &:hover{
         color: lightblue;
+        text-decoration: none;
       }
       //for hover styles, look at mix-in
     }
@@ -218,7 +222,7 @@ nav {
      font-size: .9em;
    }
     a{
-      color:#fff;
+      color:#fff!important;
       text-decoration:none;
     }
   }
