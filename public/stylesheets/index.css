@@ -49,3 +49,45 @@
 .homepage-container {
   position: absolute;
   top: 50; }
+
+.logo-in-corner {
+  height: 20px;
+  width: auto; }
+
+.navbar {
+  background-color: black !important; }
+
+.navbar-toggler {
+  background-color: white; }
+
+.nav-item {
+  margin-left: 22px;
+  margin-right: 22px; }
+
+.nav-link {
+  color: white !important;
+  font-family: "quasimoda",sans-serif; }
+
+.dropdown-pictures-nav {
+  background-color: black; }
+
+.dropdown-pictures-nav ul {
+  list-style-type: none;
+  margin-left: 100px; }
+
+.dropdown-pictures-nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 22px;
+  text-align: center; }
+
+h3 {
+  color: white;
+  font-size: 15pt;
+  font-family: "quasimoda",sans-serif; }
+
+.dropdown-pictures-nav ul li img {
+  height: 40px;
+  width: auto;
+  margin-bottom: 10px; }
