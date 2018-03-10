@@ -1,37 +1,34 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
-
-
-<div id="sections_btn_holder">
-    <div class="toggle"><button onclick="toggleNavPanel('sections-panel')"><i class="fa fa-bars hamburger" aria-hidden="true"></i></button></div>
-  </div>
-  <div class="sections-panel">
-    <ul>
-      <li><a class="nav-title nav-indiv" href="/pages/pollution<%=URL_LANG%>">
-       <%= espanol ? navSpan[0] : navEng[0] %></a>
-      </li>
-      <li><a class="nav-title nav-indiv" href="/pages/water<%=URL_LANG%>">
-        <%= espanol ? navSpan[1] : navEng[1] %></a>
-      </li>
-      <li><a class="nav-title nav-indiv" href="/pages/power<%=URL_LANG%>">
-        <%= espanol ? navSpan[2] : navEng[2] %></a>
-      </li>
-      <li><a class="nav-title nav-indiv" href="/pages/health<%=URL_LANG%>">
-        <%= espanol ? navSpan[3] : navEng[3] %></a>
-      </li>
-      <li><a class="nav-title nav-indiv" href="/pages/biodiversity<%=URL_LANG%>">
-        <%= espanol ? navSpan[4] : navEng[4] %></a>
-      </li>
-    </ul>
-  </div>
-  <!-- <div id="sections_panel">
-    <div>
-      Try adding things like more child div containers, links, buttons, menus, pictures, paragraphs, videos, etc... This area can display way more than just menu buttons or links. You will see a lot of modern sites even adding graphics, icons, animations and images to their drop down menus nowadays. So get creative partner.
-    </div>
-  </div> -->
-
-
   <header id="nav-header">
+    <div id="nav-container">
+        <div class="toggle">
+          <button id="hamburger-button"><i class="fa fa-bars hamburger" aria-hidden="true"></i></button>
+        </div>
+
+      <div class="hidden-nav">
+        <ul>
+          <li><a href="/pages/pollution<%=URL_LANG%>">
+           <%= espanol ? navSpan[0] : navEng[0] %></a>
+          </li>
+          <li><a href="/pages/water<%=URL_LANG%>">
+            <%= espanol ? navSpan[1] : navEng[1] %></a>
+          </li>
+          <li><a href="/pages/power<%=URL_LANG%>">
+            <%= espanol ? navSpan[2] : navEng[2] %></a>
+          </li>
+          <li><a href="/pages/health<%=URL_LANG%>">
+            <%= espanol ? navSpan[3] : navEng[3] %></a>
+          </li>
+          <li><a href="/pages/biodiversity<%=URL_LANG%>">
+            <%= espanol ? navSpan[4] : navEng[4] %></a>
+          </li>
+          <li><a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
+          <a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
+          <a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      </div>
    <nav class="nav-bar">
 
      <nav class="wrapper">
@@ -125,7 +122,7 @@
 
       </div><!--/nav-icons-->
 
-<div id="hidden-nav" class="overlay">
+<!-- <div id="hidden-nav" class="overlay">
     <div class="overlay-content">
        <a href="javascript:void(0)" id="closebtn">&times;</a>
 
@@ -178,7 +175,7 @@
           </div>
     </div>
   </div>
-</div>
+</div> -->
 
     </nav>
   </nav>
@@ -187,17 +184,5 @@
 <script>
  var espanol = <%= espanol ? "true":"false" %>;
 $('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
-
-</script>
-<script>
-  function toggleNavPanel (x){
-    var panel = document.getElementById(x), maxH="300px";
-    if (panel.style.height == maxH){
-      panel.style.height = "0px";
-    }else{
-      panel.style.height = maxH;
-    }
-
-  }
 
 </script>
