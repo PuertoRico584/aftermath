@@ -3,26 +3,27 @@
     "class": "harbor"
   },
   "header": {
-    "text": "Across the Harbor",
-    "seo": "Across the Harbor: A young Cuban who works in tourism bridges two worlds through his daily commute to Regla",
-    "subtitle": "One commute bridges two worlds"
+    "title-line-one": "There’s Poison in",
+    "title-line-two": "The Water",
+    "seo": "Water: A tiny test information blip",
+    "subtitle": "Making this look like water story"
   },
   "reporters": [
     {
-      "name": "Kiana Cole"
+      "name": "Testing McTest"
     }
   ],
   "videographers": [
     {
-      "name": "Veasey Conway"
+      "name": "Testing McTest"
     },
     {
-      "name": "Rob Gourley"
+      "name": "Testing McTester"
     }
   ],
   "designers": [
     {
-      "name": "Peyton Chance"
+      "name": "Testing McTester"
     }
   ],
   "text": [
@@ -234,5 +235,11 @@
       "type": "text",
       "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
     }
-  ]
+  ],
+  "step-links": {
+    "step-back-name": "Pollution",
+    "step-back-title": "Coal Ash is Really Bad",
+    "step-forward-name": "Power",
+    "step-forward-title": "Turning the Lights Back On"
+  }
 }
