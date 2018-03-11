@@ -22,16 +22,13 @@
   display: block;
   margin-top: 0px; }
 
-.homepage-icon {
-  height: 30%;
-  width: auto;
-  padding: 0 60px 60px 60px; }
-  .homepage-icon-row {
-    margin-top: 60px; }
-    .homepage-icon-row .homepage-icon {
-      height: 30%;
-      width: auto;
-      padding: 0 60px 60px 60px; }
+.homepage-icon-row {
+  margin-top: 20px; }
+  .homepage-icon-row .homepage-icon {
+    height: 170px;
+    width: auto;
+    padding: 50px;
+    margin: 0px; }
 
 .content {
   position: fixed;
@@ -58,36 +55,37 @@
   background-color: black !important; }
 
 .navbar-toggler {
-  background-color: white; }
+  background-color: white;
+  text-align: right;
+  margin-left: 170px; }
 
 .nav-item {
-  margin-left: 22px;
-  margin-right: 22px; }
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center; }
 
 .nav-link {
   color: white !important;
   font-family: "quasimoda",sans-serif; }
 
-.dropdown-pictures-nav {
-  background-color: black; }
-
-.dropdown-pictures-nav ul {
-  list-style-type: none;
-  margin-left: 100px; }
-
-.dropdown-pictures-nav ul li {
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 22px;
-  margin-right: 22px;
-  text-align: center; }
+.mobile-nav-bar {
+  width: inherit; }
 
 h3 {
   color: white;
-  font-size: 15pt;
-  font-family: "quasimoda",sans-serif; }
+  font-size: 10pt;
+  font-family: "quasimoda",sans-serif;
+  text-transform: uppercase; }
 
-.dropdown-pictures-nav ul li img {
-  height: 40px;
-  width: auto;
-  margin-bottom: 10px; }
+h5 {
+  text-transform: uppercase;
+  font-size: 8pt;
+  color: gray; }
+
+.es-and-about {
+  color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: center; }
+  .es-and-about a {
+    color: white; }
