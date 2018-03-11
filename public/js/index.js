@@ -7,17 +7,16 @@ $(document).ready(function(){
   var clickMe4 = $("#click-event4");
   var clickMe5 = $("#click-event5");
   var clickMe6 = $("#click-event6");
+  // var dropdown = $(".dropdown-pictures-nav");
 
   $(clickMe2).hide();
   $(clickMe3).hide();
   $(clickMe4).hide();
   $(clickMe5).hide();
   $(clickMe6).hide();
-  $(".dropdown-pictures-nav").hide();
+  $(dropdown).hide();
 
-  $(".expanded-menu").hover(function () {
-    $(".dropdown-pictures-nav").toggle();
-  });
+
 
   $("#click-me2").hover(function () {
     $("#click-event2").fadeToggle();
@@ -34,7 +33,9 @@ $(document).ready(function(){
   $("#click-me6").hover(function () {
     $("#click-event6").fadeToggle();
   });
-
+  // $(".expanded-menu").hover(function () {
+  //   $(dropdown).toggle();
+  // });
 
 
 
