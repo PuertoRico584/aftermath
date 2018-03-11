@@ -1,3 +1,26 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
+.footer-wrapper {
+  background-color: #000000;
+  margin: 0px;
+  margin-top: 50px; }
+
+.footer-wrapper img {
+  margin: auto;
+  display: block;
+  padding-top: 40px; }
+
+.footer-icons img {
+  display: inline-block;
+  padding: 5px 5px; }
+
+.footer-icons {
+  margin: auto;
+  width: 22%; }
+
+.links p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px; }
