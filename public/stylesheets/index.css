@@ -2,12 +2,15 @@
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
 /* ------------------  Index ------------------ */
-.homepage-icon-row {
-  margin-top: 20px; }
-  .homepage-icon-row .homepage-icon {
-    height: 20%;
-    width: auto;
-    padding: 30px; }
+.homepage-header {
+  font-family: "quasimoda",sans-serif;
+  font-weight: lighter;
+  font-size: 15pt;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: none; }
 
 .homepage-logo {
   width: 40%;
@@ -22,13 +25,19 @@
   display: block;
   margin-top: 0px; }
 
-.homepage-icon-row {
-  margin-top: 20px; }
-  .homepage-icon-row .homepage-icon {
-    height: 170px;
-    width: auto;
-    padding: 50px;
-    margin: 0px; }
+.homepage-icon-row ul {
+  margin-top: 80px;
+  list-style-type: none;
+  display: block; }
+  .homepage-icon-row ul li {
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 70px; }
+    .homepage-icon-row ul li a:hover {
+      text-decoration: none; }
+    .homepage-icon-row ul li .homepage-icon {
+      height: 60px;
+      width: auto; }
 
 .content {
   position: fixed;
@@ -38,7 +47,7 @@
   width: 100%;
   padding: 20px;
   text-align: center;
-  margin-top: 60px; }
+  margin-top: 50px; }
 
 .header {
   min-height: 500px; }
@@ -52,7 +61,10 @@
   width: auto; }
 
 .navbar {
-  background-color: black !important; }
+  background-color: black !important;
+  min-height: 50px;
+  position: relative;
+  z-index: 100; }
 
 .navbar-toggler {
   background-color: white;
@@ -60,8 +72,8 @@
   margin-left: 170px; }
 
 .nav-item {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center; }
 
 .nav-link {
@@ -70,6 +82,19 @@
 
 .mobile-nav-bar {
   width: inherit; }
+
+.megamenu {
+  height: 50px;
+  overflow: hidden;
+  transition: height 450ms;
+  -moz-transition: height 450ms;
+  -webkit-transition: height 450ms; }
+
+.megamenu:hover {
+  height: 100px; }
+
+.mega-bottomrow {
+  clear: both; }
 
 h3 {
   color: white;
