@@ -1,16 +1,49 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
+.inner-hero {
+  display: flex;
+  justify-content: center;
+  padding: 0; }
+  .inner-hero img {
+    width: 100%;
+    height: 100%; }
+
 .inner .text-row {
   padding-top: 5%;
   padding-bottom: 2%; }
 
 .inner #title-box {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
   text-align: center;
-  padding-top: 10%; }
-  .inner #title-box .title-line-two {
-    text-transform: uppercase;
-    font-size: 4em; }
+  text-transform: uppercase;
+  padding-top: 10%;
+  color: #ffffff;
+  position: absolute;
+  align-items: center; }
+  .inner #title-box .title-line {
+    display: flex;
+    flex-direction: column; }
+    .inner #title-box .title-line h1 {
+      font-weight: 300; }
+    .inner #title-box .title-line-two {
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      font-size: 7em;
+      font-weight: 900;
+      margin-top: -5%; }
+  .inner #title-box .vertical-line {
+    border-left: 4px solid #ffffff;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .inner #title-box img {
+    width: 120px;
+    height: 120px; }
 
 .inner .byline-box {
   text-align: left;
