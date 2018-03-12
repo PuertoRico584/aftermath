@@ -10,11 +10,11 @@
   color: white;
   text-transform: uppercase;
   margin-top: 10px;
-  display: none;
+  visibility: hidden;
 }
 
 .homepage-logo{
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 
@@ -27,24 +27,33 @@
     display: block;
     margin-top: 0px;
 }
-
 .homepage-icon-row ul{
   margin-top: 80px;
   list-style-type: none;
-  display: block;
     li{
     display: inline-block;
-    padding-left: 70px;
-    padding-right: 70px;
-    a:hover{
-      text-decoration: none;
-    }
-    .homepage-icon{
-      height: 60px;
-      width: auto;
-    }
+    padding-left: 60px;
+    padding-right: 60px;
+      a{
+        img{
+          transition-duration: 1s;
+        }
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      a:hover .homepage-header{
+        visibility: visible;
+      }
+      .homepage-icon{
+        height: 60px;
+        width: auto;
+      }
+
   }
 }
+
+
 .content {
     position: fixed;
     top: 0;
@@ -121,6 +130,11 @@ clear:both;
 //   margin-right: 30px;
 //   text-align: center;
 // }
+.homepage-subtitle{
+  color: white;
+  font-size: 17pt;
+  font-family: "quasimoda",sans-serif;
+}
 h3{
   color: white;
   font-size: 10pt;

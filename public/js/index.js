@@ -18,27 +18,45 @@ $(document).ready(function(){
 
   $("#click-me2").hover(function () {
     $("#click-event2").fadeToggle();
-    $(".header-water").toggle();
   });
   $("#click-me3").hover(function () {
     $("#click-event3").fadeToggle();
-    $(".header-pollution").toggle();
   });
   $("#click-me4").hover(function () {
     $("#click-event4").fadeToggle();
-    $(".header-health").toggle();
   });
   $("#click-me5").hover(function () {
     $("#click-event5").fadeToggle();
-    $(".header-power").toggle();
   });
   $("#click-me6").hover(function () {
     $("#click-event6").fadeToggle();
-    $(".header-biodiversity").toggle();
   });
 
 
-
-
-
 });
+var tempId;
+function fadeIcons(x){
+  var idBucket = ['#click-me2', '#click-me3', '#click-me4', '#click-me5', '#click-me6'];
+  for(i=0; i<idBucket.length; i++){
+    tempNumber = i + 2;
+    tempString = tempNumber.toString();
+    tempId = '#click-me' + tempString;
+     if (i == x){
+
+     }else{
+       console.log(tempId);
+       $(tempId).css("opacity", "0.5");
+       console.log('yassssss bitch');
+     }
+   }
+}
+
+function unfadeIcons(x){
+  var idBucket = ['#click-me2', '#click-me3', '#click-me4', '#click-me5', '#click-me6'];
+  for(i=0; i<idBucket.length; i++){
+    tempNumber = i + 2;
+    tempString = tempNumber.toString();
+    tempId = '#click-me' + tempString;
+    $(tempId).css("opacity", "1");
+   }
+ }
