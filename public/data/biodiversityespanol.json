@@ -1,12 +1,12 @@
 {
   "master-class": {
-    "class": "water"
+    "class": "biodiversity"
   },
   "header": {
-    "title-line-one": "There’s Poison in",
-    "title-line-two": "The Water",
-    "seo": "Water: A tiny test information blip",
-    "subtitle": "Making this look like water story"
+    "title-line-one": "Lions & Tigers & Bears",
+    "title-line-two": "Biodiversity",
+    "seo": "Biodiversity: A tiny test information blip",
+    "subtitle": "Making this look like biodiversity story"
   },
   "reporters": [
     {
@@ -237,9 +237,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Pollution",
-    "step-back-title": "Coal Ash is Really Bad",
-    "step-forward-name": "Power",
-    "step-forward-title": "Turning the Lights Back On"
+    "step-back-name": "Health",
+    "step-back-title": "It’s All You’ve Got",
+    "step-forward-name": "Pollution",
+    "step-forward-title": "Cleanup on Aisle Peñuelas"
   }
 }
