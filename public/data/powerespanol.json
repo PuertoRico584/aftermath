@@ -1,12 +1,12 @@
 {
   "master-class": {
-    "class": "water"
+    "class": "power"
   },
   "header": {
-    "title-line-one": "There’s Poison in",
-    "title-line-two": "The Water",
-    "seo": "Water: A tiny test information blip",
-    "subtitle": "Making this look like water story"
+    "title-line-one": "I’ve Got The",
+    "title-line-two": "Power",
+    "seo": "Power: A tiny test information blip",
+    "subtitle": "Making this look like power story"
   },
   "reporters": [
     {
@@ -237,9 +237,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Pollution",
-    "step-back-title": "Coal Ash is Really Bad",
-    "step-forward-name": "Power",
-    "step-forward-title": "Turning the Lights Back On"
+    "step-back-name": "Water",
+    "step-back-title": "Is Water Wet?",
+    "step-forward-name": "Health",
+    "step-forward-title": "It’s All You’ve Got"
   }
 }
