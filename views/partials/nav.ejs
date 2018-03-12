@@ -1,188 +1,97 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
+<% include ../partials/header.ejs %>
 
-  <header id="nav-header">
-    <div id="nav-container">
-        <div class="toggle">
-          <button id="hamburger-button"><i class="fa fa-bars hamburger" aria-hidden="true"></i></button>
-        </div>
-
-      <div class="hidden-nav">
-        <ul>
-          <li><a href="/pages/pollution<%=URL_LANG%>">
-           <%= espanol ? navSpan[0] : navEng[0] %></a>
-          </li>
-          <li><a href="/pages/water<%=URL_LANG%>">
-            <%= espanol ? navSpan[1] : navEng[1] %></a>
-          </li>
-          <li><a href="/pages/power<%=URL_LANG%>">
-            <%= espanol ? navSpan[2] : navEng[2] %></a>
-          </li>
-          <li><a href="/pages/health<%=URL_LANG%>">
-            <%= espanol ? navSpan[3] : navEng[3] %></a>
-          </li>
-          <li><a href="/pages/biodiversity<%=URL_LANG%>">
-            <%= espanol ? navSpan[4] : navEng[4] %></a>
-          </li>
-          <li><a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-          <a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-          <a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-      </div>
-   <nav class="nav-bar">
-
-     <nav class="wrapper">
-
-       <label for="menu-toggle" class="label-toggle">
-         <div id="nav-container">
-           <div class="bar1"></div>
-           <div class="bar2"></div>
-           <div class="bar3"></div>
-         </div>
-       </label>
-
-      <div class="logo-wrapper">
-
-        <a href="/<%=URL_LANG%>">
-          <!-- Logo Filename goes here! -->
-          <img src="../assets/images/wavvy-logo.png" />
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="mobile-nav-bar"><a class="navbar-brand" href="#"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button></div>
+  <div class="collapse navbar-collapse expanded-menu megamenu" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="pages/water"><h3>water</h3><h5>title of the story</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/pollution"><h3>pollution</h3><h5>title of the story</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/health"><h3>health</h3><h5>title of the story</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/power"><h3>power</h3><h5>title of the story</h5></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/biodiversity"><h3>biodiversity</h3><h5>title of the story</h5></a>
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
         </a>
-
-      </div>
-       <input type="checkbox" id="menu-toggle">
-
-      </input>
-
-
-
-
-      <ul>
-
-
-        <li><a class="nav-title nav-indiv" href="/pages/pollution<%=URL_LANG%>">
-
-			   <%= espanol ? navSpan[0] : navEng[0] %>
-			</a>
-      <!-- <span class="middle-dot">&#x2022;</span> -->
-
-</li>
-        <li><a class="nav-title nav-indiv" href="/pages/water<%=URL_LANG%>">
-          <%= espanol ? navSpan[1] : navEng[1] %>
-
-			</a>
-
-</li>
-        <li><a class="nav-title nav-indiv" href="/pages/power<%=URL_LANG%>">
-          <%= espanol ? navSpan[2] : navEng[2] %>
-
-			</a>
-
-</li>
-        <li><a class="nav-title nav-indiv" href="/pages/health<%=URL_LANG%>">
-          <%= espanol ? navSpan[3] : navEng[3] %>
-
-			</a>
-
-</li>
-        <li><a class="nav-title nav-indiv" href="/pages/biodiversity<%=URL_LANG%>">
-          <%= espanol ? navSpan[4] : navEng[4] %>
-
-
-			</a></li>
-
-
-
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li> -->
+    </ul>
+    <div class="es-and-about"><p><a href="#">ES</a> | <a href="about">About</a></p></div>
+    <div class="mega-bottomrow">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">THE STORY TITLE</a></li>
+        <li><a href="#">TITLE TWO HERE</a></li>
+        <li><a href="#">THREE'S A CHARM</a></li>
       </ul>
-
-
-
-       <div class="nav-icons">
-         <div class="sm-icons">
-            <a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-            <a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-            <a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
-
-            <div class="nav-line"></div>
-
-            <div class="trans-wrapper">
-
-              <a class="trans-link"><span id="trans-btn"><%= espanol ? "EN":"ES" %></span></a>
-
-            </div>
-
-            <div class="nav-line"></div>
-
-            <div class="about-wrapper">
-                <a id="about-btn" class="about" href="/about">
-                  <%= espanol ? navSpan[5] : navEng[5] %>
-                </a>
-            </div>
-
-          </div> <!--/sm-icons-->
-
-      </div><!--/nav-icons-->
-
-<!-- <div id="hidden-nav" class="overlay">
-    <div class="overlay-content">
-       <a href="javascript:void(0)" id="closebtn">&times;</a>
-
-       <a href="/<%=URL_LANG%>" class="mobile-home-link"> <i class="fa fa-home fa-2x"></i></a>
-
-      <a class="overlay-item" href="/pages/pollution<%=URL_LANG%>">
-        <span>
-			     <%= espanol ? navSpan[0] : navEng[0] %>
-        </span>
-		  </a>
-      <a class="overlay-item" href="/pages/water<%=URL_LANG%>">
-  			<span>
-          <%= espanol ? navSpan[1] : navEng[1] %>
-        </span>
-		  </a>
-      <a class="overlay-item" href="/pages/power<%=URL_LANG%>">
-			<span>
-          <%= espanol ? navSpan[2] : navEng[2] %>
-      </span>
-  		</a>
-      <a class="overlay-item" href="/pages/health<%=URL_LANG%>">
-  			<span>
-          <%= espanol ? navSpan[3] : navEng[3] %>
-        </span>
-    	</a>
-      <a class="overlay-item" href="/pages/biodiversity<%=URL_LANG%>">
-  			<span>
-          <%= espanol ? navSpan[4] : navEng[4] %>
-        </span>
-  		</a>
-
-      <div class="nav-icons-mobile">
-         <div class="sm-icons">
-           <a class="about overlay-item" href="/about<%=URL_LANG%>">
-             <span>
-               <%= espanol ? navSpan[5] : navEng[5] %>
-             </span>
-           </a>
-           <div class="mobile-icons">
-
-             <a class="trans-link"><span><%= espanol ? "EN":"ES" %></span></a>
-
-            <div class="nav-line"></div>
-
-             <a id="fb" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook icons" aria-hidden="true"></i></a>
-             <a id="twit" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter icons" aria-hidden="true"></i></a>
-             <a id="insta" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram icons" aria-hidden="true"></i></a>
-           </div>
-
-          </div>
     </div>
   </div>
+
+
+</nav>
+
+
+
+
+
+<!-- <div class="dropdown-pictures-nav">
+<ul>
+  <li><a href="#">
+      <img id="click-me2" class="homepage-icon" src="../assets/images/water.png">
+      <h3>water</h3>
+    </a>
+  </li>
+  <li><a href="#">
+      <img id="click-me3" class="homepage-icon" src="../assets/images/pollution.png">
+      <h3>pollution</h3>
+    </a>
+  </li>
+  <li><a href="#">
+      <img id="click-me4" class="homepage-icon" src="../assets/images/health.png">
+      <h3>health</h3>
+    </a>
+  </li>
+  <li><a href="#">
+    <img id="click-me5" class="homepage-icon" src="../assets/images/power.png">
+    <h3>power</h3>
+  </a>
+  </li>
+  <li><a href="#">
+      <img id="click-me6" class="homepage-icon" src="../assets/images/biodiversity.png">
+      <h3>biodiversity</h3>
+    </a>
+  </li>
+</ul>
 </div> -->
 
-    </nav>
-  </nav>
-</header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
- var espanol = <%= espanol ? "true":"false" %>;
-$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
 
-</script>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
