@@ -91,10 +91,12 @@
   overflow: hidden;
   transition: height 450ms;
   -moz-transition: height 450ms;
-  -webkit-transition: height 450ms; }
+  -webkit-transition: height 450ms;
+  margin-left: 30px;
+  padding-right: 0px; }
 
 .megamenu:hover {
-  height: 100px; }
+  height: 140px; }
 
 .mega-bottomrow {
   clear: both; }
@@ -104,11 +106,15 @@
   font-size: 17pt;
   font-family: "quasimoda",sans-serif; }
 
-h3 {
+.nav-header {
   color: white;
   font-size: 10pt;
   font-family: "quasimoda",sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 70px;
+  position: fixed;
+  top: -35px;
+  text-align: center; }
 
 h5 {
   text-transform: uppercase;
@@ -117,8 +123,14 @@ h5 {
 
 .es-and-about {
   color: white;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
   text-align: center; }
   .es-and-about a {
     color: white; }
+
+.nav-icon {
+  height: 20px;
+  width: auto;
+  margin-top: 100px;
+  margin-bottom: 5px; }
