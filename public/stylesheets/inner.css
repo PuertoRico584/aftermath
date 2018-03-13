@@ -45,6 +45,12 @@
     width: 120px;
     height: 120px; }
 
+.inner .left-box {
+  padding-top: 1%; }
+
+.inner .center-wrapper {
+  max-width: 80%; }
+
 .inner .byline-box {
   text-align: left;
   padding-bottom: 5%;
@@ -67,7 +73,7 @@
   margin: 0; }
 
 .inner .byline-item-head p {
-  margin: 0; }
+  margin: 0 !important; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -75,15 +81,20 @@
   text-align: center; }
 
 .inner .pull-quote {
-  color: #309865; }
+  color: #309865;
+  font-size: 20pt;
+  text-transform: none; }
   .inner .pull-quote-box {
     padding-bottom: 3%; }
 
 @media only screen and (max-width: 766px) {
-  .inner .byline-box {
+  .text-row {
+    max-width: 90%;
+    margin: 0 auto; }
+  .byline-box {
     text-align: center; }
-  .inner .byline-item {
-    text-align: center; } }
+  .byline-item {
+    text-align: center !important; } }
 
 #morphing {
   position: absolute;
