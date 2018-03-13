@@ -1,7 +1,7 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
-/* ------------------  Index ------------------ */
+/* ------------------  HOMEPAGE ------------------ */
 .homepage-header {
   font-family: "quasimoda",sans-serif;
   font-weight: lighter;
@@ -59,66 +59,53 @@
   position: absolute;
   top: 50; }
 
+.homepage-subtitle {
+  color: white;
+  font-size: 17pt;
+  font-family: "quasimoda",sans-serif; }
+
+/* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
   height: 20px;
-  width: auto; }
+  width: auto;
+  margin-left: 15px; }
 
 .navbar {
-  background-color: black !important;
-  min-height: 50px;
-  position: relative;
-  z-index: 100; }
+  background-color: black !important; }
 
 .navbar-toggler {
   background-color: white;
-  text-align: right;
   margin-left: 170px; }
 
 .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
   text-align: center; }
 
 .nav-link {
   color: white !important;
   font-family: "quasimoda",sans-serif; }
 
-.mobile-nav-bar {
-  width: inherit; }
+.navbar-collapse {
+  margin: auto; }
 
-.megamenu {
-  height: 50px;
-  overflow: hidden;
-  transition: height 450ms;
-  -moz-transition: height 450ms;
-  -webkit-transition: height 450ms; }
-
-.megamenu:hover {
-  height: 100px; }
-
-.mega-bottomrow {
-  clear: both; }
-
-.homepage-subtitle {
-  color: white;
-  font-size: 17pt;
-  font-family: "quasimoda",sans-serif; }
-
-h3 {
+.nav-header {
   color: white;
   font-size: 10pt;
   font-family: "quasimoda",sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 h5 {
   text-transform: uppercase;
   font-size: 8pt;
-  color: gray; }
+  font-weight: lighter;
+  opacity: 0.8; }
 
 .es-and-about {
   color: white;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center; }
   .es-and-about a {
     color: white; }
