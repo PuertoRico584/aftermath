@@ -48,9 +48,7 @@ function fadeIcons(x){
      if (i == x){
 
      }else{
-       console.log(tempId);
        $(tempId).css("opacity", "0.4");
-       console.log('yassssss bitch');
      }
    }
 }
