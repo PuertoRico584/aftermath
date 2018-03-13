@@ -34,6 +34,10 @@ $(document).ready(function(){
 
 
 });
+
+
+
+
 var tempId;
 function fadeIcons(x){
   var idBucket = ['#click-me2', '#click-me3', '#click-me4', '#click-me5', '#click-me6'];
