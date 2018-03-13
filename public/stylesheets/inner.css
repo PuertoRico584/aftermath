@@ -55,8 +55,6 @@
 .inner .byline-item {
   font-size: 0.9em;
   display: inline-block;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: left;
   vertical-align: text-top; }
 
@@ -70,9 +68,11 @@
   text-align: center; }
 
 .inner .pull-quote {
-  color: #309865; }
+  color: #309865;
+  font-size: 20pt;
+  text-transform: none; }
   .inner .pull-quote-box {
-    padding-bottom: 3%; }
+    padding-bottom: 2%; }
 
 @media only screen and (max-width: 766px) {
   .inner .byline-box {
