@@ -1,5 +1,6 @@
 @import '_vars';
 @import '_include-media';
+
 /* ------------------  HOMEPAGE ------------------ */
 .homepage-header{
   font-family:"quasimoda",sans-serif;
@@ -25,6 +26,7 @@
     margin-top: 0px;
 }
 .homepage-image{
+
 }
 .homepage-icon-row ul{
   margin-top: 80px;
@@ -74,7 +76,9 @@
   font-size: 17pt;
   font-family: "quasimoda",sans-serif;
 }
+
 /* ------------------  NAV BAR ------------------ */
+
 .logo-in-corner{
   height: 20px;
   width: auto;
