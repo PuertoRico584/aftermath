@@ -50,7 +50,8 @@
   padding-bottom: 5%;
   padding-top: 1%; }
   .inner .byline-box p {
-    line-height: 1em; }
+    line-height: 1em;
+    margin: 0; }
 
 .inner .byline-item {
   font-size: 0.9em;
@@ -62,7 +63,11 @@
 
 .inner .byline-head {
   font-size: 0.9em;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 0; }
+
+.inner .byline-item-head p {
+  margin: 0; }
 
 .inner .vimeo-container {
   padding-left: 25%;

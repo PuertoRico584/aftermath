@@ -9,12 +9,12 @@ $(document).ready(function(){
 <div class="container-fluid inner inner-hero">
 	<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
 	<div id="title-box" class="center-wrapper">
-			<img src="assets/images/homepage-icons/<%= body["master-class"]["class"] %>.png">
-			<div class="vertical-line"></div>
-			<div class="title-line">
-				<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
-				<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
-			</div>
+		<img src="assets/images/homepage-icons/<%= body["master-class"]["class"] %>.png">
+		<div class="vertical-line"></div>
+		<div class="title-line">
+			<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
+			<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
+		</div>
 	</div><!--- Close Title Box --->
 </div>
 
@@ -22,142 +22,160 @@ $(document).ready(function(){
 	<p id="inner-hero-deck"><%=body["header"]["subtitle"] %></p>
 </div>
 
-<div class="container inner">
-  <!-- <section id="top-fold"> -->
-		<div class="row text-row justify-content-center">
-			<div class="byline-box center-wrapper col-md-2">
-	      <div class="byline-item">
-					<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
-	        <% for (r in body["reporters"]) {%>
-	        <p><%= body["reporters"][r]["name"] %></p>
-	        <% } %>
-	      </div>
-	      <div class="byline-item">
-	      <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
-	        <% for (v in body["videographers"]) {%>
-	        <p><%= body["videographers"][v]["name"] %></p>
-	        <% } %>
-	      </div>
-	      <div class="byline-item">
-	      <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
-	        <% for (d in body["designers"]) {%>
-	        <p><%= body["designers"][d]["name"] %></p>
-	        <% } %>
-	      </div>
-	    </div>
+<div class="row text-row">
+	<div class="byline-box inner center-wrapper col-md-2 offset-md-1">
 
-  		<!-- </section> -->
+	  <div class="byline-item">
+			<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
+	    <% for (r in body["reporters"]) {%>
+	    <p><%= body["reporters"][r]["name"] %></p>
+	     <% } %>
+	  </div>
 
-		  <section class="center-wrapper col-md-7">
-		    <div class="max-width">
-		    <% for (i in body["text"]) {
-		      if (body["text"][i]["type"] == "text") {%>
-		    <p> <%-body["text"][i]["value"] %> </p>
-		    <%} else if (body["text"][i]["type"] == "subhead") {%>
-		      <h4><%=body["text"][i]["value"]["text"] %></h4>
-		    <%} else if (body["text"][i]["type"] == "video") {%>
-		      <div id="video-top"></div>
-		    </div>
-			</section>
+	  <div class="byline-item">
+	    <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
+	    <% for (v in body["videographers"]) {%>
+	    <p><%= body["videographers"][v]["name"] %></p>
+	    <% } %>
+	  </div>
 
+	  <div class="byline-item">
+	    <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
+	    <% for (d in body["designers"]) {%>
+	    <p><%= body["designers"][d]["name"] %></p>
+	    <% } %>
+	  </div>
+
+	</div>
+
+	<section class="center-wrapper col-md-7 offset-md-4">
+		<div class="max-width">
+			<% for (i in body["text"]) {
+			if (body["text"][i]["type"] == "text") {%>
+			<p> <%-body["text"][i]["value"] %> </p>
+			<%} else if (body["text"][i]["type"] == "subhead") {%>
+
+			<h4><%=body["text"][i]["value"]["text"] %></h4>
+
+			<%} else if (body["text"][i]["type"] == "video") {%>
+			<div id="video-top"></div>
 		</div>
+	</section>
 
 </div>
-	<% include ../partials/video.ejs %>
 
-	<div class="row text-row">
-		      <section class="center-wrapper col-md-6 offset-md-4">
-		        <div class="max-width">
-							<%} else if (body["text"][i]["type"] == "slider"){%>
-						</div>
-						</section>
-						<script>
-						var captionArray = [];
-						</script>
-								<div id="photo-gallery">
-								  <div id="custom-slider">
-								    <ul id="slider-ul">
-											<% for (s in body["slider-images"]){%>
-									      <li class="slider-section">
-									        <div class="pic-style">
-									          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
-									        </div>
-													<script>
-													if (!espanol){
-														captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-															"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-															"<p class='fig-attr'>Photo by&nbsp</p>" +
-															"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-														"</figcaption>");
-													} else {
-														captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-															"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-															"<p class='fig-attr'>foto por&nbsp</p>" +
-															"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-														"</figcaption>");
-													}
-													</script>
-									      </li>
-										<% } %>
-									</ul>
-								  </div>
-									<div class="caption">
-										 <div class="arrow-wrapper">
-											<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-											<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-										</div>
-										<div id="inner-caption">
-										</div>
-								</div>
-									</div>
-									<script src="/js/photo-slider.js"></script>
-						<section class="center-wrapper">
-							<div class="max-width">
-		      <%} else if (body["text"][i]["type"] == "interactive") {%>
-		      </div>
-		    </section>
-			</div>
-	<!-- This is the lil bit of code that is killing my spirit. -->
-	    <% var filepath = body["text"][i]["value"]["filename"] %>
-	           <section class="center-wrapper">
-	             <div class="max-width">
-	    <% } else if (body["text"][i]["type"] == "pullquote") {%>
-	    </div>
-	  </section>
-	    <div class="pull-quote-box change-bg offset-md-4 <%= body["master-class"]["class"] %>">
-	      <h3 class="pull-quote">
-	        <hr> <span><%=body["text"][i]["value"]["text"] %></span>
-					<div class="attribution">
-						<%=body["text"][i]["value"]["attribution"]%>
+<% include ../partials/video.ejs %>
+
+<div class="row text-row">
+	<section class="center-wrapper col-md-6 offset-md-4">
+		<div class="max-width">
+			<%} else if (body["text"][i]["type"] == "slider"){%>
+		</div>
+	</section>
+
+	<script>
+		var captionArray = [];
+	</script>
+
+	<div id="photo-gallery">
+		<div id="custom-slider">
+			<ul id="slider-ul">
+				<% for (s in body["slider-images"]){%>
+				<li class="slider-section">
+					<div class="pic-style">
+						<img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
 					</div>
-				 </h3>
-	    </div>
-	    <section class="center-wrapper col-md-6 offset-md-4">
-	      <div class="max-width">
-	    <% } else if (body["text"][i]["type"] == "image") { %>
-	    </div>
-	  </section>
-	    <figure>
-	      <img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
-	      <%=body["text"][i]["value"]["alt"] %>'>
-	      <figcaption>
-	      <p class="fig-descr"><%=body["text"][i]["value"]["caption"] %></p>
-	      <p class="fig-attr"><%= espanol ? "foto por":"Photo by" %></p>
-	      <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
-	    </figcaption>
-	    </figure>
-	      <section class="center-wrapper col-md-6 offset-md-4">
-	        <div class="max-width">
-			<% } else if (body["text"][i]["type"] == "map") { %>
-			</div>
-		</section>
-				<div class="center-wrapper col-md-6 offset-md-4">
-					<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
-					<%=body["text"][i]["value"]["alt"] %>'>
-				</div>
-				<section class="center-wrapper col-md-6">
-					<div class="max-width">
-			<%} } %>
 
-	  </div>
-	  </section>
+					<script>
+						if (!espanol){
+							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+							"<p class='fig-attr'>Photo by&nbsp</p>" +
+							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+							"</figcaption>");
+						} else {
+							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+							"<p class='fig-attr'>foto por&nbsp</p>" +
+							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+							"</figcaption>");
+						}
+					</script>
+
+				</li>
+				<% } %>
+			</ul>
+		</div>
+
+		<div class="caption">
+			<div class="arrow-wrapper">
+				<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+				<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+			</div>
+
+			<div id="inner-caption"></div>
+
+		</div>
+	</div>
+
+	<script src="/js/photo-slider.js"></script>
+
+	<section class="center-wrapper">
+		<div class="max-width">
+		  <%} else if (body["text"][i]["type"] == "interactive") {%>
+		</div>
+	</section>
+
+</div>
+
+	<!-- This is the lil bit of code that is killing my spirit. -->
+<% var filepath = body["text"][i]["value"]["filename"] %>
+
+<section class="center-wrapper">
+	<div class="max-width">
+	  <% } else if (body["text"][i]["type"] == "pullquote") {%>
+	</div>
+</section>
+
+<div class="pull-quote-box change-bg offset-md-4 <%= body["master-class"]["class"] %>">
+	<h3 class="pull-quote">
+	  <hr> <span><%=body["text"][i]["value"]["text"] %></span>
+		<div class="attribution">
+			<%=body["text"][i]["value"]["attribution"]%>
+		</div>
+	</h3>
+</div>
+
+<section class="center-wrapper col-md-6 offset-md-4">
+	<div class="max-width">
+	  <% } else if (body["text"][i]["type"] == "image") { %>
+	</div>
+</section>
+
+<figure>
+	<img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
+	<%=body["text"][i]["value"]["alt"] %>'>
+
+	<figcaption>
+	  <p class="fig-descr"><%=body["text"][i]["value"]["caption"] %></p>
+	  <p class="fig-attr"><%= espanol ? "foto por":"Photo by" %></p>
+	  <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
+	</figcaption>
+</figure>
+
+<section class="center-wrapper col-md-6 offset-md-4">
+	<div class="max-width">
+		<% } else if (body["text"][i]["type"] == "map") { %>
+	</div>
+</section>
+
+<div class="center-wrapper col-md-6 offset-md-4">
+	<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
+	<%=body["text"][i]["value"]["alt"] %>'>
+</div>
+
+<section class="center-wrapper col-md-6">
+	<div class="max-width">
+		<%} } %>
+	</div>
+</section>

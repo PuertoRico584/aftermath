@@ -2,25 +2,48 @@
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
 .footer-wrapper {
+  padding-top: 2px;
+  padding-bottom: 30px;
   background-color: #000000;
-  margin: 0px;
-  margin-top: 50px; }
+  margin-top: 40px; }
+  .footer-wrapper img {
+    margin: auto;
+    display: block;
+    padding-top: 40px; }
 
-.footer-wrapper img {
-  margin: auto;
-  display: block;
-  padding-top: 40px; }
-
-.footer-icons img {
-  display: inline-block;
-  padding: 5px 5px; }
+.footer-logo {
+  width: 240px; }
 
 .footer-icons {
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
   margin: auto;
   width: 22%; }
+  .footer-icons img {
+    width: 50px;
+    padding: 5px 5px; }
 
-.links p {
+.footer .centered {
+  text-align: center; }
+
+.footer a {
+  color: #fff; }
+  .footer a:visited {
+    color: #fff; }
+
+.links {
   color: #ffffff;
   text-align: center;
-  font-size: 20px;
-  margin-bottom: 0px; }
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 100; }
+  .links a {
+    color: #fff; }
+    .links a:first-of-type {
+      margin-right: 10px; }
+    .links a:last-of-type {
+      margin-left: 10px; }
+    .links a:hover {
+      text-decoration: none; }

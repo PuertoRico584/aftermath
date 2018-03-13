@@ -1,12 +1,12 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
 <footer>
-
-  <div class="wrapper">
+  <div class="footer-wrapper">
     <div class="item centered">
-      <img src="../../assets/images/aftermath_web.png" alt="logo" width="25%" height="auto">
-    </div>
+      <img src="../../assets/images/aftermath_web.png" class="footer-logo" alt="Aftermath logo" width="25%" height="auto">
+
     <div class="item centered links">
+<<<<<<< HEAD
       <a href="/about<%=URL_LANG%>">
         <p>ES   |    About</p>
       </a><br>
@@ -17,11 +17,25 @@
            <a class="instagram" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a>
       </div>
       </div>
+=======
+      <a class="#">ES</a>
+      <span id="footer-pipe">  |</span>
+      <a href="/about<%=URL_LANG%>">About</a><br>
+    </div>
+    <div class="footer-icons">
+         <a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img src="../../assets/images/social/facebook.png"></a>
+         <a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/instagram.png"></a>
+         <a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/twitter.png"></a>
+         <a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a>
+    </div>
+
+>>>>>>> 538efdc93db7f6ec64698e713a09fd3cc31c33bf
 
     </div> <!--Close item -->
 
    </div>  <!--Close wrapper -->
 </footer>
+
 <script src="/js/tether.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/plyr.js"></script>
@@ -29,3 +43,7 @@
 <script type="text/javascript" src="/js/anime.min.js"></script>
 <script type="text/javascript" src="/js/scrollMonitor.js"></script>
 <script type="text/javascript" src="/js/videoPlayer.js"></script>
+<!-- <script>
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+</script> -->

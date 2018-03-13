@@ -17,11 +17,7 @@
       padding-bottom: 2%;
     }
   }
-  .center {
-    &-wrapper {
-      // margin: 0 auto;
-    }
-  }
+
   #title {
     &-box {
       width: 85%;
@@ -69,6 +65,7 @@
       padding-top: 1%;
       & p{
         line-height: 1em;
+        margin: 0; 
       }
     }
   }
@@ -85,10 +82,19 @@
     &-head {
       font-size: 0.9em;
       font-weight: bold;
+      margin: 0;
+    }
+  }
+
+  .byline {
+    &-item {
+      &-head {
+        & p {
+          margin: 0;
+        }
       }
     }
-
-
+  }
 
   .vimeo {
     &-container {
@@ -103,7 +109,6 @@
       color: $block-quote;
       &-box {
         padding-bottom: 3%;
-        // padding-left: 15%;
       }
     }
   }
