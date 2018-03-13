@@ -102,3 +102,80 @@
 
 .plyr__controls {
   visibility: hidden; }
+
+.title-treatment {
+  position: relative; }
+
+.inner-deck {
+  margin: auto;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0px; }
+
+#deck {
+  display: none; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes dim {
+  0% {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.9)); }
+  100% {
+    background: -webkit-linear-gradient(top, transparent, transparent 25%, transparent); } }
+
+@keyframes dim {
+  0% {
+    background: linear-gradient(180deg, transparent 0, transparent 25%, transparent); }
+  100% {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0, rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.9)); } }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
+
+.inner-deck p {
+  color: #ffffff;
+  font-size: 22px; }
+
+.inner-hero {
+  position: relative; }
+
+.dim {
+  background-color: #000;
+  -webkit-animation-name: dim;
+  animation-name: dim;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s; }
+
+.parallax {
+  height: 30vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px; }
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30vh; }
+
+.parallax-layer.one {
+  color: #000;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
