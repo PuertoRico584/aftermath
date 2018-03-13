@@ -3,6 +3,21 @@ $(document).ready(function(){
 	$('iframe').each(function(i, el){
 		$(el).attr('src', $(el).data("src"));
 	});
+	$(function() {
+			var offset = $(".sidebar").offset();
+			var topPadding = 15;
+			$(window).scroll(function() {
+					if ($(window).scrollTop() > offset.top) {
+							$(".sidebar").stop().animate({
+									marginTop: $(window).scrollTop() - offset.top + topPadding
+							});
+					} else {
+							$(".sidebar").stop().animate({
+									marginTop: 0
+							});
+					};
+			});
+	});
 });
 </script>
 
@@ -59,14 +74,34 @@ $(document).ready(function(){
 		      <div id="video-top"></div>
 		    </div>
 			</section>
+			<!-- <div class="sidebar">
+
+					<ul>
+						<li><a href="index.html">jQuery (animated)</a></li>
+						<li><a href="css.html">CSS (fixed)</a></li>
+						<li><a href="reveal.html">CSS (reveal)</a></li>
+				</ul>
+
+			</div> -->
 
 		</div>
 
 </div>
 	<% include ../partials/video.ejs %>
 
+	<div class="sidebar sidebar-icons">
+
+			<ul>
+				<li><a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img src="../../assets/images/social/facebook.png"></a></li>
+				<li><a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/instagram.png"></a></li>
+				<li><a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/twitter.png"></a></li>
+				<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a></li>
+		</ul>
+
+	</div>
+
 	<div class="row text-row">
-		      <section class="center-wrapper col-md-6 offset-md-4">
+		      <section class="center-wrapper col-md-6 offset-md-4 main">
 		        <div class="max-width">
 							<%} else if (body["text"][i]["type"] == "slider"){%>
 						</div>
@@ -111,7 +146,7 @@ $(document).ready(function(){
 								</div>
 									</div>
 									<script src="/js/photo-slider.js"></script>
-						<section class="center-wrapper">
+						<section class="center-wrapper main">
 							<div class="max-width">
 		      <%} else if (body["text"][i]["type"] == "interactive") {%>
 		      </div>
@@ -119,7 +154,7 @@ $(document).ready(function(){
 			</div>
 	<!-- This is the lil bit of code that is killing my spirit. -->
 	    <% var filepath = body["text"][i]["value"]["filename"] %>
-	           <section class="center-wrapper">
+	           <section class="center-wrapper main">
 	             <div class="max-width">
 	    <% } else if (body["text"][i]["type"] == "pullquote") {%>
 	    </div>
@@ -132,7 +167,7 @@ $(document).ready(function(){
 					</div>
 				 </h3>
 	    </div>
-	    <section class="center-wrapper col-md-6 offset-md-4">
+	    <section class="center-wrapper col-md-6 offset-md-4 main">
 	      <div class="max-width">
 	    <% } else if (body["text"][i]["type"] == "image") { %>
 	    </div>
@@ -146,16 +181,16 @@ $(document).ready(function(){
 	      <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
 	    </figcaption>
 	    </figure>
-	      <section class="center-wrapper col-md-6 offset-md-4">
+	      <section class="center-wrapper col-md-6 offset-md-4 main">
 	        <div class="max-width">
 			<% } else if (body["text"][i]["type"] == "map") { %>
 			</div>
 		</section>
-				<div class="center-wrapper col-md-6 offset-md-4">
+				<div class="center-wrapper col-md-6 offset-md-4 main">
 					<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 					<%=body["text"][i]["value"]["alt"] %>'>
 				</div>
-				<section class="center-wrapper col-md-6">
+				<section class="center-wrapper col-md-6 main">
 					<div class="max-width">
 			<%} } %>
 
