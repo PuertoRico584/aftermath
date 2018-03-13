@@ -1,7 +1,7 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
-/* ------------------  Index ------------------ */
+/* ------------------  HOMEPAGE ------------------ */
 .homepage-header {
   font-family: "quasimoda",sans-serif;
   font-weight: lighter;
@@ -59,66 +59,71 @@
   position: absolute;
   top: 50; }
 
+.homepage-subtitle {
+  color: white;
+  font-size: 17pt;
+  font-family: "quasimoda",sans-serif; }
+
+/* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
   height: 20px;
-  width: auto; }
+  width: auto;
+  margin-left: 15px; }
 
 .navbar {
   background-color: black !important;
-  min-height: 50px;
-  position: relative;
-  z-index: 100; }
+  height: 55px; }
 
 .navbar-toggler {
   background-color: white;
-  text-align: right;
   margin-left: 170px; }
 
 .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
   text-align: center; }
 
 .nav-link {
   color: white !important;
   font-family: "quasimoda",sans-serif; }
 
-.mobile-nav-bar {
-  width: inherit; }
+.navbar-nav li:last-child {
+  float: right; }
 
-.megamenu {
-  height: 50px;
-  overflow: hidden;
-  transition: height 450ms;
-  -moz-transition: height 450ms;
-  -webkit-transition: height 450ms; }
+.navbar-collapse {
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
-.megamenu:hover {
-  height: 100px; }
-
-.mega-bottomrow {
-  clear: both; }
-
-.homepage-subtitle {
+.nav-header {
   color: white;
-  font-size: 17pt;
-  font-family: "quasimoda",sans-serif; }
-
-h3 {
-  color: white;
-  font-size: 10pt;
+  font-size: 9pt;
   font-family: "quasimoda",sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px; }
 
 h5 {
   text-transform: uppercase;
-  font-size: 8pt;
-  color: gray; }
+  font-size: 7pt;
+  font-weight: lighter; }
 
 .es-and-about {
   color: white;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center; }
   .es-and-about a {
     color: white; }
+
+.sidebar {
+  width: 100px;
+  float: right; }
+  .sidebar ul {
+    background: black;
+    padding: 5px; }
+    .sidebar ul li {
+      margin: 0 0 0 20px; }
+
+.sidebar-icons ul li {
+  margin-top: 5px;
+  margin-bottom: 5px; }
