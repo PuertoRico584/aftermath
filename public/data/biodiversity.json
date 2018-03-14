@@ -3,27 +3,27 @@
     "class": "biodiversity"
   },
   "header": {
-    "title-line-one": "Lions & Tigers & Bears",
-    "title-line-two": "Biodiversity",
+    "title-line-one": "Learning From The",
+    "title-line-two": "Forest",
     "seo": "Biodiversity: A tiny test information blip",
     "subtitle": "Making this look like biodiversity story"
   },
   "reporters": [
     {
-      "name": "Testing McTest"
+      "name": "Kaia Findlay"
     }
   ],
   "videographers": [
     {
-      "name": "Testing McTest"
+      "name": "Alice Hudson"
     },
     {
-      "name": "Testing McTester"
+      "name": "Gabi Palacio"
     }
   ],
   "designers": [
     {
-      "name": "Testing McTester"
+      "name": "Elle Sommerville"
     }
   ],
   "text": [

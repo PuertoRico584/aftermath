@@ -1,6 +1,6 @@
 {
   "master-class": {
-    "class": "harbor"
+    "class": "water"
   },
   "header": {
     "title-line-one": "There’s Poison in",
@@ -237,9 +237,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Power",
-    "step-back-title": "Turning the Lights Back On",
-    "step-forward-name": "Pollution",
-    "step-forward-title": "Coal Ash is Really Bad"
+    "step-back-name": "Pollution",
+    "step-back-title": "Coal Ash is Really Bad",
+    "step-forward-name": "Power",
+    "step-forward-title": "Turning the Lights Back On"
   }
 }

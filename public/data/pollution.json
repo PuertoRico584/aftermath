@@ -1,29 +1,32 @@
 {
   "master-class": {
-    "class": "biodiversity"
+    "class": "pollution"
   },
   "header": {
-    "title-line-one": "No, Not Collusion...",
-    "title-line-two": "Pollution",
+    "title-line-one": "Covered",
+    "title-line-two": "In Ash",
     "seo": "Pollution: A tiny test information blip",
     "subtitle": "Making this look like pollution story"
   },
   "reporters": [
     {
-      "name": "Testing McTest"
+      "name": "Katie Rice"
     }
   ],
   "videographers": [
     {
-      "name": "Testing McTest"
+      "name": "Aubrey Patti"
     },
     {
-      "name": "Testing McTester"
+      "name": "Darian Woehr"
     }
   ],
   "designers": [
     {
-      "name": "Testing McTester"
+      "name": "Peyton Chance"
+    },
+    {
+      "name": "Connie Jin"
     }
   ],
   "text": [
