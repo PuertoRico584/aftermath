@@ -13,34 +13,37 @@
   visibility: hidden; }
 
 .homepage-logo {
-  width: 30%;
+  width: 20%;
   height: auto; }
 
 .video {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   min-width: 100vw;
   min-height: 100vh;
   display: block;
-  margin-top: 0px; }
+  margin-top: 0px;
+  width: 100%; }
 
-.homepage-icon-row ul {
-  margin-top: 80px;
-  list-style-type: none; }
-  .homepage-icon-row ul li {
-    display: inline-block;
-    padding-left: 60px;
-    padding-right: 60px; }
-    .homepage-icon-row ul li a img {
-      transition-duration: 1s; }
-    .homepage-icon-row ul li a:hover {
-      text-decoration: none; }
-    .homepage-icon-row ul li a:hover .homepage-header {
-      visibility: visible; }
-    .homepage-icon-row ul li .homepage-icon {
-      height: 60px;
-      width: auto; }
+.homepage-icon-row {
+  width: 100%; }
+  .homepage-icon-row ul {
+    margin-top: 80px;
+    list-style-type: none; }
+    .homepage-icon-row ul li {
+      display: inline-block;
+      padding-left: 50px;
+      padding-right: 50px; }
+      .homepage-icon-row ul li a img {
+        transition-duration: 1s; }
+      .homepage-icon-row ul li a:hover {
+        text-decoration: none; }
+      .homepage-icon-row ul li a:hover .homepage-header {
+        visibility: visible; }
+      .homepage-icon-row ul li .homepage-icon {
+        height: 120px;
+        width: auto; }
 
 .content {
   position: fixed;
@@ -61,8 +64,12 @@
 
 .homepage-subtitle {
   color: white;
-  font-size: 17pt;
+  font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
+
+@media only screen and (max-width: 800px) {
+  .video {
+    width: 150%; } }
 
 /* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
@@ -70,8 +77,15 @@
   width: auto;
   margin-left: 15px; }
 
+nav {
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  padding-top: 40px; }
+
 .navbar {
-  background-color: black !important; }
+  background-color: black !important;
+  height: 55px; }
 
 .navbar-toggler {
   background-color: white;
@@ -87,25 +101,49 @@
   color: white !important;
   font-family: "quasimoda",sans-serif; }
 
+.navbar-nav li:last-child {
+  float: right; }
+
 .navbar-collapse {
-  margin: auto; }
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
 .nav-header {
   color: white;
-  font-size: 10pt;
+  font-size: 9pt;
   font-family: "quasimoda",sans-serif;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin-top: 5px; }
 
 h5 {
   text-transform: uppercase;
-  font-size: 8pt;
-  font-weight: lighter;
-  opacity: 0.8; }
+  font-size: 7pt;
+  font-weight: lighter; }
 
 .es-and-about {
   color: white;
+  margin-left: 150px;
   margin-top: 20px;
-  text-align: center; }
+  text-align: center;
+  float: right; }
   .es-and-about a {
     color: white; }
+
+.sidebar {
+  width: 100px;
+  float: right;
+  margin-left: 0px; }
+  .sidebar ul {
+    background: black;
+    padding: 5px; }
+    .sidebar ul li {
+      margin: 0 0 0 20px; }
+
+.sidebar-icons ul li {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.nav-up {
+  top: -40px; }
+
