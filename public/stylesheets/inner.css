@@ -1,6 +1,9 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
+.text-row {
+  margin-top: 50px; }
+
 .inner-hero {
   display: flex;
   justify-content: center;
@@ -38,7 +41,8 @@
       margin-top: -5%; }
   .inner #title-box img {
     width: 120px;
-    height: 120px; }
+    height: 120px;
+    margin-right: 30px; }
 
 .inner .left-box {
   padding-top: 1%; }
