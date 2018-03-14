@@ -3,27 +3,30 @@
     "class": "water"
   },
   "header": {
-    "title-line-one": "There’s Poison in",
-    "title-line-two": "The Water",
+    "title-line-one": "Dredging With",
+    "title-line-two": "Hope",
     "seo": "Water: A tiny test information blip",
     "subtitle": "Making this look like water story"
   },
   "reporters": [
     {
-      "name": "Testing McTest"
+      "name": "Maria Elena Vizcaino"
     }
   ],
   "videographers": [
     {
-      "name": "Testing McTest"
+      "name": "Nathan Klima"
     },
     {
-      "name": "Testing McTester"
+      "name": "Matt Couch"
     }
   ],
   "designers": [
     {
-      "name": "Testing McTester"
+      "name": "Justin Wynn"
+    },
+    {
+      "name": "Madison Walls"
     }
   ],
   "text": [
