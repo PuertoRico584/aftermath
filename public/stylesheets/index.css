@@ -133,7 +133,9 @@ h5 {
 .sidebar {
   width: 100px;
   float: right;
-  margin-left: 0px; }
+  margin-left: 0px;
+  position: absolute;
+  right: 0; }
   .sidebar ul {
     background: black;
     padding: 5px; }

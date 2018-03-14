@@ -193,6 +193,8 @@ h5{
   width: 100px;
   float: right;
   margin-left: 0px;
+  position: absolute;
+  right:0;
   ul {
     background: black; padding: 5px;
     li {
@@ -212,4 +214,3 @@ h5{
 .nav-up {
     top: -40px;
 }
-
