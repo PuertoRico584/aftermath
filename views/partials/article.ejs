@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	$(function() {
 			var offset = $(".sidebar").offset();
-			var topPadding = 15;
+			var topPadding = 20;
 			$(window).scroll(function() {
 					if ($(window).scrollTop() > offset.top) {
 							$(".sidebar").stop().animate({
@@ -20,7 +20,6 @@ $(document).ready(function(){
 	});
 });
 </script>
-
 <div class="title-treatment">
 <div class="container-fluid inner inner-hero" id="title-image">
 	<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
@@ -30,7 +29,7 @@ $(document).ready(function(){
 				<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 				<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 			</div>
-	</div> <!--- Close Title Box --->
+	</div><!--- Close Title Box --->
 </div>
 	<div id="deck" class="inner-deck fadeIn">
 		<div class="parallax">
@@ -40,6 +39,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
+
 
 <div class="row text-row left-box byline-row offset-md-2">
 	<div class="byline-box inner center-wrapper col-md-2">
@@ -144,27 +144,21 @@ $(document).ready(function(){
 	</div>
 </section>
 </div>
-<div class="row inner text-row offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
-		<div class="pull-quote-box col-md-7 change-bg <%= body["master-class"]["class"] %>">
-			<h3 class="pull-quote">
-			  <hr> <span><%=body["text"][i]["value"]["text"] %></span>
-				<div class="attribution">
-					<%=body["text"][i]["value"]["attribution"]%>
-				</div>
-			</h3>
-		</div>
-	</div>
+<div class="row text-row offset-1">
+    <div class="left-box pull-quote-left-box col-3">
+        <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+						<img src="assets/images/pull-quote-lead.png" alt="">
+              <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
+              <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
+        </div>
+    </div>
+    <section class="center-wrapper pull-text col-7">
+        <div class="max-width">
+          <% } else if (body["text"][i]["type"] == "image") { %>
+        </div>
+    </section>
 </div>
-<div class="row text-row offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
-		<section class="center-wrapper col-md-7">
-			<div class="max-width">
-			  <% } else if (body["text"][i]["type"] == "image") { %>
-			</div>
-		</section>
-	</div>
-</div>
+
 <figure>
 	<img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
 	<%=body["text"][i]["value"]["alt"] %>'>
