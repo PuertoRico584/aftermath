@@ -9,16 +9,18 @@
 </head>
 
 <body id="about-body">
-    <% include ../partials/homepage-nav.ejs %>
+    <% include ../partials/nav.ejs %>
 
 
-    <div id="title-box" class="center-wrapper about-title">
-      <div class="about change-bg" id="inner-title-box">
-        <h1><%= espanol ? "Sobre Nosotros":"About the Project"%></h1>
+    	<div id="abouttitle-box" class="center-wrapper col-md-12">
+    			<div class="title-line">
+    				<h1>ABOUT THE</h1>
+    				<span class="title-line-two">PROJECT</span>
+    			</div>
       </div>
-    </div>
 
-<section id="about-intro-text" class="container max-width">
+
+<section id="about-intro-text" class="container max-width col-md-7">
   <div class="row justify-content-center">
 
   <div class="about">
@@ -39,54 +41,91 @@
 
 </section> <!--end container -->
 
-  <div class="team-nav">
-    <ul>
-      <li data-filter="all" class="active everyone about-nav"><%= espanol ? "Todos":"Everyone"%></li>
-      <li data-filter=".vid" class="videographer about-nav"><%= espanol ? "Videógrafa/o":"Videographer"%></li>
-      <li data-filter=".rep" class="reporter about-nav"><%= espanol ? "Periodista":"Reporter"%></li>
-      <li data-filter=".des" class="designdev about-nav"><%= espanol ? "Diseñadora":"Designer"%></li>
-      <li data-filter=".dev" class="designdev about-nav"><%= espanol ? "Desarrollador/a":"Developer"%></li>
-      <li data-filter=".coach" class="coaches about-nav"><%= espanol ? "Instructor":"Coach"%></li>
-    </ul>
-  </div>
-  <p class="mobile-only-text">Tap on a photo to learn more about each team member.</p>
 
-  <!-- fa-github,  -->
-
-  <div class="container">
+<div class="container about-section">
   <div class="row" id="team-photos">
+    <div id="teamNav" class="team-nav col-md-2">
+      <h3>The Team</h3>
+      <ul>
+        <li data-filter="all" class="active everyone about-nav"><%= espanol ? "Todos":"EVERYONE"%> <div class="holder arrow"></div></li>
+        <li data-filter=".vid" class="videographer about-nav"><%= espanol ? "Videógrafa/o":"VIDEOGRAPHER"%><div class="holder arrow"></div></li>
+        <li data-filter=".rep" class="reporter about-nav"><%= espanol ? "Periodista":"REPORTER"%><div class="holder arrow"></div></li>
+        <li data-filter=".des" class="designdev about-nav"><%= espanol ? "Diseñadora":"DESIGNER"%><div class="holder arrow"></div></li>
+        <li data-filter=".dev" class="designdev about-nav"><%= espanol ? "Desarrollador/a":"DEVELOPERS"%><div class="holder arrow"></div></li>
+        <li data-filter=".coach" class="coaches about-nav"><%= espanol ? "Instructor":"COACH"%><div class="holder arrow"></div></li>
 
-    <% for (i in team) {  %>
-        <div class="mix col-xs-12 col-md-6 col-xl-4 <%=team[i]["roleid"] %>">
-          <div class="team-image-box">
-            <p class="bio">
-              <%= espanol ? team[i]["biospanish"]:team[i]["bio"] %> </p>
-            <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg">
-          </div>
-          <div class="team-info">
-            <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
-            <p class="team-name"><%=team[i]["fullname"]%> </p>
-            <% if ( team[i]["portfolio"]){ %>
-            <p class="portfolio">
-              <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
-            </p>
-            <% if (team[i]["portfolio"] && team[i]["social"]){ %>
-            <span> | </span>
-            <% } %>
-            <% } else { }%>
-            <% if (team[i]["social"]){ %>
+      </ul>
+    </div>
+
+    <div class="col-md-10">
+      <div class="row">
+        <% for (i in team) {  %>
+
+        <div class="mix col-sm-3 <%=team[i]["roleid"] %>">
+
+              <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.jpg" class="img-fluid">
+
+            <div class="team-info">
+              <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
+              <p class="team-name"><%=team[i]["fullname"]%> </p>
+              <% if ( team[i]["portfolio"]){ %>
+              <p class="portfolio">
+                  <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
+              </p>
+              <% if (team[i]["portfolio"] && team[i]["social"]){ %>
+              <span> | </span>
+              <% } %>
+              <% } else { }%>
+              <% if (team[i]["social"]){ %>
               <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
                  <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
               </a>
 
-
-
-            <% } else { }%>
+                <% } else { }%>
+              </div>
           </div>
+
+            <% } %>
+
         </div>
-        <% } %>
     </div>
+  </div>
 </div> <!--end container -->
+
+<div class="container about-section special-thanks">
+  <div class="row">
+    <div class="col-md-2">
+      <h4>Special Thanks</h4>
+    </div>
+    <div class="col-md-10">
+      <div class="row">
+        <div class="col-md-5">
+          <p><strong>Marla Recio, </strong>On-the-ground Support in Havana</p>
+          <p><strong>Michael Penny, </strong> Director of Global, Immersive and Professional Programs for the MJ-school</p>
+          <p><strong>Kammy Liu, </strong>Developer</p>
+          <p><strong>Melissa Hudgens, </strong>MJ-school Adjunct Instructor</p>
+          <p><strong>Susan King, </strong>Dean of the MJ-school</p>
+        </div>
+        <div class="col-md-5">
+          <p><strong>Louise Spieler, </strong>Senior Associate Dean for Strategy and Administration of the MJ-school</p>
+          <p><strong>Andy Bechtel, </strong>MJ-school Associate Professor</p>
+          <p><strong>Copy Editors: </strong>Luke Bollinger, Elise Clouser, Paige Connelly, Bridget Dye, Alison Krug, Sam Miner, Sarah Muzzillo, Danny Nett, Sara Salinas, Hannah Smoot, Molly Weybright, Jordan Wilkie, Avery Williams, Ryan Wilusz, Matt Wotus</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container about-section behind-the-scenes">
+  <div class="row">
+    <div class="col-md-2">
+      <h4>Behind The Scenes</h4>
+    </div>
+    <div class="col-md-10">
+        <% include ../partials/photo-gallery.ejs %>
+    </div>
+  </div>
+</div>
 
     <% include ../partials/footer.ejs %>
   <script src="/js/mixitup.min.js"></script>
