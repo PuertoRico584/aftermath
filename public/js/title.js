@@ -1,4 +1,3 @@
-
 var byline = document.getElementById("byline");
 var deckWatcher = scrollMonitor.create(byline,{bottom: -200});
 

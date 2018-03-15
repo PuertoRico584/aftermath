@@ -31,7 +31,6 @@ gulp.task('connect', function(){
     var teamData = JSON.parse(fs.readFileSync('./public/data/team.json'));
     bodyData = JSON.parse(fs.readFileSync('./public/data/about.json'));
     response.render('pages/about', {navEng: navEnglish, navSpan: navSpanish, body: bodyData, team: teamData, page: 'about', espanol: isEspanol(request)});
-
   });
 
   app.get('/pages/:id', function(req, res){

@@ -1,6 +1,9 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
+.text-row {
+  margin-top: 50px; }
+
 .inner-hero {
   display: flex;
   justify-content: center;
@@ -29,16 +32,18 @@
     display: flex;
     flex-direction: column; }
     .inner #title-box .title-line h1 {
-      font-weight: 300; }
+      font-weight: 300;
+      font-size: 4.25em; }
     .inner #title-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;
       font-size: 7em;
       font-weight: 900;
-      margin-top: -5%; }
+      margin-top: -40px; }
   .inner #title-box img {
     width: 120px;
-    height: 120px; }
+    height: 120px;
+    margin-right: 40px; }
 
 .inner .left-box {
   padding-top: 1%; }
@@ -75,12 +80,24 @@
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-quote {
-  color: #309865;
-  font-size: 20pt;
+.pull-text {
+  margin-left: -10px; }
+
+.pull-quote {
+  font-size: 1em;
   text-transform: none; }
-  .inner .pull-quote-box {
-    padding-bottom: 3%; }
+  .pull-quote-box {
+    padding-bottom: 3%;
+    font-family: "Quasimoda", sans-serif;
+    font-weight: 100;
+    color: #309865; }
+    .pull-quote-box .attribution {
+      font-weight: 300; }
+    .pull-quote-box img {
+      width: 75px;
+      height: auto;
+      display: flex;
+      margin: auto; }
 
 @media only screen and (max-width: 766px) {
   .text-row {
@@ -139,18 +156,6 @@
   100% {
     opacity: 1; } }
 
-@-webkit-keyframes dim {
-  0% {
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.9)); }
-  100% {
-    background: -webkit-linear-gradient(top, transparent, transparent 25%, transparent); } }
-
-@keyframes dim {
-  0% {
-    background: linear-gradient(180deg, transparent 0, transparent 25%, transparent); }
-  100% {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0, rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.9)); } }
-
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -159,17 +164,15 @@
 
 .inner-deck p {
   color: #ffffff;
-  font-size: 22px; }
+  font-size: 22px;
+  width: 93%;
+  margin: auto; }
 
 .inner-hero {
   position: relative; }
 
 .dim {
-  background-color: #000;
-  -webkit-animation-name: dim;
-  animation-name: dim;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s; }
+  background-color: #000; }
 
 .parallax {
   height: 30vh;
