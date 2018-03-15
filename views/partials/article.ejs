@@ -1,8 +1,10 @@
+
 <script>
 $(document).ready(function(){
 	$('iframe').each(function(i, el){
 		$(el).attr('src', $(el).data("src"));
 	});
+	// sidebar follow from https://css-tricks.com/scrollfollow-sidebar/
 	$(function() {
 			var offset = $(".sidebar").offset();
 			var topPadding = 20;
@@ -20,6 +22,7 @@ $(document).ready(function(){
 	});
 });
 </script>
+
 <div class="title-treatment">
 <div class="container-fluid inner inner-hero" id="title-image">
 	<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
@@ -77,10 +80,11 @@ $(document).ready(function(){
 <% include ../partials/video.ejs %>
 <div class="sidebar sidebar-icons">
 		<ul>
-			<li><a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img src="../../assets/images/social/facebook.png"></a></li>
-			<li><a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/instagram.png"></a></li>
-			<li><a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/twitter.png"></a></li>
-			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a></li>
+			<!--social media icons from iconfinder.com-->
+			<li><a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank" onmouseover="fadeIconsSidebar(0)" onmouseout="unfadeIconsSidebar(0)"><img id="sidebar-0" class="social-icon" src="../assets/images/social-media/facebook.png"></a></li>
+			<li><a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank" onmouseover="fadeIconsSidebar(1)" onmouseout="unfadeIconsSidebar(1)"><img id="sidebar-1" class="social-icon" src="../assets/images/social-media/instagram.png"></a></li>
+			<li><a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank" onmouseover="fadeIconsSidebar(2)" onmouseout="unfadeIconsSidebar(2)"><img id="sidebar-2" class="social-icon" src="../assets/images/social-media/twitter.png"></a></li>
+			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank" onmouseover="fadeIconsSidebar(3)" onmouseout="unfadeIconsSidebar(3)"><img id="sidebar-3" class="social-icon" src="../assets/images/social-media/vimeo.png"></a></li>
 	</ul>
 </div>
 <div class="row text-row offset-md-2">
