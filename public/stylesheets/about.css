@@ -1,3 +1,95 @@
 /* ------------------ Global Styles ------------ */
 /* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
+.text-row {
+  padding-top: 5%;
+  padding-bottom: 2%; }
+
+#abouttitle-box {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10%;
+  color: #000;
+  align-items: center; }
+  #abouttitle-box .title-line {
+    display: flex;
+    flex-direction: column; }
+    #abouttitle-box .title-line h1 {
+      font-weight: 300;
+      font-size: 7em; }
+    #abouttitle-box .title-line-two {
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      font-size: 10em;
+      font-weight: 900;
+      margin-top: -12%; }
+
+.left-box {
+  padding-top: 1%; }
+
+.center-wrapper {
+  max-width: 80%; }
+
+.team-nav {
+  display: inline-block; }
+
+.portfolio {
+  display: inline-block; }
+
+.mix img {
+  border-radius: 50%; }
+
+.team-info {
+  text-align: center; }
+
+.portfolio a, i {
+  margin: 5px 0px;
+  color: #616161; }
+
+.role {
+  font-size: 12px;
+  margin: 5px 0px;
+  line-height: 1em;
+  color: #616161; }
+
+.team-name {
+  font-family: "quasimoda",sans-serif;
+  font-size: 18px;
+  margin: 2px 0px;
+  line-height: 1em;
+  color: #616161; }
+
+.team-info {
+  margin: 20px 0px; }
+
+.team-nav {
+  line-height: 1.5em;
+  font-size: 18px; }
+
+.team-nav h3 {
+  text-align: right;
+  margin-bottom: 20px; }
+
+.mixitup-control-active {
+  position: relative; }
+
+.team-nav ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: right;
+  border-right: solid #000 1px; }
+
+.team-nav li {
+  padding: 8px 15px 8px 30px; }
+
+.team-nav li:hover {
+  color: #508091;
+  font-weight: 800; }
+
+.about-section {
+  margin-top: 80px; }

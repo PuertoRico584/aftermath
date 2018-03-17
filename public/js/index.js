@@ -7,16 +7,22 @@ $(document).ready(function(){
   var clickMe4 = $("#click-event4");
   var clickMe5 = $("#click-event5");
   var clickMe6 = $("#click-event6");
+  var stepLink = $("#step-link-event");
+  var stepLink2 = $("#step-link-event2");
   var didScroll;
   var lastScrollTop = 0;
   var delta = 5;
   var navbarHeight = $('header').outerHeight();
+  var figure = $(".video-step-link").hover( hoverVideo, hideVideo );
+
 
   $(clickMe2).hide();
   $(clickMe3).hide();
   $(clickMe4).hide();
   $(clickMe5).hide();
   $(clickMe6).hide();
+  $(stepLink).hide();
+  $(stepLink2).hide();
 
 
 

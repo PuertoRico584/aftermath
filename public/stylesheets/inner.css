@@ -90,7 +90,8 @@
     padding-bottom: 3%;
     font-family: "Quasimoda", sans-serif;
     font-weight: 100;
-    color: #309865; }
+    color: #309865;
+    margin-top: -14px; }
     .pull-quote-box .attribution {
       font-weight: 300; }
     .pull-quote-box img {
