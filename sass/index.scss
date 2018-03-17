@@ -100,6 +100,16 @@ ul{
   // position: fixed;
   // transition: all 0.5s ease;
 }
+.navbar-nav{
+  margin: auto;
+  width: 80%;
+}
+@media only screen and (max-width: 1150px) {
+    .navbar-nav {
+        width: 97%;
+        margin: auto;
+    }
+}
 // .hidden{
 //   transform: scale3d(0, -100%, 0);
 // }
@@ -115,9 +125,6 @@ ul{
 .nav-link{
   color: white !important;
   font-family: "quasimoda",sans-serif;
-}
-.navbar-nav li:last-child{
-  float: right;
 }
 .navbar-collapse{
   margin-bottom: 5px;
@@ -177,7 +184,6 @@ h5{
 // }
 .es-and-about{
   color: white;
-  // margin-left: 150px;
   margin-top: 25px;
   text-align: center;
   float: right;
