@@ -61,6 +61,12 @@ $(document).ready(function(){
 	    <p><%= body["designers"][d]["name"] %></p>
 	    <% } %>
 	  </div>
+		<div class="byline-item">
+		 <p class="byline-head"><%= espanol ? "consultación por" : "ground support by" %></p>
+		 <% for (d in body["upr"]) {%>
+		 <p><%= body["upr"][d]["name"] %></p>
+		 <% } %>
+	 </div>
 	</div>
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
@@ -83,58 +89,36 @@ $(document).ready(function(){
 			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a></li>
 	</ul>
 </div>
+
 <div class="row text-row offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
+	<div class="left-box col-2">
+		Dummy Column
+	</div>
+
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
 			<%} else if (body["text"][i]["type"] == "slider"){%>
 		</div>
 	</section>
-	<script>
-		var captionArray = [];
-	</script>
-	<div id="photo-gallery">
-		<div id="custom-slider">
-			<ul id="slider-ul">
-				<% for (s in body["slider-images"]){%>
-				<li class="slider-section">
-					<div class="pic-style">
-						<img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
-					</div>
-					<script>
-						if (!espanol){
-							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-							"<p class='fig-attr'>Photo by&nbsp</p>" +
-							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-							"</figcaption>");
-						} else {
-							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-							"<p class='fig-attr'>foto por&nbsp</p>" +
-							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-							"</figcaption>");
-						}
-					</script>
-				</li>
-				<% } %>
-			</ul>
-		</div>
-		<div class="caption">
-			<div class="arrow-wrapper">
-				<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-				<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-			</div>
-			<div id="inner-caption"></div>
-		</div>
-	</div>
-	<script src="/js/photo-slider.js"></script>
-	<section class="center-wrapper">
-		<div class="max-width">
-		  <%} else if (body["text"][i]["type"] == "interactive") {%>
-		</div>
-	</section>
 </div>
+
+<div class="row text-row offset-md-2">
+	<div class="left-box col-2">
+		Dummy Column
+	</div>
+	<div id="photo-gallery" class="center-wrapper">
+		<% include ../partials/photo-gallery.ejs %>
+	</div>
+</div>
+
+	<div class="row text-row offset-md-2">
+		<div class="left-box col-2">
+	</div>
+	<div class="center-wrapper col-7">
+		<%} else if (body["text"][i]["type"] == "interactive") {%>
+	</div>
+
+
 	<!-- This is the lil bit of code that is killing my spirit. -->
 <% var filepath = body["text"][i]["value"]["filename"] %>
 
