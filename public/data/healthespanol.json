@@ -3,27 +3,27 @@
     "class": "health"
   },
   "header": {
-    "title-line-one": "In the End You Only Have",
-    "title-line-two": "Your Health",
+    "title-line-one": "The Healing",
+    "title-line-two": "Brigade",
     "seo": "Health: A tiny test information blip",
     "subtitle": "Making this look like health story"
   },
   "reporters": [
     {
-      "name": "Testing McTest"
+      "name": "Danielle Chemtob"
     }
   ],
   "videographers": [
     {
-      "name": "Testing McTest"
+      "name": "Hanna Davison"
     },
     {
-      "name": "Testing McTester"
+      "name": "Alex Kormann"
     }
   ],
   "designers": [
     {
-      "name": "Testing McTester"
+      "name": "Mary Rachel Bulkeley"
     }
   ],
   "text": [

@@ -115,6 +115,53 @@
     }
   }
 
+  .my {
+    &-gallery {
+      width: 100%;
+      height: auto;
+      float: left;
+      margin: 0 auto;
+    }
+    & img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      border: 0;
+    }
+  }
+
+  .my {
+    &-gallery {
+      & a {
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-touch-callout: none; 
+        display: block;
+        float: left;
+        margin: 0 12px 12px 0;
+        width: 200px;
+        line-height: 0;
+      }
+    }
+  }
+
+  .my {
+    &-gallery {
+      & figure {
+        display: inline-block;
+        float: left;
+        margin: 1;
+      }
+    }
+  }
+
+  .my {
+    &-gallery {
+      & figcaption {
+        display: none;
+      }
+    }
+  }
+
   .pull {
     &-quote {
       color: $block-quote;
