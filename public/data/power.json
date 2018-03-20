@@ -26,6 +26,14 @@
       "name": "Avery Williams"
     }
   ],
+  "upr": [
+    {
+      "name": "UPR Student"
+    },
+    {
+      "name": "UPR Student 2"
+    }
+  ],
   "text": [
     {
       "type": "text",

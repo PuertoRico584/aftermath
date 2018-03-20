@@ -1,6 +1,3 @@
-/* ------------------ Global Styles ------------ */
-/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
-/* ------ Aftermath Story Page Colors -----*/
 /* ------------------  HOMEPAGE ------------------ */
 .homepage-header {
   font-family: "quasimoda",sans-serif;
@@ -75,38 +72,39 @@
 .logo-in-corner {
   height: 20px;
   width: auto;
-  margin-left: 15px; }
-
-nav {
-  position: fixed;
-  top: 0;
-  transition: top 0.2s ease-in-out;
-  padding-top: 40px; }
+  margin-left: 15px;
+  margin-top: 10px; }
 
 .navbar {
   background-color: black !important;
-  height: 55px; }
+  height: 60px; }
+
+.navbar-nav {
+  margin: auto;
+  width: 80%; }
+
+@media only screen and (max-width: 1150px) {
+  .navbar-nav {
+    width: 97%;
+    margin: auto; } }
 
 .navbar-toggler {
   background-color: white;
   margin-left: 170px; }
 
 .nav-item {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 15px;
-  text-align: center; }
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .nav-link {
   color: white !important;
   font-family: "quasimoda",sans-serif; }
 
-.navbar-nav li:last-child {
-  float: right; }
-
 .navbar-collapse {
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 10px; }
 
 .nav-header {
   color: white;
@@ -123,8 +121,7 @@ h5 {
 
 .es-and-about {
   color: white;
-  margin-left: 150px;
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
   float: right; }
   .es-and-about a {
@@ -132,19 +129,15 @@ h5 {
 
 .sidebar {
   width: 100px;
-  float: right;
+  float: left;
   margin-left: 0px;
   position: absolute;
-  right: 0; }
+  left: 0px; }
   .sidebar ul {
-    background: black;
-    padding: 5px; }
+    list-style-type: none; }
     .sidebar ul li {
-      margin: 0 0 0 20px; }
-
-.sidebar-icons ul li {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-
-.nav-up {
-  top: -40px; }
+      padding-top: 5px;
+      padding-bottom: 5px; }
+      .sidebar ul li .social-icon {
+        width: 30px;
+        height: auto; }

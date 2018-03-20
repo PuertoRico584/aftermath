@@ -1,22 +1,50 @@
-/* ------------------ Global Styles ------------ */
-/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
-/* ------ Aftermath Story Page Colors -----*/
-@import url("https://use.typekit.net/hym1sdr.css");
 /* ------ Step Link Styles ------*/
 .step {
-  margin-top: 5%;
   font-family: 'Quasimoda'; }
   .step a {
     text-decoration: none;
-    color: #fff; }
+    color: white; }
+    .step a.video-step-link-left {
+      margin-left: 0px;
+      float: left; }
+    .step a.video-step-link-right {
+      margin-right: 0px;
+      float: right; }
+  .step-link-icon {
+    position: absolute;
+    top: 140px;
+    left: 240px;
+    height: auto;
+    width: 120px; }
   .step p {
     margin-bottom: 0.5em; }
   .step-box {
     min-height: 350px;
-    background-color: #309865;
+    position: relative;
     text-align: center; }
   .step-name {
-    font-size: 3em; }
+    font-size: 3em;
+    position: absolute;
+    top: 5px;
+    left: 240px; }
   .step-title {
     font-size: 2em;
-    font-weight: 100 !important; }
+    font-weight: 100 !important;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 140px; }
+
+#videosList {
+  max-width: 100%;
+  overflow: hidden; }
+
+.video-step-link {
+  background-image: url("../assets/images/butler-farms-arial.jpg");
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px; }
+
+/* Hide Play button + controls on iOS */
+.video-step-link::-webkit-media-controls {
+  display: none !important; }

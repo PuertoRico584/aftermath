@@ -63,6 +63,12 @@ $(document).ready(function(){
 	    <p><%= body["designers"][d]["name"] %></p>
 	    <% } %>
 	  </div>
+		<div class="byline-item">
+		 <p class="byline-head"><%= espanol ? "consultación por" : "ground support by" %></p>
+		 <% for (d in body["upr"]) {%>
+		 <p><%= body["upr"][d]["name"] %></p>
+		 <% } %>
+	 </div>
 	</div>
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">

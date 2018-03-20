@@ -1,17 +1,42 @@
 </div>
 </div>
+<!--this cool video play/pause thing from https://codepen.io/gil--/pen/bNxZWg -->
+
 
 <div class="step">
   <div class="row">
-    <a href="/pages/<%= body["step-links"]["step-back-name"]%>" class="col-md-6"><div class="step-box step-back">
-      <p class="step-name"><%= body["step-links"]["step-back-name"]%></p>
-      <p class="step-title"><%= body["step-links"]["step-back-title"]%></p>
-      <img src="/assets/images/homepage-icons/<%= body["step-links"]["step-back-name"]%>.png">
+    <a  href="/pages/<%= body["step-links"]["step-back-name"]%>" class="col-md-6 step-link video-step-link-left">
+      <div id="click-me-step-link" class="step-box step-back">
+        <div id="videosList">
+        <div class="video-step-link">
+            <video class="thevideo" loop>
+              <source src="/assets/images/CI5B0507Trim.mp4" type="video/mp4" muted>
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="step-content">
+        <p class="step-name"><%= body["step-links"]["step-back-name"]%></p>
+        <p class="step-title"><%= body["step-links"]["step-back-title"]%></p>
+        <img class="step-link-icon" src="/assets/images/homepage-icons/<%= body["step-links"]["step-back-name"]%>.png">
+      </div>
     </div></a>
-    <a href="/pages/<%= body["step-links"]["step-forward-name"]%>" class="col-md-6"><div class="step-box step-forward">
-      <p class="step-name"><%= body["step-links"]["step-forward-name"]%></p>
-      <p class="step-title"><%= body["step-links"]["step-forward-title"]%></p>
-      <img src="/assets/images/homepage-icons/<%= body["step-links"]["step-forward-name"]%>.png">
+
+    <a  href="/pages/<%= body["step-links"]["step-forward-name"]%>" class="col-md-6 video-step-link-right">
+      <div id="click-me-step-link" class="step-box step-back abc">
+        <div id="videosList">
+        <div class="video-step-link">
+            <video class="thevideo" loop>
+              <source src="/assets/images/CI5B0789Trim.mp4" type="video/mp4" muted>
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="step-content">
+        <p class="step-name"><%= body["step-links"]["step-forward-name"]%></p>
+        <p class="step-title"><%= body["step-links"]["step-forward-title"]%></p>
+        <img class="step-link-icon" src="/assets/images/homepage-icons/<%= body["step-links"]["step-forward-name"]%>.png">
+      </div>
     </div></a>
   </div>
 </div>
