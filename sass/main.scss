@@ -2,13 +2,12 @@
 @import url("https://use.typekit.net/hym1sdr.css");
 @import '_include-media';
 @import '_vars';
-@import 'about';
 @import 'index';
 @import 'inner';
-@import 'photo-gallery';
-@import 'slider';
-@import 'step-links';
 @import 'footer';
+@import 'step-links';
+@import 'photo-gallery';
+@import 'about';
 
 
 html {font-size:.7em;}

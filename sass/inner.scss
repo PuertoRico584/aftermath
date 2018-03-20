@@ -74,7 +74,7 @@
       padding-top: 1%;
       & p{
         line-height: 1em;
-        margin: 0;
+        margin: 10px;
       }
     }
   }
@@ -97,9 +97,11 @@
 
   .byline {
     &-item {
+      & p{
+      }
       &-head {
         & p {
-          margin: 0 !important;
+          margin: 0;
         }
       }
     }
@@ -113,74 +115,28 @@
     }
   }
 
-  .my {
-    &-gallery {
-      width: 100%;
-      height: auto;
-      float: left;
-      margin: 0 auto;
-    }
-    & img {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-      border: 0;
-    }
-  }
-
-  .my {
-    &-gallery {
-      & a {
-        -webkit-tap-highlight-color: rgba(0,0,0,0);
-        -webkit-touch-callout: none;
-        display: block;
-        float: left;
-        margin: 0 12px 12px 0;
-        width: 200px;
-        line-height: 0;
-      }
-    }
-  }
-
-  .my {
-    &-gallery {
-      & figure {
-        display: inline-block;
-        float: left;
-        margin: 1;
-      }
-    }
-  }
-
-  .my {
-    &-gallery {
-      & figcaption {
-        display: none;
-      }
-    }
-  }
-
   .pull {
-    &-text{
-      margin-left: -10px;
-    }
-    &-quote {
-      font-size: 1em;
-      text-transform: none;
-      &-box {
-      padding-bottom: 3%;
-      font-family: $heading-font;
-      font-weight: 100;
-      color: $block-quote;
-      margin-top: -14px;
-      & .attribution{
-        font-weight: 300;
+      &-text{
+        margin-left: -10px;
       }
-      & img{
-        width: 75px;
-        height: auto;
-        display: flex;
-        margin: auto;
+      &-quote {
+        font-size: 1em;
+        text-transform: none;
+        &-box {
+        padding-bottom: 3%;
+        font-family: $heading-font;
+        font-weight: 100;
+        color: $block-quote;
+        margin-top: -14px;
+        & .attribution{
+          font-weight: 300;
+        }
+        & img{
+          width: 75px;
+          height: auto;
+          display: flex;
+          margin: auto;
+        }
       }
     }
   }
@@ -240,6 +196,7 @@
 
 .title-treatment {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .inner-deck {
