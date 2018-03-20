@@ -1,44 +1,14 @@
-@import '_vars';
-@import '_include-media';
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import url("https://use.typekit.net/hym1sdr.css");
+@import '_include-media';
+@import '_vars';
+@import 'index';
+@import 'inner';
+@import 'footer';
+@import 'step-links';
+@import 'photo-gallery';
+@import 'about';
 
-/*this mixin applies bgr-color and color to anything with classes
-that are defined in the include below. You can override either of these colors
-further down on the page or in any of the other .SCSS files.
-*/
-@mixin config-page-colors($colors...) {
-    @each $i in $colors {
-        .#{nth($i, 1)} {
-            &.subhead{
-              color: nth($i, 2);
-            }
-          }
-        }
-    }
-
-@mixin config-page-background($colors...) {
-    @each $i in $colors {
-        .#{nth($i, 1)} {
-          @include media("screen", ">=md"){
-            &.change-mobile-bg{
-              background: none;
-              background-size:cover;
-              color: nth($i, 2);
-            }
-          }
-          }
-        }
-      }
-
-
-@include config-page-colors(
-    'hiphop'  $orange,
-    'dorian' $green,
-    'skate' $purple,
-    'family' $yellow,
-    'harbor' $blue,
-    'about' $neutral
-);
 
 html {font-size:.7em;}
 
@@ -137,6 +107,10 @@ header{
   .fixed {
       top: -85px;
   }
+
+
+
+/* -------- All Includes --------- */
 
   /* ------- MOBILE NAVIGATION --------*/
 

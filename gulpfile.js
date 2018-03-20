@@ -64,7 +64,7 @@ gulp.task('connect', function(){
 
 gulp.task('sass', function() {
   console.log("compiling sass...");
-    return gulp.src('./sass/*.scss')
+    return gulp.src('./sass/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('./public/stylesheets/'));
 

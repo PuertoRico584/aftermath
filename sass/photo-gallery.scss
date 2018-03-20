@@ -1,241 +1,51 @@
-@import '_vars';
-@import '_include-media';
-
-
-@mixin config-page-colors($colors...) {
-    @each $i in $colors {
-        .#{nth($i, 1)} {
-            &.pg-figcaption{
-                  border-top:2px solid nth($i, 2);
-            }
-    }
-}
-}
-
-@include config-page-colors(
-    'hiphop'  $orange,
-    'dorian' $green,
-    'skate' $purple,
-    'family' $yellow,
-    'harbor' $blue,
-    'about' $neutral
-);
+/* .row {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 30px;
+  position: relative;
+} */
 
 #photo-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  // justify-content: space-around;
-  margin:5vh 0 5vh 0;
-  align-items: flex-start;
 
-  #custom-slider {
-    width: 70vw;
+  img {
+    width: auto;
+    max-width: 100%;
     height: auto;
-    overflow: hidden;
-    // margin-right: auto;
-    margin-right:1vw;
+    border: 0;
   }
 
-  #custom-slider > ul {
+  & .my-gallery {
     width: 100%;
-    // height: 70vh;
-    //left: -110%;
-    left:-100%;
-    transition: 0.5s left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline-flex;
+    height: auto;
+    float: left;
+    margin: 0 auto;
+    /* padding: 2%; */
+    /* margin-left: 30%;  */
   }
 
-  #custom-slider > ul > li {
+  & .my-gallery img {
     width: 100%;
-    // height: 70vh;
-    color: black;
-    font-size: 3rem;
+    height: auto;
   }
 
-// .pic-style {
-//   padding: 50px;
-// }
-
-  .pic {
-    width: 100%;
-    // height: 500px;
-  }
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-around;
-  // align-items: flex-start;
-  // position:relative;
-  //
-  .arrow-wrapper{
-    z-index:1;
-    display:flex;
-    justify-content:space-between;
-    width:160px;
-    margin-left:1.2vw;
-    .slider-left{
-      padding:0;
-    }
-    .slider-right{
-      padding:0;
-    }
-  }
-  //
-  // .slider-left{
-  //   margin-right:auto!important;
-  // }
-
-  // #custom-slider {
-  //   width: 70%;
-  //   overflow: hidden;
-  //   margin:1em auto 1em 0;
-  // }
-  //
-  // #custom-slider > ul {
-  //   width: 100%;
-  //   left: -100%;
-  //   transition: 0.5s left;
-  //   list-style: none;
-  //   margin: 0;
-  //   padding: 0;
-  //   position: relative;
-  //   display: inline-flex;
-  // }
-  //
-  // #custom-slider > ul > li {
-  //   width: 100%;
-  //   display: flex;
-  //   justify-content:space-around; /**/
-  //   // margin-left: -30vw;
-  // }
-  //
-  // .pic {
-  //     max-width:70vw;
-  // }
-
-  button {
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 4em;
-    color: #000;
+  & .my-gallery a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    display: block;
+    float: left;
+    margin: 0 12px 12px 0;
+    width: 200px;
+    line-height: 0;
   }
 
-  .caption {
-    color: #000;
-    width: 25%;
-    // left: 5%;
-    // margin-left:1vw;
-    position: relative;
-    display:flex;
-    flex-direction:column;
+  & .my-gallery figure {
+    display: inline-block;
+    float: left;
+    /* margin: 0;  */
+    margin: 1;
+    /* margin: 1; */
   }
-
-  .pg-figcaption {
-    padding-top:.6em;
-    margin-top:1.1em;
-    // width:calc(100% - 200px);
-    width: 80%;
+  & .my-gallery figcaption {
+    display: none;
   }
-
-  .fig-descr{
-    line-height:1.6em;
-  }
-
-  .fig-attr{
-    margin-bottom:-1.3em;
-  }
-
-
-  @include media ("screen", ">=lg"){
-    .pic{
-      width:100%;
-    }
-    #custom-slider > ul > li{
-      justify-content:center;
-    }
-  }
-
-  @include media("screen", "<=nav-mid"){
-    // .pg-figcaption{
-    //   // width:calc(100% - 150px);
-    // }
-  }
-
-//STACK
-  @include media("screen", "<=md") {
-    // #custom-slider > ul > li {
-    //   flex-direction:column;
-    //   justify-content:center;
-    //
-    // }
-        // flex-direction: column;
-        // justify-content: center;
-    #custom-slider {
-      width: 90vw;
-      margin-left: auto;
-      margin-right:auto;
-    }
-    #custom-slider > ul {
-      // height: 50vh;
-    }
-    .pg-figcaption{
-      border-top:none;
-      margin-top:-62px;
-      width:70%;
-      margin-left:15%;
-    }
-
-    .fig-attr{
-      display:inline-block;
-    }
-    .fig-descr{
-      margin-bottom:0;
-    }
-    .pic {
-      // max-height:80vh;
-      width:100%;
-      max-width:none;
-    }
-
-    .caption {
-      width: 100%;
-      margin-top:0;
-      justify-content:space-around;
-      flex-direction:column;
-      margin-left:0;
-      left: 0;
-    }
-
-
-    .arrow-wrapper{
-      z-index:1;
-      // display:flex;
-      // justify-content:space-around;
-      width:initial;
-      margin:0 3em 0 3em;
-    }
-  }
-
-  @include media ("screen", "<=sm") {
-    .arrow-wrapper{
-      margin:0 1em 0 1em;
-    }
-  }
-
-  @include media ("screen", "<=xs") {
-
-    #custom-slider {
-      height: auto;
-    }
-
-    .pic {
-      height: auto;
-    }
-
-  }
-
 }

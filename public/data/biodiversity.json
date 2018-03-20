@@ -3,8 +3,8 @@
     "class": "biodiversity"
   },
   "header": {
-    "title-line-one": "Learning From The",
-    "title-line-two": "Forest",
+    "title-line-one": "Learning From",
+    "title-line-two": "The Forest",
     "seo": "Biodiversity: A tiny test information blip",
     "subtitle": "Making this look like biodiversity story"
   },
@@ -24,6 +24,14 @@
   "designers": [
     {
       "name": "Elle Sommerville"
+    }
+  ],
+  "upr": [
+    {
+      "name": "UPR Student"
+    },
+    {
+      "name": "UPR Student 2"
     }
   ],
   "text": [

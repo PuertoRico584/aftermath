@@ -11,10 +11,10 @@
       <a href="/about<%=URL_LANG%>">About</a><br>
     </div>
     <div class="footer-icons">
-         <a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img src="../../assets/images/social/facebook.png"></a>
-         <a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/instagram.png"></a>
-         <a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/twitter.png"></a>
-         <a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a>
+         <a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank" onmouseover="fadeIconsFooter(0)" onmouseout="unfadeIconsFooter(0)"><img id="footer-0" src="../../assets/images/social/facebook.png"></a>
+         <a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank" onmouseover="fadeIconsFooter(1)" onmouseout="unfadeIconsFooter(1)"><img id="footer-1" src="../../assets/images/social/instagram.png"></a>
+         <a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank" onmouseover="fadeIconsFooter(2)" onmouseout="unfadeIconsFooter(2)"><img id="footer-2" src="../../assets/images/social/twitter.png"></a>
+         <a class="vimeo" href="https://www.vimeo.com/" target="_blank" onmouseover="fadeIconsFooter(3)" onmouseout="unfadeIconsFooter(3)"><img id="footer-3" src="../../assets/images/social/vimeo.png"></a>
     </div>
 
 
@@ -31,6 +31,10 @@
 <script type="text/javascript" src="/js/scrollMonitor.js"></script>
 <script type="text/javascript" src="/js/videoPlayer.js"></script>
 <script type="text/javascript" src="/js/title.js"></script>
+<script src="/js/photo-gallery/photo-gallery.js"></script>
+<script src="/js/photo-gallery/photoswipe.js"></script>
+<script src="/js/photo-gallery/photoswipe-ui-default.min.js"></script>
+
 
 <!-- <script>
  var espanol = <%= espanol ? "true":"false" %>;
