@@ -1,6 +1,6 @@
 {
   "master-class": {
-    "class": "pollution"
+    "class": "biodiversity"
   },
   "header": {
     "title-line-one": "Covered",
@@ -27,6 +27,14 @@
     },
     {
       "name": "Connie Jin"
+    }
+  ],
+  "upr": [
+    {
+      "name": "UPR Student"
+    },
+    {
+      "name": "UPR Student 2"
     }
   ],
   "text": [

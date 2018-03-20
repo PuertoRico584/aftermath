@@ -64,14 +64,14 @@ gulp.task('connect', function(){
 
 gulp.task('sass', function() {
   console.log("compiling sass...");
-    return gulp.src('./sass/*.scss')
+    return gulp.src('./sass/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('./public/stylesheets/'));
 
 });
 
 gulp.task('watch', function() {
-    gulp.watch('./sass/*.scss', ['sass']);
+    gulp.watch('./sass/main.scss', ['sass']);
 
 });
 

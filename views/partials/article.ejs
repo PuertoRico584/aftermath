@@ -1,10 +1,8 @@
-
 <script>
 $(document).ready(function(){
 	$('iframe').each(function(i, el){
 		$(el).attr('src', $(el).data("src"));
 	});
-	// sidebar follow from https://css-tricks.com/scrollfollow-sidebar/
 	$(function() {
 			var offset = $(".sidebar").offset();
 			var topPadding = 20;
@@ -22,7 +20,6 @@ $(document).ready(function(){
 	});
 });
 </script>
-
 <div class="title-treatment">
 <div class="container-fluid inner inner-hero" id="title-image">
 	<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
@@ -64,6 +61,12 @@ $(document).ready(function(){
 	    <p><%= body["designers"][d]["name"] %></p>
 	    <% } %>
 	  </div>
+		<div class="byline-item">
+		 <p class="byline-head"><%= espanol ? "consultación por" : "ground support by" %></p>
+		 <% for (d in body["upr"]) {%>
+		 <p><%= body["upr"][d]["name"] %></p>
+		 <% } %>
+	 </div>
 	</div>
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
@@ -80,65 +83,42 @@ $(document).ready(function(){
 <% include ../partials/video.ejs %>
 <div class="sidebar sidebar-icons">
 		<ul>
-			<!--social media icons from iconfinder.com-->
-			<li onmouseover="fadeIconsSidebar(0)" onmouseout="unfadeIconsSidebar(0)"><a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img id="sidebar-0" class="social-icon" src="../assets/images/social-media/facebook2.png"></a></li>
-			<li onmouseover="fadeIconsSidebar(1)" onmouseout="unfadeIconsSidebar(1)"><a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img id="sidebar-1" class="social-icon" src="../assets/images/social-media/instagram2.png"></a></li>
-			<li onmouseover="fadeIconsSidebar(2)" onmouseout="unfadeIconsSidebar(2)"><a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img id="sidebar-2" class="social-icon" src="../assets/images/social-media/twitter2.png"></a></li>
-			<li onmouseover="fadeIconsSidebar(3)" onmouseout="unfadeIconsSidebar(3)"><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img id="sidebar-3" class="social-icon" src="../assets/images/social-media/vimeo2.png"></a></li>
+			<li><a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank"><img src="../../assets/images/social/facebook.png"></a></li>
+			<li><a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/instagram.png"></a></li>
+			<li><a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank"><img src="../../assets/images/social/twitter.png"></a></li>
+			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a></li>
 	</ul>
 </div>
+
 <div class="row text-row offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
+	<div class="left-box col-2">
+		Dummy Column
+	</div>
+
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
 			<%} else if (body["text"][i]["type"] == "slider"){%>
 		</div>
 	</section>
-	<script>
-		var captionArray = [];
-	</script>
-	<div id="photo-gallery">
-		<div id="custom-slider">
-			<ul id="slider-ul">
-				<% for (s in body["slider-images"]){%>
-				<li class="slider-section">
-					<div class="pic-style">
-						<img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
-					</div>
-					<script>
-						if (!espanol){
-							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-							"<p class='fig-attr'>Photo by&nbsp</p>" +
-							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-							"</figcaption>");
-						} else {
-							captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-							"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-							"<p class='fig-attr'>foto por&nbsp</p>" +
-							"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-							"</figcaption>");
-						}
-					</script>
-				</li>
-				<% } %>
-			</ul>
-		</div>
-		<div class="caption">
-			<div class="arrow-wrapper">
-				<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-				<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-			</div>
-			<div id="inner-caption"></div>
-		</div>
-	</div>
-	<script src="/js/photo-slider.js"></script>
-	<section class="center-wrapper">
-		<div class="max-width">
-		  <%} else if (body["text"][i]["type"] == "interactive") {%>
-		</div>
-	</section>
 </div>
+
+<div class="row text-row offset-md-2">
+	<div class="left-box col-2">
+		Dummy Column
+	</div>
+	<div id="photo-gallery" class="center-wrapper">
+		<% include ../partials/photo-gallery.ejs %>
+	</div>
+</div>
+
+	<div class="row text-row offset-md-2">
+		<div class="left-box col-2">
+	</div>
+	<div class="center-wrapper col-7">
+		<%} else if (body["text"][i]["type"] == "interactive") {%>
+	</div>
+
+
 	<!-- This is the lil bit of code that is killing my spirit. -->
 <% var filepath = body["text"][i]["value"]["filename"] %>
 
