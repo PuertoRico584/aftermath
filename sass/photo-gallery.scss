@@ -1,26 +1,3 @@
-@import '_vars';
-@import '_include-media';
-
-
-@mixin config-page-colors($colors...) {
-    @each $i in $colors {
-        .#{nth($i, 1)} {
-            &.pg-figcaption{
-                  border-top:2px solid nth($i, 2);
-            }
-    }
-}
-}
-
-@include config-page-colors(
-    'hiphop'  $orange,
-    'dorian' $green,
-    'skate' $purple,
-    'family' $yellow,
-    'harbor' $blue,
-    'about' $neutral
-);
-
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;

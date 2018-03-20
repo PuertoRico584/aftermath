@@ -1,24 +1,5 @@
 /* ------------------ Global Styles ------------ */
-/* ----- Cuban Legacy Styles (keeping these here until I know they won't break the compiler!) ----*/
 /* ------ Aftermath Story Page Colors -----*/
-.hiphop.pg-figcaption {
-  border-top: 2px solid #F1861B; }
-
-.dorian.pg-figcaption {
-  border-top: 2px solid #9BD5BB; }
-
-.skate.pg-figcaption {
-  border-top: 2px solid #A089CE; }
-
-.family.pg-figcaption {
-  border-top: 2px solid #F0BD53; }
-
-.harbor.pg-figcaption {
-  border-top: 2px solid lightblue; }
-
-.about.pg-figcaption {
-  border-top: 2px solid #997A65; }
-
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;

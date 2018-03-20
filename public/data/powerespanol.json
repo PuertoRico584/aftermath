@@ -3,27 +3,35 @@
     "class": "power"
   },
   "header": {
-    "title-line-one": "I’ve Got The",
-    "title-line-two": "Power",
+    "title-line-one": "Where’s The",
+    "title-line-two": "Light",
     "seo": "Power: A tiny test information blip",
     "subtitle": "Making this look like power story"
   },
   "reporters": [
     {
-      "name": "Testing McTest"
+      "name": "Jasmin Herrera"
     }
   ],
   "videographers": [
     {
-      "name": "Testing McTest"
+      "name": "Rob Gourley"
     },
     {
-      "name": "Testing McTester"
+      "name": "Ruija Zhang"
     }
   ],
   "designers": [
     {
-      "name": "Testing McTester"
+      "name": "Avery Williams"
+    }
+  ],
+  "upr": [
+    {
+      "name": "UPR Student"
+    },
+    {
+      "name": "UPR Student 2"
     }
   ],
   "text": [
