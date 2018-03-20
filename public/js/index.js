@@ -13,7 +13,7 @@ $(document).ready(function(){
   var lastScrollTop = 0;
   var delta = 5;
   var navbarHeight = $('header').outerHeight();
-  var figure = $(".video-step-link").hover( hoverVideo, hideVideo );
+  // var figure = $(".video-step-link").hover( hoverVideo, hideVideo );
 
 
   $(clickMe2).hide();
