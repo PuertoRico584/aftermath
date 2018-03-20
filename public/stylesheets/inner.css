@@ -79,11 +79,38 @@
   padding-right: 25%;
   text-align: center; }
 
-.pull-text {
-  margin-left: -10px; }
+.inner .my-gallery {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0 auto; }
 
-.pull-quote {
-  font-size: 1em;
+.inner .my img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+.inner .my-gallery a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  display: block;
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 200px;
+  line-height: 0; }
+
+.inner .my-gallery figure {
+  display: inline-block;
+  float: left;
+  margin: 1; }
+
+.inner .my-gallery figcaption {
+  display: none; }
+
+.inner .pull-quote {
+  color: #309865;
+  font-size: 20pt;
   text-transform: none; }
   .pull-quote-box {
     padding-bottom: 3%;

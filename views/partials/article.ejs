@@ -1,3 +1,5 @@
+<!-- Photoswipe elements from photoswipe.com -->
+
 <script>
 $(document).ready(function(){
 	$('iframe').each(function(i, el){
@@ -5,7 +7,7 @@ $(document).ready(function(){
 	});
 	$(function() {
 			var offset = $(".sidebar").offset();
-			var topPadding = 20;
+			var topPadding = 15;
 			$(window).scroll(function() {
 					if ($(window).scrollTop() > offset.top) {
 							$(".sidebar").stop().animate({
@@ -20,6 +22,7 @@ $(document).ready(function(){
 	});
 });
 </script>
+
 <div class="title-treatment">
 <div class="container-fluid inner inner-hero" id="title-image">
 	<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
@@ -29,7 +32,7 @@ $(document).ready(function(){
 				<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 				<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 			</div>
-	</div><!--- Close Title Box --->
+	</div> <!--- Close Title Box --->
 </div>
 	<div id="deck" class="inner-deck fadeIn">
 		<div class="parallax">
@@ -39,7 +42,6 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-
 
 <div class="row text-row left-box byline-row offset-md-2">
 	<div class="byline-box inner center-wrapper col-md-2">
@@ -89,12 +91,9 @@ $(document).ready(function(){
 			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img src="../../assets/images/social/vimeo.png"></a></li>
 	</ul>
 </div>
-
+I AM HERE
 <div class="row text-row offset-md-2">
-	<div class="left-box col-2">
-		Dummy Column
-	</div>
-
+	<div class="left-box col-2">Dummy Column Are you reading me?</div>
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
 			<%} else if (body["text"][i]["type"] == "slider"){%>
@@ -102,22 +101,70 @@ $(document).ready(function(){
 	</section>
 </div>
 
-<div class="row text-row offset-md-2">
-	<div class="left-box col-2">
+<div class="row text-row offset-md-2"> <!-- Row for the photo gallery! -->
+	<div class="left-box col-2" style="border:1px green solid">
 		Dummy Column
+		Connie
 	</div>
-	<div id="photo-gallery" class="center-wrapper">
-		<% include ../partials/photo-gallery.ejs %>
+	<div class="col-7 photo-gallery" style="border:1px blue solid">
+		Photo Gallery here
+	  <% include ../partials/photo-gallery.ejs %>
 	</div>
+<!--
+	<div id="photo-gallery" class="my-gallery col-sm-7 itemscope itemtype="http://schema.org/ImageGallery" data-masonry='{"itemSelector": ".grid-item", "columnWidth": 200}'">
+		<div id="custom-slider">
+			<ul id="slider-ul">
+				<% for (s in body["slider-images"]){%>
+					<li class="slider-section">
+						<figure class="pic-style" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a href="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" itemprop="contentUrl" data-size="900x600">
+								<img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic img-fluid"/>
+							</a>
+
+							<figcaption id="inner-caption" itemprop="caption description"></figcaption>
+						</figure>
+
+						<script>
+							if (!espanol){
+								captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+								"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+								"<p class='fig-attr'>Photo by&nbsp</p>" +
+								"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+								"</figcaption>");
+							} else {
+								captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
+								"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
+								"<p class='fig-attr'>foto por&nbsp</p>" +
+								"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
+								"</figcaption>");
+							}
+						</script>
+					</li>
+					<% console.log("nut", JSON.stringify(doc, null, '\t'))%>
+				<% } %>
+			</ul>
+		</div>
+
+		 <div class="caption">
+			<div class="arrow-wrapper">
+				<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+				<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+			</div>
+
+			<div id="inner-caption"></div>
+		</div>
+
+	</div> -->
 </div>
-
-	<div class="row text-row offset-md-2">
-		<div class="left-box col-2">
-	</div>
-	<div class="center-wrapper col-7">
-		<%} else if (body["text"][i]["type"] == "interactive") {%>
-	</div>
-
+	<!-- <script src="/js/photo-gallery/photoswipe.js"></script>
+	<script src="/js/photo-gallery/photoswipe-ui-default.min.js"></script>
+	<script src="/js/photo-gallery/photo-gallery.js"></script> -->
+NOW I'm HERE
+	<section class="center-wrapper">
+		<div class="max-width">
+			<%} else if (body["text"][i]["type"] == "interactive") {%>
+		</div>
+	</section>
 
 	<!-- This is the lil bit of code that is killing my spirit. -->
 <% var filepath = body["text"][i]["value"]["filename"] %>
@@ -128,19 +175,30 @@ $(document).ready(function(){
 	</div>
 </section>
 </div>
-<div class="row text-row offset-1">
-    <div class="left-box pull-quote-left-box col-3">
-        <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
-						<img src="assets/images/pull-quote-lead.png" alt="">
-              <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
-              <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
-        </div>
-    </div>
-    <section class="center-wrapper pull-text col-7">
-        <div class="max-width">
-          <% } else if (body["text"][i]["type"] == "image") { %>
-        </div>
-    </section>
+
+<!-- <div class="row inner text-row offset-md-2">
+	<div class="left-box col-2">Dummy Column</div>
+
+	</div>
+</div> -->
+
+<div class="row text-row offset-md-2">
+	<div class="left-box col-2">
+		<div class="pull-quote-box col-md-7 change-bg <%= body["master-class"]["class"] %>">
+			<h3 class="pull-quote">
+			  <hr> <span><%=body["text"][i]["value"]["text"] %></span>
+				<div class="attribution">
+					<%=body["text"][i]["value"]["attribution"]%>
+				</div>
+			</h3>
+		</div>
+	</div>
+		<section class="center-wrapper col-md-7">
+			<div class="max-width">
+			  <% } else if (body["text"][i]["type"] == "image") { %>
+			</div>
+		</section>
+	</div>
 </div>
 
 <figure>
@@ -152,6 +210,7 @@ $(document).ready(function(){
 	  <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
 	</figcaption>
 </figure>
+
 <div class="row text-row offset-md-2">
 	<div class="left-box col-2">Dummy Column</div>
 		<section class="center-wrapper col-md-7">
@@ -161,6 +220,7 @@ $(document).ready(function(){
 		</section>
 	</div>
 </div>
+
 <div class="row text-row offset-md-2">
 	<div class="left-box col-2">Dummy Column</div>
 		<div class="center-wrapper col-md-6 offset-md-4">
@@ -169,6 +229,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
+
 <section class="center-wrapper col-md-6">
 	<div class="max-width">
 		<%} } %>
