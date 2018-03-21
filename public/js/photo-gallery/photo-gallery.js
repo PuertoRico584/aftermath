@@ -205,6 +205,20 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // Function for simple slider
 
+//UI options
+// Share buttons
+//
+// Available variables for URL:
+// {{url}}             - url to current page
+// {{text}}            - title
+// {{image_url}}       - encoded image url
+// {{raw_image_url}}   - raw image url
+shareButtons: [
+    {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{url}}'},
+    {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{url}}'},
+    {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}'},
+    {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+]
 
 // Media query for mobile
 const mq = window.matchMedia("(min-width: 766px)");
