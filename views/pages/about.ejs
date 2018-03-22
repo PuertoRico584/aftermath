@@ -63,10 +63,10 @@
 
         <div class="mix col-sm-3 <%=team[i]["roleid"] %>">
 
-          <img alt=“<%=team[i][“fullname”]%>” src=“/assets/images/team/edited/<%=team[i][“firstname”]%>.mp4" class=“img-fluid”>
-             <!-- <video>
-               <source type=“video/mp4” src="/assets/images/team/edited/Alice.mp4">
-             </video> -->
+              <!-- <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.mp4" class="img-fluid"> -->
+              <video width="320" height="240" controls>
+                <source src="/assets/images/team/edited/<%=team[i]["firstname"]%>.mp4" type="video/mp4">
+              </video>
 
             <div class="team-info">
               <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
