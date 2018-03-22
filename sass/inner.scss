@@ -194,73 +194,69 @@
   visibility: hidden;
 }
 
-.title-treatment {
-  position: relative;
-  margin-bottom: 40px;
+#image {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  margin-top: 60px;
+  z-index: -2;
 }
 
-.inner-deck {
+#image img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.story-section {
+  background-color: #fff;
+  position: relative;
+  top: 0px;
+  padding: 15px;
+}
+
+
+.title-line {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: $inner-title;
+    position: absolute;
+    align-items: center;
+}
+
+
+.title-line h1 {
+  font-weight: 300;
+  font-size: 5.25em;
+}
+
+.title-line-two {
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 5.8em;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+.deck {
   margin: auto;
   display: block;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
+  margin-bottom: 100px;
+  width: 50%;
+  text-align: center;
+  z-index: -1;
+  font-size: 18px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#deck {
-  display: none;
-}
-
-@-webkit-keyframes fadeIn {
-         0% {opacity: 0;}
-         100% {opacity: 1;}
-      }
-      @keyframes fadeIn {
-         0% {opacity: 0;}
-         100% {opacity: 1;}
-      }
-      .fadeIn {
-         -webkit-animation-name: fadeIn;
-         animation-name: fadeIn;
-         -webkit-animation-duration: 3s;
-           animation-duration: 3s;
-      }
-
-.inner-deck p {
-    color: #ffffff;
-    font-size: 22px;
-    width: 93%;
-    margin: auto;
-}
-
-.inner-hero {
-   position: relative;
-
-}
-
-.dim {
-      background-color: #000;
-}
-
-.parallax {
-  height: 30vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
-}
-
-.parallax-layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 30vh;
-}
-
-.parallax-layer.one {
-  color: #000;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+.icon img {
+  vertical-align: middle;
 }

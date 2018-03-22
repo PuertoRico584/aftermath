@@ -101,6 +101,13 @@ ul{
   margin: auto;
   width: 80%;
 }
+
+.nav-bar-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
 @media only screen and (max-width: 1150px) {
     .navbar-nav {
         width: 97%;
