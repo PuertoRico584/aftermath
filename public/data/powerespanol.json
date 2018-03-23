@@ -5,7 +5,7 @@
   "header": {
     "title-line-one": "Where’s The",
     "title-line-two": "Light",
-    "seo": "Power: A tiny test information blip",
+    "seo": "Where’s The Light: Tito Kayak takes restoring power into his own hands in the aftermath of Hurricane Maria",
     "subtitle": "Making this look like power story"
   },
   "reporters": [
@@ -245,9 +245,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Water",
-    "step-back-title": "Is Water Wet?",
-    "step-forward-name": "Health",
-    "step-forward-title": "It’s All You’ve Got"
+    "step-back-name": "Health",
+    "step-back-title": "The Healing Brigade",
+    "step-forward-name": "Biodiversity",
+    "step-forward-title": "Learning From The Forest"
   }
 }

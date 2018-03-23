@@ -5,7 +5,7 @@
   "header": {
     "title-line-one": "Learning From",
     "title-line-two": "The Forest",
-    "seo": "Biodiversity: A tiny test information blip",
+    "seo": "Learning From the Forest - Farmers in Puerto Rico take lessons from El Yunque",
     "subtitle": "Making this look like biodiversity story"
   },
   "reporters": [
@@ -245,9 +245,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Health",
-    "step-back-title": "It’s All You’ve Got",
-    "step-forward-name": "Pollution",
-    "step-forward-title": "Cleanup on Aisle Peñuelas"
+    "step-back-name": "Power",
+    "step-back-title": "Where’s The Light",
+    "step-forward-name": "Water",
+    "step-forward-title": "Dredging With Hope"
   }
 }
