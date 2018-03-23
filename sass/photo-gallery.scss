@@ -2,20 +2,22 @@
 
 #photo-gallery { //My styles
   padding-top: 2%;
-  padding-bottom: 2%; 
+  padding-bottom: 2%;
 
   img {
     width: auto;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     border: 0;
+    vertical-align: top;
   }
 
   & .my-gallery {
     width: 100%;
-    height: auto;
+    height: 100%;
     float: left;
     margin: 0 auto;
+    vertical-align: top;
     /* padding: 2%; */
     /* margin-left: 30%;  */
   }
@@ -23,6 +25,7 @@
   & .my-gallery img {
     width: 100%;
     height: auto;
+    vertical-align: top;
   }
 
   & .my-gallery a {
@@ -33,14 +36,16 @@
     margin: 0 12px 12px 0;
     width: 200px;
     line-height: 0;
+    position: relative;
   }
 
   & .my-gallery figure {
     display: inline-block;
-    float: left;
-    /* margin: 0;  */
-    margin: 1;
-    /* margin: 1; */
+    vertical-align: top;
+    margin: 0 2px 15px 2px;
+    vertical-align: top;
+    // height: 100%;
+    // width: 100%;
   }
   & .my-gallery figcaption {
     display: none;
@@ -54,5 +59,14 @@
     padding: 0;
     position: relative;
     display: inline-flex;
+    vertical-align: top;
+  }
+
+  #gallery-photo a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2px 15px 2px;
+    height: 100%;
+    // width: 100%;
   }
 }
