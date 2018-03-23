@@ -3,19 +3,27 @@
 /* ------------------ Global Styles ------------ */
 /* ------ Aftermath Story Page Colors -----*/
 /* ------------------  HOMEPAGE ------------------ */
-.homepage-header {
-  font-family: "quasimoda",sans-serif;
-  font-weight: lighter;
-  font-size: 15pt;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 10px;
-  visibility: hidden; }
+/* Homepage Background Image / Video Styles */
+body, html {
+  height: 100%; }
 
-.homepage-logo {
-  width: 20%;
-  height: auto; }
+.homepage {
+  background-image: url("../assets/images/option3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column; }
+
+.video-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100; }
 
 .video {
   position: absolute;
@@ -25,12 +33,48 @@
   min-height: 100vh;
   display: block;
   margin-top: 0px;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video {
+    height: 300%;
+    top: -100%; } }
+
+@media (max-aspect-ratio: 16 / 9) {
+  .video {
+    width: 300%;
+    left: -100%; } }
+
+@media (max-width: 992px) {
+  .video-wrapper {
+    background: url("../assets/images/option3.jpg") center center/cover no-repeat; }
+  .video {
+    display: none; } }
+
+/* Homepage Text Styles */
+.homepage-header {
+  font-weight: lighter;
+  font-size: 15pt;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  visibility: hidden; }
+
+.homepage-logo {
+  margin-top: 5%;
+  text-align: center;
+  height: 100px; }
+  .homepage-logo img {
+    width: 25%; }
 
 .homepage-icon-row {
-  width: 100%; }
+  display: flex;
+  height: calc(100% - 100px);
+  align-items: center;
+  justify-content: center; }
   .homepage-icon-row ul {
-    margin-top: 80px;
     list-style-type: none; }
     .homepage-icon-row ul li {
       display: inline-block;
@@ -46,31 +90,10 @@
         height: 120px;
         width: auto; }
 
-.content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  margin-top: 50px; }
-
-.header {
-  min-height: 500px; }
-
-.homepage-container {
-  position: absolute;
-  top: 50; }
-
 .homepage-subtitle {
   color: white;
   font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
-
-@media only screen and (max-width: 800px) {
-  .video {
-    width: 150%; } }
 
 /* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
@@ -389,55 +412,40 @@ h5 {
       text-decoration: none; }
 
 /* ------ Step Link Styles ------*/
-.step {
-  font-family: 'Quasimoda'; }
-  .step a {
-    text-decoration: none;
-    color: white; }
-    .step a.video-step-link-left {
-      margin-left: 0px;
-      float: left; }
-    .step a.video-step-link-right {
-      margin-right: 0px;
-      float: right; }
-  .step-link-icon {
-    position: absolute;
-    top: 140px;
-    left: 240px;
+/*TAMARA TRY*/
+.steplinksvideo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.step-content {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'Quasimoto', sans-serif; }
+  .step-content img {
     height: auto;
-    width: 120px; }
-  .step p {
-    margin-bottom: 0.5em; }
-  .step-box {
-    min-height: 350px;
-    position: relative;
-    text-align: center; }
-  .step-name {
-    font-size: 3em;
-    position: absolute;
-    top: 5px;
-    left: 240px; }
-  .step-title {
-    font-size: 2em;
-    font-weight: 100 !important;
-    text-align: center;
-    position: absolute;
-    top: 70px;
-    left: 140px; }
-
-#videosList {
-  max-width: 100%;
-  overflow: hidden; }
-
-.video-step-link {
-  background-image: url("../assets/images/butler-farms-arial.jpg");
-  height: auto;
-  width: 100%;
-  margin-bottom: 50px; }
-
-/* Hide Play button + controls on iOS */
-.video-step-link::-webkit-media-controls {
-  display: none !important; }
+    width: 90px; }
+    @media (max-width: 768px) {
+      .step-content img {
+        width: 40px;
+        margin-bottom: 10px; } }
+  .step-content p {
+    margin: 0;
+    line-height: 1.6em; }
+  .step-content .step-name {
+    font-weight: 600 !important; }
+    @media (max-width: 768px) {
+      .step-content .step-name {
+        font-size: .6em; } }
+  .step-content .step-title {
+    font-weight: 100 !important; }
+    @media (max-width: 768px) {
+      .step-content .step-title {
+        font-size: .5em;
+        margin: 0; } }
 
 /* .row {
   max-width: 800px;
