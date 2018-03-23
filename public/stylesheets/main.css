@@ -3,19 +3,27 @@
 /* ------------------ Global Styles ------------ */
 /* ------ Aftermath Story Page Colors -----*/
 /* ------------------  HOMEPAGE ------------------ */
-.homepage-header {
-  font-family: "quasimoda",sans-serif;
-  font-weight: lighter;
-  font-size: 15pt;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 10px;
-  visibility: hidden; }
+/* Homepage Background Image / Video Styles */
+body, html {
+  height: 100%; }
 
-.homepage-logo {
-  width: 20%;
-  height: auto; }
+.homepage {
+  background-image: url("../assets/images/option3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column; }
+
+.video-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100; }
 
 .video {
   position: absolute;
@@ -25,12 +33,48 @@
   min-height: 100vh;
   display: block;
   margin-top: 0px;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video {
+    height: 300%;
+    top: -100%; } }
+
+@media (max-aspect-ratio: 16 / 9) {
+  .video {
+    width: 300%;
+    left: -100%; } }
+
+@media (max-width: 992px) {
+  .video-wrapper {
+    background: url("../assets/images/option3.jpg") center center/cover no-repeat; }
+  .video {
+    display: none; } }
+
+/* Homepage Text Styles */
+.homepage-header {
+  font-weight: lighter;
+  font-size: 15pt;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  visibility: hidden; }
+
+.homepage-logo {
+  margin-top: 5%;
+  text-align: center;
+  height: 100px; }
+  .homepage-logo img {
+    width: 25%; }
 
 .homepage-icon-row {
-  width: 100%; }
+  display: flex;
+  height: calc(100% - 100px);
+  align-items: center;
+  justify-content: center; }
   .homepage-icon-row ul {
-    margin-top: 80px;
     list-style-type: none; }
     .homepage-icon-row ul li {
       display: inline-block;
@@ -46,31 +90,10 @@
         height: 120px;
         width: auto; }
 
-.content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  margin-top: 50px; }
-
-.header {
-  min-height: 500px; }
-
-.homepage-container {
-  position: absolute;
-  top: 50; }
-
 .homepage-subtitle {
   color: white;
   font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
-
-@media only screen and (max-width: 800px) {
-  .video {
-    width: 150%; } }
 
 /* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
