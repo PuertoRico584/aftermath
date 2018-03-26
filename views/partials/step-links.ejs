@@ -55,8 +55,8 @@ this cool video play/pause thing from https://codepen.io/gil--/pen/bNxZWg -->
 <div id="stepLinks" class="row">
   <div class="col-6">
     <a href="/pages/<%= body["step-links"]["step-back-name"]%>" class="steplinksvideo">
-      <video class="thevideo" loop preload="auto">
-      <source src="../assets/images/BoomerangWater.mp4" type="video/mp4">
+      <video class="thevideo" muted loop preload="auto">
+      <source src="../assets/images/<%= body["step-links"]["step-back-name"]%>.mp4" type="video/mp4">
       </video>
       <div class="step-content">
         <img src="/assets/images/homepage-icons/<%= body["step-links"]["step-back-name"]%>.png">
@@ -67,8 +67,8 @@ this cool video play/pause thing from https://codepen.io/gil--/pen/bNxZWg -->
   </div>
   <div class="col-6">
     <a href="/pages/<%= body["step-links"]["step-forward-name"]%>" class="steplinksvideo">
-      <video class="thevideo" loop preload="auto">
-      <source src="../assets/images/power.mp4" type="video/mp4">
+      <video class="thevideo" muted loop preload="auto">
+      <source src="../assets/images/<%= body["step-links"]["step-forward-name"]%>.mp4" type="video/mp4">
       </video>
       <div class="step-content">
         <img src="/assets/images/homepage-icons/<%= body["step-links"]["step-forward-name"]%>.png">

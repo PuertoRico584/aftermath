@@ -1,11 +1,11 @@
 {
   "master-class": {
-    "class": "biodiversity"
+    "class": "pollution"
   },
   "header": {
     "title-line-one": "Covered",
     "title-line-two": "In Ash",
-    "seo": "Pollution: A tiny test information blip",
+    "seo": "Covered In Ash: Puerto Rican activists fight against pollution in the aftermath of Hurricane Maria",
     "subtitle": "Making this look like pollution story"
   },
   "reporters": [
@@ -248,9 +248,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Biodiversity",
-    "step-back-title": "For The Trees",
-    "step-forward-name": "Water",
-    "step-forward-title": "Is Water Wet?"
+    "step-back-name": "water",
+    "step-back-title": "Dredging With Hope",
+    "step-forward-name": "health",
+    "step-forward-title": "The Healing Brigade"
   }
 }
