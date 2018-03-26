@@ -245,9 +245,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Power",
+    "step-back-name": "power",
     "step-back-title": "Where’s The Light",
-    "step-forward-name": "Water",
+    "step-forward-name": "water",
     "step-forward-title": "Dredging With Hope"
   }
 }

@@ -245,9 +245,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Health",
+    "step-back-name": "health",
     "step-back-title": "The Healing Brigade",
-    "step-forward-name": "Biodiversity",
+    "step-forward-name": "biodiversity",
     "step-forward-title": "Learning From The Forest"
   }
 }
