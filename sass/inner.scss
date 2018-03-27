@@ -73,7 +73,7 @@
       padding-bottom: 5%;
       padding-top: 1%;
       & p{
-        line-height: 1em;
+        line-height: 1px;
         margin: 10px;
       }
     }
@@ -87,6 +87,10 @@
       padding-right: 1%;
       text-align: left;
       vertical-align: text-top;
+    & p{
+      line-height: 0.7em;
+      margin-top: 12px;
+    }
     }
     &-head {
       font-size: 0.9em;
