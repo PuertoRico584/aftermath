@@ -21,9 +21,6 @@ $(document).ready(function(){
 });
 </script>
 <div class="container-fluid">
-
-
-
 	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;" class="skrollable skrollable-between" style="top: 0%; display: block;">
 		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
 
@@ -36,6 +33,7 @@ $(document).ready(function(){
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 					<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 				</div>
+
 			</div>
 		</div>
 
@@ -73,7 +71,7 @@ $(document).ready(function(){
 	    <% } %>
 	  </div>
 		<div class="byline-item">
-	    <p class="byline-head"><%= espanol ? "consultación por" : "ground support by" %></p>
+	    <p class="byline-head"><%= espanol ? "consultación por" : "consultation by" %></p>
 	    <% for (d in body["upr"]) {%>
 	    <p><%= body["upr"][d]["name"] %></p>
 	    <% } %>

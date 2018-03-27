@@ -5,8 +5,8 @@
   "header": {
     "title-line-one": "Dredging",
     "title-line-two": "With Hope",
-    "seo": "Water: A tiny test information blip",
-    "subtitle": "Making this look like water story"
+    "seo": "Dredging With Hope: A community prepares for an uncertain water future in the aftermath of Hurricane M",
+    "subtitle": "Beyond water and lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
   },
   "reporters": [
     {
@@ -254,47 +254,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Pollution",
-    "step-back-title": "Coal Ash is Really Bad",
-    "step-forward-name": "Power",
-    "step-forward-title": "Turning the Lights Back On"
-  },
-  "slider-images": [
-    {
-      "src": "harbor_sl_01.jpg",
-      "alt": "Child riding ferry in Havana",
-      "attribution": "Robert Gourley",
-      "caption": "Yosue Soto rides a ferry from Havana to school in Regla, Cuba, as the sun rises over the harbor."
-    },
-    {
-      "src": "harbor_sl_02.jpg",
-      "alt": "The old ferry station in Regla",
-      "attribution": "Robert Gourley",
-      "caption": "The old ferry station in Regla in the foreground with Old Havana and a cruise ship in the distance. The morning ferry carries passengers to Regla."
-    },
-    {
-      "src": "harbor_sl_03.jpg",
-      "alt": "Fisherman casting net in Havana",
-      "attribution": "Veasey Conway",
-      "caption": "Casting for minnows, a fisherman throws a net into Havana Harbor in Regla amid ruins of an old pier."
-    },
-    {
-      "src": "harbor_sl_04.jpg",
-      "alt": "Flowers in Havana’s harbor",
-      "attribution": "Robert Gourley",
-      "caption": "Flowers thrown into the water during a Santeria ritual float in the harbor with Old Havana in the distance."
-    },
-    {
-      "src": "harbor_sl_05.jpg",
-      "alt": "Neighborhood of Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "The neighborhood of Regla is seen from Lenin Hill. “Regla is known for raising tough people,” said Orlando Méndez."
-    },
-    {
-      "src": "harbor_sl_06.jpg",
-      "alt": "Girl skips with family in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "A young girl skips along with her parents after stepping off the ferry in Regla. The ferry represents a lifeline for Regla residents -- it transports professionals and schoolchildren alike."
-    }
-  ]
+    "step-back-name": "biodiversity",
+    "step-back-title": "Learning From The Forest",
+    "step-forward-name": "pollution",
+    "step-forward-title": "Covered in Ash"
+  }
 }

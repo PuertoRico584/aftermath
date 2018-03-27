@@ -5,8 +5,8 @@
   "header": {
     "title-line-one": "The Healing",
     "title-line-two": "Brigade",
-    "seo": "Health: A tiny test information blip",
-    "subtitle": "Making this look like health story"
+    "seo": "The Healing Brigade: Puerto Rican healthcare professionals take community healing into their own hands",
+    "subtitle": "Healing lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
   },
   "reporters": [
     {
@@ -245,9 +245,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "Power",
-    "step-back-title": "I’ve Got It",
-    "step-forward-name": "Biodiversity",
-    "step-forward-title": "In This House We Love Plants"
+    "step-back-name": "pollution",
+    "step-back-title": "Covered in Ash",
+    "step-forward-name": "power",
+    "step-forward-title": "Where’s The Light"
   }
 }
