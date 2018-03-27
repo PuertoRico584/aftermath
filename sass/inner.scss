@@ -97,12 +97,14 @@
   .byline {
     &-item {
       & p{
+        margin: 0;
       }
-      &-head {
-        & p {
-          margin: 0;
-        }
-      }
+    }
+  }
+
+  .byline {
+    &-item {
+      margin-bottom: 1.3em; 
     }
   }
 

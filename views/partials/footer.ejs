@@ -31,9 +31,34 @@
 <script type="text/javascript" src="/js/scrollMonitor.js"></script>
 <script type="text/javascript" src="/js/videoPlayer.js"></script>
 <script type="text/javascript" src="/js/title.js"></script>
-<script src="/js/photo-gallery/photo-gallery.js"></script>
+
+<!-- JS to try and make the gallery/slider switcheroo work -->
+<script type="text/javascript">
+
+  //Function to include js files
+  function includeJS(incFile) {
+    document.write('<script type="text/javascript" src="'
+    + incFile+ '"></scr' + 'ipt>');
+  }
+
+  //On viewports over 768px
+  if (window.matchMedia("only screen and (min-width: 768px)").matches) {
+    includeJS('/js/photo-gallery/photo-gallery.js');
+    includeJS('/js/photo-gallery/photoswipe.min.js');
+    includeJS('/js/photo-gallery/photoswipe-ui-default.min.js');
+  }
+
+  //On viewports under 768px
+  if (window.matchMedia("only screen and (max-width: 768px)").matches) {
+    includeJS('/js/photo-slider.js');
+    includeJS('/js/slider.js'); 
+  }
+</script>
+<!-- <script src="/js/photo-gallery/photo-gallery.js"></script>
 <script src="/js/photo-gallery/photoswipe.min.js"></script>
 <script src="/js/photo-gallery/photoswipe-ui-default.min.js"></script>
+<script src="/js/photo-slider.js"></script> -->
+
 
 
 <!-- <script>

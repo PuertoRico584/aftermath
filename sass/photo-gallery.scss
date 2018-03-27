@@ -1,72 +1,54 @@
 @import "gallery-main-settings";
 
-#photo-gallery { //My styles
-  padding-top: 2%;
-  padding-bottom: 2%;
+#grid {
+  margin: 0 auto;
+  padding-left: 10%;
+}
+
+#photo-gallery {
+  margin: auto;
+ padding-bottom: 40px;
+
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ transition: all 0.4s ease;
+
+  figure {
+    float: right;
+
+    width: 200px;
+
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  a {
+    display: block;
+  }
 
   img {
-    width: auto;
+    margin: auto;
     max-width: 100%;
-    height: 100%;
-    border: 0;
-    vertical-align: top;
-  }
-
-  & .my-gallery {
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin: 0 auto;
-    vertical-align: top;
-    /* padding: 2%; */
-    /* margin-left: 30%;  */
-  }
-
-  & .my-gallery img {
-    width: 100%;
+    width: auto;
     height: auto;
-    vertical-align: top;
+    border: 0;
   }
 
-  & .my-gallery a {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-touch-callout: none;
-    display: block;
-    float: left;
-    margin: 0 12px 12px 0;
-    width: 200px;
-    line-height: 0;
-    position: relative;
-  }
-
-  & .my-gallery figure {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2px 15px 2px;
-    vertical-align: top;
-    // height: 100%;
-    // width: 100%;
-  }
-  & .my-gallery figcaption {
+  figure figcaption {
     display: none;
   }
 
-  #custom-slider > ul {
-    width: 100%;
-    transition: 0.5s left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline-flex;
-    vertical-align: top;
+  .msnry {
+    margin: auto;
   }
 
-  #gallery-photo a {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2px 15px 2px;
-    height: 100%;
-    // width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+  #grid {
+    display: none;
   }
 }
