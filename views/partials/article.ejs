@@ -34,7 +34,7 @@ $(document).ready(function(){
 	<div id="deck" class="inner-deck fadeIn">
 		<div class="parallax">
 		  <div class="parallax-layer one">
-		    <p>Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor.</p>
+		    <p><%=body["header"]["subtitle"]%></p>
 			</div>
 		</div>
 	</div>
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	    <% } %>
 	  </div>
 		<div class="byline-item">
-	    <p class="byline-head"><%= espanol ? "consultación por" : "ground support by" %></p>
+	    <p class="byline-head"><%= espanol ? "consultación por" : "consultation by" %></p>
 	    <% for (d in body["upr"]) {%>
 	    <p><%= body["upr"][d]["name"] %></p>
 	    <% } %>

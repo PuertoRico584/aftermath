@@ -2,6 +2,135 @@
 @import url("https://use.typekit.net/hym1sdr.css");
 /* ------------------ Global Styles ------------ */
 /* ------ Aftermath Story Page Colors -----*/
+html {
+  font-size: .7em; }
+
+body {
+  font-size: 1.375em;
+  background-color: white;
+  font-weight: 400;
+  line-height: 1.45;
+  color: black;
+  margin: 0;
+  transition: 2s background-color;
+  font-family: "Source Sans Pro", sans-serif; }
+
+body a {
+  cursor: pointer; }
+
+p {
+  margin-bottom: 1.3em;
+  line-height: 2em; }
+
+h1, h2, h3, h4 {
+  font-family: "Quasimoda", sans-serif;
+  line-height: 1.2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 3.7em;
+  font-weight: 600; }
+
+h2 {
+  font-size: 2.25em; }
+
+h3 {
+  font-size: 1.75em; }
+
+h4 {
+  font-size: 1.5em;
+  padding-bottom: 0.75em; }
+
+.instagram:hover {
+  color: #bc2a8d !important; }
+
+.facebook:hover {
+  color: #3b5998 !important; }
+
+.twitter:hover {
+  color: #00aced !important; }
+
+.github:hover {
+  color: #6e5494 !important; }
+
+.italic {
+  font-style: italic; }
+
+/* ------------------  Header ------------------ */
+header {
+  text-align: left;
+  padding: 1rem; }
+
+/* ------------------ HOMEPAGE ------------------ */
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+/* ------------------ Navigation ------------------ */
+header {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 9; }
+
+.default {
+  top: 0; }
+
+.fixed {
+  top: -85px; }
+
+/* -------- All Includes --------- */
+/* ------- MOBILE NAVIGATION --------*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-color: black;
+  background-color: white;
+  opacity: .94;
+  overflow-x: hidden;
+  transition: 0.5s opacity;
+  -webkit-transition: 5s opacity;
+  -moz-transition: 0.5s opacity; }
+  .overlay .overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 30px;
+    -webkit-transition: 5s opacity; }
+    .overlay .overlay-content a {
+      text-decoration: none;
+      font-size: 1.7em;
+      font-weight: 300;
+      line-height: 2.6em;
+      padding: 0.5%;
+      display: flex;
+      align-items: center; }
+    .overlay .overlay-content .mobile-home-link {
+      color: black;
+      position: absolute;
+      top: -24.5%;
+      right: 11%;
+      font-size: 1.5em; }
+    .overlay .overlay-content #closebtn {
+      position: absolute;
+      top: -42.5%;
+      left: -5%;
+      font-size: 75px;
+      color: black;
+      font-weight: 100;
+      transition: none; }
+    .overlay .overlay-content .overlay-item {
+      color: black; }
+      .overlay .overlay-content .overlay-item span {
+        font-size: 1em;
+        display: inline-flex; }
+
 /* ------------------  HOMEPAGE ------------------ */
 /* Homepage Background Image / Video Styles */
 body, html {
@@ -224,7 +353,7 @@ h5 {
   padding-bottom: 5%;
   padding-top: 1%; }
   .inner .byline-box p {
-    line-height: 1em;
+    line-height: 1px;
     margin: 10px; }
 
 .inner .byline-item {
@@ -234,6 +363,9 @@ h5 {
   padding-right: 1%;
   text-align: left;
   vertical-align: text-top; }
+  .inner .byline-item p {
+    line-height: 0.7em;
+    margin-top: 12px; }
 
 .inner .byline-head {
   font-size: 0.9em;
@@ -582,132 +714,3 @@ h5 {
 
 .about-section {
   margin-top: 80px; }
-
-html {
-  font-size: .7em; }
-
-body {
-  font-size: 1.375em;
-  background-color: white;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #000;
-  margin: 0;
-  transition: 2s background-color;
-  font-family: "Source Sans Pro", sans-serif; }
-
-body a {
-  cursor: pointer; }
-
-p {
-  margin-bottom: 1.3em;
-  line-height: 2em; }
-
-h1, h2, h3, h4 {
-  font-family: "Quasimoda", sans-serif;
-  line-height: 1.2; }
-
-h1 {
-  margin-top: 0;
-  font-size: 3.7em;
-  font-weight: 600; }
-
-h2 {
-  font-size: 2.25em; }
-
-h3 {
-  font-size: 1.75em; }
-
-h4 {
-  font-size: 1.5em;
-  padding-bottom: 0.75em; }
-
-.instagram:hover {
-  color: #bc2a8d !important; }
-
-.facebook:hover {
-  color: #3b5998 !important; }
-
-.twitter:hover {
-  color: #00aced !important; }
-
-.github:hover {
-  color: #6e5494 !important; }
-
-.italic {
-  font-style: italic; }
-
-/* ------------------  Header ------------------ */
-header {
-  text-align: left;
-  padding: 1rem; }
-
-/* ------------------ HOMEPAGE ------------------ */
-.container-fluid {
-  margin: 0;
-  padding: 0; }
-
-/* ------------------ Navigation ------------------ */
-header {
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  z-index: 9; }
-
-.default {
-  top: 0; }
-
-.fixed {
-  top: -85px; }
-
-/* -------- All Includes --------- */
-/* ------- MOBILE NAVIGATION --------*/
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  background-color: black;
-  background-color: white;
-  opacity: .94;
-  overflow-x: hidden;
-  transition: 0.5s opacity;
-  -webkit-transition: 5s opacity;
-  -moz-transition: 0.5s opacity; }
-  .overlay .overlay-content {
-    position: relative;
-    top: 15%;
-    width: 100%;
-    margin-left: 8%;
-    margin-top: 30px;
-    -webkit-transition: 5s opacity; }
-    .overlay .overlay-content a {
-      text-decoration: none;
-      font-size: 1.7em;
-      font-weight: 300;
-      line-height: 2.6em;
-      padding: 0.5%;
-      display: flex;
-      align-items: center; }
-    .overlay .overlay-content .mobile-home-link {
-      color: black;
-      position: absolute;
-      top: -24.5%;
-      right: 11%;
-      font-size: 1.5em; }
-    .overlay .overlay-content #closebtn {
-      position: absolute;
-      top: -42.5%;
-      left: -5%;
-      font-size: 75px;
-      color: black;
-      font-weight: 100;
-      transition: none; }
-    .overlay .overlay-content .overlay-item {
-      color: black; }
-      .overlay .overlay-content .overlay-item span {
-        font-size: 1em;
-        display: inline-flex; }
