@@ -265,10 +265,13 @@ h5 {
   top: 0px;
   width: 100%;
   height: auto;
-  z-index: 2; }
+  z-index: 3; }
 
 #video_area {
   position: relative; }
+
+.video-snapper {
+  top: 0px; }
 
 .polymorph_logo {
   transform-origin: center; }
@@ -279,25 +282,39 @@ h5 {
 #video-player-trigger {
   height: 100px; }
 
-.plyr__controls {
-  visibility: hidden; }
+.plyr__video-wrapper {
+  z-index: 0; }
+
+.snap-scroll {
+  -webkit-scroll-snap-points-y: repeat(100%);
+  -ms-scroll-snap-points-y: repeat(100%);
+  scroll-snap-points-y: repeat(100%);
+  -webkit-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-destination: 100% 0%;
+  -ms-scroll-snap-destination: 100% 0%;
+  scroll-snap-destination: 100% 0%; }
 
 #image {
   width: 100%;
-  height: auto;
+  height: 100vh;
   position: fixed;
-  margin-top: 60px;
   z-index: -2; }
 
-#image img {
-  width: 100%;
-  height: auto; }
+#image .hero-image {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 .story-section {
   background-color: #fff;
   position: relative;
   top: 0px;
-  padding: 15px; }
+  padding-top: 30px; }
 
 .title-line {
   position: absolute;
@@ -334,7 +351,17 @@ h5 {
   transform: translate(-50%, -50%); }
 
 .icon img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 .footer-wrapper {
   padding-top: 2px;

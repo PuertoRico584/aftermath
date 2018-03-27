@@ -24,8 +24,8 @@ $(document).ready(function(){
 
 
 
-	<div id="image" data-0="top: 0%;display:block;" data-200="top:0%" data-550="top:-100%;" class="skrollable skrollable-between" style="top: 0%; display: block;">
-		<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
+	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;" class="skrollable skrollable-between" style="top: 0%; display: block;">
+		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
 
 		<div class="title-line">
 			<div class="row inner-title">
@@ -39,7 +39,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 
-		<div data-0="top:100%" data-200="top:80%;" data-550:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
+		<div data-0="top:100%" data-600="top:80%;" data-1000:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
 			 <p>HERE IS SOME FILLER TEXT FOR THE DECK SECTION.</p>
 		</div>
 	</div>
@@ -50,7 +50,8 @@ $(document).ready(function(){
 </div>
 
 
-<div class="story-section" data-0="top:10%;" data-300="top:0%;display:block;" class="skrollable skrollable-between" style="display: block;">
+<div class="story-section" data-0="top:100%; display: block;" data-650="top:7.5%; display: block;" data-1000="top:0.2%;display:block;" class="skrollable skrollable-between" style="display: block;">
+
 <div id="byline" class="row  left-box byline-row offset-md-2">
 	<div class="byline-box inner center-wrapper col-md-2">
 	  <div  class="byline-item">
@@ -78,6 +79,7 @@ $(document).ready(function(){
 	    <% } %>
 	  </div>
 	</div>
+
 	<section class="center-wrapper col-md-7">
 		<div class="max-width">
 			<% for (i in body["text"]) {
@@ -90,7 +92,10 @@ $(document).ready(function(){
 		</div>
 	</section>
 </div>
+
 <% include ../partials/video.ejs %>
+
+
 <div class="sidebar sidebar-icons">
 		<ul>
 			<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
