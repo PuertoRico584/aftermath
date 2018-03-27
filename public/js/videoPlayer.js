@@ -1,17 +1,14 @@
 {
 	const init = function() {
 
-	var player = plyr.setup({
-			controls : [],
-			clickToPlay : false
-		});
+const player = new Plyr('#player');
 
 	var videoOverlay = document.getElementById("video_area");
 	var circle = document.getElementById("circle");
 	var logo = document.getElementById("logo");
 	var elementWatcher = scrollMonitor.create( videoOverlay, {bottom: -300} );
 
-	elementWatcher.fullyEnterViewport(function() {
+	elementWatcher.fullyEnterViewport(function(callback) {
 	    console.log( 'I have entered the viewport' );
 			anime.remove(circle);
 			anime.remove(logo);
@@ -64,14 +61,21 @@
 				easing: 'easeOutElastic'
 			}
 	}
+
 });
-player[0].play();
+setTimeout(removeMorph, 3000)
+	player.play();
 //document.getElementById("inner-body").style.backgroundColor = "#000000";
-
-
 });
+
+function removeMorph() {
+
+	document.getElementById("morphing").style.zIndex = 0;
+}
+
 	elementWatcher.exitViewport(function() {
 	    console.log( 'I have left the viewport' );
+			document.getElementById("morphing").style.zIndex = 3;
 			anime.remove(circle);
 			anime.remove(logo);
 			var morphingCicle = anime({
@@ -121,7 +125,7 @@ player[0].play();
 	}
 });
 //document.getElementById("inner-body").style.backgroundColor = "#ffffff";
-	player[0].pause();
+	player.pause();
 });
 
 
