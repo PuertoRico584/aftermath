@@ -232,7 +232,49 @@
   background-size: cover;
 }
 
+.pollution{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/pollution-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.biodiversity{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/biodiversity-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.health{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/health-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.power{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/power-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .story-section {

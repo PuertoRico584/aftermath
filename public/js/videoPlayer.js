@@ -1,7 +1,7 @@
 {
 	const init = function() {
 
-const player = new Plyr('#player');
+	const player = new Plyr('#player');
 
 	var videoOverlay = document.getElementById("video_area");
 	var circle = document.getElementById("circle");
@@ -127,7 +127,6 @@ const player = new Plyr('#player');
 });
 
 	player.pause();
-//document.getElementById("inner-body").style.backgroundColor = "#000000";
 });
 
 
