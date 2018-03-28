@@ -22,8 +22,7 @@ $(document).ready(function(){
 </script>
 
 <div class="container-fluid">
-	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;display:none;" class="skrollable skrollable-between" style="top: 0%; display: block;">
-		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
+	<div class="<%= body["master-class"]["class"] %>">
 		<div class="title-line">
 			<div class="row inner-title">
 				<div class="col-sm-3 icon">
@@ -35,16 +34,15 @@ $(document).ready(function(){
 				</div>
 			</div>
 		</div>
-
-		<div data-0="top:100%" data-600="top:80%;" data-1000:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
+		<div class="deck">
 			 <p><%=body["header"]["subtitle"]%></p>
 		</div>
 	</div>
-			<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="" width=100% height=auto style="visibility: hidden; margin-top: 60px;">
+
 </div>
 <!-- END OF TITLE IMAGE AND DECK SECTION -->
 
-<div class="story-section" data-0="top:100%; display: block;" data-650="top:7.5%; display: block;" data-1000="top:0.2%;display:block;" class="skrollable skrollable-between" style="display: block;">
+<div class="story-section">
 	<!-- START OF STORY WITH BYLINES -->
 	<div id="byline" class="row byline-row offset-md-2">
 		<div class="byline-box inner col-md-2">

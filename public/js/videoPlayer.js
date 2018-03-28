@@ -6,9 +6,10 @@ const player = new Plyr('#player');
 	var videoOverlay = document.getElementById("video_area");
 	var circle = document.getElementById("circle");
 	var logo = document.getElementById("logo");
-	var elementWatcher = scrollMonitor.create( videoOverlay, {bottom: -300} );
+	var elementWatcher = scrollMonitor.create(videoOverlay, {top: -500});
+	var elementWatcher2 = scrollMonitor.create(videoOverlay, {bottom: -500});
 
-	elementWatcher.fullyEnterViewport(function(callback) {
+	elementWatcher.enterViewport(function() {
 	    console.log( 'I have entered the viewport' );
 			anime.remove(circle);
 			anime.remove(logo);
@@ -18,7 +19,7 @@ const player = new Plyr('#player');
 			    { value: 'M0,0V768H1366V0ZM658.5,649C515.18,649,399,529.91,399,383S515.18,117,658.5,117,918,236.09,918,383,801.82,649,658.5,649Z' },
 			  ],
 				scale: 3.9,
-				translateX: 60,
+				translateX: 70,
 			  easing: 'easeOutQuad',
 			  duration: 2000,
 			  loop: false,
@@ -63,19 +64,19 @@ const player = new Plyr('#player');
 	}
 
 });
-setTimeout(removeMorph, 3000)
+
 	player.play();
-//document.getElementById("inner-body").style.backgroundColor = "#000000";
+	setTimeout(morphOut, 3000);
+	function morphOut() {
+		document.getElementById("morphing").style.zIndex = 0;
+	}
+
 });
 
-function removeMorph() {
 
-	document.getElementById("morphing").style.zIndex = 0;
-}
 
-	elementWatcher.exitViewport(function() {
+	elementWatcher2.exitViewport(function() {
 	    console.log( 'I have left the viewport' );
-			document.getElementById("morphing").style.zIndex = 3;
 			anime.remove(circle);
 			anime.remove(logo);
 			var morphingCicle = anime({
@@ -124,9 +125,12 @@ function removeMorph() {
 			}
 	}
 });
-//document.getElementById("inner-body").style.backgroundColor = "#ffffff";
+
 	player.pause();
+//document.getElementById("inner-body").style.backgroundColor = "#000000";
 });
+
+
 
 
 }
