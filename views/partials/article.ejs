@@ -37,7 +37,7 @@ $(document).ready(function(){
 		</div>
 
 		<div data-0="top:100%" data-600="top:80%;" data-1000:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
-			 <p>HERE IS SOME FILLER TEXT FOR THE DECK SECTION.</p>
+			 <p><%=body["header"]["subtitle"]%></p>
 		</div>
 	</div>
 			<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="" width=100% height=auto style="visibility: hidden; margin-top: 60px;">
@@ -125,16 +125,14 @@ $(document).ready(function(){
 </div>
 <div class="row offset-md-2">
     <div class="left-box pull-quote-left-box col-2">
-        <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
-						<img src="assets/images/pull-quote-lead.png" alt="">
-              <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
-              <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
-        </div>
+      <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+					<img src="assets/images/pull-quote-lead.png" alt="">
+            <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
+            <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
+      </div>
     </div>
     <section class="pull-text col-7">
-        <div class="max-width">
-          <% } else if (body["text"][i]["type"] == "image") { %>
-        </div>
+      <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
 
