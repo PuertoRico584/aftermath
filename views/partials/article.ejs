@@ -20,10 +20,10 @@ $(document).ready(function(){
 	});
 });
 </script>
-<div class="container-fluid">
-	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;" class="skrollable skrollable-between" style="top: 0%; display: block;">
-		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
 
+<div class="container-fluid">
+	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;display:none;" class="skrollable skrollable-between" style="top: 0%; display: block;">
+		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
 		<div class="title-line">
 			<div class="row inner-title">
 				<div class="col-sm-3 icon">
@@ -33,67 +33,63 @@ $(document).ready(function(){
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 					<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
 				</div>
-
 			</div>
 		</div>
 
 		<div data-0="top:100%" data-600="top:80%;" data-1000:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
-			 <p>HERE IS SOME FILLER TEXT FOR THE DECK SECTION.</p>
+			 <p><%=body["header"]["subtitle"]%></p>
 		</div>
 	</div>
 			<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="" width=100% height=auto style="visibility: hidden; margin-top: 60px;">
-
-
-
 </div>
-
+<!-- END OF TITLE IMAGE AND DECK SECTION -->
 
 <div class="story-section" data-0="top:100%; display: block;" data-650="top:7.5%; display: block;" data-1000="top:0.2%;display:block;" class="skrollable skrollable-between" style="display: block;">
-
-<div id="byline" class="row  left-box byline-row offset-md-2">
-	<div class="byline-box inner center-wrapper col-md-2">
-	  <div  class="byline-item">
-			<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
-	    <% for (r in body["reporters"]) {%>
-	    <p><%= body["reporters"][r]["name"] %></p>
-	     <% } %>
-	  </div>
-	  <div class="byline-item">
-	    <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
-	    <% for (v in body["videographers"]) {%>
-	    <p><%= body["videographers"][v]["name"] %></p>
-	    <% } %>
-	  </div>
-	  <div class="byline-item">
-	    <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
-	    <% for (d in body["designers"]) {%>
-	    <p><%= body["designers"][d]["name"] %></p>
-	    <% } %>
-	  </div>
-		<div class="byline-item">
-	    <p class="byline-head"><%= espanol ? "consultación por" : "consultation by" %></p>
-	    <% for (d in body["upr"]) {%>
-	    <p><%= body["upr"][d]["name"] %></p>
-	    <% } %>
-	  </div>
-	</div>
-
-	<section class="center-wrapper col-md-7">
-		<div class="max-width">
-			<% for (i in body["text"]) {
-			if (body["text"][i]["type"] == "text") {%>
-			<p> <%-body["text"][i]["value"] %> </p>
-			<%} else if (body["text"][i]["type"] == "subhead") {%>
-			<h4><%=body["text"][i]["value"]["text"] %></h4>
-			<%} else if (body["text"][i]["type"] == "video") {%>
-			<div id="video-top"></div>
+	<!-- START OF STORY WITH BYLINES -->
+	<div id="byline" class="row byline-row offset-md-2">
+		<div class="byline-box inner col-md-2">
+		  <div  class="byline-item">
+				<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
+		    <% for (r in body["reporters"]) {%>
+		    <p><%= body["reporters"][r]["name"] %></p>
+		     <% } %>
+		  </div>
+		  <div class="byline-item">
+		    <p class="byline-head"><%= espanol ? "fotos y video por" : "photos and video by" %></p>
+		    <% for (v in body["videographers"]) {%>
+		    <p><%= body["videographers"][v]["name"] %></p>
+		    <% } %>
+		  </div>
+		  <div class="byline-item">
+		    <p class="byline-head"><%= espanol ? "gráficos por" : "graphics by" %></p>
+		    <% for (d in body["designers"]) {%>
+		    <p><%= body["designers"][d]["name"] %></p>
+		    <% } %>
+		  </div>
+			<div class="byline-item">
+		    <p class="byline-head"><%= espanol ? "consultación por" : "consultation by" %></p>
+		    <% for (d in body["upr"]) {%>
+		    <p><%= body["upr"][d]["name"] %></p>
+		    <% } %>
+		  </div>
 		</div>
-	</section>
-</div>
+
+		<section class="col-md-7">
+			<div class="max-width">
+				<% for (i in body["text"]) {
+				if (body["text"][i]["type"] == "text") {%>
+				<p> <%-body["text"][i]["value"] %> </p>
+				<%} else if (body["text"][i]["type"] == "subhead") {%>
+				<h4><%=body["text"][i]["value"]["text"] %></h4>
+				<%} else if (body["text"][i]["type"] == "video") {%>
+				<div id="video-top"></div>
+			</div>
+		</section>
+	</div>
 
 <% include ../partials/video.ejs %>
 
-
+<!-- SIDEBAR SHARE ICONS -->
 <div class="sidebar sidebar-icons">
 		<ul>
 			<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
@@ -101,81 +97,43 @@ $(document).ready(function(){
 			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img class="social-icon" src="../../assets/images/social-media/vimeo2.png"></a></li>
 	</ul>
 </div>
-<div class="row  offset-md-2">
-	<div class="left-box col-2">
-		Dummy Column
-	</div>
-	<section class="center-wrapper col-md-7">
-		<div class="max-width">
+<!-- END SIDEBAR SHARE ICONS -->
+
+
+<div class="row offset-md-2">
+	<div class="left-box col-2"></div>
+	<section class="col-md-7">
 			<%} else if (body["text"][i]["type"] == "slider"){%>
-		</div>
 	</section>
 </div>
 <div class="row offset-md-2">
-	<div class="left-box col-2">
-		Dummy Column
-	</div>
-	<div id="photo-gal" class="center-wrapper">
+	<div id="photo-gal">
 		<% include ../partials/photo-gallery.ejs %>
 	</div>
 </div>
-	<div class="row  offset-md-2">
-		<div class="left-box col-2">
-	</div>
-	<div class="center-wrapper col-7">
+<div class="row offset-md-2">
+	<div class="left-box col-2">TEST</div>
+	<section class="col-md-7">
 		<%} else if (body["text"][i]["type"] == "interactive") {%>
-	</div>
-	<!-- This is the lil bit of code that is killing my spirit. -->
-<% var filepath = body["text"][i]["value"]["filename"] %>
+	</section>
 
-<section class="center-wrapper">
-	<div class="max-width">
-	  <% } else if (body["text"][i]["type"] == "pullquote") {%>
-	</div>
-</section>
+			<!-- This is the lil bit of code that is killing my spirit. -->
+			<% var filepath = body["text"][i]["value"]["filename"] %>
+
+			<% } else if (body["text"][i]["type"] == "pullquote") {%>
+
 </div>
-<div class="row  offset-1">
-    <div class="left-box pull-quote-left-box col-3">
-        <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
-						<img src="assets/images/pull-quote-lead.png" alt="">
-              <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
-              <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
-        </div>
+<div class="row offset-md-2">
+    <div class="left-box pull-quote-left-box col-2">
+      <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+					<img src="assets/images/pull-quote-lead.png" alt="">
+            <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
+            <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
+      </div>
     </div>
-    <section class="center-wrapper pull-text col-7">
-        <div class="max-width">
-          <% } else if (body["text"][i]["type"] == "image") { %>
-        </div>
+    <section class="pull-text col-7">
+      <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
-<figure>
-	<img class="inner-image" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
-	<%=body["text"][i]["value"]["alt"] %>'>
-	<figcaption>
-	  <p class="fig-descr"><%=body["text"][i]["value"]["caption"] %></p>
-	  <p class="fig-attr"><%= espanol ? "foto por":"Photo by" %></p>
-	  <p class="fig-attr"><%=body["text"][i]["value"]["attribution"] %></p>
-	</figcaption>
-</figure>
-<div class="row  offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
-		<section class="center-wrapper col-md-7">
-			<div class="max-width">
-				<% } else if (body["text"][i]["type"] == "map") { %>
-			</div>
-		</section>
-</div>
-<div class="row  offset-md-2">
-	<div class="left-box col-2">Dummy Column</div>
-		<div class="center-wrapper col-md-6 offset-md-4">
-			<img class="map" src='assets/images/<%=body["text"][i]["value"]["src"] %> ' alt='
-			<%=body["text"][i]["value"]["alt"] %>'>
-		</div>
-	</div>
-</div>
-<section class="center-wrapper col-md-6">
-	<div class="max-width">
+
 		<%} } %>
-	</div>
-</section>
-</div>
