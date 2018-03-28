@@ -2,7 +2,6 @@
 
 #grid {
   margin: 0 auto;
-  padding-left: 10%;
 }
 
 #photo-gallery {
@@ -47,7 +46,7 @@
 }
 
 @media screen and (max-width: 768px) {
-
+  //If screen size smaller than 768px, hide the photo gallery. 
   #grid {
     display: none;
   }
