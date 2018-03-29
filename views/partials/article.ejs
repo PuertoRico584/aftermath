@@ -113,7 +113,13 @@ $(document).ready(function(){
 	<div class="left-box col-2">TEST</div>
 	<section class="col-md-7">
 		<%} else if (body["text"][i]["type"] == "interactive") {%>
-	</section>
+		</div>
+	    </section>
+	    <% var filepath = body["text"][i]["value"]["filename"] %>
+	      <%- include("../partials/" + filepath); %>
+							 <div class="row offset-md-2">
+							 	<div class="left-box col-2">TEST</div>
+								<section class="col-md-7">
 
 			<!-- This is the lil bit of code that is killing my spirit. -->
 			<% var filepath = body["text"][i]["value"]["filename"] %>
