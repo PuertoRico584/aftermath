@@ -7,7 +7,6 @@
 #photo-gallery {
   margin: auto;
  padding-bottom: 40px;
-
  -webkit-transition: all 0.4s ease;
  -moz-transition: all 0.4s ease;
  -o-transition: all 0.4s ease;
@@ -46,7 +45,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  //If screen size smaller than 768px, hide the photo gallery. 
+  //If screen size smaller than 768px, hide the photo gallery.
   #grid {
     display: none;
   }
