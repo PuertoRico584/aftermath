@@ -647,11 +647,7 @@ h5 {
       .step-content .step-title {
         font-size: .5em;
         margin: 0; } }
-
-<<<<<<< HEAD
-#grid {
-  margin: 0 auto; }
-=======
+        
 .thevideo {
   width: 100%;
   height: auto; }
@@ -661,26 +657,8 @@ h5 {
   #stepLinks .col-6 {
     padding-right: 0px; }
 
-/* .row {
-  max-width: 800px;
-  margin: 24px auto;
-  padding: 0 30px;
-  position: relative;
-} */
-#photo-gallery img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  border: 0; }
-
-#photo-gallery .my-gallery {
-  width: 100%;
-  height: auto;
-  float: left;
-  margin: 0 auto;
-  /* padding: 2%; */
-  /* margin-left: 30%;  */ }
->>>>>>> d7db41003df14f3236d67d339c6cb462c983fc67
+#grid {
+  margin: 0 auto; }
 
 #photo-gallery {
   margin: auto;
