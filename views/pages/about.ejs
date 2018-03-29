@@ -58,17 +58,21 @@
     </div>
 
     <div class="col-md-10">
-      <div class="row">
+      <div class="row person">
         <% for (i in team) {  %>
 
         <div class="mix col-sm-3 <%=team[i]["roleid"] %>">
 
-              <!-- <img alt="<%=team[i]["fullname"]%>" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.mp4" class="img-fluid"> -->
-              <video width="320" height="240" controls>
-                <source src="/assets/images/team/edited/<%=team[i]["firstname"]%>.mp4" type="video/mp4">
-              </video>
+
 
             <div class="team-info">
+              <div class="video-mask">
+                <div class="about-video">
+                 <video width="100%" height="auto" loop>
+                   <source class="the-video-we-want" src="/assets/images/team/edited/<%=team[i]["firstname"]%>.mp4" type="video/mp4">
+                 </video>
+               </div>
+              </div>
               <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
               <p class="team-name"><%=team[i]["fullname"]%> </p>
               <% if ( team[i]["portfolio"]){ %>
@@ -135,5 +139,16 @@
   <script type="text/javascript" src="/js/about.js"></script>
 
   <script>var mixer = mixitup('#team-photos');</script>
+  <script>
+  var figure = $(".about-video").hover( hoverVideo, hideVideo );
+  function hoverVideo(e) {
+      $('video', this).get(0).play();
+  }
+  function hideVideo(e) {
+      $('video', this).get(0).pause();
+      $('video', this).get(0).currentTime = 0;
+      // Current time function idea from https://stackoverflow.com/questions/10457750/reset-a-video-on-mouse-out-using-html5-and-javascript
+  }
+  </script>
 </body>
 </html>

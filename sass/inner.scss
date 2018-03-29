@@ -161,6 +161,10 @@
 
 }
 
+#byline {
+  padding: 35px 0px;
+}
+
 
 #morphing {
   position: absolute;
@@ -210,23 +214,60 @@
           scroll-snap-destination: 100% 0%;
 }
 
-#image {
+.water {
   width: 100%;
   height: 100vh;
-  position: fixed;
   z-index: -2;
+  background-image: url('../../assets/images/water-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#image .hero-image  {
-  width: auto;
+.pollution{
+  width: 100%;
   height: 100vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  z-index: -2;
+  background-image: url('../../assets/images/pollution-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.biodiversity{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/biodiversity-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.health{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/health-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.power{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url('../../assets/images/power-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .story-section {
@@ -263,17 +304,15 @@
 }
 
 .deck {
-  margin: auto;
-  display: block;
-  margin-bottom: 100px;
-  width: 50%;
-  text-align: center;
-  z-index: -1;
-  font-size: 18px;
-  color: #fff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+text-align: left;
+color: #fff;
+font-size: 20px;
+position: relative;
+margin: auto;
+display: block;
+width: 75%;
+background-color: rgba(0, 0, 0, 0);
+top: 80%;
 }
 
 .icon img {
@@ -288,4 +327,8 @@
    left: 0;
    right: 0;
    margin: auto;
+}
+
+.row {
+  margin-right: 0px;
 }

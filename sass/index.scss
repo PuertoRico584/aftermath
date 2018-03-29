@@ -4,7 +4,7 @@ body, html {
   height:100%;
 }
 .homepage {
-  background-image: url('../assets/images/option3.jpg');
+  background-image: url('../assets/images/option4.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   height:100%;
@@ -239,4 +239,19 @@ h5{
     }
   }
 }
+}
+
+// ABOUT VIDEOS
+.mix{
+  // margin-right: 10px;
+  .video-mask{
+    // this cool circle thing from https://stackoverflow.com/questions/6238451/rounded-corners-on-html5-video
+    width: 100%;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    -webkit-transform: rotate(0.000001deg);
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    border-radius: 120px;
+    overflow: hidden;
+    }
 }
