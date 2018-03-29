@@ -201,10 +201,25 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     if(hashData.pid && hashData.gid) {
         openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
     }
+
 };
 
 // Function for simple slider
 
+//UI options
+// Share buttons
+//
+// Available variables for URL:
+// {{url}}             - url to current page
+// {{text}}            - title
+// {{image_url}}       - encoded image url
+// {{raw_image_url}}   - raw image url
+shareButtons: [
+    {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{image_url}}'},
+    {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{image_url}}'},
+    {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}'},
+    {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+]
 
 // Media query for mobile
 const mq = window.matchMedia("(min-width: 766px)");
@@ -213,7 +228,37 @@ if (mq.matches) {
   // Execute photoswipe function if window width is at least 766px
   initPhotoSwipeFromDOM('.my-gallery');
   console.log("nut");
-} else {
-  // Window width is less than 500px
 
+  //Masonry
+  var container_7_1 = document.querySelector("#photo-gallery");
+  var msnry;
+
+  // initialize  after all images have loaded
+  imagesLoaded(container_7_1, function() {
+  // initialize Masonry after all images have loaded
+    new Masonry(container_7_1, {
+      // options...
+      itemSelector: ".grid-item",
+      //columnWidth: 150,
+      isFitWidth: true
+    });
+
+    container_7_1.className += " photoswipe_showme";
+  });
+  var totalWidth = 0;
+  var totalHeight = 0;
+
+
+  $(".photo-gallery figure img").each(function( index ) {
+
+    totalWidth = $(this).clientWidth;
+    totalWidth = $(this).clientHeight;
+
+
+});
+
+  } else {
+  // Window width is less than 500px
+  console.log("yeet")
+  document.getElementById("grid").style.display="none"
 }

@@ -137,7 +137,7 @@ body, html {
   height: 100%; }
 
 .homepage {
-  background-image: url("../assets/images/option3.jpg");
+  background-image: url("../assets/images/option4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -303,6 +303,15 @@ h5 {
         width: 30px;
         height: auto; }
 
+.mix .video-mask {
+  width: 100%;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-transform: rotate(0deg);
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  border-radius: 120px;
+  overflow: hidden; }
+
 .text-row {
   margin-top: 50px; }
 
@@ -364,8 +373,6 @@ h5 {
 .inner .byline-item {
   font-size: 0.9em;
   display: inline-block;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
@@ -377,8 +384,8 @@ h5 {
   font-weight: bold;
   margin: 0; }
 
-.inner .byline-item-head p {
-  margin: 0; }
+.inner .byline-item {
+  margin-bottom: 1.3em; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -426,7 +433,8 @@ h5 {
   z-index: 3; }
 
 #video_area {
-  position: relative; }
+  position: relative;
+  max-height: 100vh; }
 
 .video-snapper {
   top: 0px; }
@@ -459,6 +467,46 @@ h5 {
   height: 100vh;
   z-index: -2;
   background-image: url("../../assets/images/water-hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.pollution {
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url("../../assets/images/pollution-hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.biodiversity {
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url("../../assets/images/biodiversity-hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.health {
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url("../../assets/images/health-hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.power {
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background-image: url("../../assets/images/power-hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -601,48 +649,47 @@ h5 {
         font-size: .5em;
         margin: 0; } }
 
-/* .row {
-  max-width: 800px;
-  margin: 24px auto;
-  padding: 0 30px;
-  position: relative;
-} */
-#photo-gallery img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  border: 0; }
-
-#photo-gallery .my-gallery {
-  width: 100%;
-  height: auto;
-  float: left;
-  margin: 0 auto;
-  /* padding: 2%; */
-  /* margin-left: 30%;  */ }
-
-#photo-gallery .my-gallery img {
+.thevideo {
   width: 100%;
   height: auto; }
 
-#photo-gallery .my-gallery a {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  display: block;
-  float: left;
-  margin: 0 12px 12px 0;
-  width: 200px;
-  line-height: 0; }
+#stepLinks {
+  margin-top: 5%; }
+  #stepLinks .col-6 {
+    padding-right: 0px; }
 
-#photo-gallery .my-gallery figure {
-  display: inline-block;
-  float: left;
-  /* margin: 0;  */
-  margin: 1;
-  /* margin: 1; */ }
+#grid {
+  margin: 0 auto; }
 
-#photo-gallery .my-gallery figcaption {
-  display: none; }
+#photo-gallery {
+  margin: auto;
+  padding-bottom: 40px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  #photo-gallery figure {
+    float: right;
+    width: 200px;
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box; }
+  #photo-gallery a {
+    display: block; }
+  #photo-gallery img {
+    margin: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 0; }
+  #photo-gallery figure figcaption {
+    display: none; }
+  #photo-gallery .msnry {
+    margin: auto; }
+
+@media screen and (max-width: 768px) {
+  #grid {
+    display: none; } }
 
 .text-row {
   padding-top: 5%;
