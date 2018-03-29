@@ -1,51 +1,53 @@
-/* .row {
-  max-width: 800px;
-  margin: 24px auto;
-  padding: 0 30px;
-  position: relative;
-} */
+@import "gallery-main-settings";
+
+#grid {
+  margin: 0 auto;
+}
 
 #photo-gallery {
+  margin: auto;
+ padding-bottom: 40px;
+
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ transition: all 0.4s ease;
+
+  figure {
+    float: right;
+
+    width: 200px;
+
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  a {
+    display: block;
+  }
 
   img {
-    width: auto;
+    margin: auto;
     max-width: 100%;
+    width: auto;
     height: auto;
     border: 0;
   }
 
-  & .my-gallery {
-    width: 100%;
-    height: auto;
-    float: left;
-    margin: 0 auto;
-    /* padding: 2%; */
-    /* margin-left: 30%;  */
+  figure figcaption {
+    display: none;
   }
 
-  & .my-gallery img {
-    width: 100%;
-    height: auto;
+  .msnry {
+    margin: auto;
   }
 
-  & .my-gallery a {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-touch-callout: none;
-    display: block;
-    float: left;
-    margin: 0 12px 12px 0;
-    width: 200px;
-    line-height: 0;
-  }
+}
 
-  & .my-gallery figure {
-    display: inline-block;
-    float: left;
-    /* margin: 0;  */
-    margin: 1;
-    /* margin: 1; */
-  }
-  & .my-gallery figcaption {
+@media screen and (max-width: 768px) {
+  //If screen size smaller than 768px, hide the photo gallery. 
+  #grid {
     display: none;
   }
 }
