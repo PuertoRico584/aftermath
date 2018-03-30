@@ -30,7 +30,7 @@ $(document).ready(function(){
 				</div>
 				<div class="col-sm-9">
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
-					<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
+					<p class="title-line-two"><%=body["header"]["title-line-two"] %></p>
 				</div>
 			</div>
 		</div>
@@ -70,6 +70,7 @@ $(document).ready(function(){
 		    <% } %>
 		  </div>
 		</div>
+
 
 		<section class="col-md-7">
 			<div class="max-width">
@@ -128,16 +129,18 @@ $(document).ready(function(){
 
 </div>
 <div class="row offset-md-2">
-    <div class="left-box pull-quote-left-box col-2">
+    <div class="left-box pull-quote-left-box col-md-2">
       <div class="pull-quote-box change-bg">
 					<img src="assets/images/pull-quote-lead.png" alt="">
             <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
             <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
       </div>
     </div>
-    <section class="pull-text col-7">
+    <section class="pull-text col-md-7">
       <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
+
+
 
 		<%} } %>
