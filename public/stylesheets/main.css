@@ -376,7 +376,7 @@ h5 {
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
-    line-height: 0.7em;
+    line-height: 1.2em;
     margin-top: 12px; }
 
 .inner .byline-head {
@@ -451,17 +451,6 @@ h5 {
 .plyr__video-wrapper {
   z-index: 0; }
 
-.snap-scroll {
-  -webkit-scroll-snap-points-y: repeat(100%);
-  -ms-scroll-snap-points-y: repeat(100%);
-  scroll-snap-points-y: repeat(100%);
-  -webkit-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
-  -webkit-scroll-snap-destination: 100% 0%;
-  -ms-scroll-snap-destination: 100% 0%;
-  scroll-snap-destination: 100% 0%; }
-
 .water {
   width: 100%;
   height: 100vh;
@@ -526,18 +515,20 @@ h5 {
   text-transform: uppercase;
   color: #ffffff;
   position: absolute;
-  align-items: center; }
+  align-items: center;
+  width: 75%; }
 
 .title-line h1 {
   font-weight: 300;
-  font-size: 5.25em; }
+  font-size: 7.25em; }
 
 .title-line-two {
   flex-wrap: wrap;
   text-transform: uppercase;
-  font-size: 5.8em;
+  font-size: 7.8em;
   font-weight: 900;
-  line-height: 1em; }
+  line-height: 1em;
+  margin-bottom: 0px; }
 
 .deck {
   text-align: left;
@@ -565,6 +556,59 @@ h5 {
 
 .row {
   margin-right: 0px; }
+
+@media only screen and (max-width: 1120px) {
+  .title-line h1 {
+    font-size: 6.25em; }
+  .title-line-two {
+    font-size: 6.6em; } }
+
+@media only screen and (max-width: 950px) {
+  .title-line h1 {
+    font-size: 5.25em; }
+  .title-line-two {
+    font-size: 5.4em; } }
+
+@media only screen and (max-width: 800px) {
+  .title-line h1 {
+    font-size: 4.25em; }
+  .title-line-two {
+    font-size: 4.4em; }
+  .deck {
+    font-size: 14px;
+    top: 75%; }
+  .byline-item {
+    padding: 0px 30px; }
+  .col-md-7 {
+    margin: 0px 25px; }
+  .pull-quote-box {
+    margin: 25px;
+    text-align: center; }
+  .pull-quote-box img {
+    margin: auto;
+    display: block; }
+  .sidebar-icons {
+    display: none; } }
+
+@media only screen and (max-width: 650px) {
+  .title-line h1 {
+    font-size: 3.25em; }
+  .title-line-two {
+    font-size: 3.4em; }
+  .byline-item {
+    padding: 0px 20px; } }
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    height: 100px; }
+  .byline-item p {
+    font-size: 10px;
+    text-align: center; }
+  .byline-item {
+    padding: 0px 5px; }
+  .inner .byline-head {
+    font-size: 10px;
+    text-align: center; } }
 
 .footer-wrapper {
   padding-top: 2px;

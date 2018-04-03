@@ -1,1 +1,89 @@
-HEYYYYYYYYYY
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<style>
+.house {
+  position: relative;
+}
+
+
+.box {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.one {
+  left: 100px;
+  bottom: 100px;
+
+}
+
+.two {
+  right: 350px;
+  top: 200px;
+  -webkit-transform: skewY(6deg);
+    -moz-transform: skewY(6deg);
+    -ms-transform: skewY(6deg);
+    -o-transform: skewY(6deg);
+}
+
+.three {
+  right: 100px;
+  bottom: 50px;
+}
+
+.house h1 {
+  font-size: 9px;
+}
+
+.house p {
+  font-size: 4.5px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+</style>
+
+  </head>
+
+    <body>
+      <div class="container zoomViewport">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+            <div class="col-3 interactive-title">
+              <h3>Money In, Money Out</h3>
+              <p>By Madison Walls</p>
+            </div>
+            <div class="col-9 interactive-info">
+              <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers this year.</p>
+              <p>Of that, $10 billion are for the recovery efforts of Harvey, Maria and Irma.</p>
+              <p>Puerto Rico is asking the federal government for $800 million to repair El Caño.</p>
+              <p>That is only 5.3% of the funding.</p>
+              <p>Click on a section to see how the money will be used.</p>
+            </div>
+            </div>
+          <div class="col-12 house zoomContainer">
+            <img src="../assets/images/house.png" alt="house" width="100%" height="auto">
+              <div class="box one zoomTarget">
+              <h1>Housing and Development</h1>
+              <p>$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
+              </div>
+              <div class="box two zoomTarget">
+              <h1>Infrastructure</h1>
+              <p>It will cost $300 million dollars to restructure the neighborhoods and allow for more efficient power sources. This cost will include the possibility of green infrastructure strategies and power microgrids. </p>
+              </div>
+              <div class="box three zoomTarget">
+              <h1>Dredging</h1>
+              <p>The lowest cost of the project comes from dredging the river. It will cost $200 million dollars to widden the river and preventit from flooding during rain and stagnate when levels lower. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
