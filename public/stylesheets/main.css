@@ -197,6 +197,14 @@ body, html {
   height: 100px; }
   .homepage-logo img {
     width: 25%; }
+  @media (max-width: 570px) {
+    .homepage-logo {
+      margin-top: 30vh;
+      height: 100px; }
+      .homepage-logo img {
+        width: 75%; }
+      .homepage-logo p {
+        font-size: 1em; } }
 
 .homepage-icon-row {
   display: flex;
@@ -218,6 +226,9 @@ body, html {
       .homepage-icon-row ul li .homepage-icon {
         height: 120px;
         width: auto; }
+  @media (max-width: 570px) {
+    .homepage-icon-row {
+      display: none; } }
 
 .homepage-subtitle {
   color: white;

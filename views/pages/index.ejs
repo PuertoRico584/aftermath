@@ -12,7 +12,24 @@
 </head>
 
 <body class="homepage">
+  <style>
+  @media only screen and (min-width: 570px) {
+    .nav-wrap-2{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 570px) {
+    .navbar{
+      background-color: transparent!important;
+    }
+    .navbar-brand{
+      display: none;
+    }
+}
 
+  </style>
+
+<% include ../partials/nav.ejs %>
 <!-- <img preload="auto" id="click-event" class="homepage-image" src="assets/images/option2.jpg"/> -->
 <div id="click-event2" class="video-wrapper"><video autoplay muted loop preload="auto" class="video" src="assets/images/water.mp4"></video></div>
 <div id="click-event3" class="video-wrapper"><video autoplay muted loop preload="auto" class="video" src="assets/images/pollution.mp4"></video></div>

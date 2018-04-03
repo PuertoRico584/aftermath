@@ -71,6 +71,16 @@ body, html {
   img {
     width: 25%;
   }
+  @include media('<=sm') {
+    margin-top: 30vh;
+    height: 100px;
+    img{
+      width: 75%;
+    }
+    p{
+      font-size: 1em;
+    }
+  }
 }
 .homepage-icon-row {
   display:flex;
@@ -99,6 +109,9 @@ body, html {
         width: auto;
       }
     }
+  }
+  @include media('<=sm') {
+    display: none;
   }
 }
 .homepage-subtitle{
@@ -132,6 +145,7 @@ body, html {
   width: 100%;
   z-index: 3;
 }
+
 
 @media only screen and (max-width: 1150px) {
     .navbar-nav {
