@@ -586,14 +586,14 @@ h5 {
 
 .title-line h1 {
   font-weight: 300;
-  font-size: 7.25em; }
+  font-size: 6.25em; }
 
 .title-line-two {
   flex-wrap: wrap;
   text-transform: uppercase;
-  font-size: 7.8em;
+  font-size: 6.8em;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 0.7em;
   margin-bottom: 0px; }
 
 .deck {
@@ -609,7 +609,7 @@ h5 {
 
 .icon img {
   vertical-align: middle;
-  max-height: 100%;
+  max-height: 80%;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -623,23 +623,38 @@ h5 {
 .row {
   margin-right: 0px; }
 
-@media only screen and (max-width: 1120px) {
-  .title-line h1 {
-    font-size: 6.25em; }
-  .title-line-two {
-    font-size: 6.6em; } }
+.plyr__control {
+  color: #fff; }
 
-@media only screen and (max-width: 950px) {
+.plyr--video .plyr__controls .plyr__control:hover {
+  background: #83c4d6; }
+
+.plyr__control--overlaid {
+  background: #83c4d6; }
+
+.plyr__control--overlaid:hover {
+  background: #6ea8b8; }
+
+.plyr--full-ui input[type=range] {
+  color: #83c4d6; }
+
+@media only screen and (max-width: 1120px) {
   .title-line h1 {
     font-size: 5.25em; }
   .title-line-two {
-    font-size: 5.4em; } }
+    font-size: 5.6em; } }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   .title-line h1 {
     font-size: 4.25em; }
   .title-line-two {
-    font-size: 4.4em; }
+    font-size: 4.4em; } }
+
+@media only screen and (max-width: 800px) {
+  .title-line h1 {
+    font-size: 4.0em; }
+  .title-line-two {
+    font-size: 4.2em; }
   .deck {
     font-size: 14px;
     top: 75%; }
@@ -806,28 +821,32 @@ h5 {
   padding-bottom: 2%; }
 
 #abouttitle-box {
-  width: 85%;
-  margin: auto;
-  display: flex;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-content: center;
   flex-flow: wrap;
   text-align: center;
   text-transform: uppercase;
   padding-top: 10%;
-  color: #000;
+  color: #fff;
   align-items: center; }
   #abouttitle-box .title-line {
     display: flex;
     flex-direction: column; }
     #abouttitle-box .title-line h1 {
-      font-weight: 300;
-      font-size: 7em; }
+      font-weight: 100;
+      font-size: 7em;
+      color: #fff; }
     #abouttitle-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;
       font-size: 10em;
       font-weight: 900;
-      margin-top: -12%; }
+      margin-top: -5%;
+      color: #fff; }
 
 .left-box {
   padding-top: 1%; }
@@ -873,7 +892,9 @@ h5 {
 
 .team-nav h3 {
   text-align: right;
-  margin-bottom: 20px; }
+  padding-bottom: 10px;
+  font-weight: 100;
+  border-bottom: 2px solid #83c4d6; }
 
 .mixitup-control-active {
   position: relative; }
@@ -881,15 +902,29 @@ h5 {
 .team-nav ul {
   list-style-type: none;
   padding: 0px;
-  text-align: right;
-  border-right: solid #000 1px; }
+  text-align: right; }
 
 .team-nav li {
-  padding: 8px 15px 8px 30px; }
+  padding: 8px 0px 8px 30px;
+  color: #616161;
+  font-weight: 100; }
 
 .team-nav li:hover {
-  color: #508091;
-  font-weight: 800; }
+  color: #000;
+  font-weight: 400;
+  cursor: pointer; }
 
 .about-section {
   margin-top: 80px; }
+
+.about-background {
+  width: 100%;
+  height: 80vh;
+  z-index: -2;
+  background-image: url("../../assets/images/power-hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  position: relative; }
