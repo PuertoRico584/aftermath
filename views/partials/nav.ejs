@@ -6,33 +6,38 @@
 <nav class="navbar hidden navbar-expand-lg navbar-light bg-light nav-down">
 
   <div class="mobile-nav-bar"><a class="navbar-brand" href="/"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" onclick="toggleTitle()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button></div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" onmouseover="fadeIconsNav(0)" onmouseout="unfadeIconsNav(0)">
         <a class="nav-link" href="pages/water" id="link-0">
+          <img id="click-me2" class="nav-icon" src="assets/images/homepage-icons/water.png">
           <h3 class="nav-header">water</h3><h5>dredging with hope</h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(1)" onmouseout="unfadeIconsNav(1)">
         <a class="nav-link" href="pages/pollution" id="link-1">
+          <img id="click-me2" class="nav-icon" src="assets/images/homepage-icons/pollution.png">
           <h3 class="nav-header">pollution</h3><h5>covered in ash</h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(2)" onmouseout="unfadeIconsNav(2)">
         <a class="nav-link" href="pages/health" id="link-2">
+          <img id="click-me2" class="nav-icon" src="assets/images/homepage-icons/health.png">
           <h3 class="nav-header">health</h3><h5>the healing brigade</h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(3)" onmouseout="unfadeIconsNav(3)">
         <a class="nav-link" href="pages/power" id="link-3">
+          <img id="click-me2" class="nav-icon" src="assets/images/homepage-icons/power.png">
           <h3 class="nav-header">power</h3><h5>where's the light</h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(4)" onmouseout="unfadeIconsNav(4)">
         <a class="nav-link" href="pages/biodiversity" id="link-4">
+          <img id="click-me2" class="nav-icon" src="assets/images/homepage-icons/biodiversity.png">
           <h3 class="nav-header">biodiversity</h3><h5>learning from the forest</h5>
         </a>
       </li>
@@ -40,6 +45,11 @@
     </div>
       <div class="es-and-about">
         <p><a href="#">ES</a> | <a href="about">About</a></p>
+        <div class="mobile-social-icons">
+             <a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank" onmouseover="fadeIconsFooter(0)" onmouseout="unfadeIconsFooter(0)"><img id="footer-0" src="../../assets/images/social/facebook.png"></a>
+             <a class="instagram" href="https://www.instagram.com/aftermath_unc" target="_blank" onmouseover="fadeIconsFooter(1)" onmouseout="unfadeIconsFooter(1)"><img id="footer-1" src="../../assets/images/social/instagram.png"></a>
+             <a class="twitter" href="https://www.twitter.com/aftermath_unc" target="_blank" onmouseover="fadeIconsFooter(2)" onmouseout="unfadeIconsFooter(2)"><img id="footer-2" src="../../assets/images/social/twitter.png"></a>
+        </div>
       </div>
 </nav>
 </div>
