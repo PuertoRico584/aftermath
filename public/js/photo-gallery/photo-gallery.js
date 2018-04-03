@@ -1,4 +1,5 @@
 // Credit: http://photoswipe.com
+
 // Function for photoswipe
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
@@ -30,7 +31,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+                author: linkEl.getAttribute('data-author'),
+                title: linkEl.getAttribute('data-title')
             };
 
 
@@ -151,7 +154,38 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                     rect = thumbnail.getBoundingClientRect();
 
                 return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
-            }
+            },
+
+            // Buttons/elements
+            closeEl:true,
+            captionEl: true,
+            fullscreenEl: true,
+            zoomEl: true,
+            shareEl: true,
+            counterEl: true,
+            arrowEl: true,
+            preloaderEl: true,
+
+            // Tap on sliding area should close gallery
+            tapToClose: false,
+
+            // Tap should toggle visibility of controls
+            tapToToggleControls: true,
+
+            // Mouse click on image should close the gallery,
+            // only when image is smaller than size of the viewport
+            clickToCloseNonZoomable: true,
+
+            // Element classes click on which should close the PhotoSwipe.
+            // In HTML markup, class should always start with "pswp__", e.g.: "pswp__item", "pswp__caption".
+            //
+            // "pswp__ui--over-close" class will be added to root element of UI when mouse is over one of these elements
+            // By default it's used to highlight the close button.
+            closeElClasses: ['item', 'caption', 'zoom-wrap', 'ui', 'top-bar'],
+
+            // Separator for "1 of X" counter
+            indexIndicatorSep: ' / '
+
 
         };
 
@@ -203,23 +237,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     }
 
 };
-
-// Function for simple slider
-
-//UI options
-// Share buttons
-//
-// Available variables for URL:
-// {{url}}             - url to current page
-// {{text}}            - title
-// {{image_url}}       - encoded image url
-// {{raw_image_url}}   - raw image url
-shareButtons: [
-    {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{image_url}}'},
-    {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{image_url}}'},
-    {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}'},
-    {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
-]
 
 // Media query for mobile
 const mq = window.matchMedia("(min-width: 766px)");

@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.pswp__caption__center {
+  font-size: 20px;
+}
+
 #photo-gallery {
   margin: auto;
  padding-bottom: 40px;
@@ -20,6 +24,11 @@
     padding: 5px;
     margin: 0px;
     box-sizing: border-box;
+  }
+
+  small {
+    text-transform: uppercase;
+    display: block; 
   }
 
   a {
