@@ -201,6 +201,12 @@
       "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
     },
     {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
+    },
+    {
       "type": "text",
       "value": "“I think his life is going to be a lot more prosperous than mine,” Orlando Sr. says about his son. “I don’t think he’ll have to go through the same challenges.”"
     },
