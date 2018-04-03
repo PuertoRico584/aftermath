@@ -214,11 +214,14 @@ body, html {
       height: 49px;
       margin-top: -7px;
     }
+  }
   &-social-icons{
-
+    @include media('>=sm'){
+      display: none;
+    }
   }
 }
-}
+
 
 .navbar-light .navbar-toggler{
   margin-top: 19px;

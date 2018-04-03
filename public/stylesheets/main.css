@@ -317,6 +317,10 @@ body, html {
       height: 49px;
       margin-top: -7px; } }
 
+@media (min-width: 570px) {
+  .mobile-social-icons {
+    display: none; } }
+
 .navbar-light .navbar-toggler {
   margin-top: 19px;
   margin-left: 160px; }
