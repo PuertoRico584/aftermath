@@ -531,14 +531,14 @@ h5 {
 
 .title-line h1 {
   font-weight: 300;
-  font-size: 7.25em; }
+  font-size: 6.25em; }
 
 .title-line-two {
   flex-wrap: wrap;
   text-transform: uppercase;
-  font-size: 7.8em;
+  font-size: 6.8em;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 0.7em;
   margin-bottom: 0px; }
 
 .deck {
@@ -554,7 +554,7 @@ h5 {
 
 .icon img {
   vertical-align: middle;
-  max-height: 100%;
+  max-height: 80%;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -568,23 +568,38 @@ h5 {
 .row {
   margin-right: 0px; }
 
-@media only screen and (max-width: 1120px) {
-  .title-line h1 {
-    font-size: 6.25em; }
-  .title-line-two {
-    font-size: 6.6em; } }
+.plyr__control {
+  color: #fff; }
 
-@media only screen and (max-width: 950px) {
+.plyr--video .plyr__controls .plyr__control:hover {
+  background: #83c4d6; }
+
+.plyr__control--overlaid {
+  background: #83c4d6; }
+
+.plyr__control--overlaid:hover {
+  background: #6ea8b8; }
+
+.plyr--full-ui input[type=range] {
+  color: #83c4d6; }
+
+@media only screen and (max-width: 1120px) {
   .title-line h1 {
     font-size: 5.25em; }
   .title-line-two {
-    font-size: 5.4em; } }
+    font-size: 5.6em; } }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   .title-line h1 {
     font-size: 4.25em; }
   .title-line-two {
-    font-size: 4.4em; }
+    font-size: 4.4em; } }
+
+@media only screen and (max-width: 800px) {
+  .title-line h1 {
+    font-size: 4.0em; }
+  .title-line-two {
+    font-size: 4.2em; }
   .deck {
     font-size: 14px;
     top: 75%; }
@@ -773,8 +788,8 @@ h5 {
     #abouttitle-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;
-      font-size: 11em;
-      font-weight: 100;
+      font-size: 10em;
+      font-weight: 900;
       margin-top: -5%;
       color: #fff; }
 
