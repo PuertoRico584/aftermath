@@ -852,6 +852,660 @@ h5 {
   #grid {
     display: none; } }
 
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.power-interactive {
+  /* ===== ScrollMagic Class ==============================================
+   Author: Petr Tichy - ihatetomatoes.net
+   ========================================================================== */
+  /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  /* =Main */
+  /* ==========================================================================
+   Media Queries
+   ========================================================================== */
+  /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+  /* ==========================================================================
+   Print styles
+   ========================================================================== */
+  /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+  /* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+  /**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+  /**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+  /**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+  /**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+  /* ==========================================================================
+   Base
+   ========================================================================== */
+  /**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+  /**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+  /**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+  /* ==========================================================================
+   Links
+   ========================================================================== */
+  /**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+  /**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+  /* ==========================================================================
+   Typography
+   ========================================================================== */
+  /**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+  /**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+  /**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+  /**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+  /**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+  /**
+ * Address styling not present in IE 6/7/8/9.
+ */
+  /**
+ * Address margins set differently in IE 6/7.
+ */
+  /**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+  /**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+  /**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+  /**
+ * Address `quotes` property not supported in Safari 4.
+ */
+  /**
+ * Address inconsistent and variable font size in all browsers.
+ */
+  /**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+  /* ==========================================================================
+   Lists
+   ========================================================================== */
+  /**
+ * Address margins set differently in IE 6/7.
+ */
+  /**
+ * Address paddings set differently in IE 6/7.
+ */
+  /**
+ * Correct list images handled incorrectly in IE 7.
+ */
+  /* ==========================================================================
+   Embedded content
+   ========================================================================== */
+  /**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+  /**
+ * Correct overflow displayed oddly in IE 9.
+ */
+  /* ==========================================================================
+   Figures
+   ========================================================================== */
+  /**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+  /* ==========================================================================
+   Forms
+   ========================================================================== */
+  /**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+  /**
+ * Define consistent border, margin, and padding.
+ */
+  /**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+  /**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+  /**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+  /**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+  /**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+  /**
+ * Re-set default cursor for disabled elements.
+ */
+  /**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+  /**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+  /**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+  /**
+ * Remove inner padding and border in Firefox 3+.
+ */
+  /**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+  /* ==========================================================================
+   Tables
+   ========================================================================== */
+  /**
+ * Remove most spacing between table cells.
+ */ }
+  .power-interactive .fade-png {
+    width: 100%;
+    height: auto; }
+  .power-interactive .fade-png2 {
+    width: 100%;
+    height: auto;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 100; }
+  .power-interactive .lights-out {
+    width: 60%;
+    height: auto;
+    margin: auto; }
+  .power-interactive .lights-out-header {
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center; }
+  .power-interactive .battery {
+    height: 40%;
+    width: auto;
+    margin: auto;
+    margin-left: 38.5%; }
+  .power-interactive .testing {
+    margin: auto;
+    text-align: center; }
+  .power-interactive html,
+  .power-interactive button,
+  .power-interactive input,
+  .power-interactive select,
+  .power-interactive textarea {
+    color: #222; }
+  .power-interactive html {
+    font-size: 1em;
+    line-height: 1.4; }
+  .power-interactive ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none; }
+  .power-interactive ::selection {
+    background: #b3d4fc;
+    text-shadow: none; }
+  .power-interactive hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; }
+  .power-interactive audio,
+  .power-interactive canvas,
+  .power-interactive img,
+  .power-interactive video {
+    vertical-align: middle; }
+  .power-interactive fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0; }
+  .power-interactive textarea {
+    resize: vertical; }
+  .power-interactive .browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0; }
+  .power-interactive body {
+    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+    /* background-color: black; */ }
+  .power-interactive .wrapper {
+    width: 90%;
+    margin: 0 5%; }
+  .power-interactive #intro {
+    height: 100vh;
+    background: radial-gradient(circle, #74A6EE 0%, #485CB2 100%);
+    text-align: center;
+    color: #fff; }
+  .power-interactive #intro .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .power-interactive .project {
+    text-align: center;
+    padding: 200px 0;
+    /* border-bottom: 1px #ebebeb solid; */
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+    background-color: black; }
+  .power-interactive .project.fade-in {
+    opacity: 1;
+    transform: translateY(0); }
+  .power-interactive .project p {
+    max-width: 40%;
+    margin: 0 auto;
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project00 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project01 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project02 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project03 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project04 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project05 h2 {
+    color: white;
+    font-family: "quasimoda",sans-serif; }
+  .power-interactive #main {
+    position: relative;
+    /* background-color: #000; */ }
+  .power-interactive .main-text {
+    background-color: black; }
+  .power-interactive .bcg-parallax {
+    padding: 150px 0;
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden; }
+  .power-interactive .bcg {
+    background: url("../img/gen.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7; }
+  .power-interactive .content-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2; }
+  @media only screen and (min-width: 480px) {
+    .power-interactive {
+      /* =General */
+      /* =Header */
+      /* =Footer */ } }
+  @media only screen and (min-width: 768px) {
+    .power-interactive {
+      /* =General */
+      /* =Header */
+      /* =Footer */ } }
+  @media only screen and (min-width: 1140px) {
+    .power-interactive {
+      /* =General */
+      /* =Header */
+      /* =Footer */ } }
+  .power-interactive .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px; }
+  .power-interactive .ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%; }
+  .power-interactive .hidden {
+    display: none !important;
+    visibility: hidden; }
+  .power-interactive .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .power-interactive .visuallyhidden.focusable:active,
+  .power-interactive .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto; }
+  .power-interactive .invisible {
+    visibility: hidden; }
+  .power-interactive .clearfix:before,
+  .power-interactive .clearfix:after {
+    content: " ";
+    display: table; }
+  .power-interactive .clearfix:after {
+    clear: both; }
+  .power-interactive .clearfix {
+    *zoom: 1; }
+  @media print {
+    .power-interactive * {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important; }
+    .power-interactive a,
+    .power-interactive a:visited {
+      text-decoration: underline; }
+    .power-interactive a[href]:after {
+      content: " (" attr(href) ")"; }
+    .power-interactive abbr[title]:after {
+      content: " (" attr(title) ")"; }
+    .power-interactive .ir a:after,
+    .power-interactive a[href^="javascript:"]:after,
+    .power-interactive a[href^="#"]:after {
+      content: ""; }
+    .power-interactive pre,
+    .power-interactive blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid; }
+    .power-interactive thead {
+      display: table-header-group; }
+    .power-interactive tr,
+    .power-interactive img {
+      page-break-inside: avoid; }
+    .power-interactive img {
+      max-width: 100% !important; }
+    @page {
+      .power-interactive {
+        margin: 0.5cm; } }
+    .power-interactive p,
+    .power-interactive h2,
+    .power-interactive h3 {
+      orphans: 3;
+      widows: 3; }
+    .power-interactive h2,
+    .power-interactive h3 {
+      page-break-after: avoid; } }
+  .power-interactive article,
+  .power-interactive aside,
+  .power-interactive details,
+  .power-interactive figcaption,
+  .power-interactive figure,
+  .power-interactive footer,
+  .power-interactive header,
+  .power-interactive hgroup,
+  .power-interactive main,
+  .power-interactive nav,
+  .power-interactive section,
+  .power-interactive summary {
+    display: block; }
+  .power-interactive audio,
+  .power-interactive canvas,
+  .power-interactive video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+  .power-interactive audio:not([controls]) {
+    display: none;
+    height: 0; }
+  .power-interactive [hidden] {
+    display: none; }
+  .power-interactive html {
+    font-size: 100%;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
+  .power-interactive html,
+  .power-interactive button,
+  .power-interactive input,
+  .power-interactive select,
+  .power-interactive textarea {
+    font-family: sans-serif; }
+  .power-interactive body {
+    margin: 0; }
+  .power-interactive a:focus {
+    outline: thin dotted; }
+  .power-interactive a:active,
+  .power-interactive a:hover {
+    outline: 0; }
+  .power-interactive h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+  .power-interactive h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0; }
+  .power-interactive h3 {
+    font-size: 1.17em;
+    margin: 1em 0; }
+  .power-interactive h4 {
+    font-size: 1em;
+    margin: 1.33em 0; }
+  .power-interactive h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0; }
+  .power-interactive h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0; }
+  .power-interactive abbr[title] {
+    border-bottom: 1px dotted; }
+  .power-interactive b,
+  .power-interactive strong {
+    font-weight: bold; }
+  .power-interactive blockquote {
+    margin: 1em 40px; }
+  .power-interactive dfn {
+    font-style: italic; }
+  .power-interactive hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0; }
+  .power-interactive mark {
+    background: #ff0;
+    color: #000; }
+  .power-interactive p,
+  .power-interactive pre {
+    margin: 1em 0; }
+  .power-interactive code,
+  .power-interactive kbd,
+  .power-interactive pre,
+  .power-interactive samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em; }
+  .power-interactive pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+  .power-interactive q {
+    quotes: none; }
+  .power-interactive q:before,
+  .power-interactive q:after {
+    content: '';
+    content: none; }
+  .power-interactive small {
+    font-size: 80%; }
+  .power-interactive sub,
+  .power-interactive sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  .power-interactive sup {
+    top: -0.5em; }
+  .power-interactive sub {
+    bottom: -0.25em; }
+  .power-interactive dl,
+  .power-interactive menu,
+  .power-interactive ol,
+  .power-interactive ul {
+    margin: 1em 0; }
+  .power-interactive dd {
+    margin: 0 0 0 40px; }
+  .power-interactive menu,
+  .power-interactive ol,
+  .power-interactive ul {
+    padding: 0 0 0 40px; }
+  .power-interactive nav ul,
+  .power-interactive nav ol {
+    list-style: none;
+    list-style-image: none; }
+  .power-interactive img {
+    border: 0;
+    /* 1 */
+    -ms-interpolation-mode: bicubic;
+    /* 2 */ }
+  .power-interactive svg:not(:root) {
+    overflow: hidden; }
+  .power-interactive figure {
+    margin: 0; }
+  .power-interactive form {
+    margin: 0; }
+  .power-interactive fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em; }
+  .power-interactive legend {
+    border: 0;
+    /* 1 */
+    padding: 0;
+    white-space: normal;
+    /* 2 */
+    *margin-left: -7px;
+    /* 3 */ }
+  .power-interactive button,
+  .power-interactive input,
+  .power-interactive select,
+  .power-interactive textarea {
+    font-size: 100%;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    vertical-align: baseline;
+    /* 3 */
+    *vertical-align: middle;
+    /* 3 */ }
+  .power-interactive button,
+  .power-interactive input {
+    line-height: normal; }
+  .power-interactive button,
+  .power-interactive select {
+    text-transform: none; }
+  .power-interactive button,
+  .power-interactive html input[type="button"],
+  .power-interactive input[type="reset"],
+  .power-interactive input[type="submit"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+    *overflow: visible;
+    /* 4 */ }
+  .power-interactive button[disabled],
+  .power-interactive html input[disabled] {
+    cursor: default; }
+  .power-interactive input[type="checkbox"],
+  .power-interactive input[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+    *height: 13px;
+    /* 3 */
+    *width: 13px;
+    /* 3 */ }
+  .power-interactive input[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    /* 2 */
+    box-sizing: content-box; }
+  .power-interactive input[type="search"]::-webkit-search-cancel-button,
+  .power-interactive input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+  .power-interactive button::-moz-focus-inner,
+  .power-interactive input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .power-interactive textarea {
+    overflow: auto;
+    /* 1 */
+    vertical-align: top;
+    /* 2 */ }
+  .power-interactive table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
 .text-row {
   padding-top: 5%;
   padding-bottom: 2%; }
