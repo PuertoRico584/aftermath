@@ -28,6 +28,7 @@ $(document).ready(function(){
 
   $("#click-me2").hover(function () {
     $("#click-event2").fadeToggle();
+        console.log("nut again");
   });
   $("#click-me3").hover(function () {
     $("#click-event3").fadeToggle();
@@ -53,9 +54,7 @@ function fadeIcons(x){
     tempNumber = i + 2;
     tempString = tempNumber.toString();
     tempId = '#click-me' + tempString;
-     if (i == x){
-
-     }else{
+     if (i != x){
        $(tempId).css("opacity", "0.4");
      }
    }
