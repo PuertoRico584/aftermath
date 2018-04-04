@@ -466,7 +466,7 @@ h5 {
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
-    line-height: 1.2em;
+    line-height: 0.8em;
     margin-top: 12px; }
 
 .inner .byline-head {
@@ -651,16 +651,16 @@ h5 {
   color: #fff; }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: #83c4d6; }
+  background: #508091; }
 
 .plyr__control--overlaid {
-  background: #83c4d6; }
+  background: #508091; }
 
 .plyr__control--overlaid:hover {
   background: #6ea8b8; }
 
 .plyr--full-ui input[type=range] {
-  color: #83c4d6; }
+  color: #508091; }
 
 @media only screen and (max-width: 1120px) {
   .title-line h1 {
@@ -766,7 +766,8 @@ h5 {
   .footer-wrapper img {
     padding-top: 0px; }
   .footer-wrapper {
-    padding-bottom: 15px; } }
+    padding-bottom: 15px;
+    margin-top: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/
@@ -1584,7 +1585,7 @@ h5 {
   text-align: right;
   padding-bottom: 10px;
   font-weight: 100;
-  border-bottom: 2px solid #83c4d6; }
+  border-bottom: 2px solid #508091; }
 
 .mixitup-control-active {
   position: relative; }
