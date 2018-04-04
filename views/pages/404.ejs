@@ -10,16 +10,36 @@
     <meta property="og:description" content="<%= espanol ? "404: No hay página": "404: Page Not Found" %>" />
 
   <style>
+
   body {
-    background-image:url('/assets/images/404.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 35px;
+    background-color:#000;
   }
   .error-page{
-    margin-top:30%;
     color:#fff;
-    text-align:center;
+    background-image:url('/assets/images/404.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 50px;
+    min-height:600px;
+    position:relative;
+  }
+  .oops {
+    position:absolute;
+    bottom:20%;
+    left: 15%;
+    font-size:90%;
+  }
+  @media only screen and (min-width: 1200px) {
+    .error-page {
+        background-size: cover;
+    }
+    .oops {
+      bottom: 10px;
+    }
+}
+
+  .btn {
+    margin-top:25px;
   }
   </style>
 </head>
@@ -28,9 +48,10 @@
   <% include ../partials/nav.ejs %>
 
   <div class="error-page">
-    <div>
+    <div class="oops">
 		  <h1>Oops!</h1>
-		  <h2><%= espanol ? "Has venido al lugar equivocado":"You've come to the wrong page!" %></h2>
+		  <h2><%= espanol ? "Has venido al lugar equivocado":"Page Not Found." %></h2>
+      <a href="/" class ="btn btn-outline-light btn-lg">HOME</a>
 		</div>
   </div>
 </body>
