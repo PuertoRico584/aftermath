@@ -759,7 +759,8 @@ h5 {
   .footer-wrapper img {
     padding-top: 0px; }
   .footer-wrapper {
-    padding-bottom: 15px; } }
+    padding-bottom: 15px;
+    margin-top: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/
