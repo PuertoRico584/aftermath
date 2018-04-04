@@ -3,8 +3,8 @@
     "class": "biodiversity"
   },
   "header": {
-    "title-line-one": "Learning From",
-    "title-line-two": "The Forest",
+    "title-line-one": "Nature’s",
+    "title-line-two": "Revolutionary",
     "seo": "Learning From the Forest - Farmers in Puerto Rico take lessons from El Yunque",
     "subtitle": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
   },
@@ -19,6 +19,12 @@
     },
     {
       "name": "Gabi Palacio"
+    },
+    {
+      "name": "Alexis Fairbanks"
+    },
+    {
+      "name": "Kaitlin Harlow"
     }
   ],
   "designers": [
@@ -28,10 +34,13 @@
   ],
   "upr": [
     {
-      "name": "UPR Student"
+      "name": "Hyam Colon"
     },
     {
-      "name": "UPR Student 2"
+      "name": "Denelys Estevez"
+    },
+    {
+      "name": "David Ramos"
     }
   ],
   "text": [
@@ -202,12 +211,6 @@
     {
       "type": "text",
       "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
-    },
-    {
-      "type": "slider",
-      "value": {
-        "value": "{}"
-      }
     },
     {
       "type": "text",
