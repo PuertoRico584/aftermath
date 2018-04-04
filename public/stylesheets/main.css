@@ -324,7 +324,14 @@ body, html {
 
 .navbar-light .navbar-toggler {
   margin-top: 19px;
-  margin-left: 160px; }
+  margin-left: 168px; }
+  @media (max-width: 570px) {
+    .navbar-light .navbar-toggler {
+      margin-left: 140px; } }
+
+@media only screen and (max-width: 320px) {
+  .navbar-light .navbar-toggler {
+    margin-left: 100px; } }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../assets/images/hamburger-temp.png"); }
