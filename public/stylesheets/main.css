@@ -379,6 +379,22 @@ h5 {
   border-radius: 120px;
   overflow: hidden; }
 
+@media only screen and (max-width: 1160px) {
+  .homepage-icon-row ul li {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media only screen and (max-width: 950px) {
+  .homepage-icon-row {
+    justify-content: center; }
+    .homepage-icon-row ul {
+      list-style-type: none; }
+      .homepage-icon-row ul li {
+        display: inline-block;
+        width: 18%; }
+        .homepage-icon-row ul li .homepage-icon {
+          padding: 20px; } }
+
 .text-row {
   margin-top: 50px; }
 
@@ -738,6 +754,12 @@ h5 {
       margin-left: 10px; }
     .links a:hover {
       text-decoration: none; }
+
+@media only screen and (max-width: 1160px) {
+  .footer-wrapper img {
+    padding-top: 0px; }
+  .footer-wrapper {
+    padding-bottom: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/

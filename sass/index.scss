@@ -299,3 +299,29 @@ h5{
     overflow: hidden;
     }
 }
+
+
+@media only screen and (max-width: 1160px) {
+.homepage-icon-row ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+  .homepage-icon-row {
+    justify-content:center;
+    ul {
+      list-style-type: none;
+        li {
+        display: inline-block;
+        width: 18%;
+        .homepage-icon {
+          padding: 20px;
+        }
+      }
+    }
+
+}
+}
