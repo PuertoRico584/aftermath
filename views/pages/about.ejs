@@ -26,16 +26,14 @@
   <div class="about">
 
 	<% if (espanol) { %>
-    <p>Somos un grupo de alumnos de camarógrafos, diseñadores y desarrolladores web, periodistas y facultad unido por un objetivo común: compartir las voces de la juventud de Cuba.</p>
-
-    <p>Somos parte de un proyecto anual de La Escuela de los Medios de Comunicación y Periodismo de UNC-Chapel Hill. En los proyectos pasados, alumnos han reportado en cinco continentes y han producido trabajo premiado. Como estudiantes, estamos aprendiendo los beneficios y desafíos de reportar sobre culturas distintas; como periodistas, estamos trabajando juntos a contar las historias que moldean el mundo.</p>
 
   	<% } else { %>
-      <p>We are a group of student videographers and photographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Puerto Ricans living in the aftermath of Hurricane Maria.</p>
+      <p>We are a group of student videographers and photographers, web designers and developers, reporters and faculty brought together by a common goal: to share the voices of Puerto Ricans living in the aftermath of Hurricane Maria.  We hope the stories of how they are coping and rebuilding can serve as lessons for future natural disasters. </p>
+
+      <p>We also wish to inform our audience about Puerto Rico's recovery and encourage more people to get involved and join the conversation.  </p>
 
       <p>We are a part of an annual project by UNC-Chapel Hill’s School of Media and Journalism. In past projects, students have reported across five continents and produced award-winning multimedia work. As students, we’re learning the rewards and challenges of reporting on different cultures; as journalists, we are working as a team to tell the stories that are shaping the globe.</p>
 
-      <p>The goal of “Aftermath: Puerto Rico Rebuilds After Maria” is to show people that while mainstream media’s coverage on the aftermath of Hurricanes Irma and Maria in Puerto Rico may have slowed, the effects are still a very real issue in the daily lives of Puerto Ricans. Their voices and stories of how they are coping and rebuilding can serve as lessons for future natural disasters. We hope to inform our audiences about Puerto Rico’s recovery and encourage them to find a way to get involved and join the conversation.</p>
     <% } %>
 	</div>
 
@@ -51,10 +49,9 @@
       <h3>The Team</h3>
       <ul>
         <li data-filter="all" class="active everyone about-nav"><%= espanol ? "Todos":"EVERYONE"%> <div class="holder arrow"></div></li>
-        <li data-filter=".vid" class="videographer about-nav"><%= espanol ? "Videógrafa/o":"VIDEOGRAPHER"%><div class="holder arrow"></div></li>
+        <li data-filter=".vid" class="videographer about-nav"><%= espanol ? "Videógrafa/o":"PHOTO/VIDEO"%><div class="holder arrow"></div></li>
         <li data-filter=".rep" class="reporter about-nav"><%= espanol ? "Periodista":"REPORTER"%><div class="holder arrow"></div></li>
-        <li data-filter=".des" class="designdev about-nav"><%= espanol ? "Diseñadora":"DESIGNER"%><div class="holder arrow"></div></li>
-        <li data-filter=".dev" class="designdev about-nav"><%= espanol ? "Desarrollador/a":"DEVELOPERS"%><div class="holder arrow"></div></li>
+        <li data-filter=".dev" class="designdev about-nav"><%= espanol ? "Desarrollador/a":"DESIGN/DEV"%><div class="holder arrow"></div></li>
         <li data-filter=".coach" class="coaches about-nav"><%= espanol ? "Instructor":"COACH"%><div class="holder arrow"></div></li>
 
       </ul>
@@ -76,22 +73,27 @@
                  </video>
                </div>
               </div>
-              <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
-              <p class="team-name"><%=team[i]["fullname"]%> </p>
-              <% if ( team[i]["portfolio"]){ %>
-              <p class="portfolio">
-                  <a href="<%=team[i]["portfolio"]%>" target="_blank"><%= espanol ? "Portfolio":"Portfolio" %></a>
-              </p>
-              <% if (team[i]["portfolio"] && team[i]["social"]){ %>
-              <span> | </span>
-              <% } %>
-              <% } else { }%>
-              <% if (team[i]["social"]){ %>
-              <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
-                 <i class="fa fa-<%= team[i]["socialid"] %>" aria-hidden="true"></i>
-              </a>
 
+              <p class="team-name"><%=team[i]["fullname"]%> </p>
+              <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
+              <div class="socialmedia-about">
+              <% if (team[i]["social"]){ %>
+                <a class="about-social-icon <%= team[i]["socialid"]%>" href="<%= team[i]["social"]%>" target="_blank">
+                  <i class="fab fa-<%= team[i]["socialid"] %> fa-lg" aria-hidden="true"></i>
+                </a>
+              <% } if (team[i]["social2"]){ %>
+                <a class="about-social-icon <%= team[i]["socialid2"]%>" href="<%= team[i]["social2"]%>" target="_blank">
+                  <i class="fab fa-<%= team[i]["socialid2"] %> fa-lg" aria-hidden="true"></i>
+                </a>
+              <% } if (team[i]["social3"]){ %>
+                <a class="about-social-icon <%= team[i]["socialid3"]%>" href="<%= team[i]["social3"]%>" target="_blank">
+                  <i class="fab fa-<%= team[i]["socialid3"] %> fa-lg" aria-hidden="true"></i>
+                </a>
+              <% } else { }%>
+              <% if ( team[i]["portfolio"]){ %>
+                    <a href="<%=team[i]["portfolio"]%>" target="_blank" class="portfolio about-social-icon"><i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
                 <% } else { }%>
+              </div>
               </div>
           </div>
 

@@ -1573,17 +1573,28 @@ h5 {
   color: #616161; }
 
 .role {
-  font-size: 12px;
+  font-size: 14px;
   margin: 5px 0px;
   line-height: 1em;
   color: #616161; }
+
+.socialmedia-about {
+  padding-top: 10px; }
+
+a.about-social-icon {
+  color: #696969; }
+
+.linkedin:hover {
+  color: #0077B5 !important; }
+
+.portfolio:hover {
+  color: #508091; }
 
 .team-name {
   font-family: "quasimoda",sans-serif;
   font-size: 18px;
   margin: 2px 0px;
-  line-height: 1em;
-  color: #616161; }
+  line-height: 1em; }
 
 .team-info {
   margin: 20px 0px; }
@@ -1617,7 +1628,7 @@ h5 {
   cursor: pointer; }
 
 .about-section {
-  margin-top: 80px; }
+  margin-top: 50px; }
 
 .about-background {
   width: 100%;
