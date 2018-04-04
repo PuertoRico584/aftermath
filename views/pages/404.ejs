@@ -10,47 +10,28 @@
     <meta property="og:description" content="<%= espanol ? "404: No hay página": "404: Page Not Found" %>" />
 
   <style>
-
+  body {
+    background-image:url('/assets/images/404.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35px;
+  }
   .error-page{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-		overflow:hidden;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top:30%;
+    color:#fff;
+    text-align:center;
   }
-
-  .img-wrapper img{
-		height:80vh;
-		float:right;
-  }
-
-	.img-wrapper{
-		top:90px;
-		right:-30px;
-		overflow:hidden;
-	}
-
-
   </style>
 </head>
 
 <body>
-
-
   <% include ../partials/nav.ejs %>
 
   <div class="error-page">
     <div>
-		  <h1>¡Ay, Dios mío!</h1>
+		  <h1>Oops!</h1>
 		  <h2><%= espanol ? "Has venido al lugar equivocado":"You've come to the wrong page!" %></h2>
 		</div>
-
-
   </div>
-
-
-
 </body>
 </html>
