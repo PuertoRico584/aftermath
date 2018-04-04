@@ -57,3 +57,14 @@
     }
   }
 }
+
+@media only screen and (max-width: 1160px) {
+  .footer-wrapper img {
+    padding-top: 0px;
+  }
+
+  .footer-wrapper {
+    padding-bottom: 15px;
+  }
+
+}
