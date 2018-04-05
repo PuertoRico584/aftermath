@@ -1079,6 +1079,10 @@ h5 {
     text-transform: uppercase;
     text-align: center;
     font-size: 40pt; }
+  .power-interactive .lights-out-subtitle {
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
     width: 40%;
     height: auto;
@@ -1087,6 +1091,14 @@ h5 {
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
+  .power-interactive .but-why {
+    width: 100%;
+    height: auto; }
+  .power-interactive .but-why-list {
+    list-style-type: none; }
+    .power-interactive .but-why-list li {
+      display: inline-block;
+      text-decoration: none; }
   .power-interactive html,
   .power-interactive button,
   .power-interactive input,

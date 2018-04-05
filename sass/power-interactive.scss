@@ -4,6 +4,7 @@
 //   height: auto;
 //   z-index: -1000;
 // }
+
 .power-interactive {
   .fade-png{
     width: 100%;
@@ -31,6 +32,11 @@
     text-align: center;
     font-size: 40pt;
   }
+  .lights-out-subtitle{
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+  }
   .battery{
     width: 40%;
     height: auto;
@@ -41,6 +47,17 @@
   .testing{
     margin: auto;
     text-align: center;
+  }
+  .but-why{
+    width: 100%;
+    height: auto;
+  }
+  .but-why-list{
+    list-style-type: none;
+    li{
+      display: inline-block;
+      text-decoration: none;
+    }
   }
 html,
 button,
