@@ -14,3 +14,15 @@ function toggleTitle(){
     $('.es-and-about').css('display', 'none');
   }
 }
+
+
+function toggleTitleInner(){
+  $('.navbar-brand').css('z-index','2');
+
+  if ( $('.es-and-about').css('display') == 'none' ){
+    $('.es-and-about').css('display', 'flex');
+  }
+  else {
+    $('.es-and-about').css('display', 'none');
+  }
+}
