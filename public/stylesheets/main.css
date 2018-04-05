@@ -1090,10 +1090,10 @@ h5 {
  */ }
   .power-interactive .fade-png {
     width: 100%;
-    height: auto; }
+    height: 500px; }
   .power-interactive .fade-png2 {
     width: 100%;
-    height: auto;
+    height: 500px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -1101,22 +1101,35 @@ h5 {
     transform: rotate(180deg);
     z-index: 100; }
   .power-interactive .lights-out {
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: auto; }
   .power-interactive .lights-out-header {
     color: white;
     margin: auto;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    font-size: 40pt; }
+  .power-interactive .lights-out-subtitle {
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
-    height: 40%;
-    width: auto;
+    width: 40%;
+    height: auto;
     margin: auto;
-    margin-left: 38.5%; }
+    margin-left: 30%; }
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
+  .power-interactive .but-why {
+    width: 100%;
+    height: auto; }
+  .power-interactive .but-why-list {
+    list-style-type: none; }
+    .power-interactive .but-why-list li {
+      display: inline-block;
+      text-decoration: none; }
   .power-interactive html,
   .power-interactive button,
   .power-interactive input,
@@ -1183,13 +1196,20 @@ h5 {
     opacity: 1;
     transform: translateY(0); }
   .power-interactive .project p {
-    max-width: 40%;
+    text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "quasimoda",sans-serif; }
+    font-family: "source-sans-pro",sans-serif;
+    font-size: 12pt; }
+  .power-interactive .project h2 {
+    text-align: left; }
+  .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
+    max-width: 70%;
+    margin: auto; }
   .power-interactive #project00 h2 {
     color: white;
-    font-family: "quasimoda",sans-serif; }
+    font-family: "quasimoda",sans-serif;
+    text-align: center; }
   .power-interactive #project01 h2 {
     color: white;
     font-family: "quasimoda",sans-serif; }
