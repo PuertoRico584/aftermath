@@ -180,8 +180,11 @@ body, html {
   padding-left: 15px;
   padding-right: 15px;
   @include media('<=sm'){
-    width: 138px;
+    width: 110px;
     margin-bottom: 20px;
+  }
+  @include media('<=iphone5'){
+    width: 92px;
   }
 }
 .nav-link{
@@ -272,7 +275,7 @@ h5{
   @include media('<=sm'){
     position: fixed;
     display: none;
-    bottom: 3%;
+    bottom: 12%;
     z-index: 2;
     justify-content: space-around;
     width: 66%;
