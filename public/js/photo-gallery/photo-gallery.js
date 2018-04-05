@@ -1,4 +1,5 @@
 // Credit: http://photoswipe.com
+
 // Function for photoswipe
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
@@ -30,7 +31,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+                author: linkEl.getAttribute('data-author'),
+                title: linkEl.getAttribute('data-title')
             };
 
 
@@ -151,7 +154,38 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                     rect = thumbnail.getBoundingClientRect();
 
                 return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
-            }
+            },
+
+            // Buttons/elements
+            closeEl:true,
+            captionEl: true,
+            fullscreenEl: true,
+            zoomEl: true,
+            shareEl: true,
+            counterEl: true,
+            arrowEl: true,
+            preloaderEl: true,
+
+            // Tap on sliding area should close gallery
+            tapToClose: false,
+
+            // Tap should toggle visibility of controls
+            tapToToggleControls: true,
+
+            // Mouse click on image should close the gallery,
+            // only when image is smaller than size of the viewport
+            clickToCloseNonZoomable: true,
+
+            // Element classes click on which should close the PhotoSwipe.
+            // In HTML markup, class should always start with "pswp__", e.g.: "pswp__item", "pswp__caption".
+            //
+            // "pswp__ui--over-close" class will be added to root element of UI when mouse is over one of these elements
+            // By default it's used to highlight the close button.
+            closeElClasses: ['item', 'caption', 'zoom-wrap', 'ui', 'top-bar'],
+
+            // Separator for "1 of X" counter
+            indexIndicatorSep: ' / '
+
 
         };
 
@@ -201,10 +235,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     if(hashData.pid && hashData.gid) {
         openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
     }
+
 };
-
-// Function for simple slider
-
 
 // Media query for mobile
 const mq = window.matchMedia("(min-width: 766px)");
@@ -213,7 +245,37 @@ if (mq.matches) {
   // Execute photoswipe function if window width is at least 766px
   initPhotoSwipeFromDOM('.my-gallery');
   console.log("nut");
-} else {
-  // Window width is less than 500px
 
+  //Masonry
+  var container_7_1 = document.querySelector("#photo-gallery");
+  var msnry;
+
+  // initialize  after all images have loaded
+  imagesLoaded(container_7_1, function() {
+  // initialize Masonry after all images have loaded
+    new Masonry(container_7_1, {
+      // options...
+      itemSelector: ".grid-item",
+      //columnWidth: 150,
+      isFitWidth: true
+    });
+
+    container_7_1.className += " photoswipe_showme";
+  });
+  var totalWidth = 0;
+  var totalHeight = 0;
+
+
+  $(".photo-gallery figure img").each(function( index ) {
+
+    totalWidth = $(this).clientWidth;
+    totalWidth = $(this).clientHeight;
+
+
+});
+
+  } else {
+  // Window width is less than 500px
+  console.log("yeet")
+  document.getElementById("grid").style.display="none"
 }

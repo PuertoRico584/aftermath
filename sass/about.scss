@@ -7,29 +7,33 @@
 
 #abouttitle {
   &-box {
-    width: 85%;
-    margin: auto;
-    display: flex;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     justify-content: center;
     flex-flow: wrap;
     text-align: center;
     text-transform: uppercase;
     padding-top: 10%;
-    color: #000;
+    color: #fff;
     align-items: center;
     & .title-line{
       display: flex;
       flex-direction: column;
       & h1{
-        font-weight: 300;
+        font-weight: 100;
         font-size: 7em;
+        color: #fff;
       }
       &-two{
         flex-wrap: wrap;
         text-transform: uppercase;
         font-size: 10em;
         font-weight: 900;
-        margin-top: -12%;
+        margin-top: -5%;
+        color: #fff;
       }
     }
   }
@@ -74,18 +78,28 @@
 }
 
 .role {
-  font-size: 12px;
+  font-size: 14px;
   margin:5px 0px;
   line-height: 1em;
   color: #616161;
 }
-
+.socialmedia-about {
+  padding-top:10px;
+}
+a.about-social-icon {
+  color:$dark-gray;
+}
+.linkedin:hover {
+    color: #0077B5 !important;
+}
+.portfolio:hover {
+    color: $title;
+}
 .team-name {
   font-family:"quasimoda",sans-serif;
   font-size: 18px;
   margin: 2px 0px;
   line-height: 1em;
-    color: #616161;
 }
 
 .team-info {
@@ -100,7 +114,9 @@ font-size: 18px;
 
 .team-nav h3 {
   text-align: right;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 100;
+  border-bottom: 2px solid $title;
 }
 
 .mixitup-control-active  {
@@ -112,20 +128,35 @@ font-size: 18px;
   list-style-type: none;
   padding: 0px;
   text-align: right;
-  border-right: solid #000 1px;
 
 }
 
 .team-nav li {
-    padding: 8px 15px 8px 30px;
+    padding: 8px 0px 8px 30px;
+    color: #616161;
+    font-weight: 100;
 }
 
 .team-nav  li:hover {
-  color: #508091;
-  font-weight: 800;
+  color: #000;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 
 .about-section {
-  margin-top: 80px;
+  margin-top: 50px;
+}
+
+.about-background {
+  width: 100%;
+  height: 80vh;
+  z-index: -2;
+  background-image: url('../../assets/images/power-hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  position: relative;
 }

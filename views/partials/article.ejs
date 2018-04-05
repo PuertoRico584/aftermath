@@ -22,29 +22,26 @@ $(document).ready(function(){
 </script>
 
 <div class="container-fluid">
-	<div id="image" data-0="top:0%;display:block;" data-600="top:0%" data-1000="top:-100%;display:none;" class="skrollable skrollable-between" style="top: 0%; display: block;">
-		<img class="hero-image" src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="">
+	<div class="<%= body["master-class"]["class"] %>">
 		<div class="title-line">
-			<div class="row inner-title">
+			<div class="row offset-sm-1 inner-title">
 				<div class="col-sm-3 icon">
 					<img class="img-fluid" src="assets/images/homepage-icons/<%= body["master-class"]["class"] %>.png">
 				</div>
 				<div class="col-sm-9">
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
-					<span class="title-line-two"><%=body["header"]["title-line-two"] %></span>
+					<p class="title-line-two"><%=body["header"]["title-line-two"] %></p>
 				</div>
 			</div>
 		</div>
-
-		<div data-0="top:100%" data-600="top:80%;" data-1000:="top:-100%" class="skrollable skrollable-before deck" style="z-index: 5; color: #fff; top: 100%; bottom: 0px; position:absolute; ">
+		<div class="deck">
 			 <p><%=body["header"]["subtitle"]%></p>
 		</div>
 	</div>
-			<img src="assets/images/<%= body["master-class"]["class"] %>-hero.jpg" alt="" width=100% height=auto style="visibility: hidden; margin-top: 60px;">
 </div>
 <!-- END OF TITLE IMAGE AND DECK SECTION -->
 
-<div class="story-section" data-0="top:100%; display: block;" data-650="top:7.5%; display: block;" data-1000="top:0.2%;display:block;" class="skrollable skrollable-between" style="display: block;">
+<div class="story-section">
 	<!-- START OF STORY WITH BYLINES -->
 	<div id="byline" class="row byline-row offset-md-2">
 		<div class="byline-box inner col-md-2">
@@ -67,12 +64,13 @@ $(document).ready(function(){
 		    <% } %>
 		  </div>
 			<div class="byline-item">
-		    <p class="byline-head"><%= espanol ? "consultación por" : "consultation by" %></p>
+		    <p class="byline-head"><%= espanol ? "UPR Contribuidores" : "UPR Contributors" %></p>
 		    <% for (d in body["upr"]) {%>
 		    <p><%= body["upr"][d]["name"] %></p>
 		    <% } %>
 		  </div>
 		</div>
+
 
 		<section class="col-md-7">
 			<div class="max-width">
@@ -92,9 +90,9 @@ $(document).ready(function(){
 <!-- SIDEBAR SHARE ICONS -->
 <div class="sidebar sidebar-icons">
 		<ul>
-			<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
-			<li><a class="twitter" href="https://twitter.com/home?status=Wow,%20this%20is%20the%20most%20incredible%20thing%20I've%20ever%20seen%20%23amazed%20%23journalism%20http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img class="social-icon"src="../../assets/images/social-media/twitter2.png"></a></li>
-			<li><a class="vimeo" href="https://www.vimeo.com/" target="_blank"><img class="social-icon" src="../../assets/images/social-media/vimeo2.png"></a></li>
+			<li onmouseover="fadeIconsSidebar(0)" onmouseout="unfadeIconsSidebar(0)"><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img id="sidebar-0" class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
+			<li onmouseover="fadeIconsSidebar(1)" onmouseout="unfadeIconsSidebar(1)"><a class="twitter" href="https://twitter.com/home?status=Wow,%20this%20is%20the%20most%20incredible%20thing%20I've%20ever%20seen%20%23amazed%20%23journalism%20http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img id="sidebar-1" class="social-icon"src="../../assets/images/social-media/twitter2.png"></a></li>
+			<li onmouseover="fadeIconsSidebar(2)" onmouseout="unfadeIconsSidebar(2)"><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//puertorico584-pchance2.cloudapps.unc.edu/&title=Aftermath&summary=&source=" target="_blank"><img id="sidebar-2" class="social-icon" src="../../assets/images/social-media/LinkedIn2.png"></a></li>
 	</ul>
 </div>
 <!-- END SIDEBAR SHARE ICONS -->
@@ -108,14 +106,22 @@ $(document).ready(function(){
 </div>
 <div class="row offset-md-2">
 	<div id="photo-gal">
-		<% include ../partials/photo-gallery.ejs %>
+		<% var photo_id = body["master-class"]["class"] %>
+		<%- include("../partials/photo-gallery-" + photo_id + ".ejs"); %>
+		<!-- <% include ../partials/photo-slider.ejs %> -->
 	</div>
 </div>
 <div class="row offset-md-2">
 	<div class="left-box col-2">TEST</div>
 	<section class="col-md-7">
-		<%} else if (body["text"][i]["type"] == "interactive") {%>
-	</section>
+				<%} else if (body["text"][i]["type"] == "interactive") {%>
+		</div>
+	    </section>
+	    <% var filepath = body["text"][i]["value"]["filename"] %>
+	      <%- include("../partials/" + filepath); %>
+							 <div class="row offset-md-2">
+							 	<div class="left-box col-2">TEST</div>
+								<section class="col-md-7">
 
 			<!-- This is the lil bit of code that is killing my spirit. -->
 			<% var filepath = body["text"][i]["value"]["filename"] %>
@@ -124,16 +130,18 @@ $(document).ready(function(){
 
 </div>
 <div class="row offset-md-2">
-    <div class="left-box pull-quote-left-box col-2">
-      <div class="pull-quote-box change-bg <%= body["master-class"]["class"] %>">
+    <div class="left-box pull-quote-left-box col-md-2">
+      <div class="pull-quote-box change-bg">
 					<img src="assets/images/pull-quote-lead.png" alt="">
             <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
             <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
       </div>
     </div>
-    <section class="pull-text col-7">
+    <section class="pull-text col-md-7">
       <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
+
+
 
 		<%} } %>
