@@ -65,7 +65,7 @@ body, html {
   visibility: hidden;
 }
 .nav-icon{
-  width: 90px;
+  width: 55%;
   @include media('>=sm'){
     display: none;
   }
@@ -180,8 +180,11 @@ body, html {
   padding-left: 15px;
   padding-right: 15px;
   @include media('<=sm'){
-    width: 138px;
+    width: 110px;
     margin-bottom: 20px;
+  }
+  @include media('<=iphone5'){
+    width: 92px;
   }
 }
 .nav-link{
@@ -201,7 +204,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -217,23 +220,25 @@ body, html {
     }
   }
   &-social-icons{
+
+    img{
+      width: 10vw;
+    }
     @include media('>=sm'){
       display: none;
     }
   }
 }
-
-
 .navbar-light .navbar-toggler{
   margin-top: 19px;
   margin-left: 168px;
   @include media('<=sm'){
-    margin-left: 140px;
+    margin-left: 110px;
   }
 }
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler{
-    margin-left: 100px;
+    margin-left: 55px;
   }
 }
 .navbar-light .navbar-toggler-icon {
@@ -242,7 +247,6 @@ body, html {
       outline-color: transparent;
     }
 }
-
 .nav-header{
   color: white;
   font-size: 9pt;
@@ -260,19 +264,24 @@ h5{
 
 .es-and-about{
   color: white;
-  margin-top: 25px;
   text-align: center;
   float: right;
   a{
     color: white;
   }
+  p{
+    margin-top:23px;
+  }
   @include media('<=sm'){
+    position: fixed;
     display: none;
+    bottom: 12%;
+    z-index: 2;
+    justify-content: space-around;
+    width: 66%;
+    align-items: center;
   }
 }
-
-
-
 .sidebar {
   width: 100px;
   float: left;
@@ -291,8 +300,6 @@ h5{
   }
 }
 }
-
-
 // ABOUT VIDEOS
 .mix{
   // margin-right: 10px;
@@ -307,8 +314,6 @@ h5{
     overflow: hidden;
     }
 }
-
-
 @media only screen and (max-width: 1160px) {
 .homepage-icon-row ul li {
   padding-left: 20px;
@@ -332,4 +337,10 @@ h5{
     }
 
 }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 950px) {
+  .nav-icon{
+    width: 75%;
+  }
 }

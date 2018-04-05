@@ -78,18 +78,28 @@
 }
 
 .role {
-  font-size: 12px;
+  font-size: 14px;
   margin:5px 0px;
   line-height: 1em;
   color: #616161;
 }
-
+.socialmedia-about {
+  padding-top:10px;
+}
+a.about-social-icon {
+  color:$dark-gray;
+}
+.linkedin:hover {
+    color: #0077B5 !important;
+}
+.portfolio:hover {
+    color: $title;
+}
 .team-name {
   font-family:"quasimoda",sans-serif;
   font-size: 18px;
   margin: 2px 0px;
   line-height: 1em;
-    color: #616161;
 }
 
 .team-info {
@@ -135,7 +145,7 @@ font-size: 18px;
 
 
 .about-section {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .about-background {

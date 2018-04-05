@@ -192,7 +192,7 @@ body, html {
   visibility: hidden; }
 
 .nav-icon {
-  width: 90px; }
+  width: 55%; }
   @media (min-width: 570px) {
     .nav-icon {
       display: none; } }
@@ -287,8 +287,11 @@ body, html {
   padding-right: 15px; }
   @media (max-width: 570px) {
     .nav-item {
-      width: 138px;
+      width: 110px;
       margin-bottom: 20px; } }
+  @media (max-width: 320px) {
+    .nav-item {
+      width: 92px; } }
 
 .nav-link {
   color: white !important;
@@ -305,7 +308,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -318,6 +321,9 @@ body, html {
       height: 49px;
       margin-top: -7px; } }
 
+.mobile-social-icons img {
+  width: 10vw; }
+
 @media (min-width: 570px) {
   .mobile-social-icons {
     display: none; } }
@@ -327,11 +333,11 @@ body, html {
   margin-left: 168px; }
   @media (max-width: 570px) {
     .navbar-light .navbar-toggler {
-      margin-left: 140px; } }
+      margin-left: 110px; } }
 
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler {
-    margin-left: 100px; } }
+    margin-left: 55px; } }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../assets/images/hamburger-temp.png"); }
@@ -353,14 +359,21 @@ h5 {
 
 .es-and-about {
   color: white;
-  margin-top: 25px;
   text-align: center;
   float: right; }
   .es-and-about a {
     color: white; }
+  .es-and-about p {
+    margin-top: 23px; }
   @media (max-width: 570px) {
     .es-and-about {
-      display: none; } }
+      position: fixed;
+      display: none;
+      bottom: 12%;
+      z-index: 2;
+      justify-content: space-around;
+      width: 66%;
+      align-items: center; } }
 
 .sidebar {
   width: 100px;
@@ -401,6 +414,10 @@ h5 {
         width: 18%; }
         .homepage-icon-row ul li .homepage-icon {
           padding: 20px; } }
+
+@media only screen and (min-width: 330px) and (max-width: 950px) {
+  .nav-icon {
+    width: 75%; } }
 
 .text-row {
   margin-top: 50px; }
@@ -466,13 +483,13 @@ h5 {
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
-    line-height: 0.8em;
+    line-height: 0.6em;
     margin-top: 12px; }
 
 .inner .byline-head {
   font-size: 0.9em;
   font-weight: bold;
-  margin: 0; }
+  marign-bottom: 12px; }
 
 .inner .byline-item {
   margin-bottom: 1.3em; }
@@ -629,7 +646,18 @@ h5 {
   display: block;
   width: 75%;
   background-color: transparent;
-  top: 80%; }
+  top: 80%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s; }
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .icon img {
   vertical-align: middle;
@@ -1582,17 +1610,28 @@ h5 {
   color: #616161; }
 
 .role {
-  font-size: 12px;
+  font-size: 14px;
   margin: 5px 0px;
   line-height: 1em;
   color: #616161; }
+
+.socialmedia-about {
+  padding-top: 10px; }
+
+a.about-social-icon {
+  color: #696969; }
+
+.linkedin:hover {
+  color: #0077B5 !important; }
+
+.portfolio:hover {
+  color: #508091; }
 
 .team-name {
   font-family: "quasimoda",sans-serif;
   font-size: 18px;
   margin: 2px 0px;
-  line-height: 1em;
-  color: #616161; }
+  line-height: 1em; }
 
 .team-info {
   margin: 20px 0px; }
@@ -1626,7 +1665,7 @@ h5 {
   cursor: pointer; }
 
 .about-section {
-  margin-top: 80px; }
+  margin-top: 50px; }
 
 .about-background {
   width: 100%;

@@ -87,14 +87,15 @@
       text-align: left;
       vertical-align: text-top;
     & p{
-      line-height: 0.8em;
+      line-height: 0.6em;
       margin-top: 12px;
+
     }
     }
     &-head {
       font-size: 0.9em;
       font-weight: bold;
-      margin: 0;
+      marign-bottom: 12px;
     }
   }
 
@@ -303,6 +304,19 @@ display: block;
 width: 75%;
 background-color: rgba(0, 0, 0, 0);
 top: 80%;
+opacity: 1;
+animation-name: fadeInOpacity;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 3s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .icon img {

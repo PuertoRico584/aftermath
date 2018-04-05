@@ -1,24 +1,24 @@
 <script>
-$(document).ready(function(){
-	$('iframe').each(function(i, el){
-		$(el).attr('src', $(el).data("src"));
-	});
-	$(function() {
-			var offset = $(".sidebar").offset();
-			var topPadding = 20;
-			$(window).scroll(function() {
-					if ($(window).scrollTop() > offset.top) {
-							$(".sidebar").stop().animate({
-									marginTop: $(window).scrollTop() - offset.top + topPadding
-							});
-					} else {
-							$(".sidebar").stop().animate({
-									marginTop: 0
-							});
-					};
-			});
-	});
-});
+// $(document).ready(function(){
+// 	$('iframe').each(function(i, el){
+// 		$(el).attr('src', $(el).data("src"));
+// 	});
+// 	$(function() {
+// 			var offset = $(".sidebar").offset();
+// 			var topPadding = 20;
+// 			$(window).scroll(function() {
+// 					if ($(window).scrollTop() > offset.top) {
+// 							$(".sidebar").stop().animate({
+// 									marginTop: $(window).scrollTop() - offset.top + topPadding
+// 							});
+// 					} else {
+// 							$(".sidebar").stop().animate({
+// 									marginTop: 0
+// 							});
+// 					};
+// 			});
+// 	});
+// });
 </script>
 
 <div class="container-fluid">
@@ -87,7 +87,7 @@ $(document).ready(function(){
 
 <% include ../partials/video.ejs %>
 
-<!-- SIDEBAR SHARE ICONS -->
+<!-- SIDEBAR SHARE ICONS
 <div class="sidebar sidebar-icons">
 		<ul>
 			<li onmouseover="fadeIconsSidebar(0)" onmouseout="unfadeIconsSidebar(0)"><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img id="sidebar-0" class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
@@ -95,7 +95,7 @@ $(document).ready(function(){
 			<li onmouseover="fadeIconsSidebar(2)" onmouseout="unfadeIconsSidebar(2)"><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//puertorico584-pchance2.cloudapps.unc.edu/&title=Aftermath&summary=&source=" target="_blank"><img id="sidebar-2" class="social-icon" src="../../assets/images/social-media/LinkedIn2.png"></a></li>
 	</ul>
 </div>
-<!-- END SIDEBAR SHARE ICONS -->
+ END SIDEBAR SHARE ICONS -->
 
 
 <div class="row offset-md-2">
