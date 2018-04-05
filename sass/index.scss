@@ -204,7 +204,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #000;
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -270,7 +270,7 @@ h5{
     color: white;
   }
   p{
-    margin-top:23px;
+    margin-bottom: 0px;
   }
   @include media('<=sm'){
     position: fixed;
@@ -280,6 +280,10 @@ h5{
     justify-content: space-around;
     width: 66%;
     align-items: center;
+    flex-direction: column;
+    p{
+      font-size: 1.7em
+    }
   }
 }
 .sidebar {

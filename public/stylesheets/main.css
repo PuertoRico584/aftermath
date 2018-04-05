@@ -308,7 +308,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #000;
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -364,7 +364,7 @@ h5 {
   .es-and-about a {
     color: white; }
   .es-and-about p {
-    margin-top: 23px; }
+    margin-bottom: 0px; }
   @media (max-width: 570px) {
     .es-and-about {
       position: fixed;
@@ -373,7 +373,10 @@ h5 {
       z-index: 2;
       justify-content: space-around;
       width: 66%;
-      align-items: center; } }
+      align-items: center;
+      flex-direction: column; }
+      .es-and-about p {
+        font-size: 1.7em; } }
 
 .sidebar {
   width: 100px;
