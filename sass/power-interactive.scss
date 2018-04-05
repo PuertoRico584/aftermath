@@ -20,7 +20,7 @@
     z-index: 100;
   }
   .lights-out{
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -29,12 +29,14 @@
     margin: auto;
     text-transform: uppercase;
     text-align: center;
+    font-size: 40pt;
   }
   .battery{
-    height: 40%;
-    width: auto;
+    width: 40%;
+    height: auto;
     margin: auto;
-    margin-left: 38.5%;
+    // text-align: center;
+    margin-left: 30%;
   }
   .testing{
     margin: auto;
@@ -142,14 +144,22 @@ body {
   transform: translateY(0);
 }
 .project p {
-    max-width: 40%;
+    text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "quasimoda",sans-serif;
+    font-family: "source-sans-pro",sans-serif;
+}
+.project h2{
+  text-align: left;
+}
+#project00, #project01, #project02, #project03, #project04, #project05 {
+  max-width: 60%;
+  margin: auto;
 }
 #project00 h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+    text-align: center;
 }
 #project01 h2 {
     color: white;
