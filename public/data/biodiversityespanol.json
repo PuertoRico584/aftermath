@@ -3,8 +3,8 @@
     "class": "biodiversity"
   },
   "header": {
-    "title-line-one": "Learning From",
-    "title-line-two": "The Forest",
+    "title-line-one": "Nature’s",
+    "title-line-two": "Revolutionary",
     "seo": "Learning From the Forest - Farmers in Puerto Rico take lessons from El Yunque",
     "subtitle": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
   },
@@ -19,6 +19,12 @@
     },
     {
       "name": "Gabi Palacio"
+    },
+    {
+      "name": "Alexis Fairbanks"
+    },
+    {
+      "name": "Kaitlin Harlow"
     }
   ],
   "designers": [
@@ -28,10 +34,13 @@
   ],
   "upr": [
     {
-      "name": "UPR Student"
+      "name": "Hyam Colon"
     },
     {
-      "name": "UPR Student 2"
+      "name": "Denelys Estevez"
+    },
+    {
+      "name": "David Ramos"
     }
   ],
   "text": [
@@ -188,6 +197,12 @@
     {
       "type": "text",
       "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "biodiversity-interactive.ejs"
+      }
     },
     {
       "type": "text",

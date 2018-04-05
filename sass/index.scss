@@ -4,7 +4,7 @@ body, html {
   height:100%;
 }
 .homepage {
-  background-image: url('../assets/images/option4.jpg');
+  background-image: url('../assets/images/option1.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   height:100%;
@@ -64,12 +64,28 @@ body, html {
   margin-top: 10px;
   visibility: hidden;
 }
+.nav-icon{
+  width: 90px;
+  @include media('>=sm'){
+    display: none;
+  }
+}
 .homepage-logo {
   margin-top:5%;
   text-align:center;
   height:100px;
   img {
     width: 25%;
+  }
+  @include media('<=sm') {
+    margin-top: 30vh;
+    height: 100px;
+    img{
+      width: 75%;
+    }
+    p{
+      font-size: 1em;
+    }
   }
 }
 .homepage-icon-row {
@@ -100,6 +116,9 @@ body, html {
       }
     }
   }
+  @include media('<=sm') {
+    display: none;
+  }
 }
 .homepage-subtitle{
   color: white;
@@ -111,45 +130,59 @@ body, html {
 /* ------------------  NAV BAR ------------------ */
 
 .logo-in-corner{
-  height: 20px;
+  height: 23px;
   width: auto;
   margin-left: 15px;
-  margin-top: 10px;
 }
 .navbar{
   background-color: black !important;
   height: 60px;
   // position: fixed;
   // transition: all 0.5s ease;
-}
-.navbar-nav{
-  margin: auto;
-  width: 80%;
+  &-nav{
+    margin: auto;
+    width: 80%;
+  }
+  &-brand{
+    margin-bottom: 5px;
+  }
 }
 
 .nav-bar-wrapper {
-  position: fixed;
+  position: absolute;
+  top: 0px;
   width: 100%;
   z-index: 3;
 }
 
-@media only screen and (max-width: 1150px) {
-    .navbar-nav {
-        width: 97%;
-        margin: auto;
-    }
+.navbar-nav {
+  @include media('<=lg'){
+    width: 97%;
+    margin: auto;
+  }
+  @include media('<=sm'){
+    width: 97%;
+    display: flex;
+    margin: auto;
+    flex-flow: wrap;
+    justify-content: center;
+  }
 }
-// .hidden{
-//   transform: scale3d(0, -100%, 0);
-// }
+
 .navbar-toggler{
-  background-color: white;
+  background-color: none;
+  border: none;
+  color: white;
   margin-left: 170px;
 }
 .nav-item{
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  @include media('<=sm'){
+    width: 138px;
+    margin-bottom: 20px;
+  }
 }
 .nav-link{
   color: white !important;
@@ -159,39 +192,57 @@ body, html {
   margin-bottom: 5px;
   margin-top: 15px;
   margin-left: 10px;
+  & .show{
+    width: 100vw;
+  }
 }
-// .navbar-collapse{
-//   margin: auto;
-// }
-// .megamenu {
-//   height: 50px;
-//   overflow:hidden;
-//    transition: height 450ms;
-//    -moz-transition: height 450ms;
-//    -webkit-transition: height 450ms;
-//   margin-left: 30px;
-//   padding-right: 0px;
-// }
-// .megamenu:hover {
-//   height:140px;
-// }
-// .mega-bottomrow {
-// clear:both;
-// }
-// .dropdown-pictures-nav{
-//   background-color: black;
-// }
-// .dropdown-pictures-nav ul{
-//   list-style-type: none;
-//   margin-left: 100px;
-// }
-// .dropdown-pictures-nav ul li{
-//   text-decoration: none;
-//   display: inline-block;
-//   margin-left: 42px;
-//   margin-right: 30px;
-//   text-align: center;
-// }
+
+.collapse.show{
+  position: fixed;
+  display: block;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 105vh;
+  margin: 0;
+  margin-top: -10px;
+  padding-top: 100px;
+}
+
+.mobile{
+  &-nav-bar{
+    z-index: 1;
+    @include media('<=sm'){
+      height: 49px;
+      margin-top: -7px;
+    }
+  }
+  &-social-icons{
+    @include media('>=sm'){
+      display: none;
+    }
+  }
+}
+
+
+.navbar-light .navbar-toggler{
+  margin-top: 19px;
+  margin-left: 168px;
+  @include media('<=sm'){
+    margin-left: 140px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-light .navbar-toggler{
+    margin-left: 100px;
+  }
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../assets/images/hamburger-temp.png');
+    &:focus{
+      outline-color: transparent;
+    }
+}
+
 .nav-header{
   color: white;
   font-size: 9pt;
@@ -206,11 +257,7 @@ h5{
   font-weight: lighter;
   // margin-bottom: 5px;
 }
-// .dropdown-pictures-nav ul li img{
-//   height: 40px;
-//   width: auto;
-//   margin-bottom: 10px;
-// }
+
 .es-and-about{
   color: white;
   margin-top: 25px;
@@ -219,7 +266,11 @@ h5{
   a{
     color: white;
   }
+  @include media('<=sm'){
+    display: none;
+  }
 }
+
 
 
 .sidebar {
@@ -241,6 +292,7 @@ h5{
 }
 }
 
+
 // ABOUT VIDEOS
 .mix{
   // margin-right: 10px;
@@ -254,4 +306,30 @@ h5{
     border-radius: 120px;
     overflow: hidden;
     }
+}
+
+
+@media only screen and (max-width: 1160px) {
+.homepage-icon-row ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+  .homepage-icon-row {
+    justify-content:center;
+    ul {
+      list-style-type: none;
+        li {
+        display: inline-block;
+        width: 18%;
+        .homepage-icon {
+          padding: 20px;
+        }
+      }
+    }
+
+}
 }

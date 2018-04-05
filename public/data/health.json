@@ -19,6 +19,12 @@
     },
     {
       "name": "Alex Kormann"
+    },
+    {
+      "name": "Alexis Fairbanks"
+    },
+    {
+      "name": "Kaitlin Harlow"
     }
   ],
   "designers": [
@@ -28,10 +34,10 @@
   ],
   "upr": [
     {
-      "name": "UPR Student"
+      "name": "Roberto Santana"
     },
     {
-      "name": "UPR Student 2"
+      "name": "Shirley Colon"
     }
   ],
   "text": [
@@ -190,18 +196,18 @@
       "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "health-interactive.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Orlando Sr. wanted no part of such a massive expenditure at first. “He was like ‘We cannot pay for that,’” Orlando remembers. “And I was like ‘Dad, that’s okay. I have the money.’ I think this is when he understood that, economically, I was the alpha of the family.”"
     },
     {
       "type": "text",
       "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
-    },
-    {
-      "type": "slider",
-      "value": {
-        "value": "{}"
-      }
     },
     {
       "type": "text",

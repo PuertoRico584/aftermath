@@ -11,46 +11,48 @@
 
   <style>
 
+  body {
+    background-color:#000;
+  }
   .error-page{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-		overflow:hidden;
-    margin-left: auto;
-    margin-right: auto;
+    color:#fff;
+    background-image:url('/assets/images/404.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 50px;
+    min-height:600px;
+    position:relative;
   }
-
-  .img-wrapper img{
-		height:80vh;
-		float:right;
+  .oops {
+    position:absolute;
+    bottom:20%;
+    left: 15%;
+    font-size:90%;
   }
+  @media only screen and (min-width: 1200px) {
+    .error-page {
+        background-size: cover;
+    }
+    .oops {
+      bottom: 10px;
+    }
+}
 
-	.img-wrapper{
-		top:90px;
-		right:-30px;
-		overflow:hidden;
-	}
-
-
+  .btn {
+    margin-top:25px;
+  }
   </style>
 </head>
 
 <body>
-
-
   <% include ../partials/nav.ejs %>
 
   <div class="error-page">
-    <div>
-		  <h1>¡Ay, Dios mío!</h1>
-		  <h2><%= espanol ? "Has venido al lugar equivocado":"You've come to the wrong page!" %></h2>
+    <div class="oops">
+		  <h1>Oops!</h1>
+		  <h2><%= espanol ? "Has venido al lugar equivocado":"Page Not Found." %></h2>
+      <a href="/" class ="btn btn-outline-light btn-lg">HOME</a>
 		</div>
-
-
   </div>
-
-
-
 </body>
 </html>
