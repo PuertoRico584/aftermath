@@ -103,6 +103,12 @@
       "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "health-interactive2.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
     },
@@ -208,12 +214,6 @@
     {
       "type": "text",
       "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
-    },
-    {
-      "type": "slider",
-      "value": {
-        "value": "{}"
-      }
     },
     {
       "type": "text",

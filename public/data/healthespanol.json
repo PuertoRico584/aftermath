@@ -103,6 +103,12 @@
       "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "health-interactive2.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
     },
