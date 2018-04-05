@@ -1059,10 +1059,10 @@ h5 {
  */ }
   .power-interactive .fade-png {
     width: 100%;
-    height: auto; }
+    height: 500px; }
   .power-interactive .fade-png2 {
     width: 100%;
-    height: auto;
+    height: 500px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -1168,11 +1168,12 @@ h5 {
     text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "source-sans-pro",sans-serif; }
+    font-family: "source-sans-pro",sans-serif;
+    font-size: 12pt; }
   .power-interactive .project h2 {
     text-align: left; }
   .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
-    max-width: 60%;
+    max-width: 70%;
     margin: auto; }
   .power-interactive #project00 h2 {
     color: white;

@@ -8,11 +8,11 @@
 .power-interactive {
   .fade-png{
     width: 100%;
-    height: auto;
+    height: 500px;
   }
   .fade-png2{
     width: 100%;
-    height: auto;
+    height: 500px;
     -webkit-transform: rotate(180deg);
       -moz-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
@@ -165,12 +165,13 @@ body {
     margin: 0 auto;
     color: white;
     font-family: "source-sans-pro",sans-serif;
+    font-size: 12pt;
 }
 .project h2{
   text-align: left;
 }
 #project00, #project01, #project02, #project03, #project04, #project05 {
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
 }
 #project00 h2 {
