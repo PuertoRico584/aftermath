@@ -459,13 +459,13 @@ h5 {
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
-    line-height: 0.8em;
+    line-height: 0.6em;
     margin-top: 12px; }
 
 .inner .byline-head {
   font-size: 0.9em;
   font-weight: bold;
-  margin: 0; }
+  marign-bottom: 12px; }
 
 .inner .byline-item {
   margin-bottom: 1.3em; }
