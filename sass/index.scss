@@ -66,7 +66,7 @@ body, html {
 }
 .nav-icon{
   width: 55%;
-  @include media('>=sm'){
+  @include media('>=md'){
     display: none;
   }
 }
@@ -149,10 +149,16 @@ body, html {
 }
 
 .nav-bar-wrapper {
-  position: absolute;
-  top: 0px;
+  position: fixed;
   width: 100%;
   z-index: 3;
+  transition-duration: 0.5s;
+}
+.nav-down{
+    top: 0px;
+}
+.nav-up {
+    top: -60px;
 }
 
 .navbar-nav {
@@ -168,6 +174,7 @@ body, html {
     justify-content: center;
   }
 }
+
 
 .navbar-toggler{
   background-color: none;

@@ -193,7 +193,7 @@ body, html {
 
 .nav-icon {
   width: 55%; }
-  @media (min-width: 570px) {
+  @media (min-width: 1020px) {
     .nav-icon {
       display: none; } }
 
@@ -257,10 +257,16 @@ body, html {
     margin-bottom: 5px; }
 
 .nav-bar-wrapper {
-  position: absolute;
-  top: 0px;
+  position: fixed;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  transition-duration: 0.5s; }
+
+.nav-down {
+  top: 0px; }
+
+.nav-up {
+  top: -60px; }
 
 @media (max-width: 1280px) {
   .navbar-nav {
