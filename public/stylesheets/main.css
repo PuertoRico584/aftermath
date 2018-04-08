@@ -256,6 +256,9 @@ body, html {
 .navbar {
   background-color: black !important;
   height: 60px; }
+  @media (min-width: 1020px) {
+    .navbar {
+      padding-right: 50px; } }
   .navbar-nav {
     margin: auto;
     width: 80%; }
@@ -779,7 +782,7 @@ h5 {
   padding-top: 2px;
   padding-bottom: 30px;
   background-color: #000000;
-  margin-top: 40px; }
+  margin-top: 25px; }
   .footer-wrapper img {
     margin: auto;
     display: block;

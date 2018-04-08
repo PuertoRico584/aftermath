@@ -144,8 +144,9 @@ body, html {
 .navbar{
   background-color: black !important;
   height: 60px;
-  // position: fixed;
-  // transition: all 0.5s ease;
+  @include media('>=md'){
+      padding-right: 50px;
+  }
   &-nav{
     margin: auto;
     width: 80%;
