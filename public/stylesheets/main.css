@@ -193,7 +193,7 @@ body, html {
 
 .nav-icon {
   width: 55%; }
-  @media (min-width: 1020px) {
+  @media (min-width: 991px) {
     .nav-icon {
       display: none; } }
 
@@ -328,7 +328,8 @@ body, html {
       margin-top: -7px; } }
 
 .mobile-social-icons img {
-  width: 10vw; }
+  width: 10vw;
+  margin: 3px; }
 
 @media (min-width: 570px) {
   .mobile-social-icons {
@@ -344,6 +345,18 @@ body, html {
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler {
     margin-left: 55px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 26px;
+    top: -1px; }
+  .logo-in-corner {
+    position: absolute;
+    left: 21px;
+    bottom: 18px; }
+  .es-and-about {
+    display: none; } }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../assets/images/hamburger-temp.png"); }
@@ -424,7 +437,7 @@ h5 {
         .homepage-icon-row ul li .homepage-icon {
           padding: 20px; } }
 
-@media only screen and (min-width: 330px) and (max-width: 950px) {
+@media only screen and (min-width: 330px) and (max-width: 991px) {
   .nav-icon {
     width: 75%; } }
 

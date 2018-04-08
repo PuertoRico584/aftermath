@@ -66,7 +66,7 @@ body, html {
 }
 .nav-icon{
   width: 55%;
-  @include media('>=md'){
+  @include media('>=nav-icon-hide'){
     display: none;
   }
 }
@@ -230,6 +230,7 @@ body, html {
 
     img{
       width: 10vw;
+      margin: 3px;
     }
     @include media('>=sm'){
       display: none;
@@ -246,6 +247,21 @@ body, html {
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler{
     margin-left: 55px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px){
+  .navbar-toggler{
+    position: absolute;
+    right: 26px;
+    top: -1px;
+  }
+  .logo-in-corner{
+    position: absolute;
+left: 21px;
+bottom: 18px;
+  }
+  .es-and-about{
+    display: none;
   }
 }
 .navbar-light .navbar-toggler-icon {
@@ -350,7 +366,7 @@ h5{
 }
 }
 
-@media only screen and (min-width: 330px) and (max-width: 950px) {
+@media only screen and (min-width: 330px) and (max-width: 991px) {
   .nav-icon{
     width: 75%;
   }
