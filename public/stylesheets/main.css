@@ -203,7 +203,7 @@ body, html {
   height: 100px; }
   .homepage-logo img {
     width: 25%; }
-  @media (max-width: 570px) {
+  @media (max-width: 1020px) {
     .homepage-logo {
       margin-top: 30vh;
       height: 100px; }
@@ -232,7 +232,7 @@ body, html {
       .homepage-icon-row ul li .homepage-icon {
         height: 120px;
         width: auto; }
-  @media (max-width: 570px) {
+  @media (max-width: 1020px) {
     .homepage-icon-row {
       display: none; } }
 
@@ -273,7 +273,7 @@ body, html {
     width: 97%;
     margin: auto; } }
 
-@media (max-width: 570px) {
+@media (max-width: 1020px) {
   .navbar-nav {
     width: 97%;
     display: flex;
@@ -328,22 +328,35 @@ body, html {
       margin-top: -7px; } }
 
 .mobile-social-icons img {
-  width: 10vw; }
+  width: 10vw;
+  margin: 3px; }
 
-@media (min-width: 570px) {
+@media (min-width: 1020px) {
   .mobile-social-icons {
     display: none; } }
 
 .navbar-light .navbar-toggler {
   margin-top: 19px;
   margin-left: 168px; }
-  @media (max-width: 570px) {
+  @media (max-width: 1280px) {
     .navbar-light .navbar-toggler {
       margin-left: 110px; } }
 
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler {
     margin-left: 55px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 1020px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 26px;
+    top: -1px; }
+  .logo-in-corner {
+    position: absolute;
+    left: 21px;
+    bottom: 18px; }
+  .es-and-about {
+    display: none; } }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../assets/images/hamburger-temp.png"); }
@@ -424,9 +437,11 @@ h5 {
         .homepage-icon-row ul li .homepage-icon {
           padding: 20px; } }
 
-@media only screen and (min-width: 330px) and (max-width: 950px) {
+@media only screen and (min-width: 570px) and (max-width: 1020px) {
   .nav-icon {
-    width: 75%; } }
+    width: 30%; }
+  .nav-item {
+    width: 33%; } }
 
 .text-row {
   margin-top: 50px; }
