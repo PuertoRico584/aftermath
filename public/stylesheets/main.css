@@ -487,7 +487,8 @@ h5 {
   vertical-align: text-top; }
   .inner .byline-item p {
     line-height: 0.6em;
-    margin-top: 12px; }
+    margin-top: 5px;
+    margin-bottom: 10px; }
 
 .inner .byline-head {
   font-size: 0.9em;
@@ -750,7 +751,7 @@ h5 {
   padding-top: 2px;
   padding-bottom: 30px;
   background-color: #000000;
-  margin-top: 40px; }
+  margin-top: 15px; }
   .footer-wrapper img {
     margin: auto;
     display: block;
@@ -797,8 +798,7 @@ h5 {
   .footer-wrapper img {
     padding-top: 0px; }
   .footer-wrapper {
-    padding-bottom: 15px;
-    margin-top: 15px; } }
+    padding-bottom: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/
@@ -1581,7 +1581,8 @@ h5 {
     #abouttitle-box .title-line h1 {
       font-weight: 100;
       font-size: 7em;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.6em; }
     #abouttitle-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;

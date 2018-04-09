@@ -74,7 +74,7 @@
                </div>
               </div>
 
-              <p class="team-name"><%=team[i]["fullname"]%> </p>
+              <a href="<%=team[i]["portfolio"]%>" target="_blank" class="portfolio about-social-icon"><p class="team-name"><%=team[i]["fullname"]%> </p></a>
               <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
               <div class="socialmedia-about">
               <% if (team[i]["social"]){ %>
@@ -90,9 +90,6 @@
                   <i class="fab fa-<%= team[i]["socialid3"] %> fa-lg" aria-hidden="true"></i>
                 </a>
               <% } else { }%>
-              <% if ( team[i]["portfolio"]){ %>
-                    <a href="<%=team[i]["portfolio"]%>" target="_blank" class="portfolio about-social-icon"><i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
-                <% } else { }%>
               </div>
               </div>
           </div>
