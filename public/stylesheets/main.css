@@ -1579,6 +1579,13 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
+.spacerz {
+  height: 200px; }
+
+#myimg {
+  width: 70%;
+  height: auto; }
+
 .text-row {
   padding-top: 5%;
   padding-bottom: 2%; }
