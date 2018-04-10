@@ -37,7 +37,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 300, tr
         .addTo(controller);
 // build scene
 var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 300, triggerHook: 0.1})
-        .setPin("#imagesequence")
+        .setPin(".spacerz")
         // .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 

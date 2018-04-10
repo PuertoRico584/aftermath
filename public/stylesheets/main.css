@@ -906,6 +906,11 @@ h5 {
     display: none; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.light-video {
+  width: 100%;
+  height: auto;
+  z-index: -1000; }
+
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1579,12 +1584,14 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
-.spacerz {
-  height: 200px; }
+#imagesequence {
+  margin-left: 80px; }
+  #imagesequence #myimg {
+    width: 70%;
+    height: auto; }
 
-#myimg {
-  width: 70%;
-  height: auto; }
+.side-title {
+  padding-left: 60px; }
 
 .text-row {
   padding-top: 5%;
