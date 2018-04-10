@@ -524,25 +524,18 @@ h5 {
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-text {
-  margin-left: -10px; }
+.pull-quote {
+  text-align: left;
+  font-family: "Quasimoda", sans-serif;
+  font-weight: 100;
+  color: #309865;
+  font-size: 1.2em;
+  line-height: 1.3em; }
 
-.inner .pull-quote {
-  font-size: 1em;
-  text-transform: none; }
-  .inner .pull-quote-box {
-    padding-bottom: 3%;
-    font-family: "Quasimoda", sans-serif;
-    font-weight: 100;
-    color: #309865;
-    margin-top: -14px; }
-    .inner .pull-quote-box .attribution {
-      font-weight: 300; }
-    .inner .pull-quote-box img {
-      width: 75px;
-      height: auto;
-      display: flex;
-      margin: auto; }
+.pull-quote-box .attribution {
+  font-weight: 400;
+  font-family: "Quasimoda", sans-serif;
+  text-align: left; }
 
 @media only screen and (max-width: 766px) {
   .text-row {
