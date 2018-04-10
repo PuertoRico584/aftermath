@@ -864,6 +864,94 @@ h5 {
   #grid {
     display: none; } }
 
+#photo-slider {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: flex-start; }
+  #photo-slider #custom-slider {
+    width: 80vw;
+    height: auto;
+    overflow: hidden;
+    margin-right: 1vw; }
+  #photo-slider #custom-slider > ul {
+    width: 100%;
+    left: -100%;
+    transition: 0.5s left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-flex; }
+  #photo-slider #custom-slider > ul > li {
+    width: 100%;
+    color: black;
+    font-size: 3rem; }
+  #photo-slider .pic {
+    width: 100%; }
+  #photo-slider .arrow-wrapper {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-left: 1.2vw; }
+  #photo-slider .arrow-wrapper .slider-left {
+    padding: 0; }
+  #photo-slider .arrow-wrapper .slider-right {
+    padding: 0; }
+  #photo-slider button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 4em;
+    color: #000; }
+  #photo-slider .caption {
+    color: #000;
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column; }
+  #photo-slider .pg-figcaption {
+    padding-top: .6em;
+    margin-top: 1.1em;
+    width: 80%; }
+  #photo-slider .fig-descr {
+    line-height: 1.6em; }
+  #photo-slider .fig-attr {
+    margin-bottom: -1.3em; }
+
+@media screen and (min-width: 766px) {
+  #photo-slider {
+    display: none; } }
+
+@media screen and (max-width: 766px) {
+  #photo-slider {
+    display: block; } }
+
+@media screen and (max-width: 570px) {
+  #photo-slider {
+    display: block; }
+    #photo-slider .arrow-wrapper {
+      margin: 0 1em 0 1em; } }
+
+@media screen and (max-width: 300px) {
+  #photo-slider #custom-slider {
+    height: auto; }
+  #photo-slider {
+    display: block; }
+    #photo-slider .pic {
+      height: auto; } }
+
+.pollution-interactive h1 {
+  text-align: center; }
+
+.pollution-interactive h2 {
+  text-align: center; }
+
+.pollution-interactive img {
+  max-width: 80%;
+  margin: 0 auto; }
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
