@@ -88,7 +88,8 @@
       vertical-align: text-top;
     & p{
       line-height: 0.6em;
-      margin-top: 12px;
+      margin-top: 5px;
+      margin-bottom: 10px;
 
     }
     }
@@ -358,6 +359,8 @@ animation-duration: 3s;
 .plyr--full-ui input[type=range] {
   color: $title;
 }
+
+
 
 
 @media only screen and (max-width: 1120px) {
