@@ -10,33 +10,29 @@
 .box {
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  width: 80px;
+  width: 100px;
   padding: 10px;
   border-radius: 10px;
 }
 
-.one {
-  left: 100px;
-  bottom: 100px;
+.three {
+  left: 20%;
+  bottom: 200px;
 
 }
 
 .two {
-  right: 350px;
-  top: 200px;
-  -webkit-transform: skewY(6deg);
-    -moz-transform: skewY(6deg);
-    -ms-transform: skewY(6deg);
-    -o-transform: skewY(6deg);
+  right: 50%;
+  bottom: 200px;
 }
 
-.three {
-  right: 100px;
-  bottom: 50px;
+.one {
+  right: 30%;
+  bottom: 200px;
 }
 
 .house h1 {
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .house p {
@@ -45,45 +41,161 @@
   padding-bottom: 5px;
 }
 
+.pulse {
+box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+animation: pulse 2s infinite;
+transition: all .2s ease-in-out;
+}
+.pulse:hover {
+animation: none;
+transform: scale(1.1);
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+#text1, #text2, #text3 {
+  display: none;
+  transition: all .2s ease-in-out;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+.selectedZoomTarget {
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  animation: none;
+}
+
+.selectedZoomTarget:hover {
+  transform: none;
+}
+
+
+
+@-webkit-keyframes pulse {
+0% {
+  -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+}
+70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+}
+100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+}
+}
+@keyframes pulse {
+0% {
+  -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+}
+70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+}
+100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+}
+}
+
+.house-text {
+  text-align: center;
+  font-size: 20px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  padding: 18px;
+  font-family: "Quasimoda";
+  color: #508091;
+}
+
+
+.interactive-info p {
+  font-family: "Quasimoda";
+  color: #508091;
+  font-size: 16px;
+}
+
+.water-interactive {
+  margin: 40px;
+}
+
+.interactive-title h3 {
+  color: #508091;
+}
+
+.interactive-title p {
+  color: #508091;
+}
+
 </style>
 
   </head>
 
     <body>
-      <div class="container zoomViewport">
+      <div class="container-fluid water-interactive">
         <div class="row">
           <div class="col-12">
+            <div class="divider"></div>
             <div class="row">
             <div class="col-3 interactive-title">
               <h3>Money In, Money Out</h3>
               <p>By Madison Walls</p>
             </div>
             <div class="col-9 interactive-info">
-              <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers this year.</p>
-              <p>Of that, $10 billion are for the recovery efforts of Harvey, Maria and Irma.</p>
-              <p>Puerto Rico is asking the federal government for $800 million to repair El Caño.</p>
-              <p>That is only 5.3% of the funding.</p>
-              <p>Click on a section to see how the money will be used.</p>
+              <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
+              <p>Puerto Rico is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3% of the funding.</p>
             </div>
             </div>
+          </div>
+          <div class="zoomViewport">
+          <p class="house-text">Click on a section to see how the money will be used.</p>
           <div class="col-12 house zoomContainer">
-            <img src="../assets/images/house.png" alt="house" width="100%" height="auto">
-              <div class="box one zoomTarget">
+            <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
+              <div class="box one zoomTarget pulse" onclick="switchContent1()">
+              <i class="fa fa-home"></i>
               <h1>Housing and Development</h1>
-              <p>$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
+              <p id="text1">$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
               </div>
-              <div class="box two zoomTarget">
+              <div class="box two zoomTarget pulse" onclick="switchContent2()">
+              <i class="fa fa-truck"></i>
               <h1>Infrastructure</h1>
-              <p>It will cost $300 million dollars to restructure the neighborhoods and allow for more efficient power sources. This cost will include the possibility of green infrastructure strategies and power microgrids. </p>
+              <p id="text2">It will cost $300 million dollars to restructure the neighborhoods and allow for more efficient power sources. This cost will include the possibility of green infrastructure strategies and power microgrids. </p>
               </div>
-              <div class="box three zoomTarget">
+              <div class="box three zoomTarget pulse" onclick="switchContent3()">
+              <i class="fa fa-tint"></i>
               <h1>Dredging</h1>
-              <p>The lowest cost of the project comes from dredging the river. It will cost $200 million dollars to widden the river and preventit from flooding during rain and stagnate when levels lower. </p>
+              <p id="text3">It will cost $200 million dollars to widen the river and prevent it from flooding during rain and stagnate when water levels lower. </p>
             </div>
           </div>
         </div>
       </div>
+      </div>
     </div>
+    <script type="text/javascript">
+      function switchContent1() {
+        document.getElementById('text1').style.display = "block";
+      }
+      function switchContent2() {
+        document.getElementById('text2').style.display = "block";
+        console.log("worked");
+      }
+      function switchContent3() {
+        document.getElementById('text3').style.display = "block";
+      }
+      function switchBack() {
+        document.getElementById('text1').style.display = "none";
+        document.getElementById('text2').style.display = "none";
+        document.getElementById('text3').style.display = "none";
+      }
 
+    </script>
   </body>
 </html>

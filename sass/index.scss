@@ -23,7 +23,6 @@ body, html {
 }
 .video {
   position: absolute;
-  // position: fixed;
   top: 0;
   left: 0;
   min-width: 100vw;
@@ -53,7 +52,6 @@ body, html {
     display: none;
   }
 }
-
 /* Homepage Text Styles */
 .homepage-header{
   font-weight: lighter;
@@ -65,8 +63,8 @@ body, html {
   visibility: hidden;
 }
 .nav-icon{
-  width: 90px;
-  @include media('>=sm'){
+  width: 55%;
+  @include media('>=md'){
     display: none;
   }
 }
@@ -77,7 +75,7 @@ body, html {
   img {
     width: 25%;
   }
-  @include media('<=sm') {
+  @include media('<=md') {
     margin-top: 30vh;
     height: 100px;
     img{
@@ -116,13 +114,13 @@ body, html {
       }
     }
   }
-  @include media('<=sm') {
+  @include media('<=md') {
     display: none;
   }
 }
 .homepage-subtitle{
   color: white;
-  font-size: 15pt;
+  font-size: 18pt;
   font-family: "quasimoda",sans-serif;
 }
 
@@ -149,10 +147,16 @@ body, html {
 }
 
 .nav-bar-wrapper {
-  position: absolute;
-  top: 0px;
+  position: fixed;
   width: 100%;
   z-index: 3;
+  transition-duration: 0.5s;
+}
+.nav-down{
+    top: 0px;
+}
+.nav-up {
+    top: -60px;
 }
 
 .navbar-nav {
@@ -160,7 +164,7 @@ body, html {
     width: 97%;
     margin: auto;
   }
-  @include media('<=sm'){
+  @include media('<=md'){
     width: 97%;
     display: flex;
     margin: auto;
@@ -168,6 +172,7 @@ body, html {
     justify-content: center;
   }
 }
+
 
 .navbar-toggler{
   background-color: none;
@@ -180,8 +185,11 @@ body, html {
   padding-left: 15px;
   padding-right: 15px;
   @include media('<=sm'){
-    width: 138px;
+    width: 110px;
     margin-bottom: 20px;
+  }
+  @include media('<=iphone5'){
+    width: 92px;
   }
 }
 .nav-link{
@@ -201,7 +209,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #000;
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -217,23 +225,41 @@ body, html {
     }
   }
   &-social-icons{
-    @include media('>=sm'){
+
+    img{
+      width: 10vw;
+      margin: 3px;
+    }
+    @include media('>=md'){
       display: none;
     }
   }
 }
-
-
 .navbar-light .navbar-toggler{
   margin-top: 19px;
   margin-left: 168px;
-  @include media('<=sm'){
-    margin-left: 140px;
+  @include media('<=lg'){
+    margin-left: 110px;
   }
 }
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler{
-    margin-left: 100px;
+    margin-left: 55px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1020px){
+  .navbar-toggler{
+    position: absolute;
+    right: 26px;
+    top: -1px;
+  }
+  .logo-in-corner{
+    position: absolute;
+    left: 21px;
+    bottom: 18px;
+  }
+  .es-and-about{
+    display: none;
   }
 }
 .navbar-light .navbar-toggler-icon {
@@ -242,7 +268,6 @@ body, html {
       outline-color: transparent;
     }
 }
-
 .nav-header{
   color: white;
   font-size: 9pt;
@@ -260,19 +285,28 @@ h5{
 
 .es-and-about{
   color: white;
-  margin-top: 25px;
   text-align: center;
   float: right;
   a{
     color: white;
   }
+  p{
+    margin-bottom: 0px;
+  }
   @include media('<=sm'){
+    position: fixed;
     display: none;
+    bottom: 12%;
+    z-index: 2;
+    justify-content: space-around;
+    width: 66%;
+    align-items: center;
+    flex-direction: column;
+    p{
+      font-size: 1.7em
+    }
   }
 }
-
-
-
 .sidebar {
   width: 100px;
   float: left;
@@ -291,8 +325,6 @@ h5{
   }
 }
 }
-
-
 // ABOUT VIDEOS
 .mix{
   // margin-right: 10px;
@@ -307,14 +339,11 @@ h5{
     overflow: hidden;
     }
 }
-
-
 @media only screen and (max-width: 1160px) {
 .homepage-icon-row ul li {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 }
 
 @media only screen and (max-width: 950px) {
@@ -332,4 +361,13 @@ h5{
     }
 
 }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 1020px) {
+  .nav-icon{
+    width: 30%;
+  }
+  .nav-item{
+    width: 33%;
+  }
 }
