@@ -76,19 +76,32 @@
 		<%- include("../partials/photo-gallery-" + photo_id + ".ejs"); %>
 		<!-- <% include ../partials/photo-slider.ejs %> -->
 	</div>
+<<<<<<< HEAD
+</div>
+<div class="row offset-md-2">
+	<div class="left-box col-2"></div>
+	<section class="col-md-7">
+=======
 
 
 <div class="row">
 	<div class="left-box col-4"></div>
 	<section class="col-md-6">
+>>>>>>> 7602765ab0dbd15d14079fb303a4243871a7f478
 				<%} else if (body["text"][i]["type"] == "interactive") {%>
 		</div>
 	    </section>
 	    <% var filepath = body["text"][i]["value"]["filename"] %>
 	      <%- include("../partials/" + filepath); %>
+<<<<<<< HEAD
+							 <div class="row offset-md-2">
+							 	<div class="left-box col-2"></div>
+								<section class="col-md-7">
+=======
 							 <div class="row">
 							 	<div class="left-box col-4"></div>
 								<section class="col-md-6">
+>>>>>>> 7602765ab0dbd15d14079fb303a4243871a7f478
 
 			<!-- This is the lil bit of code that is killing my spirit. -->
 			<% var filepath = body["text"][i]["value"]["filename"] %>

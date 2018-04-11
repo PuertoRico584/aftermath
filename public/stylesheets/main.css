@@ -208,9 +208,15 @@ body, html {
       margin-top: 30vh;
       height: 100px; }
       .homepage-logo img {
-        width: 75%; }
+        width: 52%; }
       .homepage-logo p {
-        font-size: 1em; } }
+        font-size: 1.7em;
+        text-shadow: 1px 1px 15px #000000; } }
+  @media (max-width: 570px) {
+    .homepage-logo img {
+      width: 75%; }
+    .homepage-logo p {
+      font-size: 1em; } }
 
 .homepage-icon-row {
   display: flex;
@@ -250,6 +256,9 @@ body, html {
 .navbar {
   background-color: black !important;
   height: 60px; }
+  @media (min-width: 1020px) {
+    .navbar {
+      padding-right: 50px; } }
   .navbar-nav {
     margin: auto;
     width: 80%; }
@@ -384,7 +393,7 @@ h5 {
     color: white; }
   .es-and-about p {
     margin-bottom: 0px; }
-  @media (max-width: 570px) {
+  @media (max-width: 1020px) {
     .es-and-about {
       position: fixed;
       display: none;
@@ -395,7 +404,9 @@ h5 {
       align-items: center;
       flex-direction: column; }
       .es-and-about p {
-        font-size: 1.7em; } }
+        font-size: 1.7em; }
+      .es-and-about img {
+        width: 40px; } }
 
 .sidebar {
   width: 100px;
