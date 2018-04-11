@@ -1,26 +1,3 @@
-<script>
-// $(document).ready(function(){
-// 	$('iframe').each(function(i, el){
-// 		$(el).attr('src', $(el).data("src"));
-// 	});
-// 	$(function() {
-// 			var offset = $(".sidebar").offset();
-// 			var topPadding = 20;
-// 			$(window).scroll(function() {
-// 					if ($(window).scrollTop() > offset.top) {
-// 							$(".sidebar").stop().animate({
-// 									marginTop: $(window).scrollTop() - offset.top + topPadding
-// 							});
-// 					} else {
-// 							$(".sidebar").stop().animate({
-// 									marginTop: 0
-// 							});
-// 					};
-// 			});
-// 	});
-// });
-</script>
-
 <div class="container-fluid">
 	<div class="<%= body["master-class"]["class"] %>">
 		<div class="title-line">
@@ -43,8 +20,8 @@
 
 <div class="story-section">
 	<!-- START OF STORY WITH BYLINES -->
-	<div id="byline" class="row byline-row offset-md-2">
-		<div class="byline-box inner col-md-2">
+	<div id="byline" class="row byline-row">
+		<div class="byline-box inner col-md-2 offset-md-2">
 		  <div  class="byline-item">
 				<p class="byline-head"><%= espanol ? "escrito por" : "written by" %></p>
 		    <% for (r in body["reporters"]) {%>
@@ -72,7 +49,7 @@
 		</div>
 
 
-		<section class="col-md-7">
+		<section class="col-md-6">
 			<div class="max-width">
 				<% for (i in body["text"]) {
 				if (body["text"][i]["type"] == "text") {%>
@@ -87,42 +64,31 @@
 
 <% include ../partials/video.ejs %>
 
-<!-- SIDEBAR SHARE ICONS
-<div class="sidebar sidebar-icons">
-		<ul>
-			<li onmouseover="fadeIconsSidebar(0)" onmouseout="unfadeIconsSidebar(0)"><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img id="sidebar-0" class="social-icon" src="../../assets/images/social-media/facebook2.png"></a></li>
-			<li onmouseover="fadeIconsSidebar(1)" onmouseout="unfadeIconsSidebar(1)"><a class="twitter" href="https://twitter.com/home?status=Wow,%20this%20is%20the%20most%20incredible%20thing%20I've%20ever%20seen%20%23amazed%20%23journalism%20http%3A//puertorico584-pchance2.cloudapps.unc.edu/" target="_blank"><img id="sidebar-1" class="social-icon"src="../../assets/images/social-media/twitter2.png"></a></li>
-			<li onmouseover="fadeIconsSidebar(2)" onmouseout="unfadeIconsSidebar(2)"><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//puertorico584-pchance2.cloudapps.unc.edu/&title=Aftermath&summary=&source=" target="_blank"><img id="sidebar-2" class="social-icon" src="../../assets/images/social-media/LinkedIn2.png"></a></li>
-	</ul>
-</div>
- END SIDEBAR SHARE ICONS -->
-
-
-<div class="row offset-md-2">
-	<div class="left-box col-2"></div>
-	<section class="col-md-7">
+<div class="row">
+	<div class="left-box col-4"></div>
+	<section class="col-md-6">
 			<%} else if (body["text"][i]["type"] == "slider"){%>
 	</section>
 </div>
-<div class="row offset-md-2">
+<div class="row">
 	<div id="photo-gal">
 		<% var photo_id = body["master-class"]["class"] %>
 		<%- include("../partials/photo-gallery-" + photo_id + ".ejs"); %>
 		<!-- <% include ../partials/photo-slider.ejs %> -->
 	</div>
-</div>
 
-<div class="row offset-md-2">
-	<div class="left-box col-2"></div>
-	<section class="col-md-7">
+
+<div class="row">
+	<div class="left-box col-4"></div>
+	<section class="col-md-6">
 				<%} else if (body["text"][i]["type"] == "interactive") {%>
 		</div>
 	    </section>
 	    <% var filepath = body["text"][i]["value"]["filename"] %>
 	      <%- include("../partials/" + filepath); %>
-							 <div class="row offset-md-2">
-							 	<div class="left-box col-2"></div>
-								<section class="col-md-7">
+							 <div class="row">
+							 	<div class="left-box col-4"></div>
+								<section class="col-md-6">
 
 			<!-- This is the lil bit of code that is killing my spirit. -->
 			<% var filepath = body["text"][i]["value"]["filename"] %>
@@ -130,15 +96,15 @@
 			<% } else if (body["text"][i]["type"] == "pullquote") {%>
 
 </div>
-<div class="row offset-md-2">
-    <div class="left-box pull-quote-left-box col-md-2">
-      <div class="pull-quote-box change-bg">
-					<img src="assets/images/pull-quote-lead.png" alt="">
+<div class="row">
+    <div class="left-box col-md-3 offset-md-1">
+      <div class="pull-quote-box text-center">
+					<img src="assets/images/pull-quote-lead.png" alt="quote">
             <p class="pull-quote"><%=body["text"][i]["value"]["text"] %></p>
             <p class="attribution"><%=body["text"][i]["value"]["attribution"]%></p>
       </div>
     </div>
-    <section class="pull-text col-md-7">
+    <section class="col-md-6">
       <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
