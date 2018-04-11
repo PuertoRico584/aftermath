@@ -88,7 +88,8 @@
       vertical-align: text-top;
     & p{
       line-height: 0.6em;
-      margin-top: 12px;
+      margin-top: 5px;
+      margin-bottom: 10px;
 
     }
     }
@@ -112,33 +113,27 @@
       text-align: center;
     }
   }
-
-  .pull {
-      &-text{
-        margin-left: -10px;
-      }
-      &-quote {
-        font-size: 1em;
-        text-transform: none;
-        &-box {
-        padding-bottom: 3%;
-        font-family: $heading-font;
-        font-weight: 100;
-        color: $block-quote;
-        margin-top: -14px;
-        & .attribution{
-          font-weight: 300;
-        }
-        & img{
-          width: 75px;
-          height: auto;
-          display: flex;
-          margin: auto;
-        }
-      }
-    }
-  }
 }
+
+  .pull-quote {
+    text-align:left;
+    font-family: $heading-font;
+    font-weight: 100;
+    color: $block-quote;
+    font-size:1.2em;
+    line-height:1.3em;
+  }
+  .pull-quote-box .attribution {
+    font-weight: 400;
+    font-family: $heading-font;
+    text-align:left;
+  }
+
+.interactive {
+  padding: 40px 0;
+  margin: 20px 0;
+}
+
 
 @media only screen and (max-width: 766px) {
   .text {
@@ -360,6 +355,8 @@ animation-duration: 3s;
 }
 
 
+
+
 @media only screen and (max-width: 1120px) {
 
     .title-line h1 {
@@ -421,7 +418,9 @@ animation-duration: 3s;
     .sidebar-icons {
       display: none;
     }
-
+    .story-section .row {
+      padding: 0 20px!important;
+    }
 
 }
 

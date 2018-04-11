@@ -5,8 +5,8 @@
   "header": {
     "title-line-one": "The Healing",
     "title-line-two": "Brigade",
-    "seo": "The Healing Brigade: Puerto Rican healthcare professionals take community healing into their own hands",
-    "subtitle": "Healing lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+    "seo": "The Healing Brigade | Aftermath: Puerto Ricans Rebuild After Maria",
+    "subtitle": "deck here"
   },
   "reporters": [
     {
@@ -29,7 +29,7 @@
   ],
   "designers": [
     {
-      "name": "Mary Rachel Bulkeley"
+      "name": "MaryRachel Bulkeley"
     }
   ],
   "upr": [
@@ -43,11 +43,35 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over his friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure. “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "Every night, Ingrid Morales settles down to sleep on a thin canvas cot, surrounded by water bottles, medications and other supplies soon to be on their way to the survivors of Hurricane Maria. Her 7-year-old daughter sleeps on a cot next to her, and her husband sleeps in an adjacent room also stacked with boxes of supplies."
     },
     {
       "type": "text",
-      "value": "He has to get to the Regla ferry by midnight."
+      "value": "The family isn’t sleeping at the makeshift clinic because they were displaced, like so many Puerto Ricans were after hurricanes Irma and Maria battered the island. Their home is nearby, and was relatively unscathed in the storm."
+    },
+    {
+      "type": "text",
+      "value": "But Morales is responsible for handling the donations that Clinica Bantiox, a health clinic set up just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything --  from the blood sugar meters to diapers --  stays safe overnight."
+    },
+    {
+      "type": "text",
+      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the family at the clinic set up in a preschool. Now, it’s just the Morales family. A member of the administrative staff, Morales feels the responsibility is too important to abandon, but she also has  a personal reason to stay."
+    },
+    {
+      "type": "text",
+      "value": "“I think that giving is healing,” she said."
+    },
+    {
+      "type": "text",
+      "value": "The clinic is just one piece of the work of Iniciativa Comunitaria, a nonprofit that is helping  address health care needs after the storm. It also runs brigades that bring mobile clinics to communities around the island. The Puerto Rico-based organization has been around for over 25 years, sending brigades to respond to crises in Haiti, Guatemala and across the world."
+    },
+    {
+      "type": "text",
+      "value": "Now, their own country is in crisis. The water levels in Toa Baja, the low-lying suburb where the clinic is located, reached nearly 20 feet during the storm, leaving some residents stranded on their roofs. In the aftermath, Iniciativa has helped more than 6,000 people between its clinic and its brigades."
+    },
+    {
+      "type": "text",
+      "value": "The brigade’s members started their journey more than 200 days ago. It’s their longest mission ever."
     },
     {
       "type": "video",
@@ -57,50 +81,30 @@
       }
     },
     {
-      "type": "text",
-      "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of ocean waves that confront the city’s border."
-    },
-    {
-      "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
-    },
-    {
-      "type": "text",
-      "value": "He’s used to this hustle. The 28-year-old tour coordinator has spent the last 15 hours on his feet, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
-    },
-    {
-      "type": "text",
-      "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
-    },
-    {
-      "type": "text",
-      "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
-    },
-    {
-      "type": "text",
-      "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
-    },
-    {
-      "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that Cubans have never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana."
-    },
-    {
-      "type": "text",
-      "value": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
-    },
-    {
       "type": "subhead",
       "value": {
-        "text": "A notion of normalcy"
+        "text": "Continual Healing"
       }
     },
     {
       "type": "text",
-      "value": "On December 17, 2014, fifteen words altered the relationship between two countries that had been estranged for 53 years."
+      "value": "Hurricane Maria is becoming a fading memory on the U.S. mainland, but Puerto Ricans  are still recovering physically and emotionally from the most devastating storm in decades. Doctors and medical professionals are needed more than ever."
     },
     {
       "type": "text",
-      "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
+      "value": "Even before the storm, the financial crisis had driven doctors away from the island in search of jobs elsewhere. Between 2006 and 2016, 5,000 doctors left the island. An estimated 10 doctors have left the island per day since the storm, according to a local news outlet, furthering the medical care crisis here."
+    },
+    {
+      "type": "text",
+      "value": "“Everything was so disrupted that their income stopped, their offices were destroyed,” said Dr. Wendy Matos, executive director of the University of Puerto Rico's faculty practice plan. “It’s like, the rug was taken out from under their feet. People made decisions to survive.”"
+    },
+    {
+      "type": "text",
+      "value": "Those who are left are picking up the pieces."
+    },
+    {
+      "type": "text",
+      "value": "“You have to go out to serve,” said José Luis Vargas Tapia, the leader of the organization’s “Iniciativas de Paz” brigades. “You have to do it, because if not you, then who is going to do it?”"
     },
     {
       "type": "interactive",
@@ -110,96 +114,198 @@
     },
     {
       "type": "text",
-      "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
+      "value": "As the sun rose in Toa Baja on a Wednesday morning in March, the clinic brimmed with volunteers preparing to set off on the brigade."
     },
     {
       "type": "text",
-      "value": "Tourism existed while the U.S. and Cuba were estranged — Canadians, Spaniards and Italians are some of the main visitors — but now, it’s an industry that is rapidly changing as airlines shuttle in more Americans. In 2015, the Cuban government reported 145,000 Americans traveled to Cuba — a 79 percent increase from the year before. Tourism from visitors all over the world has been on the rise, too — over two million travelers visited Cuba during the first half of 2016, an 11.7 percent increase from 2015, according to the National Office of Statistics and Information."
+      "value": "They packed duffle bags full of medications and supplies: blood sugar monitors, vaccines, antibiotics. Franchely Soto darted around volunteers with a clipboard, checking off her list with precision."
     },
     {
       "type": "text",
-      "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
+      "value": "Things weren’t always so organized. To set up a clinic in six days, they had to make do. The clinic inhabits one of the rooms in the preschool, and several classrooms hold supplies, including the one where Morales sleeps."
     },
     {
       "type": "text",
-      "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and enjoying taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
+      "value": "Stethoscopes hang on plastic hooks, post its and notepaper plaster the walls, and the staff sit at card tables. A curtain divides the waiting area and administrative offices from where patients are seen."
     },
     {
       "type": "text",
-      "value": "“It’s the most attractive part of the city,” Orlando says. “So everything has been developed around there — so obviously all the opportunities will be happening there. Right?”"
+      "value": "In front of the door, a sign greets patients: “We are a big hug.”"
     },
     {
       "type": "text",
-      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little to show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they want to go there?"
+      "value": "The group has been on nearly 70 brigades, and they have the process down like clockwork."
     },
     {
       "type": "text",
-      "value": "“Regla is less crowded than Havana, a lot quieter than Havana — less gentrified,” Orlando says. Though he thinks visitors will soon realize Regla for its charms, that’s not what’s happening now. “There’s no tourism there,” he says, “Not yet.”"
+      "value": "José Antonio Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa in 1990 to address HIV among drug users and the homeless. The program has grown to offer 12 different services."
     },
     {
       "type": "text",
-      "value": "This disparity is two sided; visitors aren’t coming in to Regla, but they aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
+      "value": "Around a year after he was elected in November 2016, , his son, Vargas Tapia, took over leading the “Iniciativas de Paz” brigades."
     },
     {
-      "type": "subhead",
+      "type": "text",
+      "value": "Vargas Tapia gathers the volunteers around for their morning briefing: around 20 doctors, medical students, nurses, administrators, and anyone else who happens to be on hand that day."
+    },
+    {
+      "type": "text",
+      "value": "The community they’re about to serve -- Aguada, a small town on the island’s west coast -- is more than 80 miles away, but Vargas Tapia talks about the patients like they’re family. Some still don’t have power or water. Fallen trees still line many roads."
+    },
+    {
+      "type": "text",
+      "value": "“Here we have no titles, here we are human beings serving other humans,” Vargas Tapia told the group. “That's it.”"
+    },
+    {
+      "type": "text",
+      "value": "The volunteers load into a caravan of cars, and set off through the countryside, watching as the buildings of San Juan give way to lush rolling hills, where Aguada sits overlooking a valley and a glimmer of the coastline."
+    },
+    {
+      "type": "text",
+      "value": "After unpacking their supplies in the hot sun, Vargas Tapia and his team split up to visit patients, some of whom are bedridden. They have 37 people to see that day."
+    },
+    {
+      "type": "slider",
       "value": {
-        "text": "The $1,000 glisten"
+        "value": "{}"
       }
     },
     {
       "type": "text",
-      "value": "<span class='italic'>If you had one shot…</span>"
+      "value": "On the last stop of the day for one group of volunteers, a doctor and nurse pull up to Isidra Perez’s house."
     },
     {
       "type": "text",
-      "value": "“If you had one shot,” Orlando repeats to his audience of one: The reflection in his bedroom mirror."
+      "value": "The elderly are more vulnerable to the heat, especially Perez, who is bedridden. So for the five months after the storm, her family used their generator between five and seven hours a day to run the air conditioning."
     },
     {
       "type": "text",
-      "value": "<span class='italic'>…or one opportunity, to seize everything you ever wanted in one moment…</span>"
+      "value": "The cost of gasoline needed to run the generator added up to about $1,000. The family was nearly economically ruined."
     },
     {
       "type": "text",
-      "value": "“Opp-or-tune-ih-tee,” — five syllables. That’s a hard one."
+      "value": "Perez developed an ulcer not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital."
     },
     {
       "type": "text",
-      "value": "<span class='italic'>…would you capture it or just let it slip?</span>"
+      "value": "Miraculously, Bonilla was able to use honey and lemon -- a natural antiseptic -- to cure her mother’s infection. Needs another beat to set up quote-- like, “But the family struggled to keep her healthy in the long weeks with no power or access to medical care.”"
     },
     {
       "type": "text",
-      "value": "He looks away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself” back to the beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
+      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” Bonilla said. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
     },
     {
       "type": "text",
-      "value": "So why not just learn English?"
+      "value": "Because Bonilla works at a local hospital, she was able to take care of her mother, but others still struggle to access medical care."
     },
     {
       "type": "text",
-      "value": "Music was — is — his Bible, he says. It’s how he learned a language almost no one else around him can comprehensively understand; it’s what fueled him through his two mandatory years of military service in the Cuban army. American hip-hop was an escape throughout his tough upbringing, but it was also a way to expand his mind, to grasp at a country just 90 miles away that sometimes felt like another world."
+      "value": "Even though hospitals are open now, they face supply and staff shortages, and in the storm’s wake, some did not accept patients from other areas. Some patients have had to wait nearly a full day to receive treatment."
+    },
+    {
+      "type": "text",
+      "value": "But it’s patients with long-term diseases like diabetes that are most at risk."
+    },
+    {
+      "type": "text",
+      "value": "According to the Centers for Disease Control and Prevention, 15.7 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A study from the University of Puerto Rico’s Medical School found that nearly 40 percent of participants suffered from hypertension."
+    },
+    {
+      "type": "text",
+      "value": "And a loss of power for some diabetics can be a life or death situation, as insulin needs to be refrigerated."
+    },
+    {
+      "type": "text",
+      "value": "“The deaths after a disaster come from untreated chronic illnesses,” said Vargas Vidot. “So diabetes is endemic here. Hypertension is endemic. Cardiovascular problems are endemic.”"
+    },
+    {
+      "type": "text",
+      "value": "Those deaths aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos of the University of Puerto Rico says there are other long-term health consequences that often get overlooked, like mental health and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline. Needs a beat here about PTSD on the island, to set up next graf."
+    },
+    {
+      "type": "text",
+      "value": "While it’s too early for most research to track the long-term mental health impacts of Hurricane Maria, a study of low-income parents in the 18 months after Hurricane Katrina found that nearly half exhibited signs of probable PTSD."
+    },
+    {
+      "type": "text",
+      "value": "“The government disregarded the effect of a disaster on the emotional state of people,” Matos said. “That affects directly not only the thinking process and decision making, but their physical conditions too.”"
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
+        "text": "“We saw Puerto Rico literally broken, If you see something broken, it’s human that you want to bring it back together.”",
+        "attribution": "Sofia Muns, a first-year medical student at the University of Puerto Rico."
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "“Forgotten”"
       }
     },
     {
       "type": "text",
-      "value": "That was nearly a decade ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
+      "value": "As the Inciativa’s daytime volunteers pack up and head back to Toa Baja, the night brigades are just getting started."
     },
     {
       "type": "text",
-      "value": "But sometimes, it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
+      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of Reciento Pa La Calle, an Iniciativa program that provides services for homeless people and drug users at night."
     },
     {
       "type": "text",
-      "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy, and it shows. He’s always yawning, even in the middle of the day, with watery eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
+      "value": "After loading cars with supplies, the volunteers pulled their cars up to an empty bus station, where just one other car was parked. Adriana Rodriguez, a third-year medical student at the University of Puerto Rico, hopped out of her car and approached a homeless camp, scattered with tents and mattresses."
     },
     {
       "type": "text",
-      "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
+      "value": "She exchanged a few words with the camp’s residents, and they light up. Rodriguez waved to her peers, who hop out of a caravan of cars labeled “Iniciativa.”"
+    },
+    {
+      "type": "text",
+      "value": "The students hand out orange juice, coffee, sandwiches, clothes, toothpaste, condoms — anything they had in their supply of donations, they provide. Several of the students dressed wounds, while other just took time to listen to the stories of people in the camps. Like René, who asked that his last name not be used, who has been the leader of the homeless camp for years. The other residents call him “El Padre.”"
+    },
+    {
+      "type": "text",
+      "value": "The storm destroyed what few things he and the others had in the camp, and the bus terminal they rely on for light was without power for a month."
+    },
+    {
+      "type": "text",
+      "value": "René’s two daughters left for New York after the storm. TK needs another beat…. Was he homeless before that? Is this why he’s homeless? How are they doing?"
+    },
+    {
+      "type": "text",
+      "value": "The members of the camp survived though, thanks to Iniciativa’s volunteers, who brought them and others to a shelter."
+    },
+    {
+      "type": "text",
+      "value": "But many of Puerto Rico’s homeless stayed on the streets. While the government has yet to study the island’s homeless population — Vargas Vidot is pushing for it in the Senate — estimates from several years ago were as high as 1,650."
+    },
+    {
+      "type": "text",
+      "value": "It’s the homeless, the elderly, drug users and other “forgotten” populations that Iniciativa focuses much of its efforts on. And many of those residents and volunteers alike say government assistance is not reaching those who need it most."
+    },
+    {
+      "type": "text",
+      "value": "“Most patients we have been seeing, they haven’t been seen by any physician or any group,” said Soto, Iniciativa’s logistics coordinator."
+    },
+    {
+      "type": "text",
+      "value": "Many of those communities are used to helping themselves. Cantera, an impoverished community in San Juan the brigade had recently visited, formed its own nonprofit years ago, as have several others."
+    },
+    {
+      "type": "text",
+      "value": "“There’s a concept of community that doesn’t represent a geographic thing,” said Vargas Vidot."
+    },
+    {
+      "type": "text",
+      "value": "And on their brigades, the volunteers take that concept into to their patients’ homes. Like Hector Ortíz, who strummed his guitar inside the peach colored walls of Maria Elena’s public housing unit in Cantera."
+    },
+    {
+      "type": "text",
+      "value": "Ortiz sang “Levanto mis manos,” or “I lift my hands,” with a group of Iniciativa’s volunteers as Maria Elena tapped her knuckles on her kitchen table to the beat and smiled."
+    },
+    {
+      "type": "text",
+      "value": "Maria Elena lives alone, like much of the elderly population on the island. Between 2014 and 2016, the share of the population older than 65 increased from 14.5 percent to nearly 19 percent while the share of people under 18 declined, according to U.S. Census Bureau Estimates."
     },
     {
       "type": "interactive",
@@ -209,57 +315,23 @@
     },
     {
       "type": "text",
-      "value": "Orlando Sr. wanted no part of such a massive expenditure at first. “He was like ‘We cannot pay for that,’” Orlando remembers. “And I was like ‘Dad, that’s okay. I have the money.’ I think this is when he understood that, economically, I was the alpha of the family.”"
+      "value": "Since the storm, experts say it’s only gotten worse. As of January, more than 200,000 Puerto Ricans had left the island for the mainland. Most of them are the island’s youth."
     },
     {
       "type": "text",
-      "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
+      "value": "“The young people are the future and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts and a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
     },
     {
       "type": "text",
-      "value": "“I think his life is going to be a lot more prosperous than mine,” Orlando Sr. says about his son. “I don’t think he’ll have to go through the same challenges.”"
+      "value": "Sometimes, the elderly just need someone to talk to. Or, in Maria Elena’s case, to share a song with."
     },
     {
       "type": "text",
-      "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "“Because we’re creative”"
-      }
+      "value": "That’s what drives Iniciativa’s volunteers to rebuild  their community — whether its a town on the opposite coast of the island, a poor neighborhood in San Juan or the area just outside of the University of Puerto Rico’s medical school where the homeless sleep."
     },
     {
       "type": "text",
-      "value": "It’s only eight hours later, but Orlando is back on the ferry. His arm bends in a perfect “L” as he grips the railing above him, mouthing the words to a Kendrick Lamar song streaming through his earbuds."
-    },
-    {
-      "type": "text",
-      "value": "His morning ferry proves it has also been the pumpkin for countless other Cinderellas, with white and blue paint chipping from the walls and worn green floors. It’s the size of a living room — fitting, since it seems like this is where Orlando does a lot of his living — with characters of every age hunched over the rail, their eyes locked on the nearing Havana harbor as the boat courses through the water."
-    },
-    {
-      "type": "text",
-      "value": "Orlando is on his way to pick up a group of Americans visiting for the week. He says a lot of the visitors he meets have predetermined conceptions of what Cuba is like before they arrive — the old cars, the limited access to the outside world — and decide the country must be stuck in the past."
-    },
-    {
-      "type": "text",
-      "value": "They’re wrong."
-    },
-    {
-      "type": "text",
-      "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
-    },
-    {
-      "type": "text",
-      "value": "This creativity is embedded into young people now — it’s as much of a genetic trait as their physical ones. It’s what inspired a kid without much money to learn English just for fun, to get a job that could provide his family with security in a country that hasn’t always felt so secure. In the same way that Orlando’s neighbors seem to know who he is just by watching him, the rest of the world has its eyes on Cuba — how it will grow, how America’s access will influence the island, how it will change."
-    },
-    {
-      "type": "text",
-      "value": "How Cuba’s tumultuous past will influence its future."
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
+      "value": "“We saw Puerto Rico literally broken,” said Sofia Muns, a first-year medical student at the University of Puerto Rico. “If you see something broken, it’s human that you want to bring it back together.”"
     }
   ],
   "step-links": {

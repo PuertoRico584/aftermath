@@ -423,15 +423,6 @@ h5 {
         width: 30px;
         height: auto; }
 
-.mix .video-mask {
-  width: 100%;
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-  -webkit-transform: rotate(0deg);
-  -webkit-border-radius: 120px;
-  -moz-border-radius: 120px;
-  border-radius: 120px;
-  overflow: hidden; }
-
 @media only screen and (max-width: 1160px) {
   .homepage-icon-row ul li {
     padding-left: 20px;
@@ -519,7 +510,8 @@ h5 {
   vertical-align: text-top; }
   .inner .byline-item p {
     line-height: 0.6em;
-    margin-top: 12px; }
+    margin-top: 5px;
+    margin-bottom: 10px; }
 
 .inner .byline-head {
   font-size: 0.9em;
@@ -534,25 +526,22 @@ h5 {
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-text {
-  margin-left: -10px; }
+.pull-quote {
+  text-align: left;
+  font-family: "Quasimoda", sans-serif;
+  font-weight: 100;
+  color: #309865;
+  font-size: 1.2em;
+  line-height: 1.3em; }
 
-.inner .pull-quote {
-  font-size: 1em;
-  text-transform: none; }
-  .inner .pull-quote-box {
-    padding-bottom: 3%;
-    font-family: "Quasimoda", sans-serif;
-    font-weight: 100;
-    color: #309865;
-    margin-top: -14px; }
-    .inner .pull-quote-box .attribution {
-      font-weight: 300; }
-    .inner .pull-quote-box img {
-      width: 75px;
-      height: auto;
-      display: flex;
-      margin: auto; }
+.pull-quote-box .attribution {
+  font-weight: 400;
+  font-family: "Quasimoda", sans-serif;
+  text-align: left; }
+
+.interactive {
+  padding: 40px 0;
+  margin: 20px 0; }
 
 @media only screen and (max-width: 766px) {
   .text-row {
@@ -756,7 +745,9 @@ h5 {
     margin: auto;
     display: block; }
   .sidebar-icons {
-    display: none; } }
+    display: none; }
+  .story-section .row {
+    padding: 0 20px !important; } }
 
 @media only screen and (max-width: 650px) {
   .title-line h1 {
@@ -782,7 +773,7 @@ h5 {
   padding-top: 2px;
   padding-bottom: 30px;
   background-color: #000000;
-  margin-top: 25px; }
+  margin-top: 15px; }
   .footer-wrapper img {
     margin: auto;
     display: block;
@@ -829,8 +820,7 @@ h5 {
   .footer-wrapper img {
     padding-top: 0px; }
   .footer-wrapper {
-    padding-bottom: 15px;
-    margin-top: 15px; } }
+    padding-bottom: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/
@@ -917,6 +907,11 @@ h5 {
     display: none; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.light-video {
+  width: 100%;
+  height: auto;
+  z-index: -1000; }
+
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1590,6 +1585,15 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
+#imagesequence {
+  margin-left: 80px; }
+  #imagesequence #myimg {
+    width: 70%;
+    height: auto; }
+
+.side-title {
+  padding-left: 60px; }
+
 .text-row {
   padding-top: 5%;
   padding-bottom: 2%; }
@@ -1613,7 +1617,8 @@ h5 {
     #abouttitle-box .title-line h1 {
       font-weight: 100;
       font-size: 7em;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.6em; }
     #abouttitle-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;
@@ -1699,6 +1704,9 @@ a.about-social-icon {
   font-weight: 400;
   cursor: pointer; }
 
+.about-video video {
+  clip-path: circle(); }
+
 .about-section {
   margin-top: 50px; }
 
@@ -1706,7 +1714,7 @@ a.about-social-icon {
   width: 100%;
   height: 80vh;
   z-index: -2;
-  background-image: url("../../assets/images/power-hero.jpg");
+  background-image: url("../../assets/images/about-hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

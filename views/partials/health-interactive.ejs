@@ -1,9 +1,21 @@
 <style>
+  body {
+    margin-top: 30px;
+  }
+
+  .fa-moon {
+	  font-size: 50px;
+  }
+
+  .tabcontent h3 {
+	  color: #034C66;
+  }
+
   .clock path:hover {
-    fill:#bfd13d;
+    fill: #034C66;
   }
   .clock path.active {
-    fill: #bfd13d;
+    fill: #034C66;
   }
   .clock path.visited {
     fill: #ffffff;
@@ -25,28 +37,25 @@
 	.st4{fill:none;stroke:#EFEFEF;stroke-width:15;}
 	.st5{enable-background:new    ;}
 	.st6{fill:#707070;}
-	.st7{opacity:.8;fill:#4faf8f;enable-background:new    ;}
-	.st8{fill:#C1D363;enable-background:new    ;}
+	.st7{opacity:.9;fill:#508091;enable-background:new    ;}
+	.st8{fill:#508091;enable-background:new    ;}
 	.st9{fill:#FF7B7B;}
 	.st10{font-family:'Quasimoda-Medium';}
 	.st11{font-size:77.1528px;}
 
-	/* .blue {
-	  border:1px solid blue;
-	  } */
 	</style>
 
-  <div class="container">
-	<div class="row">
-	  <div class="col-sm-3 blue">
+	<div class="row interactive">
+	  <div class="col-md-3 offset-md-1 left-box blue">
 		  <h3>Day in the Life of a Brigade</h3>
 		<p>By MaryRachel Bulkeley</p>
-		  <p>Since Hurricane Maria, workers and volunteers with Iniciativa Communitaria have been providing much-needed health services to communities throughout Puerto Rico. Explore the typical, 16-hour day in the life of a health brigade member.</p>
+		  <p>Since Hurricane Maria, Iniciativa Communitaria has helped more than 6,000 people in Puerto Rico between its clinic and its brigades. Explore a typical 16-hour day brigade shift and  then a night brigade shift.</p>
 		</div>
-      <div class="col-sm-5 clock blue">
 
+      <div class="col-md-4 clock blue">
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
 
@@ -1060,11 +1069,6 @@
 		<circle class="st4" cx="-2281.6" cy="-5487.4" r="507.4"/>
 	</g>
 	<g id="Group_245_4_" transform="translate(2915.461 6112.818)">
-		<text transform="matrix(1 0 0 1 -2735.7839 -5548.1064)" class="st6 st10 st11">9</text>
-		<text transform="matrix(1 0 0 1 -2691.1414 -5380.8418)" class="st6 st10 st11">8</text>
-		<text transform="matrix(1 0 0 1 -2573.8796 -5845.3818)" class="st6 st10 st11">11</text>
-		<text transform="matrix(1 0 0 1 -2711.7214 -5718.5439)" class="st6 st10 st11">10</text>
-		<text transform="matrix(1 0 0 1 -2411.5085 -5887.3965)" class="st6 st10 st11">12</text>
 		<text transform="matrix(1 0 0 1 -2223.157 -5841.417)" class="st6 st10 st11">1</text>
 		<text transform="matrix(1 0 0 1 -2103.5945 -5716.166)" class="st6 st10 st11">2</text>
 		<text transform="matrix(1 0 0 1 -2111.2273 -5384.8057)" class="st6 st10 st11">4</text>
@@ -1072,6 +1076,11 @@
 		<text transform="matrix(1 0 0 1 -2566.7292 -5254.7959)" class="st6 st10 st11">7</text>
 		<text transform="matrix(1 0 0 1 -2399.6277 -5210.4023)" class="st6 st10 st11">6</text>
 		<text transform="matrix(1 0 0 1 -2227.0652 -5257.9688)" class="st6 st10 st11">5</text>
+		<text transform="matrix(1 0 0 1 -2735.7839 -5548.1064)" class="st6 st10 st11">9</text>
+		<text transform="matrix(1 0 0 1 -2691.1414 -5380.8418)" class="st6 st10 st11">8</text>
+		<text transform="matrix(1 0 0 1 -2573.8796 -5845.3818)" class="st6 st10 st11">11</text>
+		<text transform="matrix(1 0 0 1 -2711.7214 -5718.5439)" class="st6 st10 st11">10</text>
+		<text transform="matrix(1 0 0 1 -2411.5085 -5887.3965)" class="st6 st10 st11">12</text>
 	</g>
 	<g>
 		<g>
@@ -1094,79 +1103,49 @@
 </svg>
 	  </div>
 
-		<div class="col-sm-4 blue">
-          <div id="1" class="tabcontent">
-            <h3>11:30 a.m. - 12:30 p.m.</h3>
-              <p>Rotating shifts of brigades return to homebase for a lunch break and to restock needed supplies.</p>
+		<div class="col-md-4 blue">
+        <!--LAST CLICK SHOULD BE ON THIS ONE, 1-->
+		<div id="1" class="tabcontent">
+            <h3><i class="fas fa-moon"></i><br><br>11:30 p.m. - 12:30 a.m.</h3>
+              <p>After distributions, the group goes back to the main clinic. Volunteers clean and re-organize supplies.<br><br>Then, for 30 minutes, the group reflects on what they learned and how the experience has shaped them to be better health professionals.<br><br> Home by 1 a.m.</p>
           </div>
 
-          <div id="2" class="tabcontent">
-			  <h3>12:30 – 1:30 p.m.</h3>
-              <p>Brigades are finishing rounds in the community.</p>
-          </div>
-
-          <div id="3" class="tabcontent">
-            <h3>1:30 – 2:30 p.m.</h3>
-              <p>Community services involve providing medical consultations and care, as well as being an ecouragement and a friend.</p>
-          </div>
-
-          <div id="4" class="tabcontent">
-            <h3>2:30 – 3:30 p.m.</h3>
-              <p>Community services involve providing medical consultations and care, as well as being an ecouragement and a friend.</p>
-          </div>
-
-          <div id="5" class="tabcontent">
-            <h3>3:30 – 4:30 p.m.</h3>
-              <p>Community services involve providing medical consultations and care, as well as being an ecouragement and a friend.</p>
-          </div>
-
-		  <div id="6" class="tabcontent">
-            <h3>4:30 – 5:30 a.m.</h3>
-              <p>José wakes and prepares recording equipment for the day.</p><br>
-			<h3>4:30 – 5:30 p.m.</h3>
-              <p>Brigades start returning to the clinic's home base for the day.</p>
-          </div>
-
+		  <!--INITIAL CLICK SHOULD BE ON THIS ONE, 7-->
 		  <div id="7" class="tabcontent">
-		    <h3>5:30 – 6:30 a.m.</h3>
-              <p>José leaves home. Calls leaders to see who has difficulty getting to the main clinic, where group meets.</p><br>
-			<h3>5:30 – 6:30 p.m.</h3>
-              <p>Brigades return from their rounds. José shares a summary of the day and thanks all who were able to help for their engagement.</p>
+		    <h3><i class="fas fa-moon"></i></h3>
+				<h3><i>The night brigade, Recinto Pa La Calle, offers aid to homeless people and drug users</i></h3>
+			  <h3>5:30 – 6:30 p.m.</h3>
+			  <p>START</p>
+              <p>The night brigade, Recinto Pa La Calle, offers aid to homeless people and drug users. Volunteers meet at the main clinic to prepare supplies for those in camps often scattered with tents and mattresses.</p><br>
           </div>
 
 		  <div id="8" class="tabcontent">
-            <h3>6:30 a.m.</h3>
-              <p>People arrive at the main clinic. Workers load appropriate supplies onto the bus which will take them to the community of the day. Leader gives overview of how they can try to best help the people there.</p><br>
-			<h3>6:30 – 9:00 p.m.</h3>
-              <p>Brigade workers break down home base and board bus to return to clinic.</p>
+            <h3><i class="fas fa-moon"></i><br><br>7:00 – 8:30 p.m.</h3>
+              <p>The undergraduate and medical students from the University of Puerto Rico who are part of Recinto Pa La Calle load the cars and the Iniciativa vans with donated supplies.</p><br>
           </div>
 
 		  <div id="9" class="tabcontent">
-			<h3>7:30 – 8:30 a.m.</h3>
-            <p>Workers board bus and ride to the clinic's home base for the day. Locations are anywhere from 15 minutes to a couple of hours away.</p><br>
-            <h3>6:30 – 9:00 p.m.</h3>
-            <p>Brigade workers break down home base and board bus to return to clinic.</p>
+			<h3><i class="fas fa-moon"></i><br><br>7:00 – 8:30 p.m.</h3>
+            <p>The group discusses the rules and important considerations before going into the field. The group divides up into different cars and leaves the main clinic.</p><br>
           </div>
 
 		  <div id="10" class="tabcontent">
-            <h3>8:30 – 9:00 a.m.</h3>
-			  <p>Tents and stations are set up.</p><br>
-			<h3>8:30 – 9:30 p.m.</h3>
-              <p>Brigade workers break down home base and board bus to return to clinic.</p>
+            <h3><i class="fas fa-moon"></i><br><br>8:30 – 9:30 p.m.</h3>
+			  <p>Volunteers arrive at the site of the night and begin distributing the supplies.</p><br>
 			</div>
 
 		  <div id="11" class="tabcontent">
-     		<h3>9:00 – 11:30 a.m.</h3>
-			  <p>People start arriving at the clinic's home base of the day.</p>
+     		<h3><i class="fas fa-moon"></i><br><br>9:30 – 11:30 p.m.</h3>
+			  <p>Some hand out orange juice, coffee and sandwiches. Others items like clothes, toothpaste and condoms. Students also dress wounds and address physical ailments throughout the night.</p>
 			  </div>
 
 		  <div id="12" class="tabcontent">
-			  <h3>9:00 – 11:30 a.m.</h3>
-			  <p>Health services being offered include blood pressure tests, wound treatments and mental health services.</p>
+			  <h3><i class="fas fa-moon"></i><br><br>9:30 – 11:30 p.m.</h3>
+			  <p>Volunteers also spend time talking with participants and listening to their stories</p>
           </div>
 		</div>
 	  </div>
-</div>
+
 
    <script>
    function openTime(evt, clockTime) {
@@ -1190,4 +1169,13 @@
     evt.currentTarget.classList.add ("active");
     console.log (evt.currentTarget.className);
 }
+	   jQuery(document).ready(function() {
+	// Hide the div
+	jQuery('#reveal').hide();
+	jQuery('.rv_button').click(function(e){
+	e.preventDefault();jQuery("#reveal").slideToggle();
+	jQuery('.rv_button').toggleClass('opened closed');
+	});
+	});
+
 </script>
