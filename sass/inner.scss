@@ -129,7 +129,10 @@
     text-align:left;
   }
 
-
+.interactive {
+  padding: 40px 0;
+  margin: 20px 0;
+}
 
 
 @media only screen and (max-width: 766px) {
@@ -415,7 +418,9 @@ animation-duration: 3s;
     .sidebar-icons {
       display: none;
     }
-
+    .story-section .row {
+      padding: 0 20px!important;
+    }
 
 }
 
