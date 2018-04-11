@@ -129,7 +129,7 @@
         "firstname": "Kaitlin",
         "rolespanish": "Fotógrafa, Traductor",
         "role": "Photographer, Translator",
-        "roleid": "pho",
+        "roleid": "vid",
         "portfolio": "http://www.kaitlinharlow.myportfolio.com",
         "social": "http://www.twitter.com/kaitlin_harlow",
         "handle": "kaitlin_harlow",
@@ -227,8 +227,8 @@
         "lastname": "O'Neill",
         "firstname": "Marissa",
         "rolespanish": "Coordinadora de Relaciones Públicas, Traductor",
-        "role": "PR Coordinator, Translator",
-        "roleid": "dev",
+        "role": "Public Relations Coordinator, Translator",
+        "roleid": "des",
         "social": "http://www.instagram.com/marissaoneill",
         "handle": "marissaoneill",
         "socialid": "instagram",
@@ -344,9 +344,9 @@
         "social": "http://www.instagram.com/averyhw",
         "handle": "averyhw",
         "socialid": "instagram",
-        "social2": "https://https://www.linkedin.com/in/averyhwilliams/",
-        "handle2": "averyhwilliams",
-        "socialid2": "linkedin"
+        "social": "https://www.linkedin.com/in/averyhwilliams/",
+        "handle": "averyhwilliams",
+        "socialid": "linkedin"
     },
     {
         "fullname": "Darian Woehr",

@@ -192,8 +192,8 @@ body, html {
   visibility: hidden; }
 
 .nav-icon {
-  width: 90px; }
-  @media (min-width: 570px) {
+  width: 55%; }
+  @media (min-width: 1020px) {
     .nav-icon {
       display: none; } }
 
@@ -203,14 +203,20 @@ body, html {
   height: 100px; }
   .homepage-logo img {
     width: 25%; }
-  @media (max-width: 570px) {
+  @media (max-width: 1020px) {
     .homepage-logo {
       margin-top: 30vh;
       height: 100px; }
       .homepage-logo img {
-        width: 75%; }
+        width: 52%; }
       .homepage-logo p {
-        font-size: 1em; } }
+        font-size: 1.7em;
+        text-shadow: 1px 1px 15px #000000; } }
+  @media (max-width: 570px) {
+    .homepage-logo img {
+      width: 75%; }
+    .homepage-logo p {
+      font-size: 1em; } }
 
 .homepage-icon-row {
   display: flex;
@@ -232,13 +238,13 @@ body, html {
       .homepage-icon-row ul li .homepage-icon {
         height: 120px;
         width: auto; }
-  @media (max-width: 570px) {
+  @media (max-width: 1020px) {
     .homepage-icon-row {
       display: none; } }
 
 .homepage-subtitle {
   color: white;
-  font-size: 15pt;
+  font-size: 18pt;
   font-family: "quasimoda",sans-serif; }
 
 /* ------------------  NAV BAR ------------------ */
@@ -250,6 +256,9 @@ body, html {
 .navbar {
   background-color: black !important;
   height: 60px; }
+  @media (min-width: 1020px) {
+    .navbar {
+      padding-right: 50px; } }
   .navbar-nav {
     margin: auto;
     width: 80%; }
@@ -257,17 +266,23 @@ body, html {
     margin-bottom: 5px; }
 
 .nav-bar-wrapper {
-  position: absolute;
-  top: 0px;
+  position: fixed;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  transition-duration: 0.5s; }
+
+.nav-down {
+  top: 0px; }
+
+.nav-up {
+  top: -60px; }
 
 @media (max-width: 1280px) {
   .navbar-nav {
     width: 97%;
     margin: auto; } }
 
-@media (max-width: 570px) {
+@media (max-width: 1020px) {
   .navbar-nav {
     width: 97%;
     display: flex;
@@ -287,8 +302,11 @@ body, html {
   padding-right: 15px; }
   @media (max-width: 570px) {
     .nav-item {
-      width: 138px;
+      width: 110px;
       margin-bottom: 20px; } }
+  @media (max-width: 320px) {
+    .nav-item {
+      width: 92px; } }
 
 .nav-link {
   color: white !important;
@@ -305,7 +323,7 @@ body, html {
   position: fixed;
   display: block;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #000;
   height: 105vh;
   margin: 0;
   margin-top: -10px;
@@ -318,20 +336,36 @@ body, html {
       height: 49px;
       margin-top: -7px; } }
 
-@media (min-width: 570px) {
+.mobile-social-icons img {
+  width: 10vw;
+  margin: 3px; }
+
+@media (min-width: 1020px) {
   .mobile-social-icons {
     display: none; } }
 
 .navbar-light .navbar-toggler {
   margin-top: 19px;
   margin-left: 168px; }
-  @media (max-width: 570px) {
+  @media (max-width: 1280px) {
     .navbar-light .navbar-toggler {
-      margin-left: 140px; } }
+      margin-left: 110px; } }
 
 @media only screen and (max-width: 320px) {
   .navbar-light .navbar-toggler {
-    margin-left: 100px; } }
+    margin-left: 55px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 1020px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 26px;
+    top: -1px; }
+  .logo-in-corner {
+    position: absolute;
+    left: 21px;
+    bottom: 18px; }
+  .es-and-about {
+    display: none; } }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("../assets/images/hamburger-temp.png"); }
@@ -353,14 +387,26 @@ h5 {
 
 .es-and-about {
   color: white;
-  margin-top: 25px;
   text-align: center;
   float: right; }
   .es-and-about a {
     color: white; }
-  @media (max-width: 570px) {
+  .es-and-about p {
+    margin-bottom: 0px; }
+  @media (max-width: 1020px) {
     .es-and-about {
-      display: none; } }
+      position: fixed;
+      display: none;
+      bottom: 12%;
+      z-index: 2;
+      justify-content: space-around;
+      width: 66%;
+      align-items: center;
+      flex-direction: column; }
+      .es-and-about p {
+        font-size: 1.7em; }
+      .es-and-about img {
+        width: 40px; } }
 
 .sidebar {
   width: 100px;
@@ -377,15 +423,6 @@ h5 {
         width: 30px;
         height: auto; }
 
-.mix .video-mask {
-  width: 100%;
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-  -webkit-transform: rotate(0deg);
-  -webkit-border-radius: 120px;
-  -moz-border-radius: 120px;
-  border-radius: 120px;
-  overflow: hidden; }
-
 @media only screen and (max-width: 1160px) {
   .homepage-icon-row ul li {
     padding-left: 20px;
@@ -401,6 +438,12 @@ h5 {
         width: 18%; }
         .homepage-icon-row ul li .homepage-icon {
           padding: 20px; } }
+
+@media only screen and (min-width: 570px) and (max-width: 1020px) {
+  .nav-icon {
+    width: 30%; }
+  .nav-item {
+    width: 33%; } }
 
 .text-row {
   margin-top: 50px; }
@@ -466,13 +509,14 @@ h5 {
   text-align: left;
   vertical-align: text-top; }
   .inner .byline-item p {
-    line-height: 0.8em;
-    margin-top: 12px; }
+    line-height: 0.6em;
+    margin-top: 5px;
+    margin-bottom: 10px; }
 
 .inner .byline-head {
   font-size: 0.9em;
   font-weight: bold;
-  margin: 0; }
+  marign-bottom: 12px; }
 
 .inner .byline-item {
   margin-bottom: 1.3em; }
@@ -482,25 +526,22 @@ h5 {
   padding-right: 25%;
   text-align: center; }
 
-.inner .pull-text {
-  margin-left: -10px; }
+.pull-quote {
+  text-align: left;
+  font-family: "Quasimoda", sans-serif;
+  font-weight: 100;
+  color: #309865;
+  font-size: 1.2em;
+  line-height: 1.3em; }
 
-.inner .pull-quote {
-  font-size: 1em;
-  text-transform: none; }
-  .inner .pull-quote-box {
-    padding-bottom: 3%;
-    font-family: "Quasimoda", sans-serif;
-    font-weight: 100;
-    color: #309865;
-    margin-top: -14px; }
-    .inner .pull-quote-box .attribution {
-      font-weight: 300; }
-    .inner .pull-quote-box img {
-      width: 75px;
-      height: auto;
-      display: flex;
-      margin: auto; }
+.pull-quote-box .attribution {
+  font-weight: 400;
+  font-family: "Quasimoda", sans-serif;
+  text-align: left; }
+
+.interactive {
+  padding: 40px 0;
+  margin: 20px 0; }
 
 @media only screen and (max-width: 766px) {
   .text-row {
@@ -704,7 +745,9 @@ h5 {
     margin: auto;
     display: block; }
   .sidebar-icons {
-    display: none; } }
+    display: none; }
+  .story-section .row {
+    padding: 0 20px !important; } }
 
 @media only screen and (max-width: 650px) {
   .title-line h1 {
@@ -730,7 +773,7 @@ h5 {
   padding-top: 2px;
   padding-bottom: 30px;
   background-color: #000000;
-  margin-top: 40px; }
+  margin-top: 15px; }
   .footer-wrapper img {
     margin: auto;
     display: block;
@@ -777,8 +820,7 @@ h5 {
   .footer-wrapper img {
     padding-top: 0px; }
   .footer-wrapper {
-    padding-bottom: 15px;
-    margin-top: 15px; } }
+    padding-bottom: 15px; } }
 
 /* ------ Step Link Styles ------*/
 /*TAMARA TRY*/
@@ -1564,6 +1606,11 @@ h5 {
     border-spacing: 0; }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.light-video {
+  width: 100%;
+  height: auto;
+  z-index: -1000; }
+
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1769,10 +1816,10 @@ h5 {
  */ }
   .power-interactive .fade-png {
     width: 100%;
-    height: auto; }
+    height: 500px; }
   .power-interactive .fade-png2 {
     width: 100%;
-    height: auto;
+    height: 500px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -1780,22 +1827,35 @@ h5 {
     transform: rotate(180deg);
     z-index: 100; }
   .power-interactive .lights-out {
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: auto; }
   .power-interactive .lights-out-header {
     color: white;
     margin: auto;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    font-size: 40pt; }
+  .power-interactive .lights-out-subtitle {
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
-    height: 40%;
-    width: auto;
+    width: 40%;
+    height: auto;
     margin: auto;
-    margin-left: 38.5%; }
+    margin-left: 30%; }
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
+  .power-interactive .but-why {
+    width: 100%;
+    height: auto; }
+  .power-interactive .but-why-list {
+    list-style-type: none; }
+    .power-interactive .but-why-list li {
+      display: inline-block;
+      text-decoration: none; }
   .power-interactive html,
   .power-interactive button,
   .power-interactive input,
@@ -1862,13 +1922,20 @@ h5 {
     opacity: 1;
     transform: translateY(0); }
   .power-interactive .project p {
-    max-width: 40%;
+    text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "quasimoda",sans-serif; }
+    font-family: "source-sans-pro",sans-serif;
+    font-size: 12pt; }
+  .power-interactive .project h2 {
+    text-align: left; }
+  .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
+    max-width: 70%;
+    margin: auto; }
   .power-interactive #project00 h2 {
     color: white;
-    font-family: "quasimoda",sans-serif; }
+    font-family: "quasimoda",sans-serif;
+    text-align: center; }
   .power-interactive #project01 h2 {
     color: white;
     font-family: "quasimoda",sans-serif; }
@@ -2217,6 +2284,15 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
+#imagesequence {
+  margin-left: 80px; }
+  #imagesequence #myimg {
+    width: 70%;
+    height: auto; }
+
+.side-title {
+  padding-left: 60px; }
+
 .text-row {
   padding-top: 5%;
   padding-bottom: 2%; }
@@ -2240,7 +2316,8 @@ h5 {
     #abouttitle-box .title-line h1 {
       font-weight: 100;
       font-size: 7em;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.6em; }
     #abouttitle-box .title-line-two {
       flex-wrap: wrap;
       text-transform: uppercase;
@@ -2326,6 +2403,9 @@ a.about-social-icon {
   font-weight: 400;
   cursor: pointer; }
 
+.about-video video {
+  clip-path: circle(); }
+
 .about-section {
   margin-top: 50px; }
 
@@ -2333,7 +2413,7 @@ a.about-social-icon {
   width: 100%;
   height: 80vh;
   z-index: -2;
-  background-image: url("../../assets/images/power-hero.jpg");
+  background-image: url("../../assets/images/about-hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
