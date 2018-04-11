@@ -75,9 +75,18 @@ body, html {
   img {
     width: 25%;
   }
-  @include media('<=md') {
+  @include media('<=md'){
     margin-top: 30vh;
     height: 100px;
+    img{
+      width: 52%
+    }
+    p{
+      font-size: 1.7em;
+      text-shadow: 1px 1px 15px #000000;
+    }
+  }
+  @include media('<=sm') {
     img{
       width: 75%;
     }
@@ -135,8 +144,9 @@ body, html {
 .navbar{
   background-color: black !important;
   height: 60px;
-  // position: fixed;
-  // transition: all 0.5s ease;
+  @include media('>=md'){
+      padding-right: 50px;
+  }
   &-nav{
     margin: auto;
     width: 80%;
@@ -225,7 +235,6 @@ body, html {
     }
   }
   &-social-icons{
-
     img{
       width: 10vw;
       margin: 3px;
@@ -293,7 +302,7 @@ h5{
   p{
     margin-bottom: 0px;
   }
-  @include media('<=sm'){
+  @include media('<=md'){
     position: fixed;
     display: none;
     bottom: 12%;
@@ -304,6 +313,9 @@ h5{
     flex-direction: column;
     p{
       font-size: 1.7em
+    }
+    img{
+      width: 40px;
     }
   }
 }
@@ -324,20 +336,6 @@ h5{
     }
   }
 }
-}
-// ABOUT VIDEOS
-.mix{
-  // margin-right: 10px;
-  .video-mask{
-    // this cool circle thing from https://stackoverflow.com/questions/6238451/rounded-corners-on-html5-video
-    width: 100%;
-    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-    -webkit-transform: rotate(0.000001deg);
-    -webkit-border-radius: 120px;
-    -moz-border-radius: 120px;
-    border-radius: 120px;
-    overflow: hidden;
-    }
 }
 @media only screen and (max-width: 1160px) {
 .homepage-icon-row ul li {
