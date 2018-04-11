@@ -12,20 +12,11 @@
 							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
 							        </div>
 											<script>
-											// if (!espanol){
 												captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
 													"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
 													"<p class='fig-attr'>Photo by&nbsp</p>" +
 													"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
 												"</figcaption>");
-											// } else {
-											// 	captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-											// 		"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-											// 		"<p class='fig-attr'>foto por&nbsp</p>" +
-											// 		"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-											// 	"</figcaption>");
-											// }
-
 											</script>
 							      </li>
 								<% } %>
