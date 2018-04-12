@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+
 <style>
 .house {
   position: relative;
 }
-
-
 .box {
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -14,33 +10,27 @@
   padding: 10px;
   border-radius: 10px;
 }
-
 .three {
   left: 20%;
   bottom: 200px;
-
 }
-
 .two {
   right: 50%;
   bottom: 200px;
 }
-
 .one {
   right: 30%;
   bottom: 200px;
 }
-
 .house h1 {
   font-size: 12px;
 }
-
 .house p {
   font-size: 4.5px;
   margin-bottom: 0px;
   padding-bottom: 5px;
+  color: #6c6c6c;
 }
-
 .pulse {
 box-shadow: 0 0 0 rgba(204,169,44, 0.4);
 animation: pulse 2s infinite;
@@ -50,36 +40,27 @@ transition: all .2s ease-in-out;
 animation: none;
 transform: scale(1.1);
 }
-
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
 }
-
 @keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
 }
-
 #text1, #text2, #text3 {
   display: none;
   transition: all .2s ease-in-out;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-
-
 .selectedZoomTarget {
   box-shadow: 0 0 0 rgba(0,0,0,0);
   animation: none;
 }
-
 .selectedZoomTarget:hover {
   transform: none;
 }
-
-
-
 @-webkit-keyframes pulse {
 0% {
   -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
@@ -105,7 +86,6 @@ transform: scale(1.1);
     box-shadow: 0 0 0 0 rgba(204,169,44, 0);
 }
 }
-
 .house-text {
   text-align: center;
   font-size: 20px;
@@ -115,70 +95,85 @@ transform: scale(1.1);
   font-family: "Quasimoda";
   color: #508091;
 }
-
-
 .interactive-info p {
   font-family: "Quasimoda";
   color: #508091;
   font-size: 16px;
 }
-
-.water-interactive {
-  margin: 40px;
+.fa-home, .fa-truck, .fa-tint {
+  color: #6c6c6c;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
 }
-
-.interactive-title h3 {
-  color: #508091;
+.house h1 {
+  color: #6c6c6c;
+  text-align: center;
 }
-
-.interactive-title p {
-  color: #508091;
+@media only screen and (max-width: 1000px) {
+  .three {
+    left: 10%;
+    bottom: 200px;
+  }
+  .one {
+    right: 26%;
+    bottom: 200px;
+  }
 }
-
+@media only screen and (max-width: 800px) {
+  .water-interactive {
+    margin: 5px;
+  }
+  .box {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    min-height: 74px;
+    margin: 10px;
+    border: 1px #ccc solid;
+  }
+  .one, .two, .three {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
 </style>
-
-  </head>
-
-    <body>
-      <div class="container-fluid water-interactive">
-        <div class="row">
-          <div class="col-12">
-            <div class="divider"></div>
-            <div class="row">
-            <div class="col-3 interactive-title">
-              <h3>Money In, Money Out</h3>
-              <p>By Madison Walls</p>
-            </div>
-            <div class="col-9 interactive-info">
-              <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
-              <p>Puerto Rico is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3% of the funding.</p>
-            </div>
-            </div>
-          </div>
-          <div class="zoomViewport">
-          <p class="house-text">Click on a section to see how the money will be used.</p>
-          <div class="col-12 house zoomContainer">
-            <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
-              <div class="box one zoomTarget pulse" onclick="switchContent1()">
-              <i class="fa fa-home"></i>
-              <h1>Housing and Development</h1>
-              <p id="text1">$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
-              </div>
-              <div class="box two zoomTarget pulse" onclick="switchContent2()">
-              <i class="fa fa-truck"></i>
-              <h1>Infrastructure</h1>
-              <p id="text2">It will cost $300 million dollars to restructure the neighborhoods and allow for more efficient power sources. This cost will include the possibility of green infrastructure strategies and power microgrids. </p>
-              </div>
-              <div class="box three zoomTarget pulse" onclick="switchContent3()">
-              <i class="fa fa-tint"></i>
-              <h1>Dredging</h1>
-              <p id="text3">It will cost $200 million dollars to widen the river and prevent it from flooding during rain and stagnate when water levels lower. </p>
-            </div>
-          </div>
+<div class="row interactive">
+  <div class="col-md-3 offset-md-1 interactive-title">
+    <h3>Money In, Money Out</h3>
+    <p>By Madison Walls</p>
+    <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
+    <p>Puerto Rico is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3% of the funding.</p>
+  </div>
+  <div class="zoomViewport col-md-8">
+    <!-- <p class="house-text">Click on a section to see how the money will be used.</p> -->
+    <div class="house zoomContainer">
+      <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
+        <div class="box one zoomTarget pulse" onclick="switchContent1()">
+          <i class="fa fa-home"></i>
+          <h1>Housing and Development</h1>
+          <p id="text1">$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
         </div>
-      </div>
-      </div>
+        <div class="box two zoomTarget pulse" onclick="switchContent2()">
+          <i class="fa fa-truck"></i>
+          <h1>Infrastructure</h1>
+          <p id="text2">It will cost $300 million dollars to restructure the neighborhoods and allow for more efficient power sources. This cost will include the possibility of green infrastructure strategies and power microgrids. </p>
+        </div>
+        <div class="box three zoomTarget pulse" onclick="switchContent3()">
+          <i class="fa fa-tint"></i>
+          <h1>Dredging</h1>
+          <p id="text3">It will cost $200 million dollars to widen the river and prevent it from flooding during rain and stagnate when water levels lower. </p>
+        </div>
     </div>
+  </div>
+</div>
+
     <script type="text/javascript">
       function switchContent1() {
         document.getElementById('text1').style.display = "block";
@@ -197,5 +192,3 @@ transform: scale(1.1);
       }
 
     </script>
-  </body>
-</html>

@@ -69,3 +69,9 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
+
+$(document).ready(function(){
+	$('#navButton').click(function(){
+		$(this).toggleClass('is-active');
+	});
+});

@@ -1,11 +1,80 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-.light-video{
-  width: 100%;
-  height: auto;
-  z-index: -1000;
-}
-
+// .light-video{
+//   width: 100%;
+//   height: auto;
+// }
 .power-interactive {
+
+  .bottom-infographic{
+    .headers-info{
+      .top-info-div{
+        .why-is-it-taking-so{
+          font-size: 30pt;
+          text-align: center;
+          color: white;
+          text-transform: uppercase;
+          }
+          .intro-par{
+            width: 80%;
+            color: white;
+            margin: auto;
+            padding: 10px;
+            font-size: 15pt;
+          }
+        }
+      }
+      .items-info{
+        margin-top: 50px;
+        .source-vox{
+          color: white;
+          margin: 40px;
+          font-size: 8pt;
+        }
+        .item-choice{
+          .overlay-container{
+            position: relative;
+            .overlay-text-div{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: black;
+                // border-radius: 100px;
+                .overlay-text{
+                  color: white;
+                  font-size: 11pt;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  // margin: 0px;
+                }
+            }
+          }
+          // ^^^ overlay code from https://www.w3schools.com/howto/howto_css_image_overlay.asp
+          .overlay-container:hover .overlay-text-div {
+              opacity: 1;
+            }
+          .why-item{
+            color: white;
+            text-align: center;
+          }
+          .why-item-icon{
+            height: 200px;
+            width: auto;
+            margin: auto;
+            display: block; //display block from https://stackoverflow.com/questions/44055130/how-to-center-image-within-bootstrap-column
+          }
+        }
+      }
+    }
+
   .fade-png{
     width: 100%;
     height: 500px;

@@ -6,7 +6,7 @@
     "title-line-one": "The Healing",
     "title-line-two": "Brigade",
     "seo": "The Healing Brigade | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "deck here"
+    "subtitle": "With their community in crisis, Puerto Ricans are stepping up to care for those who have been forgotten. One organization is turning desperation into hope."
   },
   "reporters": [
     {
@@ -51,11 +51,11 @@
     },
     {
       "type": "text",
-      "value": "But Morales is responsible for handling the donations that Clinica Bantiox, a health clinic set up just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything --  from the blood sugar meters to diapers --  stays safe overnight."
+      "value": "But Morales is responsible for handling the donations that Clinica Bantiox, a health clinic set up in a preschool just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything --  from the blood sugar meters to diapers --  stays safe overnight."
     },
     {
       "type": "text",
-      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the family at the clinic set up in a preschool. Now, it’s just the Morales family. A member of the administrative staff, Morales feels the responsibility is too important to abandon, but she also has  a personal reason to stay."
+      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the family at the clinic. Now, it’s just the Morales family. A member of the administrative staff, Morales feels the responsibility is too important to abandon, but she also has a personal reason to stay."
     },
     {
       "type": "text",
@@ -63,11 +63,11 @@
     },
     {
       "type": "text",
-      "value": "The clinic is just one piece of the work of Iniciativa Comunitaria, a nonprofit that is helping  address health care needs after the storm. It also runs brigades that bring mobile clinics to communities around the island. The Puerto Rico-based organization has been around for over 25 years, sending brigades to respond to crises in Haiti, Guatemala and across the world."
+      "value": "The clinic is just one piece of the work of Iniciativa Comunitaria, a nonprofit that is helping  address health care needs after the storm. It also runs brigades that bring mobile clinics to communities around the island. The Puerto Rico-based organization has been around for over 25 years, sending brigades of volunteers to respond to crises in Haiti, Guatemala and across the world."
     },
     {
       "type": "text",
-      "value": "Now, their own country is in crisis. The water levels in Toa Baja, the low-lying suburb where the clinic is located, reached nearly 20 feet during the storm, leaving some residents stranded on their roofs. In the aftermath, Iniciativa has helped more than 6,000 people between its clinic and its brigades."
+      "value": "Now, the volunteers’ own home is in crisis. The water levels in Toa Baja, the low-lying suburb where the clinic is located, reached nearly 20 feet during the storm, leaving some residents stranded on their roofs. In the aftermath, Iniciativa Comunitaria has helped more than 6,000 people between its clinic and its brigades."
     },
     {
       "type": "text",
@@ -76,7 +76,7 @@
     {
       "type": "video",
       "value": {
-        "id": "211785431",
+        "id": "264260511",
         "is360": "false"
       }
     },
@@ -88,11 +88,11 @@
     },
     {
       "type": "text",
-      "value": "Hurricane Maria is becoming a fading memory on the U.S. mainland, but Puerto Ricans  are still recovering physically and emotionally from the most devastating storm in decades. Doctors and medical professionals are needed more than ever."
+      "value": "While Hurricane Maria doesn’t make headlines every day on the U.S. mainland anymore, Puerto Ricans are still recovering physically and emotionally from the island’s most devastating storm in decades. Doctors and medical professionals are needed more than ever."
     },
     {
       "type": "text",
-      "value": "Even before the storm, the financial crisis had driven doctors away from the island in search of jobs elsewhere. Between 2006 and 2016, 5,000 doctors left the island. An estimated 10 doctors have left the island per day since the storm, according to a local news outlet, furthering the medical care crisis here."
+      "value": "Even before the storm, the financial crisis had driven doctors away from the island in search of jobs elsewhere. Between 2006 and 2016, 5,000 doctors left the island. An estimated 10 doctors have left the island per day since the storm, according to local news outlet El Nuevo Día, furthering the medical care crisis."
     },
     {
       "type": "text",
@@ -104,7 +104,18 @@
     },
     {
       "type": "text",
-      "value": "“You have to go out to serve,” said José Luis Vargas Tapia, the leader of the organization’s “Iniciativas de Paz” brigades. “You have to do it, because if not you, then who is going to do it?”"
+      "value": "“You have to go out to serve,” said José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz.”"
+    },
+    {
+      "type": "text",
+      "value": "“You have to do it, because if not you, then who is going to do it?”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
+        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
+      }
     },
     {
       "type": "interactive",
@@ -122,11 +133,11 @@
     },
     {
       "type": "text",
-      "value": "Things weren’t always so organized. To set up a clinic in six days, they had to make do. The clinic inhabits one of the rooms in the preschool, and several classrooms hold supplies, including the one where Morales sleeps."
+      "value": "Things weren’t always so organized. To set up a clinic in six days, they had to make do. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
     },
     {
       "type": "text",
-      "value": "Stethoscopes hang on plastic hooks, post its and notepaper plaster the walls, and the staff sit at card tables. A curtain divides the waiting area and administrative offices from where patients are seen."
+      "value": "Stethoscopes hang on plastic hooks, post-its and notepaper plaster the walls, and the staff sit at card tables. A curtain divides the waiting area and administrative offices from where patients are seen."
     },
     {
       "type": "text",
@@ -137,16 +148,22 @@
       "value": "The group has been on nearly 70 brigades, and they have the process down like clockwork."
     },
     {
-      "type": "text",
-      "value": "José Antonio Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa in 1990 to address HIV among drug users and the homeless. The program has grown to offer 12 different services."
+      "type": "interactive",
+      "value": {
+        "filename": "health-interactive.ejs"
+      }
     },
     {
       "type": "text",
-      "value": "Around a year after he was elected in November 2016, , his son, Vargas Tapia, took over leading the “Iniciativas de Paz” brigades."
+      "value": "José Antonio Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa Comunitaria in 1990 to address HIV among drug users and the homeless. The program has grown to offer 12 different services."
     },
     {
       "type": "text",
-      "value": "Vargas Tapia gathers the volunteers around for their morning briefing: around 20 doctors, medical students, nurses, administrators, and anyone else who happens to be on hand that day."
+      "value": "Around a year after he was elected in November 2016, his son, Vargas Tapia, took over leading Iniciativa Comunitaria’s brigades."
+    },
+    {
+      "type": "text",
+      "value": "Vargas Tapia gathers the volunteers around for their morning briefing: around 20 doctors, medical students, nurses, administrators and anyone else who happens to be on hand that day."
     },
     {
       "type": "text",
@@ -154,61 +171,58 @@
     },
     {
       "type": "text",
-      "value": "“Here we have no titles, here we are human beings serving other humans,” Vargas Tapia told the group. “That's it.”"
+      "value": "“Here we have no titles; here we are human beings serving other humans,” Vargas Tapia told the group. “That's it.”"
     },
     {
       "type": "text",
-      "value": "The volunteers load into a caravan of cars, and set off through the countryside, watching as the buildings of San Juan give way to lush rolling hills, where Aguada sits overlooking a valley and a glimmer of the coastline."
+      "value": "The volunteers load into a caravan of cars and set off through the countryside, watching as the buildings of San Juan give way to lush rolling hills, where Aguada sits overlooking a valley and a glimmer of the coastline."
     },
     {
       "type": "text",
-      "value": "After unpacking their supplies in the hot sun, Vargas Tapia and his team split up to visit patients, some of whom are bedridden. They have 37 people to see that day."
+      "value": "After unpacking their supplies in the hot sun, Vargas Tapia and his team split up to visit patients, some of whom are bedridden. They have 37 people on their list."
     },
     {
-      "type": "slider",
+      "type": "text",
+      "value": "One of them is Isidra Perez. Iniciativa Comunitaria’s van pulls up to her house, and a doctor and nursing student hop out."
+    },
+    {
+      "type": "text",
+      "value": "Perez, who is bedridden, has suffered from multiple ailments, including severe bronchitis and ulcers. A lack of electricity can be life-threatening for the elderly population, so after losing power in the storm, Perez’s family used their generator between five and seven hours per day for five months to run the air conditioning."
+    },
+    {
+      "type": "text",
+      "value": "They only ran the generator in bursts, but the cost of the gasoline to fuel it added up quickly. The family struggled to afford the near $1,000 cost."
+    },
+    {
+      "type": "text",
+      "value": "Perez needed to be taken to the hospital not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital. The family struggled to keep her healthy in the long weeks with no power or access to medical care.  Luz Bonilla, Perez’s daughter, was finally able to heal her mother using natural remedies."
+    },
+    {
+      "type": "text",
+      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” said Luz Bonilla, Perez’s daughter. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
+    },
+    {
+      "type": "pullquote",
       "value": {
-        "value": "{}"
+        "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled..”",
+        "Attribution": "Luz Bonilla"
       }
     },
     {
       "type": "text",
-      "value": "On the last stop of the day for one group of volunteers, a doctor and nurse pull up to Isidra Perez’s house."
+      "value": "Because Bonilla works at a local hospital, she was able to get in touch with her doctor and take care of her mother, but others still struggle to access medical care."
     },
     {
       "type": "text",
-      "value": "The elderly are more vulnerable to the heat, especially Perez, who is bedridden. So for the five months after the storm, her family used their generator between five and seven hours a day to run the air conditioning."
+      "value": "Although hospitals are open now, they face supply and staff shortages, and in the storm’s wake, some did not accept patients from other areas. Some patients have had to wait nearly a full day to receive treatment."
     },
     {
       "type": "text",
-      "value": "The cost of gasoline needed to run the generator added up to about $1,000. The family was nearly economically ruined."
+      "value": "But it’s patients with long-term diseases like diabetes who are most at risk."
     },
     {
       "type": "text",
-      "value": "Perez developed an ulcer not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital."
-    },
-    {
-      "type": "text",
-      "value": "Miraculously, Bonilla was able to use honey and lemon -- a natural antiseptic -- to cure her mother’s infection. Needs another beat to set up quote-- like, “But the family struggled to keep her healthy in the long weeks with no power or access to medical care.”"
-    },
-    {
-      "type": "text",
-      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” Bonilla said. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
-    },
-    {
-      "type": "text",
-      "value": "Because Bonilla works at a local hospital, she was able to take care of her mother, but others still struggle to access medical care."
-    },
-    {
-      "type": "text",
-      "value": "Even though hospitals are open now, they face supply and staff shortages, and in the storm’s wake, some did not accept patients from other areas. Some patients have had to wait nearly a full day to receive treatment."
-    },
-    {
-      "type": "text",
-      "value": "But it’s patients with long-term diseases like diabetes that are most at risk."
-    },
-    {
-      "type": "text",
-      "value": "According to the Centers for Disease Control and Prevention, 15.7 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A study from the University of Puerto Rico’s Medical School found that nearly 40 percent of participants suffered from hypertension."
+      "value": "According to the Centers for Disease Control and Prevention, nearly 16 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A study from the University of Puerto Rico’s Medical School found that nearly 40 percent of participants suffered from hypertension."
     },
     {
       "type": "text",
@@ -216,26 +230,50 @@
     },
     {
       "type": "text",
-      "value": "“The deaths after a disaster come from untreated chronic illnesses,” said Vargas Vidot. “So diabetes is endemic here. Hypertension is endemic. Cardiovascular problems are endemic.”"
+      "value": "“The deaths after a disaster come from untreated chronic illnesses,” Vargas Vidot said. “So diabetes is endemic here. Hypertension is endemic. Cardiovascular problems are endemic.”"
     },
     {
       "type": "text",
-      "value": "Those deaths aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos of the University of Puerto Rico says there are other long-term health consequences that often get overlooked, like mental health and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline. Needs a beat here about PTSD on the island, to set up next graf."
+      "value": "Those deaths aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos of the University of Puerto Rico says there are other long-term health consequences that often get overlooked, like mental health and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline."
     },
     {
       "type": "text",
-      "value": "While it’s too early for most research to track the long-term mental health impacts of Hurricane Maria, a study of low-income parents in the 18 months after Hurricane Katrina found that nearly half exhibited signs of probable PTSD."
+      "value": "And other mental health conditions have likely been impacted too. A 2012 study of inner city primary care patients in Puerto Rico found that 14 percent had probable Post-Traumatic Stress Disorder."
+    },
+    {
+      "type": "text",
+      "value": "While it’s too early for most research to track the long-term impacts Hurricane Maria could have had on PTSD, research on Hurricane Katrina — another storm in which the federal government’s response was criticized — can provide clues. A study of low-income parents in the 18 months after Hurricane Katrina found that nearly half exhibited signs of probable PTSD."
     },
     {
       "type": "text",
       "value": "“The government disregarded the effect of a disaster on the emotional state of people,” Matos said. “That affects directly not only the thinking process and decision making, but their physical conditions too.”"
     },
     {
+      "type": "text",
+      "value": "On their brigades, the volunteers keep that concept in mind, focusing on both emotional and physical health. One volunteer plays guitar for the patients. For many of them, it’s a remedy for the loneliness."
+    },
+    {
+      "type": "text",
+      "value": "Between 2014 and 2016, the share of the population older than 65 increased from 14.5 percent to nearly 19 percent while the share of people under 18 declined, according to U.S. Census Bureau Estimates."
+    },
+    {
+      "type": "text",
+      "value": "Since the storm, experts say it’s only gotten worse. As of January, more than 200,000 Puerto Ricans had left the island for the mainland. Most of them are the island’s youth."
+    },
+    {
+      "type": "text",
+      "value": "“The young people are the future and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts island and a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
+    },
+    {
       "type": "pullquote",
       "value": {
-        "text": "“We saw Puerto Rico literally broken, If you see something broken, it’s human that you want to bring it back together.”",
-        "attribution": "Sofia Muns, a first-year medical student at the University of Puerto Rico."
+        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
+        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts island and a volunteer with the brigade"
       }
+    },
+    {
+      "type": "text",
+      "value": "Sometimes, the elderly just need someone to talk to, or share a song with. And that’s where Iniciativa Comunitaria comes in."
     },
     {
       "type": "subhead",
@@ -245,93 +283,85 @@
     },
     {
       "type": "text",
-      "value": "As the Inciativa’s daytime volunteers pack up and head back to Toa Baja, the night brigades are just getting started."
+      "value": "As Inciativa’s daytime volunteers pack up and head back to Toa Baja, the night brigades are just getting started."
     },
     {
       "type": "text",
-      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of Reciento Pa La Calle, an Iniciativa program that provides services for homeless people and drug users at night."
+      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of"
     },
     {
       "type": "text",
-      "value": "After loading cars with supplies, the volunteers pulled their cars up to an empty bus station, where just one other car was parked. Adriana Rodriguez, a third-year medical student at the University of Puerto Rico, hopped out of her car and approached a homeless camp, scattered with tents and mattresses."
+      "value": "Recinto Pa’ la Calle, a program associated with Iniciativa Comunitaria that provides services for people who are homeless and drug users at night."
     },
     {
       "type": "text",
-      "value": "She exchanged a few words with the camp’s residents, and they light up. Rodriguez waved to her peers, who hop out of a caravan of cars labeled “Iniciativa.”"
+      "value": "After loading cars with supplies, the volunteers pulled their cars up to an empty bus station, where just one other car was parked. Adriana Rodriguez, a third-year medical student at the University of Puerto Rico, hopped out of her car and approached a homeless camp, scattered with tents, mattresses and bicycles."
     },
     {
       "type": "text",
-      "value": "The students hand out orange juice, coffee, sandwiches, clothes, toothpaste, condoms — anything they had in their supply of donations, they provide. Several of the students dressed wounds, while other just took time to listen to the stories of people in the camps. Like René, who asked that his last name not be used, who has been the leader of the homeless camp for years. The other residents call him “El Padre.”"
+      "value": "The camp’s residents brightened as she shouted, “Hola, Iniciativa!” from her car. After exchanging a few words with them, Rodriguez waved to her peers, who hop out of a caravan of cars donning Iniciativa Comunitaria’s logo."
     },
     {
       "type": "text",
-      "value": "The storm destroyed what few things he and the others had in the camp, and the bus terminal they rely on for light was without power for a month."
+      "value": "The students hand out orange juice, coffee, sandwiches, clothes, toothpaste, condoms — anything they had in their supply of donations, they provided. Several of the students dressed wounds, while others just took time to listen to the stories of people in the camps. Like René, who asked that his last name not be used, and has been the leader of this homeless camp for years. The other residents call him the Veteran."
     },
     {
       "type": "text",
-      "value": "René’s two daughters left for New York after the storm. TK needs another beat…. Was he homeless before that? Is this why he’s homeless? How are they doing?"
+      "value": "René’s been homeless for years, but his four children have never been far away. Until the storm hit, and his two daughters left for New York after their roof was destroyed."
     },
     {
       "type": "text",
-      "value": "The members of the camp survived though, thanks to Iniciativa’s volunteers, who brought them and others to a shelter."
+      "value": "His daughters are receiving help from the New York government, but René said the Puerto Rican government hasn’t done anything for the people his homeless camp."
     },
     {
       "type": "text",
-      "value": "But many of Puerto Rico’s homeless stayed on the streets. While the government has yet to study the island’s homeless population — Vargas Vidot is pushing for it in the Senate — estimates from several years ago were as high as 1,650."
+      "value": "The members of the camp weathered the storm thanks in part to Iniciativa Comunitaria’s volunteers, who brought them and others to a temporary shelter at the group’s headquarters."
     },
     {
       "type": "text",
-      "value": "It’s the homeless, the elderly, drug users and other “forgotten” populations that Iniciativa focuses much of its efforts on. And many of those residents and volunteers alike say government assistance is not reaching those who need it most."
+      "value": "Volunteers dropped off René and the others at the camp two days later. The storm destroyed what few things they had. Some of their mattresses were strewn against the fence along the other side of the wide lot. The bus terminal they rely on for light was without power."
     },
     {
       "type": "text",
-      "value": "“Most patients we have been seeing, they haven’t been seen by any physician or any group,” said Soto, Iniciativa’s logistics coordinator."
+      "value": "But still, René stayed."
     },
     {
       "type": "text",
-      "value": "Many of those communities are used to helping themselves. Cantera, an impoverished community in San Juan the brigade had recently visited, formed its own nonprofit years ago, as have several others."
+      "value": "“I would be leaving all my people behind,” he said. “People need me to be here.”"
     },
     {
       "type": "text",
-      "value": "“There’s a concept of community that doesn’t represent a geographic thing,” said Vargas Vidot."
+      "value": "The camp members have new belongings now, and the power returned a month later."
     },
     {
       "type": "text",
-      "value": "And on their brigades, the volunteers take that concept into to their patients’ homes. Like Hector Ortíz, who strummed his guitar inside the peach colored walls of Maria Elena’s public housing unit in Cantera."
+      "value": "During the storm, many of Puerto Rico’s homeless stayed on the streets. It’s the homeless, the elderly, drug users and other “forgotten” populations that Iniciativa Comunitaria focuses much of its efforts on. And many of those residents and volunteers alike say government assistance is not reaching those who need it most."
     },
     {
       "type": "text",
-      "value": "Ortiz sang “Levanto mis manos,” or “I lift my hands,” with a group of Iniciativa’s volunteers as Maria Elena tapped her knuckles on her kitchen table to the beat and smiled."
+      "value": "“Most patients we have been seeing, they haven’t been seen by any physician or any group,” said Soto, Iniciativa Comunitaria’s logistics coordinator."
     },
     {
       "type": "text",
-      "value": "Maria Elena lives alone, like much of the elderly population on the island. Between 2014 and 2016, the share of the population older than 65 increased from 14.5 percent to nearly 19 percent while the share of people under 18 declined, according to U.S. Census Bureau Estimates."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "health-interactive.ejs"
-      }
+      "value": "Many of those communities are used to helping themselves. Cantera, an impoverished community in San Juan the brigade had recently visited, has operated as a nonprofit for years, as have several others. The nonprofit leaders helped coordinate Iniciativa Comunitaria’s visit and identify patients."
     },
     {
       "type": "text",
-      "value": "Since the storm, experts say it’s only gotten worse. As of January, more than 200,000 Puerto Ricans had left the island for the mainland. Most of them are the island’s youth."
+      "value": "“There’s a concept of community that doesn’t represent a geographic thing,” Vargas Vidot said."
     },
     {
       "type": "text",
-      "value": "“The young people are the future and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts and a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
-    },
-    {
-      "type": "text",
-      "value": "Sometimes, the elderly just need someone to talk to. Or, in Maria Elena’s case, to share a song with."
-    },
-    {
-      "type": "text",
-      "value": "That’s what drives Iniciativa’s volunteers to rebuild  their community — whether its a town on the opposite coast of the island, a poor neighborhood in San Juan or the area just outside of the University of Puerto Rico’s medical school where the homeless sleep."
+      "value": "That’s what drives Iniciativa Comunitaria’s volunteers to rebuild  their community — whether it’s a town on the opposite coast of the island, a poor neighborhood in San Juan or a bus station just outside of the University of Puerto Rico’s medical school where the homeless sleep."
     },
     {
       "type": "text",
       "value": "“We saw Puerto Rico literally broken,” said Sofia Muns, a first-year medical student at the University of Puerto Rico. “If you see something broken, it’s human that you want to bring it back together.”"
+    },
+    {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
     }
   ],
   "step-links": {
@@ -339,67 +369,5 @@
     "step-back-title": "Covered in Ash",
     "step-forward-name": "power",
     "step-forward-title": "Where’s The Light"
-  },
-  "slider-images": [
-    {
-      "src": "health_sl_01.jpg",
-      "alt": "Reyna in the studio",
-      "attribution": "Anna Clare Spelman",
-      "caption": "Reyna Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her manager, Moisés Whittaker Alvarez’s, house."
-    },
-    {
-      "src": "health_sl_02.jpg",
-      "alt": "Yadira stands in the doorframe of her home.",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Reyna y La Real, she is dedicated to her craft and works each day to improve her skills."
-    },
-    {
-      "src": "health_sl_03.jpg",
-      "alt": "Yadira mops her living room floor.",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira Pintado Lazcano mops her living room floor."
-    },
-    {
-      "src": "health_sl_04.jpg",
-      "alt": "Reyna works out.",
-      "attribution": "Kira Dalman",
-      "caption": "Reyna works out several times a week, often with Yadira. Staying in shape is important to her as it helps her prepare for performances."
-    },
-    {
-      "src": "health_sl_05.jpg",
-      "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
-      "attribution": "Kira Dalman",
-      "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
-    },
-    {
-      "src": "health_sl_06.jpg",
-      "alt": "Michel and friends sitting on porch.",
-      "attribution": "Bridgette Cyr",
-      "caption": "Michel, Reyna’s son outside his house with friends and family after school. Reyna hopes her music will inspire Michel to respect and support women."
-    },
-    {
-      "src": "health_sl_07.jpg",
-      "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
-      "attribution": "Bridgette Cyr",
-      "caption": "Reyna shows off her tattoo in front of her house which bears the same emblem, a chess queen. Reyna is not only a musician but a visual artist having painted the piece on the front her home as a symbol of strength."
-    },
-    {
-      "src": "health_sl_08.jpg",
-      "alt": "yadira sits in her home.",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira at home watching her favorite show. She frequently buys the “paquete,” a common way for Cubans to consume popular media."
-    },
-    {
-      "src": "health_sl_09.jpg",
-      "alt": "Yadira stands on her roof",
-      "attribution": "Kira Dalman",
-      "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank. She often has issues with consistent water flow which is problematic when doing chores around her house."
-    },
-    {
-      "src": "health_sl_10.jpg",
-      "alt": "Dark room under construction",
-      "attribution": "Kira Dalman",
-      "caption": "La Reyna and La Real are represented by the state-run Agency of Rap. The main office is under construction while a space is created for artists to perform. The Agency represents 34 artists, 6 of which are women."
-    }
-  ]
+  }
 }

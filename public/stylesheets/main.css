@@ -131,6 +131,151 @@ header {
         font-size: 1em;
         display: inline-flex; }
 
+#nav-icon3 {
+  width: 35px;
+  height: 25px;
+  position: relative;
+  margin: 0px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+
+#nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px; }
+
+#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+  top: 12px; }
+
+#nav-icon3 span:nth-child(4) {
+  top: 25px; }
+
+#nav-icon3.open span:nth-child(1) {
+  top: 12px;
+  width: 0%;
+  left: 50%; }
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+#nav-icon3.open span:nth-child(4) {
+  top: 12px;
+  width: 0%;
+  left: 50%; }
+
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+
+.hamburger:hover {
+  opacity: 0.7; }
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease; }
+
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block; }
+
+.hamburger-inner::before {
+  top: -10px; }
+
+.hamburger-inner::after {
+  bottom: -10px; }
+
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.hamburger--spin .hamburger-inner::before {
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
+
+.hamburger--spin .hamburger-inner::after {
+  transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.hamburger--spin.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+.hamburger--spin.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
+
+.hamburger--spin.is-active .hamburger-inner::after {
+  bottom: 0;
+  transform: rotate(-90deg);
+  transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
 /* ------------------  HOMEPAGE ------------------ */
 /* Homepage Background Image / Video Styles */
 body, html {
@@ -640,7 +785,7 @@ h5 {
 
 .title-line {
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -668,9 +813,9 @@ h5 {
   position: relative;
   margin: auto;
   display: block;
-  width: 75%;
+  width: 66%;
   background-color: transparent;
-  top: 80%;
+  top: 70%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -713,6 +858,27 @@ h5 {
 
 .plyr--full-ui input[type=range] {
   color: #508091; }
+
+.ash-interactive-video {
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+#water-header .title-line-two {
+  font-size: 9.3em; }
+
+#health-header h1 {
+  min-width: 103%; }
+
+#health-header .title-line-two {
+  font-size: 10.7em;
+  line-height: 0.57em; }
+
+.health .title-line .offset-sm-1 {
+  margin-left: 3.333333%; }
+
+#biodiversity-header h1 {
+  font-size: 7em;
+  line-height: 1em; }
 
 @media only screen and (max-width: 1120px) {
   .title-line h1 {
@@ -818,7 +984,7 @@ h5 {
 
 @media only screen and (max-width: 1160px) {
   .footer-wrapper img {
-    padding-top: 0px; }
+    padding-top: 20px; }
   .footer-wrapper {
     padding-bottom: 15px; } }
 
@@ -1046,11 +1212,6 @@ h5 {
   /* =Footer */ }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-.light-video {
-  width: 100%;
-  height: auto;
-  z-index: -1000; }
-
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1254,6 +1415,54 @@ h5 {
   /**
  * Remove most spacing between table cells.
  */ }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .why-is-it-taking-so {
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase; }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .intro-par {
+    width: 80%;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 15pt; }
+  .power-interactive .bottom-infographic .items-info {
+    margin-top: 50px; }
+    .power-interactive .bottom-infographic .items-info .source-vox {
+      color: white;
+      margin: 40px;
+      font-size: 8pt; }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container {
+      position: relative; }
+      .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black; }
+        .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div .overlay-text {
+          color: white;
+          font-size: 11pt;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%); }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container:hover .overlay-text-div {
+      opacity: 1; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item {
+      color: white;
+      text-align: center; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item-icon {
+      height: 200px;
+      width: auto;
+      margin: auto;
+      display: block; }
   .power-interactive .fade-png {
     width: 100%;
     height: 500px; }
@@ -1724,10 +1933,13 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
+.spacerzz {
+  height: 100px; }
+
 #imagesequence {
-  margin-left: 80px; }
+  margin-left: 0px; }
   #imagesequence #myimg {
-    width: 70%;
+    width: 90%;
     height: auto; }
 
 .side-title {
@@ -1860,3 +2072,10 @@ a.about-social-icon {
   background-size: cover;
   margin-bottom: 50px;
   position: relative; }
+
+@media only screen and (max-width: 760px) {
+  .team-nav ul {
+    display: inline-block;
+    text-align: center; }
+  .team-nav li {
+    display: inline-block; } }
