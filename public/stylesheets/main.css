@@ -1045,11 +1045,6 @@ h5 {
   /* =Footer */ }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-.light-video {
-  width: 100%;
-  height: auto;
-  z-index: -1000; }
-
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1253,6 +1248,54 @@ h5 {
   /**
  * Remove most spacing between table cells.
  */ }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .why-is-it-taking-so {
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase; }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .intro-par {
+    width: 80%;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 15pt; }
+  .power-interactive .bottom-infographic .items-info {
+    margin-top: 50px; }
+    .power-interactive .bottom-infographic .items-info .source-vox {
+      color: white;
+      margin: 40px;
+      font-size: 8pt; }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container {
+      position: relative; }
+      .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black; }
+        .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div .overlay-text {
+          color: white;
+          font-size: 11pt;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%); }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container:hover .overlay-text-div {
+      opacity: 1; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item {
+      color: white;
+      text-align: center; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item-icon {
+      height: 200px;
+      width: auto;
+      margin: auto;
+      display: block; }
   .power-interactive .fade-png {
     width: 100%;
     height: 500px; }
