@@ -25,6 +25,11 @@
       }
       .items-info{
         margin-top: 50px;
+        .source-vox{
+          color: white;
+          margin: 40px;
+          font-size: 8pt;
+        }
         .item-choice{
           .overlay-container{
             position: relative;
@@ -39,6 +44,7 @@
                 opacity: 0;
                 transition: .5s ease;
                 background-color: black;
+                // border-radius: 100px;
                 .overlay-text{
                   color: white;
                   font-size: 11pt;
@@ -47,10 +53,11 @@
                   left: 50%;
                   transform: translate(-50%, -50%);
                   -ms-transform: translate(-50%, -50%);
-                  text-align: center;
+                  // margin: 0px;
                 }
             }
           }
+          // ^^^ overlay code from https://www.w3schools.com/howto/howto_css_image_overlay.asp
           .overlay-container:hover .overlay-text-div {
               opacity: 1;
             }

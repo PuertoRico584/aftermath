@@ -1122,6 +1122,10 @@ h5 {
     font-size: 15pt; }
   .power-interactive .bottom-infographic .items-info {
     margin-top: 50px; }
+    .power-interactive .bottom-infographic .items-info .source-vox {
+      color: white;
+      margin: 40px;
+      font-size: 8pt; }
     .power-interactive .bottom-infographic .items-info .item-choice .overlay-container {
       position: relative; }
       .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div {
@@ -1142,8 +1146,7 @@ h5 {
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          text-align: center; }
+          -ms-transform: translate(-50%, -50%); }
     .power-interactive .bottom-infographic .items-info .item-choice .overlay-container:hover .overlay-text-div {
       opacity: 1; }
     .power-interactive .bottom-infographic .items-info .item-choice .why-item {
