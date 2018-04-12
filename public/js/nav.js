@@ -71,7 +71,7 @@ function hasScrolled() {
 }
 
 $(document).ready(function(){
-	$('#nav-icon3').click(function(){
-		$(this).toggleClass('open');
+	$('#navButton').click(function(){
+		$(this).toggleClass('is-active');
 	});
 });
