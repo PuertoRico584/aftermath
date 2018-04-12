@@ -1723,10 +1723,13 @@ h5 {
     border-collapse: collapse;
     border-spacing: 0; }
 
+.spacerzz {
+  height: 100px; }
+
 #imagesequence {
-  margin-left: 80px; }
+  margin-left: 0px; }
   #imagesequence #myimg {
-    width: 70%;
+    width: 90%;
     height: auto; }
 
 .side-title {
