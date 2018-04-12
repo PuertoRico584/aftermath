@@ -999,7 +999,7 @@ h5 {
     background-size: contain; }
   .pollution-interactive .project {
     z-index: 1;
-    margin: 30%;
+    margin: 40px 30%;
     text-align: center;
     padding-bottom: 5%; }
   .pollution-interactive .project img {
@@ -1010,9 +1010,10 @@ h5 {
     font-family: "quasimoda",sans-serif;
     text-align: left; }
   .pollution-interactive #white-box {
-    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.6); }
   .pollution-interactive .content-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -1024,7 +1025,7 @@ h5 {
     max-width: 30%; }
   .pollution-interactive #element-horiz {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
     padding-top: 2%;
     padding-bottom: 2%; }
 

@@ -20,7 +20,7 @@
 
   .project {
     z-index: 1;
-    margin: 30%;
+    margin: 40px 30%;
     text-align: center;
     padding-bottom: 5%;
   }
@@ -37,9 +37,10 @@
   }
 
   #white-box {
-    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
   .content-wrapper{
@@ -57,7 +58,7 @@
 
   #element-horiz {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
     padding-top: 2%;
     padding-bottom: 2%;
   }
