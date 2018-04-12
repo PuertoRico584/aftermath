@@ -3,10 +3,10 @@
     "class": "pollution"
   },
   "header": {
-    "title-line-one": "Hold Your",
-    "title-line-two": "Breath",
-    "seo": "Hold Your Breath | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Beyond ash and lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+    "title-line-one": "A Fight",
+    "title-line-two": "For Life",
+    "seo": "A Fight For Life | Aftermath: Puerto Ricans Rebuild After Maria",
+    "subtitle": "Toxic coal ash has spread throughout Puerto Rico, and is suspected to have a role in high cancer rates in towns where the ash has been deposited. After Hurricane"
   },
   "reporters": [
     {
@@ -43,201 +43,19 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over his friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure. “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "It’s 7 a.m. on a Monday, but already 19 people are at the gates of the Humacao landfill to protest disposal of coal ash here. Five of them, including Carmelo García, have been here since before dawn."
     },
     {
       "type": "text",
-      "value": "He has to get to the Regla ferry by midnight."
-    },
-    {
-      "type": "video",
-      "value": {
-        "id": "263094335",
-        "is360": "false"
-      }
+      "value": "Some protesters wear white T-shirts that read “For Your Health, Zero Ashes” in Spanish, and others hold a banner that reads “No Ash Cancer.” Nine police officers and company security guards watch the protest from behind."
     },
     {
       "type": "text",
-      "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of ocean waves that confront the city’s border."
+      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a five-story pile of ash on site."
     },
     {
       "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
-    },
-    {
-      "type": "text",
-      "value": "He’s used to this hustle. The 28-year-old tour coordinator has spent the last 15 hours on his feet, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
-    },
-    {
-      "type": "text",
-      "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
-    },
-    {
-      "type": "text",
-      "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
-    },
-    {
-      "type": "text",
-      "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
-    },
-    {
-      "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that Cubans have never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana."
-    },
-    {
-      "type": "text",
-      "value": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "A notion of normalcy"
-      }
-    },
-    {
-      "type": "text",
-      "value": "On December 17, 2014, fifteen words altered the relationship between two countries that had been estranged for 53 years."
-    },
-    {
-      "type": "text",
-      "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
-    },
-    {
-      "type": "text",
-      "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
-    },
-    {
-      "type": "text",
-      "value": "Tourism existed while the U.S. and Cuba were estranged — Canadians, Spaniards and Italians are some of the main visitors — but now, it’s an industry that is rapidly changing as airlines shuttle in more Americans. In 2015, the Cuban government reported 145,000 Americans traveled to Cuba — a 79 percent increase from the year before. Tourism from visitors all over the world has been on the rise, too — over two million travelers visited Cuba during the first half of 2016, an 11.7 percent increase from 2015, according to the National Office of Statistics and Information."
-    },
-    {
-      "type": "text",
-      "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
-    },
-    {
-      "type": "text",
-      "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and enjoying taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
-    },
-    {
-      "type": "text",
-      "value": "“It’s the most attractive part of the city,” Orlando says. “So everything has been developed around there — so obviously all the opportunities will be happening there. Right?”"
-    },
-    {
-      "type": "text",
-      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little to show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they want to go there?"
-    },
-    {
-      "type": "text",
-      "value": "“Regla is less crowded than Havana, a lot quieter than Havana — less gentrified,” Orlando says. Though he thinks visitors will soon realize Regla for its charms, that’s not what’s happening now. “There’s no tourism there,” he says, “Not yet.”"
-    },
-    {
-      "type": "text",
-      "value": "This disparity is two sided; visitors aren’t coming in to Regla, but they aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "The $1,000 glisten"
-      }
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>If you had one shot…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“If you had one shot,” Orlando repeats to his audience of one: The reflection in his bedroom mirror."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…or one opportunity, to seize everything you ever wanted in one moment…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“Opp-or-tune-ih-tee,” — five syllables. That’s a hard one."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…would you capture it or just let it slip?</span>"
-    },
-    {
-      "type": "text",
-      "value": "He looks away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself” back to the beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
-    },
-    {
-      "type": "text",
-      "value": "So why not just learn English?"
-    },
-    {
-      "type": "text",
-      "value": "Music was — is — his Bible, he says. It’s how he learned a language almost no one else around him can comprehensively understand; it’s what fueled him through his two mandatory years of military service in the Cuban army. American hip-hop was an escape throughout his tough upbringing, but it was also a way to expand his mind, to grasp at a country just 90 miles away that sometimes felt like another world."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
-      }
-    },
-    {
-      "type": "text",
-      "value": "That was nearly a decade ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
-    },
-    {
-      "type": "text",
-      "value": "But sometimes, it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy, and it shows. He’s always yawning, even in the middle of the day, with watery eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
-    },
-    {
-      "type": "text",
-      "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "pollution-interactive.ejs"
-      }
-    },
-    {
-      "type": "text",
-      "value": "Orlando Sr. wanted no part of such a massive expenditure at first. “He was like ‘We cannot pay for that,’” Orlando remembers. “And I was like ‘Dad, that’s okay. I have the money.’ I think this is when he understood that, economically, I was the alpha of the family.”"
-    },
-    {
-      "type": "text",
-      "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
-    },
-    {
-      "type": "text",
-      "value": "“I think his life is going to be a lot more prosperous than mine,” Orlando Sr. says about his son. “I don’t think he’ll have to go through the same challenges.”"
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "“Because we’re creative”"
-      }
-    },
-    {
-      "type": "text",
-      "value": "It’s only eight hours later, but Orlando is back on the ferry. His arm bends in a perfect “L” as he grips the railing above him, mouthing the words to a Kendrick Lamar song streaming through his earbuds."
-    },
-    {
-      "type": "text",
-      "value": "His morning ferry proves it has also been the pumpkin for countless other Cinderellas, with white and blue paint chipping from the walls and worn green floors. It’s the size of a living room — fitting, since it seems like this is where Orlando does a lot of his living — with characters of every age hunched over the rail, their eyes locked on the nearing Havana harbor as the boat courses through the water."
-    },
-    {
-      "type": "text",
-      "value": "Orlando is on his way to pick up a group of Americans visiting for the week. He says a lot of the visitors he meets have predetermined conceptions of what Cuba is like before they arrive — the old cars, the limited access to the outside world — and decide the country must be stuck in the past."
-    },
-    {
-      "type": "text",
-      "value": "They’re wrong."
+      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the Centro de Periodismo Investigativo, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated  400,000 tons of ash to landfills in Humacao and Peñuelas (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
     },
     {
       "type": "interactive",
@@ -247,19 +65,305 @@
     },
     {
       "type": "text",
-      "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
+      "value": "The Environmental Protection Agency has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can leach into groundwater and soil, and breathing the dust can cause respiratory issues."
     },
     {
       "type": "text",
-      "value": "This creativity is embedded into young people now — it’s as much of a genetic trait as their physical ones. It’s what inspired a kid without much money to learn English just for fun, to get a job that could provide his family with security in a country that hasn’t always felt so secure. In the same way that Orlando’s neighbors seem to know who he is just by watching him, the rest of the world has its eyes on Cuba — how it will grow, how America’s access will influence the island, how it will change."
+      "value": "Exposure to the chemicals in coal ash has been linked to bladder, stomach, skin, lung and kidney cancers,  asthma, emphysema and infertility, according to a 2010 study by Physicians for Social Responsibility. The ash is also radioactive, and long-term exposure to radiation can result in cancer and genetic issues, the EPA has found."
     },
     {
       "type": "text",
-      "value": "How Cuba’s tumultuous past will influence its future."
+      "value": "Many of the protesters gathered at the Humacao landfill this balmy morning say they’ve already seen these health effects in their friends and relatives."
     },
     {
       "type": "text",
-      "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
+      "value": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone,” said Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste, or ACASE, speaking into a makeshift speaker system from the top of a red pickup truck."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone.”",
+        "attribution": "Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste"
+      }
+    },
+    {
+      "type": "text",
+      "value": "It’s been more than a year since new coal ash was dumped in the landfill, but ACASE believes the dumping will resume soon, as the island’s coal-burning plant returns to its level of generation pre-hurricane (TK for specific level of generation — full?). They want to stop it before it starts again, and demand the closure of the plant and an end to ash deposits in Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "“En contra a las cenizas, el pueblo se moviliza!” they chant: “Against the ashes, the people mobilize!”"
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "263094335",
+        "is360": "false"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "The history of coal ash"
+      }
+    },
+    {
+      "type": "text",
+      "value": "When Hurricane María made landfall in Puerto Rico on Sept. 20, it destroyed the island’s power grid, rendering the AES plant in Guayama, the island’s sole coal-burning power plant, inoperable for five days (TK — taken from this article, but is it valid?)."
+    },
+    {
+      "type": "text",
+      "value": "Though the Puerto Rican Board of Environmental Quality ordered AES to cover its ash piles before the hurricane, it did not. The largest ash piles, in Guayama and Peñuelas, lost meters of  ash in the storm, and ashes floated free all over the island, turning the air gray and contaminating the groundwater with heavy metals and radioactivity, according to the newspaper El Nuevo Día and a study for AES released earlier this year. AES could face fines of up to $75,000 for failing to cover the ash, according to an article from September, but there has been little update since."
+    },
+    {
+      "type": "text",
+      "value": "While the storm brought new attention to the coal ash here, the movement against it is much older. AES used to send its coal ash to Santo Domingo, the Dominican Republic — they brought 57,000 tons of ash there between 2003 and 2004 — until residents of the municipality Arroyo Barril filed a lawsuit to stop it in 2009, citing concerns about miscarriages and birth defects, according to the Centro de Periodismo Investigativo. AES stopped depositing ash in the Dominican Republic, and now primarily deposits it in Puerto Rico (TK a definitive timeline...hard to find a definitive one); however, an April 11 article from the newspaper La Perla states AES is shipping an undisclosed tonnage of ashes to Jacksonville, Florida."
+    },
+    {
+      "type": "text",
+      "value": "The Puerto Rican legislature approved a new law last July that prohibits the disposal of coal ash on the island. Coal plant operators would have 180 days from the production to remove the ash — which could be done by converting it to cement, concrete or another commercially beneficial use."
+    },
+    {
+      "type": "text",
+      "value": "But many say the new law is ineffectual. AES does not consider its coal combustion residuals to be coal ash. It’s a mix of ash and water they call “AGREMAX” that can be used in construction. This classification has resulted in the continued storage of thousands of tons of coal ash on the island."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "pollution-interactive.ejs"
+      }
+    },
+    {
+      "type": "text",
+      "value": "The Environmental Protection Agency also issued new rules for coal ash disposal in December 2014 that called for the closure of impoundments and landfills that don’t comply with engineering and  structural standards. The new rule classified coal ash as non-hazardous industrial solid waste, and leave the enforcement largely up to states and local governments."
+    },
+    {
+      "type": "text",
+      "value": "For Puerto Rican activists, the storm has reinvigorated concerns about how coal ash will be handled on the island going forward -- as well as the pressure on the government to find a solution."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Yanina Moreno and Campamento"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Yanina Moreno stands at the fence outside the AES plant in Guayama with her camera, documenting the change in the ash pile adjacent to the plant. She came here with her family after the hurricane, she said, and she saw the pile significantly shrink after the winds of the hurricane blew ash across Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "On a Sunday in March, she and two activists from the Comunidad Guayamesa Unidos por tu Salud take pictures from the public road outside the plant, discussing the issues the ash has caused them. Their conversation pauses as a security van pulls up alongside them and slowly passes the group. Its driver radios for backup, and moments later two employees in AES jumpsuits arrive to confront the activists."
+    },
+    {
+      "type": "text",
+      "value": "The three say they aren’t doing anything illegal, but an argument ensues. Moreno records it all on her phone. This has happened every time she has come to take photos and videos of the plant. She says she believes AES keeps track of the people who approach their property, and pays special attention to the protesters."
+    },
+    {
+      "type": "text",
+      "value": "Moreno is the spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas, where the local landfill has also been receiving ash from the AES plant. The Peñuelas Valley Landfill was cited by Puerto Rican news organization Metro in August as containing 12 thousand tons of coal ash transported from the AES plant in Guayama (TK checking definitive figures of tonnages — this suggests a higher number than before, 393k tons)."
+    },
+    {
+      "type": "text",
+      "value": "The Peñuelas Valley Landfill has held coal ash since 2015, Moreno said, and she has been protesting it for just as long."
+    },
+    {
+      "type": "text",
+      "value": "Hurricane Maria only increased the group’s concerns of coal ash contamination.  Between July and August 2017, 709 new truckloads of ash were brought to Peñuelas (TK fact-check dates), according to Metro. The Peñuelas community didn’t know about the new deposits, Moreno said — but figured it out when they saw trucks driving to the landfill with ash flying behind them. Residents began to notice a persistent, fine layer of black dust coating their floors, furniture and yards."
+    },
+    {
+      "type": "text",
+      "value": "“The cleaning was so continuous,” Moreno said. “You would see glass tables with this layer of dust.”"
+    },
+    {
+      "type": "text",
+      "value": "They worry the ash was spread further during the hurricane."
+    },
+    {
+      "type": "text",
+      "value": "Over the past five decades, Peñuelas has also been home to petrochemical and petroleum plants and incinerators, said Moreno, so pollution isn’t new here. The influx of coal ash was the most recent and possibly the most dangerous."
+    },
+    {
+      "type": "text",
+      "value": "“We are in a zone that has been highly contaminated,” ” she said."
+    },
+    {
+      "type": "text",
+      "value": "Six of her neighbors died of cancer and respiratory illnesses in a span of just three weeks last summer, she said. Moreno and other protesters suspect the ash is making people sick in a town that has the third-highest rate of cancer on the island, according to the Cancer Register of Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "Moreno said the government refuses to acknowledge the community’s health problems as consequences of the ash, and has not yet conducted the health studies in the area that her group has demanded."
+    },
+    {
+      "type": "text",
+      "value": "“Our worry is to not keep paying the consequences, to not keep bringing other industries, other contaminants that aggravate the situation,” she said. “Because then our community will disappear.”"
+    },
+    {
+      "type": "text",
+      "value": "Moreno wants the dumping in her community to end, but she doesn’t stop there."
+    },
+    {
+      "type": "text",
+      "value": "“Our final goal is that the plant closes down operations in Puerto Rico,” she said."
+    },
+    {
+      "type": "text",
+      "value": "Instead of relying on coal, Puerto Rico should look to other sources of energy, she said. Campamento Contra Cenizas de Carbón advocates for a future of renewable energy for Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "“As a tropical island, we have all the tools, all the opportunities, all the alternatives to develop these projects,” she said."
+    },
+    {
+      "type": "text",
+      "value": "Though regular activities for the group have waned after the hurricane, Campamento Contra Cenizas de Carbón has been a vocal presence in the fight against coal ash across Puerto Rico. The group has maintained a camp on the Road #2 exit into Peñuelas, blocked trucks from transporting coal ash into the town and attended events to raise awareness of the dangers of coal ash — and they’re not going to give up."
+    },
+    {
+      "type": "text",
+      "value": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now,” she said."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now.”",
+        "attribution": "Yanina Moreno, spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas"
+      }
+    },
+    {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Carmelo García and ACASE"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao, believes ACASE’s activism and constant protesting have helped prevent new ash from being dumped there for nearly a year. Hurricane María drastically changed the landscape for the movement."
+    },
+    {
+      "type": "text",
+      "value": "García has not had electricity in the six months since María, and does not expect to have it for another two. He and his wife run a generator for three hours every morning and evening to sustain their home. Despite the limits on his lifestyle, García still protests coal ash pollution in Humacao and is an active member of ACASE."
+    },
+    {
+      "type": "text",
+      "value": "He said he started protesting coal ash pollution five years ago (TK fact-check timeline — articles like this one say the protest movement has really only been going since 2014), after he noticed his grandmother’s asthma worsening after trucks carrying the ash started passing through his hometown of Maunabo. His scientific and chemical background — he has a doctorate in chemistry and teaches it at the University of Puerto Rico at Humacao — led him to investigate why his grandmother was getting sicker when everything else in her life was constant, and his research led him to evidence that the ashes were affecting her lungs."
+    },
+    {
+      "type": "text",
+      "value": "In his search for answers, he came across the coal ash protest movement in Peñuelas and got in contact with the group there and with Moreno. The Peñuelas group welcomed him to the cause, happy to have someone on the team with a scientific background to educate others on the toxicity of the ash, especially as the government was claiming it was safe."
+    },
+    {
+      "type": "text",
+      "value": "The more research he did, the more concerned he became."
+    },
+    {
+      "type": "text",
+      "value": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb,” he said. “The only option was to join the movement and to help them.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb. The only option was to join the movement and to help them”",
+        "attribution": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao"
+      }
+    },
+    {
+      "type": "text",
+      "value": "García said he has spent the last five years working to communicate the dangers of coal ash to populations affected by the landfills and the transport of coal ash."
+    },
+    {
+      "type": "text",
+      "value": "“Here at stake is the very life of the people living not only in Guayama, Peñuelas and Humacao,” he said. “Here at stake is the life of the people living on the island, because this is not a big island.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“Here at stake is the very life of the people living not only in Guayama, Peñuelas and Humacao. Here at stake is the life of the people living on the island, because this is not a big island.”",
+        "attribution": "Carmelo García"
+      }
+    },
+    {
+      "type": "text",
+      "value": "García said the landfills are not equipped to contain the ash in the event of Puerto Rico’s frequent hurricanes."
+    },
+    {
+      "type": "text",
+      "value": "“The ashes in the company, the ashes in Peñuelas and the ashes in Humacao, they are all around the island,” he said."
+    },
+    {
+      "type": "text",
+      "value": "While the storm slowed coal-burning on the island for months, he worries the drive to dump will resume."
+    },
+    {
+      "type": "text",
+      "value": "“We know (that) as soon as the grid is up, they are planning to start burning like hell, and we will start getting not only the ashes they produce, but the ashes they already had,” he said. “And we are talking here, thousands and thousands of tons of ashes.”"
+    },
+    {
+      "type": "text",
+      "value": "García said it is hard to get people to care about the long-term effects coal ash has on human health, since the links between coal ash exposure and illness are not always straightforward or immediate."
+    },
+    {
+      "type": "text",
+      "value": "“The real problem is that, and I told them … none of you are going to get sick because of the ashes, but your sons and your grandsons, they will. And you won’t be here to explain to them why you did nothing to stop them.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“The real problem is that, and I told them … none of you are going to get sick because of the ashes, but your sons and your grandsons, they will. And you won’t be here to explain to them why you did nothing to stop them.”",
+        "attribution": "Carmelo García"
+      }
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Press conference"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Under a tent in front of the Capitol in San Juan in the early afternoon of March 15, protesters and journalists mingle among pictures of the Guayama landfill at one of the first coal ash protest events since the storm. There’s a giant banner highlighting the communities in Puerto Rico that have been affected by the transport or deposit of ash, with the words “CONTAMINATED WITH ASH.”"
+    },
+    {
+      "type": "text",
+      "value": "Protest groups from across southeast Puerto Rico are present, including Campamento Contra Cenizas de Carbón and ACASE. The air thrums with a sense of urgency. A few days before, news had broken about the presence of chemicals and radioactive materials in groundwater near AES’s plant in Guayama, evidence that the coal ash was leaching these chemicals into the environment."
+    },
+    {
+      "type": "text",
+      "value": "Speaking on behalf of ACASE, Boyle reminded the crowd of the numerous studies conducted on coal ash that demonstrated health hazards, and claimed AES and EC Waste never had permission to store and dump their ashes in Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "Miriam Gallardo Gonzalez of the Frente Afirmación Sureste (FAST), a group based in Guayama, gave an emotional speech about miscarriages and animals born with defects in her community — both caused by the ash, she said."
+    },
+    {
+      "type": "text",
+      "value": "“The problem of the ashes is real,” she said."
+    },
+    {
+      "type": "text",
+      "value": "The groups had penned a letter with a list of demands and planned to deliver it to the Senate President Thomas Rivera Schatz outlining their list of demands."
+    },
+    {
+      "type": "text",
+      "value": "“We are demanding, among other things, first that the Department of Health and the Board of Environmental Quality intervene immediately in the contamination,” said Víctor Alvarado, the spokesperson for the Comité Diálogo Ambiental de Salinas, an environmental advocacy group from Salinas, a town along the path the ash trucks took from Guayama to Peñuelas."
+    },
+    {
+      "type": "text",
+      "value": "The protesters want the Board of Environmental Quality to classify coal ash as a hazardous waste, change the way the ash is tested and perform tests for radioactivity on the ash. The biggest request, however, was simple: They want the coal plant shut down for good."
+    },
+    {
+      "type": "text",
+      "value": "After the conference, the activists huddled in a light drizzle outside entrance to the Senate. Some of the activists began to get antsy, with one yelling at a security guard that it’s the people who pay the legislator’s salaries. Another group member subdued him, and after about 15 minutes, a small group of activists were allowed in to deliver their letter to the senate president."
+    },
+    {
+      "type": "text",
+      "value": "A press secretary told them Rivera Schatz was not there, but he would pass along the the letter."
     }
   ],
   "step-links": {

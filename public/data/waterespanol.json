@@ -6,7 +6,7 @@
     "title-line-one": "Rooted In",
     "title-line-two": "El Caño",
     "seo": "Rooted in El Caño | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Beyond water and lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+    "subtitle": "While Hurricane Maria devastated the island, neighbors of a strangled channel in the heart of San Juan."
   },
   "reporters": [
     {
@@ -49,11 +49,192 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over his friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure. “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "On rainy days, Blanquita Santiago Arroyo stacks empty beer cases under the furniture of her nearly empty house. Her refrigerator, the third she’s bought in 10 years, and washing machine already sit atop three sets of worn cinder blocks."
     },
     {
       "type": "text",
-      "value": "He has to get to the Regla ferry by midnight."
+      "value": "The walls stained with 3-foot-high water marks remind her it’s unsafe to sleep in her wooden bed even when it’s lifted on milk crates. As bedtime approaches, Santiago Arroyo sits up in a plastic chair, where she tries to rest until the morning comes."
+    },
+    {
+      "type": "text",
+      "value": "“You can’t live here anymore because you get exhausted,” she said. “There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed to keep an eye out for how high the water will rise.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“You can’t live here anymore because you get exhausted. There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed to keep an eye out for how high the water will rise”",
+        "attribution": "Blanquita Santiago Arroyo"
+      }
+    },
+    {
+      "type": "text",
+      "value": "The constant threat of flooding makes Santiago Arroyo yearn to leave her home of more than 30 years. But the water also forces her to stay."
+    },
+    {
+      "type": "text",
+      "value": "“It’s going to be very difficult to sell the house, because once you tell the people what the problem is, they won’t buy it, unless they have money and are thinking of investing,” she said."
+    },
+    {
+      "type": "text",
+      "value": "Only three years after her grandmother bought the property in 1980s, the house flooded for the first time. Santiago Arroyo and her family were taken to a shelter."
+    },
+    {
+      "type": "text",
+      "value": "“I almost drowned,” she recalls, “because the water was so high, and we didn’t know.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“I almost drowned because the water was so high, and we didn’t know.",
+        "attribution": "Blanquita Santiago Arroyo"
+      }
+    },
+    {
+      "type": "text",
+      "value": "For decades, in Calle Martinó, where her home stands, the storm drains have been clogged with trash and sediment from El Caño Martín Peña, a now-stagnate tidal channel that once flowed across San Juan."
+    },
+    {
+      "type": "text",
+      "value": "El Caño Martín Peña stretches for nearly 4 miles, connecting the San Juan Bay with the San José Lagoon, the two most important bodies of water in Puerto Rico’s capital. After María struck, the fallen trees and remnants of houses, added to the naturally-occuring sedimentation, the garbage and untreated water dumped in the channel for decades, worsened its condition."
+    },
+    {
+      "type": "text",
+      "value": "The polluted channel is only the root of the numerous problems concerning the residents in the surrounding neighborhoods, San Juan’s most densely populated area, with about 25,000 residents."
+    },
+    {
+      "type": "text",
+      "value": "Most houses in the eight communities adjacent to the channel were built without government permits or professional supervision, like nearly half the homes on the island, officials estimate. Because it’s a tidal channel, the ebb and flow of ocean tides dictate its level. Storm surges and even moderate rainfall, as well as the lack of an adequate sewage system in some streets, result in regular flooding episodes in which water from the overflowing channel surges into the houses, putting the residents at a higher risk of asthma and gastrointestinal diseases as well as mosquito transmitted diseases."
+    },
+    {
+      "type": "text",
+      "value": "María left 1,200 homes near El Caño roofless, 75 others completely crumbled and streets like Santiago Arroyo’s flooded for weeks. But a public corporation established by the Puerto Rican government 16 years ago has studied the possibility to dredge almost 2,500 tons of materials that are strangling the channel. With a detailed plan already designed, ENLACE sees the possibility to obtain federal recovery and flood mitigation funds implement the $800 million project and give life back to the once healthy waterway and its adjacent communities."
+    },
+    {
+      "type": "text",
+      "value": "“Before September, the strategy was to get funding to begin the project,” said Estrella Santiago, the environmental affairs manager at ENLACE. “Now there’s a window to carry out the dredging and get all the funding at once.”"
+    },
+    {
+      "type": "text",
+      "value": "The actual dredging costs about $215 million, that would come from the U.S. Army Corps of Engineers’ $15 billion approved in February for disaster relief. The infrastructural repairs — including rehousing families, installing proper storm sewage systems and modernizing the drinking water pipelines that cross El Caño — amount to $585 million, and would come from the U.S. Department of Housing and Urban Development’s Community Development Block Grant Disaster Recovery Program."
+    },
+    {
+      "type": "text",
+      "value": "Livia Rodríguez del Valle, the executive director of Proyecto ENLACE, says the benefits outweigh the cost. A healthy waterway in the heart of the capital could pump the island’s economy by creating 4,000 jobs in the tourism industry and adding more than $500 million to the island’s GDP, according to a document submitted to the U.S. House of Representatives last November."
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "The Roots"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Sitting on a stool on the porch of his house, wearing a T-shirt that reads ‘El CAÑO’ and a newsboy cap, José Caraballo Pagán stops carving wooden ornaments to attend to what he says it’s the call of duty. For the next two hours, he discusses with seven of his neighbors who’s vacating their home first."
+    },
+    {
+      "type": "text",
+      "value": "For the dredging to occur 1,000 houses that sit near the channel must be vacant to make room for the heavy machinery and for the channel’s widening."
+    },
+    {
+      "type": "text",
+      "value": "Caraballo Pagán, 72, is one of the eight leaders of the G8, a nonprofit run by neighbors of the communities around El Caño. Every Thursday afternoon he sits in the rehousing committee that could soon move him out of his home of 55 years — located just 25 feet away from the channel."
+    },
+    {
+      "type": "text",
+      "value": "“It’s not that I want to go, but I know I have to do it for the wellbeing of my community, for the people here,” he said. “You have to be conscientious and leave behind 50 years of your life for the wellbeing of the people but also for the waterway.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“It’s not that I want to go, but I know I have to do it for the wellbeing of my community, for the people here. You have to be conscientious and leave behind 50 years of your life for the wellbeing of the people but also for the waterway.”",
+        "attribution": "Caraballo Pagán, one of the eight leaders of the G8"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Like many peasants in the first half of the 20th century, Caraballo Pagán’s father moved to San Juan from the countryside as the island’s economy shifted from agriculture to industry. He built a house in Fanguito, a neighborhood that once sat on the western edge of the channel."
+    },
+    {
+      "type": "text",
+      "value": "By the second half of the 20th century, Fanguito disappeared as the government claimed the land through eminent domain. In the 1960s, 2 miles of the channel were dredged to allow an aquatic transportation system from San Juan’s international airport to Old San Juan."
+    },
+    {
+      "type": "text",
+      "value": "In 1955, Caraballo Pagán’s father obtained $500 from the government, and moved to Barrio Obrero Marina, where he bought the house José has called home since."
+    },
+    {
+      "type": "text",
+      "value": "“I’ve been fixing it here and there throughout the years,” he said, “poco a poco (little by little),” he said. “But what’s the worth of a million-dollar house if you have a waterway you can’t even look at.”"
+    },
+    {
+      "type": "text",
+      "value": "Today his two-story house has a double-height ceiling and cozy living spaces in the first floor."
+    },
+    {
+      "type": "text",
+      "value": "He’s watched El Caño, as he fondly calls it, shrink over the years. At its widest, he said, it was 400 feet. Today, it’s so blocked, in some areas people can walk from shore to shore."
+    },
+    {
+      "type": "text",
+      "value": "“It was a navigable body of water,” he said. “People used to fish, the youth swam in it.”"
+    },
+    {
+      "type": "text",
+      "value": "Caraballo Pagán retired 10 years ago from his job as building maintenance worker at the Insititute of Puerto Rican Culture. Since then he’s been a champion of his community’s fight for environmental justice."
+    },
+    {
+      "type": "text",
+      "value": "“If you have a healthy environment, you have clean water,” he said. “You have healthy people.”"
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Recurring Concerns"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Throughout the years, Rodriguez said, the state and municipal government gradually installed storm sewage systems in some streets, and finally three years ago, every home in the area received clean drinking water for the first time."
+    },
+    {
+      "type": "text",
+      "value": "But the problems persist."
+    },
+    {
+      "type": "text",
+      "value": "Like in the rest of the island, the worn drinking water pipes often break, interrupting service to the homes. In many streets, heavy flooding causes the toilets overflow."
+    },
+    {
+      "type": "text",
+      "value": "In Puerto Rico, only 45 percent of homes have sanitary drains managed by PRASA, a number officials estimate is also representative of the neighborhoods in El Caño. While some residents have septic wells, over 3,000 structures still discharge raw sewage into the remains of the channel, according to the U.S. Environmental Protection Agency."
+    },
+    {
+      "type": "text",
+      "value": "In preparation for for the channel’s dredging, two major drinking water pipes built close to the surface, must be rebuilt to avoid the machinery from breaking the already existing ones. Although the Puerto Rican Aqueduct and Sewer Authority can’t borrow money from the federal government for capital expenses, funds for one of these has already been allocated."
+    },
+    {
+      "type": "text",
+      "value": "Proyecto ENLACE calculates delaying the dredging would cost more than $700 million during a 100-year period of recurrent flooding events."
+    },
+    {
+      "type": "text",
+      "value": "Apart from the inundations, Santiago Arroyo feels fortunate only a small parcel her roof was blown away by Maria. But in December, before the power was restored, the 82-year-old uncle she cared for, fell in the darkness as he attempted to climb over the knee-high walls that were built to keep the water out of their porch. He broke his hip, and after complications surged from the operation, he passed in February."
+    },
+    {
+      "type": "text",
+      "value": "Since then, it’s only Santiago Arroyo and her 11-year-old Dachshund, Poppy, at the house."
+    },
+    {
+      "type": "text",
+      "value": "The number of people in El Caño who have fled after the hurricane hasn’t been counted. But in Blanquita Santiago Arroyo’s street alone, there’s a house for sale, one abandoned and one that Maria collapsed."
+    },
+    {
+      "type": "text",
+      "value": "The plans to dredge, entail installing a proper storm sewage system in her street, but as funding remains uncertain, Santiago Arroyo hopes to move within the next two years."
+    },
+    {
+      "type": "text",
+      "value": "“I’m going to be older, and I won’t be able to get the water out by myself. I don’t have the same strength, but nobody will buy this house to struggle,” she said."
     },
     {
       "type": "video",
@@ -63,149 +244,10 @@
       }
     },
     {
-      "type": "text",
-      "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of ocean waves that confront the city’s border."
-    },
-    {
-      "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
-    },
-    {
       "type": "interactive",
       "value": {
         "filename": "water-interactive2.ejs"
       }
-    },
-    {
-      "type": "text",
-      "value": "He’s used to this hustle. The 28-year-old tour coordinator has spent the last 15 hours on his feet, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
-    },
-    {
-      "type": "text",
-      "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
-    },
-    {
-      "type": "text",
-      "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
-    },
-    {
-      "type": "text",
-      "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
-    },
-    {
-      "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that Cubans have never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana."
-    },
-    {
-      "type": "text",
-      "value": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "A notion of normalcy"
-      }
-    },
-    {
-      "type": "text",
-      "value": "On December 17, 2014, fifteen words altered the relationship between two countries that had been estranged for 53 years."
-    },
-    {
-      "type": "text",
-      "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
-    },
-    {
-      "type": "text",
-      "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
-    },
-    {
-      "type": "text",
-      "value": "Tourism existed while the U.S. and Cuba were estranged — Canadians, Spaniards and Italians are some of the main visitors — but now, it’s an industry that is rapidly changing as airlines shuttle in more Americans. In 2015, the Cuban government reported 145,000 Americans traveled to Cuba — a 79 percent increase from the year before. Tourism from visitors all over the world has been on the rise, too — over two million travelers visited Cuba during the first half of 2016, an 11.7 percent increase from 2015, according to the National Office of Statistics and Information."
-    },
-    {
-      "type": "text",
-      "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
-    },
-    {
-      "type": "text",
-      "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and enjoying taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
-    },
-    {
-      "type": "text",
-      "value": "“It’s the most attractive part of the city,” Orlando says. “So everything has been developed around there — so obviously all the opportunities will be happening there. Right?”"
-    },
-    {
-      "type": "text",
-      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little to show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they want to go there?"
-    },
-    {
-      "type": "text",
-      "value": "“Regla is less crowded than Havana, a lot quieter than Havana — less gentrified,” Orlando says. Though he thinks visitors will soon realize Regla for its charms, that’s not what’s happening now. “There’s no tourism there,” he says, “Not yet.”"
-    },
-    {
-      "type": "text",
-      "value": "This disparity is two sided; visitors aren’t coming in to Regla, but they aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "The $1,000 glisten"
-      }
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>If you had one shot…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“If you had one shot,” Orlando repeats to his audience of one: The reflection in his bedroom mirror."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…or one opportunity, to seize everything you ever wanted in one moment…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“Opp-or-tune-ih-tee,” — five syllables. That’s a hard one."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…would you capture it or just let it slip?</span>"
-    },
-    {
-      "type": "text",
-      "value": "He looks away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself” back to the beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
-    },
-    {
-      "type": "text",
-      "value": "So why not just learn English?"
-    },
-    {
-      "type": "text",
-      "value": "Music was — is — his Bible, he says. It’s how he learned a language almost no one else around him can comprehensively understand; it’s what fueled him through his two mandatory years of military service in the Cuban army. American hip-hop was an escape throughout his tough upbringing, but it was also a way to expand his mind, to grasp at a country just 90 miles away that sometimes felt like another world."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
-      }
-    },
-    {
-      "type": "text",
-      "value": "That was nearly a decade ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
-    },
-    {
-      "type": "text",
-      "value": "But sometimes, it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy, and it shows. He’s always yawning, even in the middle of the day, with watery eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
-    },
-    {
-      "type": "text",
-      "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
     },
     {
       "type": "interactive",
@@ -214,64 +256,10 @@
       }
     },
     {
-      "type": "text",
-      "value": "Orlando Sr. wanted no part of such a massive expenditure at first. “He was like ‘We cannot pay for that,’” Orlando remembers. “And I was like ‘Dad, that’s okay. I have the money.’ I think this is when he understood that, economically, I was the alpha of the family.”"
-    },
-    {
-      "type": "text",
-      "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
-    },
-    {
       "type": "slider",
       "value": {
         "value": "{}"
       }
-    },
-    {
-      "type": "text",
-      "value": "“I think his life is going to be a lot more prosperous than mine,” Orlando Sr. says about his son. “I don’t think he’ll have to go through the same challenges.”"
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "“Because we’re creative”"
-      }
-    },
-    {
-      "type": "text",
-      "value": "It’s only eight hours later, but Orlando is back on the ferry. His arm bends in a perfect “L” as he grips the railing above him, mouthing the words to a Kendrick Lamar song streaming through his earbuds."
-    },
-    {
-      "type": "text",
-      "value": "His morning ferry proves it has also been the pumpkin for countless other Cinderellas, with white and blue paint chipping from the walls and worn green floors. It’s the size of a living room — fitting, since it seems like this is where Orlando does a lot of his living — with characters of every age hunched over the rail, their eyes locked on the nearing Havana harbor as the boat courses through the water."
-    },
-    {
-      "type": "text",
-      "value": "Orlando is on his way to pick up a group of Americans visiting for the week. He says a lot of the visitors he meets have predetermined conceptions of what Cuba is like before they arrive — the old cars, the limited access to the outside world — and decide the country must be stuck in the past."
-    },
-    {
-      "type": "text",
-      "value": "They’re wrong."
-    },
-    {
-      "type": "text",
-      "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
-    },
-    {
-      "type": "text",
-      "value": "This creativity is embedded into young people now — it’s as much of a genetic trait as their physical ones. It’s what inspired a kid without much money to learn English just for fun, to get a job that could provide his family with security in a country that hasn’t always felt so secure. In the same way that Orlando’s neighbors seem to know who he is just by watching him, the rest of the world has its eyes on Cuba — how it will grow, how America’s access will influence the island, how it will change."
-    },
-    {
-      "type": "text",
-      "value": "How Cuba’s tumultuous past will influence its future."
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
     }
   ],
   "step-links": {
