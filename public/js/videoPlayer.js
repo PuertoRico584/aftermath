@@ -2,15 +2,16 @@
 	const init = function() {
 
 	const player = new Plyr('#player');
+	const player_2 = new Plyr('#player_2');
 
 	var videoOverlay = document.getElementById("video_area");
+
 	var circle = document.getElementById("circle");
 	var logo = document.getElementById("logo");
 	var elementWatcher = scrollMonitor.create(videoOverlay, {top: -500});
 	var elementWatcher2 = scrollMonitor.create(videoOverlay, {bottom: -500});
 
 	elementWatcher.enterViewport(function() {
-	    console.log( 'I have entered the viewport' );
 			anime.remove(circle);
 			anime.remove(logo);
 			var morphingCircle = anime({
@@ -79,7 +80,6 @@ setTimeout(morphOut, 3000);
 
 
 	elementWatcher2.exitViewport(function() {
-	    console.log( 'I have left the viewport' );
 // 			anime.remove(circle);
 // 			anime.remove(logo);
 // 			var morphingCicle = anime({

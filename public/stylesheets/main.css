@@ -714,6 +714,10 @@ h5 {
 .plyr--full-ui input[type=range] {
   color: #508091; }
 
+.ash-interactive-video {
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
 @media only screen and (max-width: 1120px) {
   .title-line h1 {
     font-size: 5.25em; }

@@ -240,6 +240,12 @@
       "value": "They’re wrong."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "ash-pile-interactive.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
     },
