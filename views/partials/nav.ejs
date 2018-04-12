@@ -1,13 +1,16 @@
 <% var URL_LANG = espanol ? "?lang=es":"";  %>
 
+
 <div class="nav-wrap-2">
 <div class="nav-bar-wrapper">
 
 <nav class="navbar hidden navbar-expand-xl navbar-light bg-light nav-down">
 
   <div class="mobile-nav-bar"><a class="navbar-brand" href="/"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
-    <button class="navbar-toggler" onclick="toggleTitle()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <button id="navButton" class="navbar-toggler hamburger hamburger--spin" onclick="toggleTitle()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
   </button></div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">

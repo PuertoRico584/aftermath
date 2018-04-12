@@ -163,3 +163,13 @@ font-size: 18px;
   margin-bottom: 50px;
   position: relative;
 }
+
+@media only screen and (max-width: 760px) {
+ .team-nav ul {
+   display: inline-block;
+   text-align: center;
+ }
+ .team-nav li {
+   display: inline-block;
+ }
+}

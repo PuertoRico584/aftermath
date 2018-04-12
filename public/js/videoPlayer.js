@@ -66,14 +66,7 @@
 
 });
 
-setTimeout(morphOut, 3000);
-	function morphOut() {
-		document.getElementById("morphing").style.zIndex = 0;
-	}
 
-	if(trigger === true){
-		morphOut();
-	}
 
 });
 
