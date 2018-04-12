@@ -640,7 +640,7 @@ h5 {
 
 .title-line {
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -668,9 +668,9 @@ h5 {
   position: relative;
   margin: auto;
   display: block;
-  width: 75%;
+  width: 66%;
   background-color: transparent;
-  top: 80%;
+  top: 70%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -717,6 +717,23 @@ h5 {
 .ash-interactive-video {
   margin-bottom: 50px;
   margin-top: 50px; }
+
+#water-header .title-line-two {
+  font-size: 9.3em; }
+
+#health-header h1 {
+  min-width: 103%; }
+
+#health-header .title-line-two {
+  font-size: 10.7em;
+  line-height: 0.57em; }
+
+.health .title-line .offset-sm-1 {
+  margin-left: 3.333333%; }
+
+#biodiversity-header h1 {
+  font-size: 7em;
+  line-height: 1em; }
 
 @media only screen and (max-width: 1120px) {
   .title-line h1 {

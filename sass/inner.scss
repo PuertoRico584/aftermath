@@ -157,6 +157,7 @@
 
 }
 
+
 #byline {
   padding: 35px 0px;
 }
@@ -264,7 +265,7 @@
 
 .title-line {
   position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -296,9 +297,9 @@ font-size: 20px;
 position: relative;
 margin: auto;
 display: block;
-width: 75%;
+width: 66%;
 background-color: rgba(0, 0, 0, 0);
-top: 80%;
+top: 70%;
 opacity: 1;
 animation-name: fadeInOpacity;
 animation-iteration-count: 1;
@@ -359,6 +360,39 @@ animation-duration: 3s;
   margin-top: 50px;
 }
 
+// Individual title treatments
+
+#water-header{
+  & .title-line-two{
+    font-size: 9.3em;
+  }
+}
+
+#health-header{
+    h1{
+      min-width: 103%;
+    }
+    & .title-line-two{
+      font-size: 10.7em;
+      line-height: 0.57em;
+    }
+}
+
+.health{
+  .title-line{
+    .offset-sm-1{
+      margin-left: 3.333333%;
+    }
+  }
+}
+
+#biodiversity-header{
+  h1{
+      font-size: 7em;
+      line-height: 1em;
+  }
+}
+///
 
 
 @media only screen and (max-width: 1120px) {
