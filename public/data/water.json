@@ -71,6 +71,12 @@
       "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "water-interactive2.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "He’s used to this hustle. The 28-year-old tour coordinator has spent the last 15 hours on his feet, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
     },
