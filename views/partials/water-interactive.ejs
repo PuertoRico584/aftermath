@@ -39,6 +39,7 @@
   font-size: 4.5px;
   margin-bottom: 0px;
   padding-bottom: 5px;
+  color: #6c6c6c;
 }
 
 .pulse {
@@ -127,12 +128,16 @@ transform: scale(1.1);
   margin: 40px;
 }
 
-.interactive-title h3 {
-  color: #508091;
+.fa-home, .fa-truck, .fa-tint {
+  color: #6c6c6c;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
 }
 
-.interactive-title p {
-  color: #508091;
+.house h1 {
+  color: #6c6c6c;
+  text-align: center;
 }
 
 </style>
@@ -148,16 +153,12 @@ transform: scale(1.1);
             <div class="col-3 interactive-title">
               <h3>Money In, Money Out</h3>
               <p>By Madison Walls</p>
-            </div>
-            <div class="col-9 interactive-info">
               <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
               <p>Puerto Rico is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3% of the funding.</p>
+              <p class="house-text">Click on a section to see how the money will be used.</p>
             </div>
-            </div>
-          </div>
-          <div class="zoomViewport">
-          <p class="house-text">Click on a section to see how the money will be used.</p>
-          <div class="col-12 house zoomContainer">
+          <div class="zoomViewport col-9">
+          <div class="house zoomContainer">
             <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
               <div class="box one zoomTarget pulse" onclick="switchContent1()">
               <i class="fa fa-home"></i>

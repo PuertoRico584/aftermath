@@ -26,3 +26,9 @@ function toggleTitleInner(){
     $('.es-and-about').css('display', 'none');
   }
 }
+
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+});
