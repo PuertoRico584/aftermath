@@ -641,21 +641,24 @@ h5 {
   max-width: 80%; }
 
 .inner .byline-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: left;
   padding-bottom: 5%;
   padding-top: 1%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }
-  .inner .byline-box p {
-    line-height: 1px;
-    margin: 10px; }
+  color: purple; }
+
+.inner .byline-box p {
+  line-height: 1px;
+  margin: 10px; }
 
 .inner .byline-item {
   font-size: 0.9em;
   display: inline-block;
   text-align: left;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  margin-bottom: 1.3em; }
   .inner .byline-item p {
     line-height: 0.6em;
     margin-top: 5px;
@@ -665,9 +668,6 @@ h5 {
   font-size: 0.9em;
   font-weight: bold;
   marign-bottom: 12px; }
-
-.inner .byline-item {
-  margin-bottom: 1.3em; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -851,16 +851,16 @@ h5 {
   color: #fff; }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: #508091; }
+  background: #309865; }
 
 .plyr__control--overlaid {
-  background: #508091; }
+  background: #309865; }
 
 .plyr__control--overlaid:hover {
-  background: #6ea8b8; }
+  background: #348e60; }
 
 .plyr--full-ui input[type=range] {
-  color: #508091; }
+  color: #309865; }
 
 .ash-interactive-video {
   margin-bottom: 50px;
