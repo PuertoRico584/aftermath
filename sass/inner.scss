@@ -73,6 +73,9 @@
       text-align: left;
       padding-bottom: 5%;
       padding-top: 1%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
       & p{
         line-height: 1px;
         margin: 10px;
@@ -393,6 +396,12 @@ animation-duration: 3s;
   }
 }
 ///
+
+/// Coal ash videos
+
+.ash-interactive-video{
+  width: 100vw;
+}
 
 
 @media only screen and (max-width: 1120px) {

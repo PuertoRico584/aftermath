@@ -45,12 +45,12 @@
 		    <% for (d in body["upr"]) {%>
 		    <p><%= body["upr"][d]["name"] %></p>
 		    <% } %>
-		  </div>
+			</div>
 		</div>
-
 
 		<section class="col-md-6">
 			<div class="max-width">
+			</div>
 				<% for (i in body["text"]) {
 				if (body["text"][i]["type"] == "text") {%>
 				<p> <%-body["text"][i]["value"] %> </p>
@@ -62,8 +62,9 @@
 		</section>
 	</div>
 
-<% include ../partials/video.ejs %>
 
+<% include ../partials/video.ejs %>
+</div>
 <div class="row">
 	<div class="left-box col-4"></div>
 	<section class="col-md-6">
