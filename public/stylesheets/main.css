@@ -398,6 +398,11 @@ body, html {
   width: auto;
   margin-left: 15px; }
 
+.logo-in-corner-index {
+  height: 23px;
+  width: auto;
+  margin-left: 15px; }
+
 .navbar {
   background-color: black !important;
   height: 60px; }
@@ -508,7 +513,11 @@ body, html {
   .logo-in-corner {
     position: absolute;
     left: 21px;
-    bottom: 18px; }
+    bottom: 19px; }
+  .logo-in-corner-index {
+    position: absolute;
+    left: 21px;
+    bottom: 4px; }
   .es-and-about {
     display: none; } }
 
@@ -866,46 +875,10 @@ h5 {
   margin-bottom: 50px;
   margin-top: 50px; }
 
-#water-header .title-line-two {
-  font-size: 9.3em; }
-
-#health-header h1 {
-  min-width: 103%; }
-
-#health-header .title-line-two {
-  font-size: 10.7em;
-  line-height: 0.57em; }
-
-.health .title-line .offset-sm-1 {
-  margin-left: 3.333333%; }
-
-#biodiversity-header h1 {
-  font-size: 7em;
-  line-height: 1em; }
-
-.ash-interactive-video {
-  width: 100vw; }
-
-@media only screen and (max-width: 1120px) {
-  .title-line h1 {
-    font-size: 5.25em; }
-  .title-line-two {
-    font-size: 5.6em; } }
-
-@media only screen and (max-width: 950px) {
-  .title-line h1 {
-    font-size: 4.25em; }
-  .title-line-two {
-    font-size: 4.4em; } }
-
 @media only screen and (max-width: 800px) {
-  .title-line h1 {
-    font-size: 4.0em; }
-  .title-line-two {
-    font-size: 4.2em; }
   .deck {
-    font-size: 14px;
-    top: 75%; }
+    font-size: 16px;
+    bottom: 20%; }
   .byline-item {
     padding: 0px 30px; }
   .col-md-7 {
@@ -919,15 +892,9 @@ h5 {
   .sidebar-icons {
     display: none; }
   .story-section .row {
-    padding: 0 20px !important; } }
-
-@media only screen and (max-width: 650px) {
-  .title-line h1 {
-    font-size: 3.25em; }
-  .title-line-two {
-    font-size: 3.4em; }
-  .byline-item {
-    padding: 0px 20px; } }
+    padding: 0 20px !important; }
+  .inner-title {
+    margin: auto; } }
 
 @media only screen and (max-width: 600px) {
   .icon {
@@ -940,6 +907,46 @@ h5 {
   .inner .byline-head {
     font-size: 10px;
     text-align: center; } }
+
+#water-header .title-line-two {
+  font-size: 9.3em; }
+  @media (max-width: 570px) {
+    #water-header .title-line-two {
+      font-size: 4.45em; } }
+
+@media (max-width: 570px) {
+  #water-header h1 {
+    font-size: 3em; } }
+
+#health-header h1 {
+  min-width: 103%; }
+  @media (max-width: 570px) {
+    #health-header h1 {
+      font-size: 2.5em; } }
+
+#health-header .title-line-two {
+  font-size: 10.7em;
+  line-height: 0.57em; }
+  @media (max-width: 570px) {
+    #health-header .title-line-two {
+      font-size: 4.25em; } }
+
+.health .title-line .offset-sm-1 {
+  margin-left: 3.333333%; }
+
+#biodiversity-header h1 {
+  font-size: 7em;
+  line-height: 1em; }
+  @media (max-width: 570px) {
+    #biodiversity-header h1 {
+      font-size: 3em; } }
+
+@media (max-width: 570px) {
+  #biodiversity-header .title-line-two {
+    font-size: 2.87em; } }
+
+.ash-interactive-video {
+  width: 100vw; }
 
 .footer-wrapper {
   padding-top: 2px;
