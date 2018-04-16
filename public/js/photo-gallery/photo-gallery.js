@@ -244,7 +244,6 @@ const mq = window.matchMedia("(min-width: 766px)");
 if (mq.matches) {
   // Execute photoswipe function if window width is at least 766px
   initPhotoSwipeFromDOM('.my-gallery');
-  console.log("nut");
 
   //Masonry
   var container_7_1 = document.querySelector("#photo-gallery");
@@ -276,6 +275,5 @@ if (mq.matches) {
 
   } else {
   // Window width is less than 500px
-  console.log("yeet")
   document.getElementById("grid").style.display="none"
 }

@@ -398,6 +398,11 @@ body, html {
   width: auto;
   margin-left: 15px; }
 
+.logo-in-corner-index {
+  height: 23px;
+  width: auto;
+  margin-left: 15px; }
+
 .navbar {
   background-color: black !important;
   height: 60px; }
@@ -508,7 +513,11 @@ body, html {
   .logo-in-corner {
     position: absolute;
     left: 21px;
-    bottom: 18px; }
+    bottom: 19px; }
+  .logo-in-corner-index {
+    position: absolute;
+    left: 21px;
+    bottom: 4px; }
   .es-and-about {
     display: none; } }
 
@@ -641,18 +650,24 @@ h5 {
   max-width: 80%; }
 
 .inner .byline-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: left;
   padding-bottom: 5%;
-  padding-top: 1%; }
-  .inner .byline-box p {
-    line-height: 1px;
-    margin: 10px; }
+  padding-top: 1%;
+  color: purple; }
+
+.inner .byline-box p {
+  line-height: 1px;
+  margin: 10px; }
 
 .inner .byline-item {
   font-size: 0.9em;
   display: block;
   text-align: left;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  margin-bottom: 1.3em; }
   .inner .byline-item p {
     line-height: 0.6em;
     margin-top: 5px;
@@ -662,9 +677,6 @@ h5 {
   font-size: 0.9em;
   font-weight: bold;
   marign-bottom: 12px; }
-
-.inner .byline-item {
-  margin-bottom: 1.3em; }
 
 .inner .vimeo-container {
   padding-left: 25%;
@@ -785,7 +797,7 @@ h5 {
 
 .title-line {
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -813,9 +825,9 @@ h5 {
   position: relative;
   margin: auto;
   display: block;
-  width: 75%;
+  width: 66%;
   background-color: transparent;
-  top: 80%;
+  top: 70%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -848,39 +860,25 @@ h5 {
   color: #fff; }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: #508091; }
+  background: #309865; }
 
 .plyr__control--overlaid {
-  background: #508091; }
+  background: #309865; }
 
 .plyr__control--overlaid:hover {
-  background: #6ea8b8; }
+  background: #348e60; }
 
 .plyr--full-ui input[type=range] {
-  color: #508091; }
+  color: #309865; }
 
-@media only screen and (max-width: 1120px) {
-  .title-line h1 {
-    font-size: 5.25em; }
-  .title-line-two {
-    font-size: 5.6em; } }
-
-@media only screen and (max-width: 950px) {
-  .title-line h1 {
-    font-size: 4.25em; }
-  .title-line-two {
-    font-size: 4.4em; }
-  .byline-item {
-    display: inline-block; } }
+.ash-interactive-video {
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 @media only screen and (max-width: 800px) {
-  .title-line h1 {
-    font-size: 4.0em; }
-  .title-line-two {
-    font-size: 4.2em; }
   .deck {
-    font-size: 14px;
-    top: 75%; }
+    font-size: 16px;
+    bottom: 20%; }
   .byline-item {
     padding: 0px 30px;
     display: inline-block; }
@@ -895,15 +893,9 @@ h5 {
   .sidebar-icons {
     display: none; }
   .story-section .row {
-    padding: 0 20px !important; } }
-
-@media only screen and (max-width: 650px) {
-  .title-line h1 {
-    font-size: 3.25em; }
-  .title-line-two {
-    font-size: 3.4em; }
-  .byline-item {
-    padding: 0px 20px; } }
+    padding: 0 20px !important; }
+  .inner-title {
+    margin: auto; } }
 
 @media only screen and (max-width: 600px) {
   .icon {
@@ -916,6 +908,46 @@ h5 {
   .inner .byline-head {
     font-size: 10px;
     text-align: center; } }
+
+#water-header .title-line-two {
+  font-size: 9.3em; }
+  @media (max-width: 570px) {
+    #water-header .title-line-two {
+      font-size: 4.45em; } }
+
+@media (max-width: 570px) {
+  #water-header h1 {
+    font-size: 3em; } }
+
+#health-header h1 {
+  min-width: 103%; }
+  @media (max-width: 570px) {
+    #health-header h1 {
+      font-size: 2.5em; } }
+
+#health-header .title-line-two {
+  font-size: 10.7em;
+  line-height: 0.57em; }
+  @media (max-width: 570px) {
+    #health-header .title-line-two {
+      font-size: 4.25em; } }
+
+.health .title-line .offset-sm-1 {
+  margin-left: 3.333333%; }
+
+#biodiversity-header h1 {
+  font-size: 7em;
+  line-height: 1em; }
+  @media (max-width: 570px) {
+    #biodiversity-header h1 {
+      font-size: 3em; } }
+
+@media (max-width: 570px) {
+  #biodiversity-header .title-line-two {
+    font-size: 2.87em; } }
+
+.ash-interactive-video {
+  width: 100vw; }
 
 .footer-wrapper {
   padding-top: 2px;
@@ -1140,632 +1172,67 @@ h5 {
       height: auto; } }
 
 .pollution-interactive {
-  /* ===== ScrollMagic Class ==============================================
-   Author: Petr Tichy - ihatetomatoes.net
-   ========================================================================== */
-  /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-  /* =Main */
-  /* ==========================================================================
-   Media Queries
-   ========================================================================== */
-  /* ==========================================================================
-   Helper classes
-   ========================================================================== */
-  /* ==========================================================================
-   Print styles
-   ========================================================================== */
-  /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
-  /* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-  /**
- * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
- */
-  /**
- * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
- */
-  /**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-  /**
- * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
- * Known issue: no IE 6 support.
- */
-  /* ==========================================================================
-   Base
-   ========================================================================== */
-  /**
- * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
- *    `em` units.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-  /**
- * Address `font-family` inconsistency between `textarea` and other form
- * elements.
- */
-  /**
- * Address margins handled incorrectly in IE 6/7.
- */
-  /* ==========================================================================
-   Links
-   ========================================================================== */
-  /**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-  /**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-  /* ==========================================================================
-   Typography
-   ========================================================================== */
-  /**
- * Address font sizes and margins set differently in IE 6/7.
- * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
- * and Chrome.
- */
-  /**
- * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
- */
-  /**
- * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
- */
-  /**
- * Address styling not present in Safari 5 and Chrome.
- */
-  /**
- * Address differences between Firefox and other browsers.
- * Known issue: no IE 6/7 normalization.
- */
-  /**
- * Address styling not present in IE 6/7/8/9.
- */
-  /**
- * Address margins set differently in IE 6/7.
- */
-  /**
- * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
- */
-  /**
- * Improve readability of pre-formatted text in all browsers.
- */
-  /**
- * Address CSS quotes not supported in IE 6/7.
- */
-  /**
- * Address `quotes` property not supported in Safari 4.
- */
-  /**
- * Address inconsistent and variable font size in all browsers.
- */
-  /**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-  /* ==========================================================================
-   Lists
-   ========================================================================== */
-  /**
- * Address margins set differently in IE 6/7.
- */
-  /**
- * Address paddings set differently in IE 6/7.
- */
-  /**
- * Correct list images handled incorrectly in IE 7.
- */
-  /* ==========================================================================
-   Embedded content
-   ========================================================================== */
-  /**
- * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
- * 2. Improve image quality when scaled in IE 7.
- */
-  /**
- * Correct overflow displayed oddly in IE 9.
- */
-  /* ==========================================================================
-   Figures
-   ========================================================================== */
-  /**
- * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
- */
-  /* ==========================================================================
-   Forms
-   ========================================================================== */
-  /**
- * Correct margin displayed oddly in IE 6/7.
- */
-  /**
- * Define consistent border, margin, and padding.
- */
-  /**
- * 1. Correct color not being inherited in IE 6/7/8/9.
- * 2. Correct text not wrapping in Firefox 3.
- * 3. Correct alignment displayed oddly in IE 6/7.
- */
-  /**
- * 1. Correct font size not being inherited in all browsers.
- * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
- *    and Chrome.
- * 3. Improve appearance and consistency in all browsers.
- */
-  /**
- * Address Firefox 3+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-  /**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
- */
-  /**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
- *    Known issue: inner spacing remains in IE 6.
- */
-  /**
- * Re-set default cursor for disabled elements.
- */
-  /**
- * 1. Address box sizing set to content-box in IE 8/9.
- * 2. Remove excess padding in IE 8/9.
- * 3. Remove excess padding in IE 7.
- *    Known issue: excess padding remains in IE 6.
- */
-  /**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-  /**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-  /**
- * Remove inner padding and border in Firefox 3+.
- */
-  /**
- * 1. Remove default vertical scrollbar in IE 6/7/8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-  /* ==========================================================================
-   Tables
-   ========================================================================== */
-  /**
- * Remove most spacing between table cells.
- */ }
-  .pollution-interactive h1 {
+  /*============================= CSS Parallax ===========================*/ }
+  .pollution-interactive h1, .pollution-interactive h2 {
     text-align: center; }
-  .pollution-interactive h2 {
-    text-align: center; }
-  .pollution-interactive p {
-    text-align: left; }
-  .pollution-interactive #element-horiz {
-    max-width: 50%;
-    padding-top: 2%;
-    padding-bottom: 2%; }
-  .pollution-interactive #single-element {
-    max-width: 30%;
-    float: left; }
-  .pollution-interactive #project03 span {
-    display: inline-block; }
-  .pollution-interactive #con-pin {
-    z-index: 0; }
-  .pollution-interactive #con-pin img {
-    max-width: 100%; }
-  .pollution-interactive body {
-    font: 16px/1.5 Helvetica, Helvetica Neue, Arial; }
-  .pollution-interactive .wrapper {
-    width: 90%;
-    margin: 0 5%; }
-  .pollution-interactive #intro {
-    height: 100vh;
-    background: radial-gradient(circle, #74A6EE 0%, #485CB2 100%);
-    text-align: center;
-    color: #fff; }
-  .pollution-interactive #intro .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+  .pollution-interactive #con-trigger {
+    background-image: url("/assets/images/ash-illustration.png");
+    min-height: 1200px;
+    width: auto;
+    z-index: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
   .pollution-interactive .project {
+    z-index: 1;
+    margin: 40px 30%;
     text-align: center;
-    padding: 20px 0;
-    margin: 30%;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s ease-out; }
-  .pollution-interactive .project.fade-in {
-    opacity: 1;
-    transform: translateY(0); }
+    padding-bottom: 5%; }
+  .pollution-interactive .project img {
+    max-width: 20%; }
   .pollution-interactive .project p {
     max-width: 90%;
-    padding-bottom: 2%;
     margin: 0 auto;
-    color: black;
-    font-family: "quasimoda",sans-serif; }
+    font-family: "quasimoda",sans-serif;
+    text-align: left; }
   .pollution-interactive #white-box {
-    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin: 0;
-    padding: 0; }
-  .pollution-interactive #project00 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #project01 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #project02 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #project03 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #project04 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #project05 h2 {
-    color: black;
-    padding-top: 2%;
-    font-family: "quasimoda",sans-serif; }
-  .pollution-interactive #main {
-    position: relative;
-    /* background-color: #000; */ }
-  .pollution-interactive .bcg-parallax {
-    padding: 150px 0;
-    color: black;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    overflow: hidden; }
-  .pollution-interactive .bcg {
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    top: 0;
-    opacity: 0.7; }
+    background-color: rgba(255, 255, 255, 0.6); }
   .pollution-interactive .content-wrapper {
     width: 80%;
     margin: 0 auto;
     max-width: 1140px;
     position: relative;
     z-index: 2; }
-  @media only screen and (min-width: 480px) {
-    .pollution-interactive {
-      /* =General */
-      /* =Header */
-      /* =Footer */ } }
-  @media only screen and (max-width: 768px) {
-    .pollution-interactive {
-      /* =General */
-      /* =Header */
-      /* =Footer */ }
-      .pollution-interactive .project {
-        margin: -20%;
-        padding: 90px; }
-      .pollution-interactive .project p {
-        max-width: 95%;
-        padding: 2%; }
-      .pollution-interactive #element-horiz {
-        max-width: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%; }
-      .pollution-interactive #single-element {
-        max-width: 40%; } }
-  @media only screen and (min-width: 1140px) {
-    .pollution-interactive {
-      /* =General */
-      /* =Header */
-      /* =Footer */ } }
-  .pollution-interactive .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px; }
-  .pollution-interactive .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%; }
-  .pollution-interactive .hidden {
-    display: none !important;
-    visibility: hidden; }
-  .pollution-interactive .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px; }
-  .pollution-interactive .visuallyhidden.focusable:active,
-  .pollution-interactive .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto; }
-  .pollution-interactive .invisible {
-    visibility: hidden; }
-  .pollution-interactive .clearfix:before,
-  .pollution-interactive .clearfix:after {
-    content: " ";
-    display: table; }
-  .pollution-interactive .clearfix:after {
-    clear: both; }
-  .pollution-interactive .clearfix {
-    *zoom: 1; }
-  @media print {
-    .pollution-interactive * {
-      background: transparent !important;
-      color: #000 !important;
-      box-shadow: none !important;
-      text-shadow: none !important; }
-    .pollution-interactive a,
-    .pollution-interactive a:visited {
-      text-decoration: underline; }
-    .pollution-interactive a[href]:after {
-      content: " (" attr(href) ")"; }
-    .pollution-interactive abbr[title]:after {
-      content: " (" attr(title) ")"; }
-    .pollution-interactive .ir a:after,
-    .pollution-interactive a[href^="javascript:"]:after,
-    .pollution-interactive a[href^="#"]:after {
-      content: ""; }
-    .pollution-interactive pre,
-    .pollution-interactive blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid; }
-    .pollution-interactive thead {
-      display: table-header-group; }
-    .pollution-interactive tr,
-    .pollution-interactive img {
-      page-break-inside: avoid; }
-    .pollution-interactive img {
-      max-width: 100% !important; }
-    @page {
-      .pollution-interactive {
-        margin: 0.5cm; } }
-    .pollution-interactive p,
-    .pollution-interactive h2,
-    .pollution-interactive h3 {
-      orphans: 3;
-      widows: 3; }
-    .pollution-interactive h2,
-    .pollution-interactive h3 {
-      page-break-after: avoid; } }
-  .pollution-interactive article,
-  .pollution-interactive aside,
-  .pollution-interactive details,
-  .pollution-interactive figcaption,
-  .pollution-interactive figure,
-  .pollution-interactive footer,
-  .pollution-interactive header,
-  .pollution-interactive hgroup,
-  .pollution-interactive main,
-  .pollution-interactive nav,
-  .pollution-interactive section,
-  .pollution-interactive summary {
-    display: block; }
-  .pollution-interactive audio,
-  .pollution-interactive canvas,
-  .pollution-interactive video {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1; }
-  .pollution-interactive audio:not([controls]) {
-    display: none;
-    height: 0; }
-  .pollution-interactive [hidden] {
-    display: none; }
-  .pollution-interactive html {
-    font-size: 100%;
-    /* 1 */
-    -ms-text-size-adjust: 100%;
-    /* 2 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */ }
-  .pollution-interactive html,
-  .pollution-interactive button,
-  .pollution-interactive input,
-  .pollution-interactive select,
-  .pollution-interactive textarea {
-    font-family: sans-serif; }
-  .pollution-interactive body {
-    margin: 0; }
-  .pollution-interactive a:focus {
-    outline: thin dotted; }
-  .pollution-interactive a:active,
-  .pollution-interactive a:hover {
-    outline: 0; }
-  .pollution-interactive h1 {
-    font-size: 2em;
-    margin: 0.67em 0; }
-  .pollution-interactive h2 {
-    font-size: 1.5em;
-    margin: 0.83em 0; }
-  .pollution-interactive h3 {
-    font-size: 1.17em;
-    margin: 1em 0; }
-  .pollution-interactive h4 {
-    font-size: 1em;
-    margin: 1.33em 0; }
-  .pollution-interactive h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0; }
-  .pollution-interactive h6 {
-    font-size: 0.67em;
-    margin: 2.33em 0; }
-  .pollution-interactive abbr[title] {
-    border-bottom: 1px dotted; }
-  .pollution-interactive b,
-  .pollution-interactive strong {
-    font-weight: bold; }
-  .pollution-interactive blockquote {
-    margin: 1em 40px; }
-  .pollution-interactive dfn {
-    font-style: italic; }
-  .pollution-interactive hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0; }
-  .pollution-interactive mark {
-    background: #ff0;
-    color: #000; }
-  .pollution-interactive p,
-  .pollution-interactive pre {
-    margin: 1em 0; }
-  .pollution-interactive code,
-  .pollution-interactive kbd,
-  .pollution-interactive pre,
-  .pollution-interactive samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
-    font-size: 1em; }
-  .pollution-interactive pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word; }
-  .pollution-interactive q {
-    quotes: none; }
-  .pollution-interactive q:before,
-  .pollution-interactive q:after {
-    content: '';
-    content: none; }
-  .pollution-interactive small {
-    font-size: 80%; }
-  .pollution-interactive sub,
-  .pollution-interactive sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline; }
-  .pollution-interactive sup {
-    top: -0.5em; }
-  .pollution-interactive sub {
-    bottom: -0.25em; }
-  .pollution-interactive dl,
-  .pollution-interactive menu,
-  .pollution-interactive ol,
-  .pollution-interactive ul {
-    margin: 1em 0; }
-  .pollution-interactive dd {
-    margin: 0 0 0 40px; }
-  .pollution-interactive menu,
-  .pollution-interactive ol,
-  .pollution-interactive ul {
-    padding: 0 0 0 40px; }
-  .pollution-interactive nav ul,
-  .pollution-interactive nav ol {
-    list-style: none;
-    list-style-image: none; }
-  .pollution-interactive img {
-    border: 0;
-    /* 1 */
-    -ms-interpolation-mode: bicubic;
-    /* 2 */ }
-  .pollution-interactive svg:not(:root) {
-    overflow: hidden; }
-  .pollution-interactive figure {
-    margin: 0; }
-  .pollution-interactive form {
-    margin: 0; }
-  .pollution-interactive fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em; }
-  .pollution-interactive legend {
-    border: 0;
-    /* 1 */
-    padding: 0;
-    white-space: normal;
-    /* 2 */
-    *margin-left: -7px;
-    /* 3 */ }
-  .pollution-interactive button,
-  .pollution-interactive input,
-  .pollution-interactive select,
-  .pollution-interactive textarea {
-    font-size: 100%;
-    /* 1 */
-    margin: 0;
-    /* 2 */
-    vertical-align: baseline;
-    /* 3 */
-    *vertical-align: middle;
-    /* 3 */ }
-  .pollution-interactive button,
-  .pollution-interactive input {
-    line-height: normal; }
-  .pollution-interactive button,
-  .pollution-interactive select {
-    text-transform: none; }
-  .pollution-interactive button,
-  .pollution-interactive html input[type="button"],
-  .pollution-interactive input[type="reset"],
-  .pollution-interactive input[type="submit"] {
-    -webkit-appearance: button;
-    /* 2 */
-    cursor: pointer;
-    /* 3 */
-    *overflow: visible;
-    /* 4 */ }
-  .pollution-interactive button[disabled],
-  .pollution-interactive html input[disabled] {
-    cursor: default; }
-  .pollution-interactive input[type="checkbox"],
-  .pollution-interactive input[type="radio"] {
-    box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-    *height: 13px;
-    /* 3 */
-    *width: 13px;
-    /* 3 */ }
-  .pollution-interactive input[type="search"] {
-    -webkit-appearance: textfield;
-    /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    /* 2 */
-    box-sizing: content-box; }
-  .pollution-interactive input[type="search"]::-webkit-search-cancel-button,
-  .pollution-interactive input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none; }
-  .pollution-interactive button::-moz-focus-inner,
-  .pollution-interactive input::-moz-focus-inner {
-    border: 0;
-    padding: 0; }
-  .pollution-interactive textarea {
-    overflow: auto;
-    /* 1 */
-    vertical-align: top;
-    /* 2 */ }
-  .pollution-interactive table {
-    border-collapse: collapse;
-    border-spacing: 0; }
+  .pollution-interactive #single-element {
+    float: left;
+    max-width: 30%; }
+  .pollution-interactive #element-horiz {
+    margin: 0 auto;
+    max-width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+
+@media only screen and (max-width: 768px) {
+  /* =General */
+  .project {
+    margin: -20%; }
+  .project p {
+    max-width: 95%;
+    padding: 2%; }
+  #element-horiz {
+    max-width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+  #single-element {
+    max-width: 40%; }
+  /* =Header */
+  /* =Footer */ }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-.light-video {
-  width: 100%;
-  height: auto;
-  z-index: -1000; }
-
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1969,6 +1436,59 @@ h5 {
   /**
  * Remove most spacing between table cells.
  */ }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .why-is-it-taking-so {
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase; }
+  .power-interactive .bottom-infographic .headers-info .top-info-div .intro-par {
+    width: 80%;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 15pt; }
+  .power-interactive .bottom-infographic .items-info {
+    margin-top: 50px; }
+    .power-interactive .bottom-infographic .items-info .source-vox {
+      color: gray;
+      margin-left: 40px;
+      margin-top: 100px;
+      font-size: 8pt; }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container {
+      position: relative; }
+      .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100.35%;
+        width: 100.35%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #292929;
+        clip-path: circle(); }
+        .power-interactive .bottom-infographic .items-info .item-choice .overlay-container .overlay-text-div .overlay-text {
+          color: white;
+          font-size: 9pt;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          margin: 5px; }
+    .power-interactive .bottom-infographic .items-info .item-choice .overlay-container:hover .overlay-text-div {
+      opacity: 1; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item {
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .power-interactive .bottom-infographic .items-info .item-choice .why-item-icon {
+      height: 225px;
+      width: auto;
+      margin: auto;
+      display: block; }
   .power-interactive .fade-png {
     width: 100%;
     height: 500px; }
@@ -1996,10 +1516,10 @@ h5 {
     color: white;
     font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
-    width: 40%;
+    width: 28%;
     height: auto;
     margin: auto;
-    margin-left: 30%; }
+    margin-left: 35%; }
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
