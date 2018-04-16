@@ -6,7 +6,7 @@
     "title-line-one": "A Natural",
     "title-line-two": "Revolution",
     "seo": "A Natural Revolution | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "deck here"
+    "subtitle": "After Hurricane Maria, Puerto Rico’s forests performed incredible feats of recovery, using strategies fine-tuned by centuries of adaptation to hurricane cycles. Researchers and farmers are watching these systems to learn how people can follow suit."
   },
   "reporters": [
     {
@@ -65,30 +65,6 @@
       "value": "“You can’t do anything more. The hurricane’s coming,” he said. “You have to be humble.”"
     },
     {
-      "type": "text",
-      "value": "He awoke to a devastated landscape. A huge palm tree lay across the entrance to the farm, and every tree had been stripped of its leaves. The forest, once a thick mass of foliage, now looked like a scattering of giant sticks jammed into the ground."
-    },
-    {
-      "type": "text",
-      "value": "On the bank of the property’s lake, another towering palm stood with trunk intact but only shreds of leaves. One stuck straight up into the air like a feather on a silly-looking headdress. There were pools of standing water in the lowest points of the farm. The landscape looked anything but ready for growing vegetables."
-    },
-    {
-      "type": "text",
-      "value": "And yet one month after the storm, El Josco Bravo was once again producing crops."
-    },
-    {
-      "type": "text",
-      "value": "Pagan attributed the relative fortitude of his farm to its founding philosophy, one based on  sustainability, self-reliance and resilience. As an agroecologist, he views his farm as an ecosystem, one as intricate and complex as the forests that surround it."
-    },
-    {
-      "type": "text",
-      "value": "Pagan wasn’t the only one watching as Puerto Rico’s forests outpaced many of the human systems in regrowth after the storm. In places like El Yunque, the island’s 28,000 acre national forest, scientists watched as sun-loving plants sprang up under the opened canopy, providing shade for other species and making way for the recovery of the forest structure. Environmentalists and aspiring farmers also saw how the forests took advantage of the devastation, using nutrients from the downed leaves and direct sunlight to regrow."
-    },
-    {
-      "type": "text",
-      "value": "These systems, shaped by centuries of evolution and adaptation to hurricanes, knew how to rebuild after the disaster. If Maria offered one lesson, it was that when disaster strikes, it is nature itself that holds the best lessons on resilience."
-    },
-    {
       "type": "video",
       "value": {
         "id": "264158599",
@@ -96,9 +72,33 @@
       }
     },
     {
+      "type": "text",
+      "value": "He awoke to a devastated landscape. A huge palm tree lay across the entrance to the farm. The surrounding forest, stripped of every leaf, looked like a scattering of giant sticks jammed into the ground. There were pools of standing water from the intense rains. The landscape looked anything but ready for growing vegetables."
+    },
+    {
+      "type": "text",
+      "value": "And yet one month after the storm, El Josco Bravo was once again producing crops."
+    },
+    {
+      "type": "text",
+      "value": "As an agroecologist, Pagan views his farm as an ecosystem, one as intricate and complex as the forests that surround it. These forests, like Pagan’s farm, are self-sufficient and resilient, and these two principles contributed to the regrowth post-hurricane of both places."
+    },
+    {
+      "type": "text",
+      "value": "Pagan wasn’t the only one watching as Puerto Rico’s forests outpaced many of the human systems in regrowth after the storm. In places like El Yunque, the island’s 28,000 acre national forest, scientists watched as sun-loving plants sprang up under the opened canopy, providing shade for other species and making way for the recovery of the forest structure. These natural systems, shaped by centuries of evolution and adaptation, know how to rebuild after the disaster, but the scientists still hope to gain new insight on how the ecosystem works."
+    },
+    {
+      "type": "text",
+      "value": "Research is also happening outside the national forest. At a small plot of land in the center of the island, a group of researchers are testing how to incorporate hurricane-resistant natives and other beneficial species into non-native forests, and their work has the possibility to change the aftermath of the next hurricane."
+    },
+    {
+      "type": "text",
+      "value": "But if Maria offered one overall lesson, it was that when disaster strikes, it is nature itself that holds the best lessons on resilience."
+    },
+    {
       "type": "subhead",
       "value": {
-        "text": "A toothpick forest"
+        "text": "“A toothpick forest”"
       }
     },
     {
@@ -111,11 +111,17 @@
     },
     {
       "type": "text",
-      "value": "But Maria’s 155-mile winds damaged or killed an estimated 23 to 31 million trees across the island. The gusts ripped smaller plants up by the roots, including crops, destroying 80 percent of the island’s crop value. The lush canopy and foliage disappeared overnight."
+      "value": "Maria’s 155-mile winds, rains and subsequent landslides damaged or killed an estimated 23 to 31 million trees across the island. The gusts ripped smaller plants up by the roots. The lush canopy and foliage disappeared overnight."
     },
     {
       "type": "text",
       "value": "“It was a toothpick forest,” said Grizelle Gonzalez, a soil scientist at the International Institute of Tropical Forestry."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "biodiversity-interactive.ejs"
+      }
     },
     {
       "type": "text",
@@ -131,43 +137,17 @@
     },
     {
       "type": "text",
-      "value": "Gonzalez is one of many researchers working at El Yunque’s field stations and research sites. She saw acutely how Maria’s impact on the forest rippled out to other organisms. Amidst the crunchy dead leaves and branches that covered the forest floor, Gonzalez found the bodies of dead birds. The birds that did survive faced the difficult task of finding intact fruit trees to feed themselves."
-    },
-    {
-      "type": "text",
-      "value": "Ariel Lugo, director at the International Institute of Tropical Forestry, remembered the bees going crazy in their search for food, their sources of nectar decimated. In the city, you couldn’t walk around with an open Coke, he said."
-    },
-    {
-      "type": "text",
-      "value": "“You had to cap it,” he said. “Because if you walk out with it, bees will be competing with you for the sugar.”"
-    },
-    {
-      "type": "text",
-      "value": "The forest’s devastation also affected humans. Without shade from the trees and the help of the canopy to moderate the climate, the heat kept many  Puerto Ricans awake at night."
-    },
-    {
-      "type": "text",
-      "value": "“Now, Puerto Ricans say, ‘Ah, I couldn't run my air conditioner,’ because that's how we think,” Lugo said. “I say, ah, it's not only the air conditioner, it's just the temperature is higher because you don't have the canopy.”"
-    },
-    {
-      "type": "text",
       "value": "For Gonzalez, the completeness and intensity of the destruction in the forest was almost overwhelming. But deep down she knew it would recover, as it was adapted to do. Over the next few months, the forest would prove her right."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "biodiversity-interactive.ejs"
-      }
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Nature bounces back"
+        "text": "A system tried and true"
       }
     },
     {
       "type": "text",
-      "value": "Right after Hurricane Maria, Lugo went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s regrowth, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
+      "value": "Right after Hurricane Maria, Ariel Lugo, director of the International Institute of Tropical forestry, went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s recovery timeline, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
     },
     {
       "type": "text",
@@ -175,7 +155,7 @@
     },
     {
       "type": "text",
-      "value": "Tabonuco trees grow on the ridges of the mountains, where the wind blows strongest. Tabonucos hold their ground because of interconnected root systems, Lugo said. Tabonucos send out root grabs, catching on to their neighbors until, after many years, the whole stand is united and deeply entrenched in the ground. Though intense wind speeds can rip away their leaves, the trees, some of the tallest in the forest, are incredibly sturdy. Lugo wanted to see if the tabonucos were still standing among the fallen trees that littered the rest of the landscape."
+      "value": "Tabonuco trees grow on the ridges of the mountains where the wind blows strongest. They are one of the tallest species in the forest, but despite their height, tabonucos hold their ground during storms that rip away their leaves. This is because of their interconnected root systems, Lugo said. An entire stand can be united and deeply entrenched in the ground. Surrounded by fallen trees, Lugo wanted to see if the tabonucos were still standing."
     },
     {
       "type": "text",
@@ -183,35 +163,38 @@
     },
     {
       "type": "text",
-      "value": "The tabonucos are one example of a species that has taken adaptive measures to withstand Puerto Rico’s hurricane cycle. With intact root systems, the tabonucos can quickly restart water and nutrient uptake, and begin regrowing leaves. Another resilient tree species, one that works from the ground up instead of the top down like the tabonuco, is the Cecropia schreberiana, which loves sunlight and warm temperatures."
+      "value": "The tabonucos are one example of a species that has taken adaptive measures to withstand Puerto Rico’s hurricane cycle. With intact root systems, the tabonucos can quickly restart water and nutrient uptake, and begin regrowing leaves."
     },
     {
       "type": "text",
-      "value": "Cecropia are a pioneer species, one of the first to occupy a disturbed landscape, and the post-hurricane landscape provides a perfect breeding grounds for its hardy seedlings. I think if we don’t have that earlier addition of research fueling the aftermath of recovery, some of this info. Will lose readers as in “so what?” Cecropia grow to 50 feet and have leaves as big as a small child. The shade they cast allows more shade-tolerant species, like the native tree Manilkara Bidentata, to regain their footing."
+      "value": "Another resilient tree species is the Cecropia schreberiana, a pioneer species and one of the first to occupy a disturbed landscape. The post-hurricane landscape of open sky and bare ground provides a perfect nursery for its hardy seedlings. Cecropia can rapidly grow to 50 feet, and the shade cast by its giant leaves provides the optimal conditions for slow-growing, shade-tolerant species."
     },
     {
       "type": "text",
-      "value": "Six months after the hurricane, Cecropia  and other sun-lovers like ferns, grasses, shrubs and vines are taking advantage of the opened canopy, dominating the forest floor with their rapid growth. The trees that rise above their bushy foliage sport tufts of leaves at their crowns and around their stubby branches. The forest smells sweet, like warm soil, and the gases let off by busy soil microbes."
+      "value": "Six months after the hurricane, the growth of Cecropia and other sun-lovers like ferns, grasses, and shrubs is in full swing, and they dominate the forest floor. Trees rising above the bushy foliage sport tufts of leaves at their crowns and around their stubby branches. Eventually the Cecropias will die and the understory will clear, allowing the other plants to close the canopy."
     },
     {
       "type": "text",
-      "value": "As the recovery process continues, the slower-growing, shade-tolerant plants, currently hidden, will grow bigger and close the canopy, blocking the sun from reaching new seedlings of Cecropia trees, ferns and shrubs. These species will therefore cease to grow in the newer, shadier environment, opening up the space underneath the canopy, making it look just as it was before Maria."
-    },
-    {
-      "type": "text",
-      "value": "In 10 to 15 years, an average person walking into El Yunque will not be able to tell that anything happened there, Lugo said. In 25 years, dead trees will be decomposed and recycled and the canopy will be fully formed with pioneer species blocked out and slow-growers settled in. In 100 years, only scientific research and acute observation will be able to reveal the effects of the hurricane still present in the forest."
+      "value": "In 10 to 15 years, an average person--a non-scientist--walking into El Yunque will not be able to tell that anything happened there, Lugo said. In 25 years, dead trees will be decomposed and recycled. The canopy will have fewer pioneer species and more slow-growers settled in. In 100 years, only scientific research and acute observation will be able to reveal the marks of the hurricane left in the forests incredible recovery system."
     },
     {
       "type": "text",
       "value": "“Nature has natural selection,” Lugo said. “If something doesn't work, it gets eliminated and you get an alternate.”"
     },
     {
-      "type": "text",
-      "value": "Scientists are pleased to see the new growth, because it means the process has already begun. While scientists like Lugo and Gonzales have been studying forests and hurricanes for decades, Maria’s strength and impact gives them new insights to the recovery process, and may offer insight into predicting what may happen in future storms."
+      "type": "pullquote",
+      "value": {
+        "text": "“Nature has natural selection,” Lugo said. “If something doesn't work, it gets eliminated and you get an alternate.”",
+        "attribution": "Ariel Lugo, director of the International Institute of Tropical Forestry"
+      }
     },
     {
       "type": "text",
-      "value": "“If you can predict what's going to happen fairly confidently, then you can take steps to manage it or tolerate it,” said Nick Brokaw, an environmental science professor at the University of Puerto Rico-Rio Piedras. “That's our goal in science.” (yes, and how are they doing that now?)"
+      "value": "While scientists like Lugo and Gonzales have been studying forests and hurricanes for decades, Maria’s strength and impact gives them new insights to the recovery process, and may offer insight into predicting what may happen in future storms."
+    },
+    {
+      "type": "text",
+      "value": "“If you can predict what's going to happen fairly confidently, then you can take steps to manage it or tolerate it,” said Nick Brokaw, an environmental science professor at the University of Puerto Rico-Rio Piedras. “That's our goal in science.”"
     },
     {
       "type": "text",
@@ -230,14 +213,21 @@
       "value": "“If these [hurricanes] are to happen more frequently and more intensely, well, we need to do something about it,” Gonzalez said. “The hurricane has created a clean slate.”"
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“If these [hurricanes] are to happen more frequently and more intensely, well, we need to do something about it. The hurricane has created a clean slate.”",
+        "attribution": "Grizelle Gonzalez, a soil scientist at the International Institute of Tropical Forestry."
+      }
+    },
+    {
       "type": "subhead",
       "value": {
-        "text": "The regrowth of El Josco Bravo"
+        "text": "A sustainable model"
       }
     },
     {
       "type": "text",
-      "value": "Pagán’s farm recovered more quickly than most after the hurricane. The young farmer, clad in tall rubber boots and a straw hat during his busy days at El Josco Bravo, attributed his success to three strategies."
+      "value": "Farmers are one group that is rebuilding from a clean slate. Pagan’s farm, which recovered more quickly than most after the hurricane, offers a model for regrowth based on nature’s resilience. The young farmer, clad in tall rubber boots and a straw hat during his busy days at El Josco Bravo, attributed his success to three strategies."
     },
     {
       "type": "text",
@@ -252,6 +242,12 @@
       "value": "As a part of this philosophy, Pagan doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagan’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On October 3, two weeks after Maria, Pagán harnessed up his oxen and started ploughing his two acres of land."
     },
     {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
+    },
+    {
       "type": "text",
       "value": "He also uses cover crops and makes compost from his neighbor’s yard waste to increase nutrients and water retention in his soil, which increase its fertility without the use of chemical fertilizers. Pagan, who did his master’s thesis at University of Puerto Rico-Mayaguez on organic methods of soil recovery, could place his young crops in the rich brown earth as soon as they were big enough to come out of the greenhouse."
     },
@@ -261,7 +257,7 @@
     },
     {
       "type": "text",
-      "value": "He hopes this self-sufficiency will also change the conventional agriculture systems that colonialism imposed on the island. Ever since the Spanish claimed Puerto Rico in 1493, most of the island’s agricultural land has been devoted to the demands of export markets, with coffee, sugar and tobacco plantations pushing out subsistence farmers and causing a decline in the amount food Puerto Rican farmers produced for on-island consumption. In recent years, young farmers like Pagan have been trying to shift the island to more sustainable practices -- installing rain barrels, saving seeds and cultivating compost, all measures that reduce the need for the outside inputs that became so scarce after the hurricane."
+      "value": "He hopes this self-sufficiency will also change the conventional agriculture systems that colonialism imposed on the island. Ever since the Spanish claimed Puerto Rico in 1493, most of the island’s agricultural land has been devoted to the demands of export markets, with coffee, sugar and tobacco plantations pushing out subsistence farmers and causing a decline in the amount of food produced on-island for Puerto Ricans. The island currently imports 80-85 percent of its food. In recent years, young farmers like Pagan have been trying to shift the island to more sustainable practices -- installing rain barrels, saving seeds and cultivating compost, all measures that reduce the need for the outside inputs that became so scarce after the hurricane."
     },
     {
       "type": "text",
@@ -287,11 +283,23 @@
     },
     {
       "type": "text",
-      "value": "He got his bachelor’s degree in agronomy from University of Puerto Rico-Mayaguez, but found that his courses explained agriculture as a series of methods for mixing water and chemicals in certain quantities to produce results (this is confusing, sounds more like chemistry, maybe rephrase). He wanted to gain a better understanding of the system, to know the animals, bacteria and soil conditions unique to each place that could be used to help farmers."
+      "value": "He got his bachelor’s degree in agronomy from University of Puerto Rico-Mayaguez, but found that his courses explained agriculture as a chemistry lesson, a series of methods for mixing water and chemicals in certain quantities to produce results. He wanted to gain a better understanding of ecosystems and the animals, bacteria and soil conditions unique to each place that could be used to help farmers."
     },
     {
       "type": "text",
-      "value": "The 23-year-old is now nearly finished with the first year of a master’s program in ecology at UPRM. With his mentor, Oscar Abelleira, Cruz Aguilar studies how African tulip tree forests, a prolific invasive from Africa originally introduced as an ornamental tree, can provide shelter and shade for the growth of more desirable species. Cruz Aguilar hopes the research will show that farmers can use the tulip tree ecosystem to their advantage, sheltering wood or fruit trees underneath the tulip tree canopy. The research may provide methods for building more sustainable farms, he said."
+      "value": "The 23-year-old is now nearly finished with the first year of a master’s program in ecology at UPRM. With his mentor, Oscar Abelleira, Cruz Aguilar studies how African tulip tree forests, a prolific invasive from Africa originally introduced as an ornamental tree, can provide shelter and shade for the growth of a more desirable species: Pterocarpus officinalis, a native wetland tree. Pterocarpus once dominated the area and helped to control flooding but are now a rare sight in Puerto Rican forests."
+    },
+    {
+      "type": "text",
+      "value": "The hurricane produced an interesting result on the Pterocarpus. During the storm, many African tulip trees fell down, resulting in the poky, scattered looking forest with open canopy. Suddenly exposed to more sunlight, the Pterocarpus exploded with growth. In the six months post-hurricane, one Pterocarpus planting grew at least a foot and thickened from a slender sapling to a sturdy little tree. It offered a possible conclusion of the study."
+    },
+    {
+      "type": "text",
+      "value": "“Maybe one day, this tree will grow and dominate part of the canopy,” he said. “And more will come out and more of this species can keep a presence.”"
+    },
+    {
+      "type": "text",
+      "value": "Many farmers in Puerto Rico own land currently overrun by the African tulip tree and its bright orange flowers, but the ability of the Pterocarpus to grow and thrive within the system means those terrains are not lost, Cruz Aguilar said, and it means that the research also holds methods for building more sustainable farms."
     },
     {
       "type": "text",
@@ -299,15 +307,11 @@
     },
     {
       "type": "text",
-      "value": "Cruz Aguilar thinks of agriculture as a designed ecosystem because it is composed of natural process that are under human control. After Hurricane Maria, he saw how these systems and the people were not prepared for such a catastrophe and could not provide food for Puerto Rico. It stressed the importance to him that something needed to be changed in the design, and that the change could come from using natural ecosystems in strategic ways."
+      "value": "If non-native forests can foster native species, they can also do so for fruit-bearing trees or wood trees, he thought. All three of these species would have hurricane protections for people, either through controlling flooding or providing food or building materials."
     },
     {
       "type": "text",
-      "value": "One of the techniques in which agroecological farmers do this is through pairing the benefits of one plant with the weaknesses of another. For instance, marigolds repel pesky roundworms, which also are the primary plague of banana plants. Farmers who plant marigolds around their bananas benefit from a natural form of insect control, as the marigolds perform the duty of a potentially more costly or more harmful insecticide."
-    },
-    {
-      "type": "text",
-      "value": "This is different from Cruz Aguilar’s grandfather’s style of farming. The older man, who still works on a plot of land at his home, always keeps his crops separate from each other and free of weeds, flowers or any plant other than what he wanted to harvest. He would never consider planting marigolds around his bananas or fruit trees in an African tulip tree forest, or “piss tree” forest as he would say. This is not the mindset that his grandsons sees as the solution to agriculture’s failure to feed Puerto Rico after Maria."
+      "value": "Conventional agriculturists like his grandfather currently ignore or do not understand this potential, Cruz Aguilar said. The older man, who still farms a plot of land at his home, would never consider planting crops among the “piss trees.” But this is not the mindset his grandson sees solving a food crisis like what Puerto Rico faced after Maria, which left people like Cruz Aguilar scavenging among fallen avocado and lemon trees as grocery shelves emptied."
     },
     {
       "type": "text",
@@ -322,11 +326,8 @@
       "value": "The relationship between the two is what helped Pagan successfully survive Hurricane Maria, and it is what Gonzalez hopes Puerto Ricans see when they look at how the forest systems are continuously evolving."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
-      }
+      "type": "text",
+      "value": "“It's important that people understand that these systems are very resilient, very resilient and resistant,” she said. “Given the time to recover, the forest will respond positively.”"
     }
   ],
   "step-links": {
