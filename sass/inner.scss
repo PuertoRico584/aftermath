@@ -358,85 +358,13 @@ animation-duration: 3s;
   margin-top: 50px;
 }
 
-// Individual title treatments
-
-#water-header{
-  & .title-line-two{
-    font-size: 9.3em;
-  }
-}
-
-#health-header{
-    h1{
-      min-width: 103%;
-    }
-    & .title-line-two{
-      font-size: 10.7em;
-      line-height: 0.57em;
-    }
-}
-
-.health{
-  .title-line{
-    .offset-sm-1{
-      margin-left: 3.333333%;
-    }
-  }
-}
-
-#biodiversity-header{
-  h1{
-      font-size: 7em;
-      line-height: 1em;
-  }
-}
-///
-
-/// Coal ash videos
-
-.ash-interactive-video{
-  width: 100vw;
-}
-
-
-@media only screen and (max-width: 1120px) {
-
-    .title-line h1 {
-      font-size: 5.25em;
-    }
-
-    .title-line-two {
-      font-size: 5.6em;
-    }
-
-
-}
-
-@media only screen and (max-width: 950px) {
-
-    .title-line h1 {
-      font-size: 4.25em;
-    }
-
-    .title-line-two {
-      font-size: 4.4em;
-    }
-
-}
 
 @media only screen and (max-width: 800px) {
 
-    .title-line h1 {
-      font-size: 4.0em;
-    }
-
-    .title-line-two {
-      font-size: 4.2em;
-    }
 
     .deck {
-      font-size: 14px;
-        top: 75%;
+      font-size: 16px;
+      bottom: 20%;
     }
 
     .byline-item {
@@ -463,25 +391,12 @@ animation-duration: 3s;
     .story-section .row {
       padding: 0 20px!important;
     }
+    .inner-title{
+      margin: auto;
+    }
 
 }
 
-@media only screen and (max-width: 650px) {
-
-    .title-line h1 {
-      font-size: 3.25em;
-    }
-
-    .title-line-two {
-      font-size: 3.4em;
-    }
-    .byline-item {
-      padding: 0px 20px;
-    }
-
-
-
-}
 
 
 @media only screen and (max-width: 600px) {
@@ -507,4 +422,67 @@ animation-duration: 3s;
 
 
 
+}
+
+// Individual title treatments
+
+#water-header{
+  .title-line-two{
+    font-size: 9.3em;
+    @include media('<=sm'){
+      font-size: 4.45em;
+    }
+  }
+    h1{
+      @include media('<=sm'){
+        font-size: 3em;
+      }
+
+  }
+}
+
+#health-header{
+    h1{
+      min-width: 103%;
+      @include media('<=sm'){
+        font-size: 2.5em;
+      }
+    }
+    & .title-line-two{
+      font-size: 10.7em;
+      line-height: 0.57em;
+      @include media('<=sm'){
+        font-size: 4.25em;
+      }
+    }
+}
+
+.health{
+  .title-line{
+    .offset-sm-1{
+      margin-left: 3.333333%;
+    }
+  }
+}
+
+#biodiversity-header{
+  h1{
+      font-size: 7em;
+      line-height: 1em;
+      @include media('<=sm'){
+        font-size: 3em;
+      }
+  }
+  .title-line-two{
+    @include media('<=sm'){
+      font-size: 2.87em;
+    }
+  }
+}
+///
+
+/// Coal ash videos
+
+.ash-interactive-video{
+  width: 100vw;
 }
