@@ -469,6 +469,9 @@ body, html {
   .navbar-collapse .show {
     width: 100vw; }
 
+.collapsing {
+  display: none; }
+
 .collapse.show {
   position: fixed;
   display: block;
