@@ -83,7 +83,7 @@
   .byline {
     &-item {
       font-size: 0.9em;
-      display: inline-block;
+      display: block;
       text-align: left;
       vertical-align: text-top;
     & p{
@@ -380,6 +380,10 @@ animation-duration: 3s;
       font-size: 4.4em;
     }
 
+    .byline-item {
+      display: inline-block;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -399,6 +403,7 @@ animation-duration: 3s;
 
     .byline-item {
       padding: 0px 30px;
+      display: inline-block;
     }
 
     .col-md-7 {
