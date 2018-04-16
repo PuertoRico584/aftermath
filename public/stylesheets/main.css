@@ -891,8 +891,10 @@ h5 {
     display: block; }
   .sidebar-icons {
     display: none; }
-  .story-section .row {
+  #inner-body .row {
     padding: 0 20px !important; }
+  #stepLinks.row {
+    padding: 0 0px !important; }
   .inner-title {
     margin: auto; } }
 
