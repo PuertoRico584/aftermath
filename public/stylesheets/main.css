@@ -2066,6 +2066,9 @@ a.about-social-icon {
 .portfolio:hover {
   color: #508091; }
 
+a.about-social-icon {
+  color: #508091; }
+
 .team-name {
   font-family: "quasimoda",sans-serif;
   font-size: 18px;
@@ -2086,7 +2089,8 @@ a.about-social-icon {
   border-bottom: 2px solid #508091; }
 
 .mixitup-control-active {
-  position: relative; }
+  position: relative;
+  font-weight: 700 !important; }
 
 .team-nav ul {
   list-style-type: none;
@@ -2102,9 +2106,6 @@ a.about-social-icon {
   color: #000;
   font-weight: 400;
   cursor: pointer; }
-
-.active {
-  font-weight: 700 !important; }
 
 .about-video video {
   clip-path: circle(); }
