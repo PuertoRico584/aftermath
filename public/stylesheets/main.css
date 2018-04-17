@@ -1247,21 +1247,21 @@ figure {
     padding-top: 2%;
     padding-bottom: 2%; }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* =General */
   .project {
-    margin: -20%; }
+    margin: 0%; }
   .project p {
     max-width: 95%;
     padding: 2%; }
+  #white-box {
+    background-color: yellow; }
   #element-horiz {
     max-width: 100%;
     padding-top: 2%;
     padding-bottom: 2%; }
   #single-element {
-    max-width: 40%; }
-  /* =Header */
-  /* =Footer */ }
+    max-width: 40%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .power-interactive {
