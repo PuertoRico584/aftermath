@@ -1,8 +1,9 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-// .light-video{
-//   width: 100%;
-//   height: auto;
-// }
+.light-video{
+  width: 100%;
+  height: auto;
+  z-index: auto;
+}
 .power-interactive {
 
   .bottom-infographic{
@@ -194,7 +195,7 @@ textarea {
 
 
 body {
-    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+    // font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
     /* background-color: black; */
 }
 
@@ -236,11 +237,13 @@ body {
     text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "source-sans-pro",sans-serif;
-    font-size: 12pt;
+    font-family: "source sans pro",sans-serif;
+    font-size: 20pt;
 }
+
 .project h2{
   text-align: left;
+  font-size: 30pt;
 }
 
 #project00, #project01, #project02, #project03, #project04, #project05 {
@@ -990,4 +993,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+@media (max-width: 990px){
+  .project p{
+    font-size: 12pt;
+  }
+  .project h2{
+    font-size: 20pt;
+  }
+}
+
+
 }

@@ -3,12 +3,18 @@
 <div class="nav-wrap-2">
 <div class="nav-bar-wrapper">
 
-<nav class="navbar hidden navbar-expand-lg navbar-light bg-light nav-down">
+<nav class="navbar hidden navbar-expand-lg nav-down">
 
   <div class="mobile-nav-bar"><a class="navbar-brand" href="/"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
-    <button class="navbar-toggler" onclick="toggleTitleInner()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button></div>
+    <div class="navbar-toggler" onclick="toggleTitleInner()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <span class="navbar-toggler-icon"></span> -->
+      <div class="hamburger-menu" onclick="hamburger(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+  </div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" onmouseover="fadeIconsNav(0)" onmouseout="unfadeIconsNav(0)">
@@ -36,9 +42,9 @@
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(4)" onmouseout="unfadeIconsNav(4)">
-        <a class="nav-link" href="pages/biodiversity" id="link-4">
-          <img class="nav-icon" src="assets/images/homepage-icons/biodiversity.png">
-          <h3 class="nav-header">biodiversity</h3><h5>a natural revolution</h5>
+        <a class="nav-link" href="pages/ecology" id="link-4">
+          <img class="nav-icon" src="assets/images/homepage-icons/ecology.png">
+          <h3 class="nav-header">ecology</h3><h5>a natural revolution</h5>
         </a>
       </li>
         </ul>

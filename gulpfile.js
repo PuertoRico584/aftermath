@@ -8,8 +8,8 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
-var navEnglish = ["Pollution", "Water", "Power", "Health", "Biodiversity", "About", "About the Project"];
-var navSpanish = ["Polución", "Agua", "Poder", "Salud", "Bioversidad", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["Pollution", "Water", "Power", "Health", "Ecology", "About", "About the Project"];
+var navSpanish = ["Polución", "Agua", "Poder", "Salud", "Ecologia", "Sobre nosotros", "Sobre el proyecto"];
 
 gulp.task('connect', function(){
 
@@ -63,6 +63,7 @@ gulp.task('connect', function(){
 });
 
 gulp.task('sass', function() {
+  //send compiled styles to public/stylesheets
   console.log("compiling sass...");
     return gulp.src('./sass/main.scss')
         .pipe(sass())
