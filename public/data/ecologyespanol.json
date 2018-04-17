@@ -1,6 +1,6 @@
 {
   "master-class": {
-    "class": "biodiversity"
+    "class": "ecology"
   },
   "header": {
     "title-line-one": "A Natural",
@@ -116,7 +116,7 @@
     {
       "type": "interactive",
       "value": {
-        "filename": "biodiversity-interactive.ejs"
+        "filename": "ecology-interactive.ejs"
       }
     },
     {

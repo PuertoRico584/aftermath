@@ -117,7 +117,7 @@
     },
     {
       "type": "text",
-      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and The Associated Press have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
+      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and <a href=’https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power’ target=’_blank’>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
     },
     {
       "type": "text",
@@ -244,7 +244,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Prepa debt & privatization"
+        "text": "Prepa debt and privatization"
       }
     },
     {
@@ -261,15 +261,11 @@
     },
     {
       "type": "text",
-      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was unable to pay for fuel and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
+      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was <a href=’https://www.nytimes.com/2017/07/02/business/puerto-ricos-electric-power-authority-effectively-files-for-bankruptcy.html’ target=’_blank’>unable to pay for fuel</a> and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
     },
     {
       "type": "text",
-      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for fuel-purchasing irregularities."
-    },
-    {
-      "type": "text",
-      "value": "In January, Gov. Ricardo Rosselló asked the Department of Justice to investigate whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href=’http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html’ target=’blank’>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href=’https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU’ target=’_blank’>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
     },
     {
       "type": "text",
