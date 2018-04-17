@@ -1010,7 +1010,9 @@ a {
   flex-flow: nowrap;
   margin: auto;
   width: 22%; }
-  .footer-icons img {
+  .footer-icons a :hover {
+    opacity: 0.4; }
+  .footer-icons a img {
     width: 50px;
     padding: 5px 5px; }
 
@@ -1288,6 +1290,11 @@ figure {
     max-width: 40%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.light-video {
+  width: 100%;
+  height: auto;
+  z-index: auto; }
+
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1625,7 +1632,6 @@ figure {
     color: #000;
     padding: 0.2em 0; }
   .power-interactive body {
-    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
     /* background-color: black; */ }
   .power-interactive .wrapper {
     width: 90%;
@@ -1656,9 +1662,14 @@ figure {
     margin: 0 auto;
     color: white;
     font-family: "source sans pro",sans-serif;
+<<<<<<< HEAD
+    font-size: 20pt; }
+=======
     font-size: 12pt; }
+>>>>>>> 6b9a383579f41941deb243561644f88889d9a13c
   .power-interactive .project h2 {
-    text-align: left; }
+    text-align: left;
+    font-size: 30pt; }
   .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
     max-width: 70%;
     margin: auto; }
@@ -2013,6 +2024,11 @@ figure {
   .power-interactive table {
     border-collapse: collapse;
     border-spacing: 0; }
+  @media (max-width: 990px) {
+    .power-interactive .project p {
+      font-size: 12pt; }
+    .power-interactive .project h2 {
+      font-size: 20pt; } }
 
 .spacerzz {
   height: 100px; }
@@ -2101,7 +2117,15 @@ a.about-social-icon {
   text-decoration: underline; }
 
 a.about-social-icon {
+<<<<<<< HEAD
+  color: #309865; }
+=======
+<<<<<<< HEAD
+  color: #309865; }
+=======
   color: #000; }
+>>>>>>> a04b8263540374828c020279257a570af9039cae
+>>>>>>> 6b9a383579f41941deb243561644f88889d9a13c
 
 .team-name {
   font-family: "quasimoda",sans-serif;
