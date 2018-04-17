@@ -1,3 +1,4 @@
+
 .text-row{
   margin-top: 50px;
 }
@@ -341,12 +342,12 @@ animation-duration: 3s;
 }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: $block-quote;
+  background: $video;
 }
 
 
 .plyr__control--overlaid {
-  background: $block-quote;
+  background: $video;
 }
 
 .plyr__control--overlaid:hover {
@@ -354,7 +355,7 @@ animation-duration: 3s;
 }
 
 .plyr--full-ui input[type=range] {
-  color: $block-quote;
+  color: $video;
 }
 
 .ash-interactive-video{
@@ -500,4 +501,11 @@ animation-duration: 3s;
 
 .ash-interactive-video{
   width: 100vw;
+}
+a{
+  color: $video;
+  &:hover{
+    color: $video;
+    text-decoration: none;
+  }
 }

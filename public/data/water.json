@@ -6,7 +6,7 @@
     "title-line-one": "Rooted In",
     "title-line-two": "El Caño",
     "seo": "Rooted in El Caño | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "While Hurricane Maria devastated the island, neighbors of a strangled channel in the heart of San Juan."
+    "subtitle": "Although Hurricane María devastated the island, neighbors of a strangled channel in the heart of San Juan are hoping federal recovery funds will salvage a project that would improve the living conditions in their communities."
   },
   "reporters": [
     {
@@ -49,15 +49,15 @@
   "text": [
     {
       "type": "text",
-      "value": "On rainy days, Blanquita Santiago Arroyo stacks empty beer cases under the furniture of her nearly empty house. Her refrigerator, the third she’s bought in 10 years, and washing machine already sit atop three sets of worn cinder blocks."
+      "value": "On rainy days, Blanquita Santiago Arroyo stacks empty beer cases under the furniture of her nearly empty house. Her refrigerator — the third she’s bought in 10 years — and washing machine already sit atop three sets of worn cinder blocks."
     },
     {
       "type": "text",
-      "value": "The walls stained with 3-foot-high water marks remind her it’s unsafe to sleep in her wooden bed even when it’s lifted on milk crates. As bedtime approaches, Santiago Arroyo sits up in a plastic chair, where she tries to rest until the morning comes."
+      "value": "Three-foot-high water marks remind her it’s unsafe to sleep in her wooden bed, even when it’s lifted on milk crates. As bedtime approaches, Arroyo sets up in a plastic chair, where she tries to rest until the morning comes."
     },
     {
       "type": "text",
-      "value": "“You can’t live here anymore because you get exhausted,” she said. “There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed to keep an eye out for how high the water will rise.”"
+      "value": "“You can’t live here anymore because you get exhausted,” she said. “There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed because you have to keep an eye out for how high the water will rise.”"
     },
     {
       "type": "pullquote",
@@ -72,54 +72,66 @@
     },
     {
       "type": "text",
-      "value": "“It’s going to be very difficult to sell the house, because once you tell the people what the problem is, they won’t buy it, unless they have money and are thinking of investing,” she said."
+      "value": "“It’s going to be very difficult to sell the house,” she said. “Because once you tell the people what the problem is, they won’t buy it, unless they have money and are thinking of investing.”"
     },
     {
       "type": "text",
-      "value": "Only three years after her grandmother bought the property in 1980s, the house flooded for the first time. Santiago Arroyo and her family were taken to a shelter."
+      "value": "Three years after her grandmother purchased the property in the 1980s, the house flooded for the first time. Santiago Arroyo and her family were taken to a shelter."
     },
     {
       "type": "text",
-      "value": "“I almost drowned,” she recalls, “because the water was so high, and we didn’t know.”"
+      "value": "“I almost drowned because the water was so high and we didn’t know,” she recalls."
     },
     {
-      "type": "pullquote",
+      "type": "text",
+      "value": "For decades in Calle Martinó, where her home stands, the storm drains have been clogged with trash and sediment from El Caño Martín Peña — a now-stagnate tidal channel that once flowed across San Juan, the capital of Puerto Rico."
+    },
+    {
+      "type": "text",
+      "value": "El Caño Martín Peña stretches for nearly 4 miles, connecting the San Juan Bay with the San José Lagoon, the two biggest bodies of water in San Juan. After María struck, the fallen trees and remnants of houses added to the naturally-occurring sedimentation, garbage and untreated water dumped in the channel for decades worsened its condition."
+    },
+    {
+      "type": "video",
       "value": {
-        "text": "“I almost drowned because the water was so high, and we didn’t know.”",
-        "attribution": "Blanquita Santiago Arroyo"
+        "id": "264156328",
+        "is360": "false"
       }
     },
     {
       "type": "text",
-      "value": "For decades, in Calle Martinó, where her home stands, the storm drains have been clogged with trash and sediment from El Caño Martín Peña, a now-stagnate tidal channel that once flowed across San Juan."
+      "value": "The polluted channel is the root of numerous problems concerning the residents in eight the surrounding neighborhoods, San Juan’s most densely populated area, with about 25,000 residents."
     },
     {
       "type": "text",
-      "value": "El Caño Martín Peña stretches for nearly 4 miles, connecting the San Juan Bay with the San José Lagoon, the two most important bodies of water in Puerto Rico’s capital. After María struck, the fallen trees and remnants of houses, added to the naturally-occuring sedimentation, the garbage and untreated water dumped in the channel for decades, worsened its condition."
+      "value": "Most houses in the eight communities adjacent to the channel were built on a flood plain without government permits or professional supervision, like nearly half the homes on the island, government officials estimate. Because El Caño is a tidal channel, the ebb and flow of ocean tides dictate its level. Storm surges and even moderate rainfall, as well as the lack of an adequate sewage system in some streets, result in regular flooding episodes in which water from the overflowing channel surges into houses. This puts the residents at a higher risk of asthma, gastrointestinal diseases as well as  mosquito-borne diseases."
     },
     {
       "type": "text",
-      "value": "The polluted channel is only the root of the numerous problems concerning the residents in the surrounding neighborhoods, San Juan’s most densely populated area, with about 25,000 residents."
-    },
-    {
-      "type": "text",
-      "value": "Most houses in the eight communities adjacent to the channel were built without government permits or professional supervision, like nearly half the homes on the island, officials estimate. Because it’s a tidal channel, the ebb and flow of ocean tides dictate its level. Storm surges and even moderate rainfall, as well as the lack of an adequate sewage system in some streets, result in regular flooding episodes in which water from the overflowing channel surges into the houses, putting the residents at a higher risk of asthma and gastrointestinal diseases as well as mosquito transmitted diseases."
-    },
-    {
-      "type": "text",
-      "value": "María left 1,200 homes near El Caño roofless, 75 others completely crumbled and streets like Santiago Arroyo’s flooded for weeks. But a public corporation established by the Puerto Rican government 16 years ago has studied the possibility to dredge almost 2,500 tons of materials that are strangling the channel. With a detailed plan already designed, ENLACE sees the possibility to obtain federal recovery and flood mitigation funds implement the $800 million project and give life back to the once healthy waterway and its adjacent communities."
+      "value": "María left roughly 1,200 homes near El Caño roofless, 75 completely crumbled and streets like Santiago Arroyo’s flooded for weeks. But a public corporation established by the Puerto Rican government 16 years ago, Proyecto ENLACE,  has studied the possibility to dredge almost 2,500 tons of materials that are strangling the channel. With a detailed plan already designed, Proyecto ENLACE sees the possibility to obtain federal recovery and flood mitigation funds to implement the $800 million project and give life back to the once healthy waterway and its adjacent communities."
     },
     {
       "type": "text",
       "value": "“Before September, the strategy was to get funding to begin the project,” said Estrella Santiago, the environmental affairs manager at ENLACE. “Now there’s a window to carry out the dredging and get all the funding at once.”"
     },
     {
-      "type": "text",
-      "value": "The actual dredging costs about $215 million, that would come from the U.S. Army Corps of Engineers’ $15 billion approved in February for disaster relief. The infrastructural repairs — including rehousing families, installing proper storm sewage systems and modernizing the drinking water pipelines that cross El Caño — amount to $585 million, and would come from the U.S. Department of Housing and Urban Development’s Community Development Block Grant Disaster Recovery Program."
+      "type": "interactive",
+      "value": {
+        "filename": "water-interactive2.ejs"
+      }
     },
     {
       "type": "text",
-      "value": "Livia Rodríguez del Valle, the executive director of Proyecto ENLACE, says the benefits outweigh the cost. A healthy waterway in the heart of the capital could pump the island’s economy by creating 4,000 jobs in the tourism industry and adding more than $500 million to the island’s GDP, according to a document submitted to the U.S. House of Representatives last November."
+      "value": "The dredging costs about $215 million, which would come from the U.S. Army Corps of Engineers’ $15 billion supplemental funds approved in February for disaster relief. The infrastructural repairs — including rehousing families, installing proper storm sewage systems and modernizing the drinking water pipelines that cross El Caño — amount to $585 million and would come from the U.S. Department of Housing and Urban Development’s Community Development Block Grant Disaster Recovery Program."
+    },
+    {
+      "type": "text",
+      "value": "Livia Rodríguez del Valle, the executive director of Proyecto ENLACE, said the benefits outweigh the cost. A healthy waterway in the heart of the capital could pump the island’s economy by creating 4,000 jobs in the tourism industry and adding more than $500 million to the island’s gross domestic product, according to a document submitted to the U.S. House of Representatives last November."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "water-interactive.ejs"
+      }
     },
     {
       "type": "subhead",
@@ -129,19 +141,33 @@
     },
     {
       "type": "text",
-      "value": "Sitting on a stool on the porch of his house, wearing a T-shirt that reads ‘El CAÑO’ and a newsboy cap, José Caraballo Pagán stops carving wooden ornaments to attend to what he says it’s the call of duty. For the next two hours, he discusses with seven of his neighbors who’s vacating their home first."
+      "value": "Sitting on a stool on the porch of his house, wearing a T-shirt that reads ‘El CAÑO’ and a newsboy cap, José Caraballo Pagán stops carving wooden ornaments to attend to what he says is the call of duty — serving his community. For the next two hours, he and seven of his neighbors determine who will vacate their home first."
     },
     {
       "type": "text",
-      "value": "For the dredging to occur 1,000 houses that sit near the channel must be vacant to make room for the heavy machinery and for the channel’s widening."
+      "value": "For the dredging to occur, around 1,000 houses that sit near the channel must be vacant to make room for the heavy machinery and for the channel’s widening."
     },
     {
       "type": "text",
-      "value": "Caraballo Pagán, 72, is one of the eight leaders of the G8, a nonprofit run by neighbors of the communities around El Caño. Every Thursday afternoon he sits in the rehousing committee that could soon move him out of his home of 55 years — located just 25 feet away from the channel."
+      "value": "Caraballo Pagán, 72, is one of the eight leaders of G-8 Inc., a nonprofit run by members of the communities around El Caño. Every Thursday afternoon he sits in the rehousing committee that could soon move him out of his home of 55 years — located just 25 feet away from the channel."
     },
     {
       "type": "text",
-      "value": "“It’s not that I want to go, but I know I have to do it for the wellbeing of my community, for the people here,” he said. “You have to be conscientious and leave behind 50 years of your life for the wellbeing of the people but also for the waterway.”"
+      "value": "“It’s not that I want to go, but I know I have to do it for the well-being of my community, for the people here,” he said. “You have to be conscientious and leave behind 50 years of your life for the well-being of the people but also for the waterway.”"
+    },
+    {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Like many farm laborers in the first half of the 20th century, Caraballo Pagán’s father moved to San Juan from the countryside as the island’s economy shifted from agriculture to industry. In 1955, he bought a house in Fanguito, a neighborhood that once sat on the western edge of the channel."
+    },
+    {
+      "type": "text",
+      "value": "By the second half of the 20th century, Fanguito disappeared as the government claimed the land through eminent domain. In the 1960s, 2 miles of the channel were dredged to allow an aquatic transportation system from San Juan’s international airport to Old San Juan."
     },
     {
       "type": "pullquote",
@@ -152,27 +178,19 @@
     },
     {
       "type": "text",
-      "value": "Like many peasants in the first half of the 20th century, Caraballo Pagán’s father moved to San Juan from the countryside as the island’s economy shifted from agriculture to industry. He built a house in Fanguito, a neighborhood that once sat on the western edge of the channel."
+      "value": "In 1955, Caraballo Pagán said his father obtained $500 from the government and moved to Barrio Obrero Marina, a neighborhood north of the channel, where he bought the house José has called home ever since."
     },
     {
       "type": "text",
-      "value": "By the second half of the 20th century, Fanguito disappeared as the government claimed the land through eminent domain. In the 1960s, 2 miles of the channel were dredged to allow an aquatic transportation system from San Juan’s international airport to Old San Juan."
+      "value": "“I’ve been fixing it here and there throughout the years,” he said. “Poco a poco (little by little) .But what’s the worth of a million-dollar house if you have a waterway you can’t even look at.”"
     },
     {
       "type": "text",
-      "value": "In 1955, Caraballo Pagán’s father obtained $500 from the government, and moved to Barrio Obrero Marina, where he bought the house José has called home since."
+      "value": "Today his two-story house has a double-height ceiling and cozy living spaces on the first floor, a small kitchen and a front yard where José sits to carve artisanal ornaments."
     },
     {
       "type": "text",
-      "value": "“I’ve been fixing it here and there throughout the years,” he said, “poco a poco (little by little),” he said. “But what’s the worth of a million-dollar house if you have a waterway you can’t even look at.”"
-    },
-    {
-      "type": "text",
-      "value": "Today his two-story house has a double-height ceiling and cozy living spaces in the first floor."
-    },
-    {
-      "type": "text",
-      "value": "He’s watched El Caño, as he fondly calls it, shrink over the years. At its widest, he said, it was 400 feet. Today, it’s so blocked, in some areas people can walk from shore to shore."
+      "value": "He’s watched El Caño, as he fondly calls it, shrink over the years. At its widest, he said, it was 400 feet. Today, it’s so blocked with vegetation and garbage in some areas that people can walk from shore to shore."
     },
     {
       "type": "text",
@@ -180,7 +198,7 @@
     },
     {
       "type": "text",
-      "value": "Caraballo Pagán retired 10 years ago from his job as building maintenance worker at the Insititute of Puerto Rican Culture. Since then he’s been a champion of his community’s fight for environmental justice."
+      "value": "Caraballo Pagán retired 10 years ago from his job as a building maintenance worker at the Institute of Puerto Rican Culture. Since then, he’s been a champion of his community’s fight for environmental justice."
     },
     {
       "type": "text",
@@ -194,7 +212,7 @@
     },
     {
       "type": "text",
-      "value": "Throughout the years, Rodriguez said, the state and municipal government gradually installed storm sewage systems in some streets, and finally three years ago, every home in the area received clean drinking water for the first time."
+      "value": "According to Livia Rodriguez del Valle, the director of Proyecto ENLACE, throughout the years the state and municipal government gradually installed storm sewage systems in some streets. Three years ago, every home in the area received clean drinking water for the first time."
     },
     {
       "type": "text",
@@ -202,15 +220,15 @@
     },
     {
       "type": "text",
-      "value": "Like in the rest of the island, the worn drinking water pipes often break, interrupting service to the homes. In many streets, heavy flooding causes the toilets overflow."
+      "value": "Like the rest of the island, the corroded drinking water pipes often break, which interrupts service to homes. In many streets, when water enters the houses toilets overflow, mixing up sewage with rainfall."
     },
     {
       "type": "text",
-      "value": "In Puerto Rico, only 45 percent of homes have sanitary drains managed by PRASA, a number officials estimate is also representative of the neighborhoods in El Caño. While some residents have septic wells, over 3,000 structures still discharge raw sewage into the remains of the channel, according to the U.S. Environmental Protection Agency."
+      "value": "In Puerto Rico, only 45 percent of homes have sanitary drains managed by the Puerto Rican Aqueduct and Sewer Authority, a number officials estimate is also representative of the neighborhoods in El Caño. While some residents have septic wells, more than 3,000 structures still discharge raw sewage into the remains of the channel according to the U.S. Environmental Protection Agency."
     },
     {
       "type": "text",
-      "value": "In preparation for for the channel’s dredging, two major drinking water pipes built close to the surface, must be rebuilt to avoid the machinery from breaking the already existing ones. Although the Puerto Rican Aqueduct and Sewer Authority can’t borrow money from the federal government for capital expenses, funds for one of these has already been allocated."
+      "value": "In preparation for the channel’s dredging, two major drinking water pipes that were built close to the water’s surface must be rebuilt to avoid the machinery from breaking the already existing pipes. Although as a consequence of the island’s debt problems PRASA can’t borrow money from the federal government for capital expenses, funds for one of the plumbing projects has already been allocated."
     },
     {
       "type": "text",
@@ -218,48 +236,23 @@
     },
     {
       "type": "text",
-      "value": "Apart from the inundations, Santiago Arroyo feels fortunate only a small parcel her roof was blown away by Maria. But in December, before the power was restored, the 82-year-old uncle she cared for, fell in the darkness as he attempted to climb over the knee-high walls that were built to keep the water out of their porch. He broke his hip, and after complications surged from the operation, he passed in February."
+      "value": "Apart from the flooding, Blanquita Santiago Arroyo feels fortunate that only a small parcel of her roof was blown away by María. In December, before the power was restored, her 82-year-old uncle, whom she cared for, fell in the dark as he attempted to climb over the knee-high walls built to keep water off of their porch. He broke his hip, and, after complications from the operation, he died in February."
     },
     {
       "type": "text",
-      "value": "Since then, it’s only Santiago Arroyo and her 11-year-old Dachshund, Poppy, at the house."
+      "value": "Since then, only Santiago Arroyo and her 11-year-old Dachshund, Poppy, live in the house."
     },
     {
       "type": "text",
-      "value": "The number of people in El Caño who have fled after the hurricane hasn’t been counted. But in Blanquita Santiago Arroyo’s street alone, there’s a house for sale, one abandoned and one that Maria collapsed."
+      "value": "The number of people in El Caño who fled after the hurricane hasn’t been counted. But on Blanquita Santiago Arroyo’s street alone, there’s one house for sale, one abandoned and one that collapsed as María made its way through the island."
     },
     {
       "type": "text",
-      "value": "The plans to dredge, entail installing a proper storm sewage system in her street, but as funding remains uncertain, Santiago Arroyo hopes to move within the next two years."
+      "value": "The plans to dredge entail installing a proper storm sewage system in her street, but as funding remains uncertain, Santiago Arroyo hopes to move within the next two years."
     },
     {
       "type": "text",
-      "value": "“I’m going to be older, and I won’t be able to get the water out by myself. I don’t have the same strength, but nobody will buy this house to struggle,” she said."
-    },
-    {
-      "type": "video",
-      "value": {
-        "id": "264156328",
-        "is360": "false"
-      }
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "water-interactive2.ejs"
-      }
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "water-interactive.ejs"
-      }
-    },
-    {
-      "type": "slider",
-      "value": {
-        "value": "{}"
-      }
+      "value": "“I’m going to be older, and I won’t be able to get the water out by myself,” Santiago Arroyo said. “I don’t have the same strength, but nobody will buy this house to struggle.”"
     }
   ],
   "step-links": {
