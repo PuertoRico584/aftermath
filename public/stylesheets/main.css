@@ -1101,15 +1101,15 @@ h5 {
   transform: scale(1.1); }
 
 figure {
-  margin: 0px; }
+  margin: 2px 0px; }
 
 .row1 {
   /* column width */
   -moz-column-width: 20em;
   -webkit-column-width: 20em;
   /* space between columns */
-  -moz-column-gap: 3px;
-  -webkit-column-gap: 3px; }
+  -moz-column-gap: 4px;
+  -webkit-column-gap: 4px; }
 
 @media screen and (max-width: 768px) {
   #grid {
@@ -2130,7 +2130,7 @@ a.about-social-icon {
     text-align: center; }
   .team-nav li {
     display: inline-block; }
-  #abouttitle .title-line h1 {
-    font-size: 4em; }
-  #abouttitle .title-line-two {
+  #abouttitle-box .title-line h1 {
+    font-size: 4em !important; }
+  #abouttitle-box .title-line-two {
     font-size: 6em; } }
