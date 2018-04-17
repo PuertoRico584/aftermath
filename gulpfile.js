@@ -63,6 +63,7 @@ gulp.task('connect', function(){
 });
 
 gulp.task('sass', function() {
+  //send compiled styles to public/stylesheets
   console.log("compiling sass...");
     return gulp.src('./sass/main.scss')
         .pipe(sass())
