@@ -95,10 +95,11 @@ a.about-social-icon {
 }
 .portfolio:hover {
     color: $title;
+    text-decoration: underline;
 }
 
 a.about-social-icon {
-  color: $title;
+  color: #000;
 }
 
 
@@ -126,7 +127,7 @@ font-size: 18px;
   border-bottom: 2px solid $title;
 }
 
-.mixitup-control-active  {
+#team-photos .mixitup-control-active  {
   position: relative;
   font-weight: 700 !important;
 }
@@ -162,6 +163,11 @@ font-size: 18px;
   margin-top: 50px;
 }
 
+.about {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
 .about-background {
   width: 100%;
   height: 80vh;
@@ -185,13 +191,16 @@ font-size: 18px;
  }
 
 #abouttitle-box .title-line h1 {
-  font-size: 4em !important;
+  font-size: 3.2em !important;
 }
 
 #abouttitle-box .title-line-two {
-  font-size: 6em;
+  font-size: 4.7em !important;
 }
 
+.title-line {
+  width: 100%;
+}
 
 
 }
