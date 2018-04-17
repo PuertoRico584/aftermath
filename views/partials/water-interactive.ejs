@@ -87,13 +87,11 @@ transform: scale(1.1);
 }
 }
 .house-text {
-  text-align: center;
-  font-size: 20px;
-  background: rgba(255,255,255,0.8);
-  border-radius: 20px;
-  padding: 18px;
+  text-align: left;
+  font-size: 16px;
   font-family: "Quasimoda";
   color: #508091;
+  margin-bottom:0;
 }
 .interactive-info p {
   font-family: "Quasimoda";
@@ -110,6 +108,11 @@ transform: scale(1.1);
   color: #6c6c6c;
   text-align: center;
 }
+
+.interactive {
+  margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 1000px) {
   .three {
     left: 10%;
@@ -133,27 +136,32 @@ transform: scale(1.1);
     min-height: 74px;
     margin: 10px;
     border: 1px #ccc solid;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .house-text {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+  .zoomViewport {
+    margin:0px;
+    padding:0px;
+  }
+
+  .house p{
+    font-size: 6px;
   }
 
 }
 </style>
 
-  </head>
-
-    <body>
-      <div class="container-fluid water-interactive">
-        <div class="row">
-          <div class="col-12">
-            <div class="divider"></div>
-            <div class="row">
-            <div class="col-12 col-md-3 interactive-title">
+        <div class="row interactive">
+            <div class="col-sm-12 col-md-3 interactive-title">
               <h3>Money In, Money Out</h3>
-              <p>By Madison Walls</p>
               <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in February 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
               <p>Proyecto Enlace is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3 percent of the funding.</p>
               <p class="house-text">Click on a section to see how the money will be used.</p>
             </div>
-          <div class="zoomViewport col-12 col-md-9">
+          <div class="zoomViewport col-sm-12 col-md-9">
           <div class="house zoomContainer">
             <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
               <div class="box one zoomTarget pulse" onclick="switchContent1()">
@@ -173,8 +181,7 @@ transform: scale(1.1);
             </div>
           </div>
         </div>
-    </div>
-  </div>
+      </div>
     <script type="text/javascript">
       function switchContent1() {
         document.getElementById('text1').style.display = "block";

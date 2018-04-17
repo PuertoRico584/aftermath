@@ -440,11 +440,35 @@ body, html {
     flex-flow: wrap;
     justify-content: center; } }
 
+.hamburger-menu {
+  display: inline-block;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  margin: 7px 0;
+  background-color: #fff;
+  transition: 0.4s;
+  transform-origin: 50% 50%; }
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+  transform: rotate(-45deg) translate(-9px, 7px); }
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0; }
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px); }
+
 .navbar-toggler {
-  background-color: none;
   border: none;
-  color: white;
-  margin-left: 170px; }
+  color: white; }
 
 .nav-item {
   text-align: center;
@@ -512,7 +536,7 @@ body, html {
   .navbar-toggler {
     position: absolute;
     right: 26px;
-    top: -1px; }
+    top: 7px; }
   .logo-in-corner {
     position: absolute;
     left: 21px;
@@ -1247,21 +1271,21 @@ figure {
     padding-top: 2%;
     padding-bottom: 2%; }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* =General */
   .project {
-    margin: -20%; }
+    margin: 0%; }
   .project p {
     max-width: 95%;
     padding: 2%; }
+  #white-box {
+    background-color: yellow; }
   #element-horiz {
     max-width: 100%;
     padding-top: 2%;
     padding-bottom: 2%; }
   #single-element {
-    max-width: 40%; }
-  /* =Header */
-  /* =Footer */ }
+    max-width: 40%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .power-interactive {
@@ -1631,7 +1655,7 @@ figure {
     text-align: left;
     margin: 0 auto;
     color: white;
-    font-family: "source-sans-pro",sans-serif;
+    font-family: "source sans pro",sans-serif;
     font-size: 12pt; }
   .power-interactive .project h2 {
     text-align: left; }
@@ -2098,7 +2122,7 @@ a.about-social-icon {
   font-weight: 100;
   border-bottom: 2px solid #309865; }
 
-.mixitup-control-active {
+#team-photos .mixitup-control-active {
   position: relative;
   font-weight: 700 !important; }
 
