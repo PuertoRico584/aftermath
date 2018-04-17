@@ -18,7 +18,6 @@ function toggleTitle(){
 
 function toggleTitleInner(){
   $('.navbar-brand').css('z-index','2');
-    $('.navbar-brand').removeClass('mixitup-control-active');
 
   if ( $('.es-and-about').css('display') == 'none' ){
     $('.es-and-about').css('display', 'flex');

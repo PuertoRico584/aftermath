@@ -440,11 +440,35 @@ body, html {
     flex-flow: wrap;
     justify-content: center; } }
 
+.hamburger-menu {
+  display: inline-block;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  margin: 7px 0;
+  background-color: #fff;
+  transition: 0.4s;
+  transform-origin: 50% 50%; }
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+  transform: rotate(-45deg) translate(-9px, 7px); }
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0; }
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px); }
+
 .navbar-toggler {
-  background-color: none;
   border: none;
-  color: white;
-  margin-left: 170px; }
+  color: white; }
 
 .nav-item {
   text-align: center;
@@ -512,7 +536,7 @@ body, html {
   .navbar-toggler {
     position: absolute;
     right: 26px;
-    top: -1px; }
+    top: 7px; }
   .logo-in-corner {
     position: absolute;
     left: 21px;
@@ -2097,7 +2121,7 @@ a.about-social-icon {
   font-weight: 100;
   border-bottom: 2px solid #309865; }
 
-.mixitup-control-active {
+#team-photos .mixitup-control-active {
   position: relative;
   font-weight: 700 !important; }
 
