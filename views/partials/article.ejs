@@ -5,7 +5,7 @@
 				<div class="col-sm-3 icon">
 					<img class="img-fluid" src="assets/images/homepage-icons/<%= body["master-class"]["class"] %>.png">
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-9" id="<%=body["master-class"]["class"]%>-header">
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 					<p class="title-line-two"><%=body["header"]["title-line-two"] %></p>
 				</div>
@@ -45,12 +45,12 @@
 		    <% for (d in body["upr"]) {%>
 		    <p><%= body["upr"][d]["name"] %></p>
 		    <% } %>
-		  </div>
+			</div>
 		</div>
-
 
 		<section class="col-md-6">
 			<div class="max-width">
+			</div>
 				<% for (i in body["text"]) {
 				if (body["text"][i]["type"] == "text") {%>
 				<p> <%-body["text"][i]["value"] %> </p>
@@ -62,8 +62,9 @@
 		</section>
 	</div>
 
-<% include ../partials/video.ejs %>
 
+<% include ../partials/video.ejs %>
+</div>
 <div class="row">
 	<div class="left-box col-4"></div>
 	<section class="col-md-6">
@@ -71,11 +72,10 @@
 	</section>
 </div>
 <div class="row">
-	<div id="photo-gal">
 		<% var photo_id = body["master-class"]["class"] %>
 		<%- include("../partials/photo-gallery-" + photo_id + ".ejs"); %>
-		<!-- <% include ../partials/photo-slider.ejs %> -->
-	</div>
+		<% include ../partials/photo-slider.ejs %>
+</div>
 
 
 

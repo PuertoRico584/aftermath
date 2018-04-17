@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="<%= espanol ? "es":"en" %>">
 <head>
-  <title><%= espanol ? "Sobre Nosotros":"About the Project"%></title>
-  <meta property="og:title" content="<%= espanol ? "Sobre Nosotros":"About the Project"%>" />
+  <title><%= espanol ? "Sobre Nosotros":"About The Project | Aftermath: Puerto Ricans Rebuild After Maria"%></title>
+  <meta property="og:title" content="<%= espanol ? "Sobre Nosotros":"About The Project | Aftermath: Puerto Ricans Rebuild After Maria"%>" />
   <meta property="og:image" content="" />
 
   <% include ../partials/header.ejs %>
 </head>
 
 <body id="about-body">
-    <% include ../partials/nav.ejs %>
+    <% include ../partials/nav-inner.ejs %>
 
     <div class="about-background">
     	<div id="abouttitle-box" class="center-wrapper col-md-12">
@@ -61,10 +61,7 @@
       <div class="row person">
         <% for (i in team) {  %>
 
-        <div class="mix col-sm-3 <%=team[i]["roleid"] %>">
-
-
-
+        <div class="mix col-6 col-sm-3 <%=team[i]["roleid"] %>">
             <div class="team-info">
               <div class="video-mask">
                 <div class="about-video">
@@ -73,8 +70,11 @@
                  </video>
                </div>
               </div>
-
-              <a href="<%=team[i]["portfolio"]%>" target="_blank" class="portfolio about-social-icon"><p class="team-name"><%=team[i]["fullname"]%> </p></a>
+              <% if ((team[i]["portfolio"])) { %>
+                <a href="<%=team[i]["portfolio"]%>" target="_blank" class="portfolio about-social-icon"><p class="team-name"><%=team[i]["fullname"]%> </p></a>
+              <% } else { %>
+                <p class="team-name"><%=team[i]["fullname"]%> </p>
+              <% } %>
               <p class="role"><%=espanol ? team[i]["rolespanish"]:team[i]["role"] %></p>
               <div class="socialmedia-about">
               <% if (team[i]["social"]){ %>
@@ -123,8 +123,6 @@
     </div>
   </div>
 </div>
-
-
 
     <% include ../partials/footer.ejs %>
   <script src="/js/mixitup.min.js"></script>

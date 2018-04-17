@@ -1,3 +1,4 @@
+
 .text-row{
   margin-top: 50px;
 }
@@ -68,41 +69,39 @@
     }
   }
 
+.byline-box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  color: purple;
+}
   .byline {
     &-box {
-      text-align: left;
-      padding-bottom: 5%;
-      padding-top: 1%;
-      & p{
+      p{
         line-height: 1px;
         margin: 10px;
+
       }
     }
-  }
-
-  .byline {
     &-item {
       font-size: 0.9em;
-      display: inline-block;
+      display: block;
       text-align: left;
       vertical-align: text-top;
-    & p{
+      margin-bottom: 1.3em;
+    p{
       line-height: 0.6em;
       margin-top: 5px;
       margin-bottom: 10px;
 
-    }
+      }
     }
     &-head {
       font-size: 0.9em;
       font-weight: bold;
-      marign-bottom: 12px;
-    }
-  }
-
-  .byline {
-    &-item {
-      margin-bottom: 1.3em;
     }
   }
 
@@ -113,6 +112,10 @@
       text-align: center;
     }
   }
+}
+
+.byline-item p.byline-head {
+  margin-top: 20px;
 }
 
   .pull-quote {
@@ -156,6 +159,7 @@
   }
 
 }
+
 
 #byline {
   padding: 35px 0px;
@@ -264,7 +268,7 @@
 
 .title-line {
   position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -296,9 +300,9 @@ font-size: 20px;
 position: relative;
 margin: auto;
 display: block;
-width: 75%;
+width: 66%;
 background-color: rgba(0, 0, 0, 0);
-top: 80%;
+top: 70%;
 opacity: 1;
 animation-name: fadeInOpacity;
 animation-iteration-count: 1;
@@ -338,67 +342,46 @@ animation-duration: 3s;
 }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: $title;
+  background: $block-quote;
 }
 
 
 .plyr__control--overlaid {
-  background: $title;
+  background: $block-quote;
 }
 
 .plyr__control--overlaid:hover {
-  background: #6ea8b8;
+  background: #348e60;
 }
 
 .plyr--full-ui input[type=range] {
-  color: $title;
+  color: $block-quote;
 }
 
-
-
-
-@media only screen and (max-width: 1120px) {
-
-    .title-line h1 {
-      font-size: 5.25em;
-    }
-
-    .title-line-two {
-      font-size: 5.6em;
-    }
-
-
+.ash-interactive-video{
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-@media only screen and (max-width: 950px) {
-
-    .title-line h1 {
-      font-size: 4.25em;
-    }
-
-    .title-line-two {
-      font-size: 4.4em;
-    }
-
-}
 
 @media only screen and (max-width: 800px) {
 
-    .title-line h1 {
-      font-size: 4.0em;
-    }
-
-    .title-line-two {
-      font-size: 4.2em;
-    }
 
     .deck {
-      font-size: 14px;
-        top: 75%;
+      font-size: 16px;
+      bottom: 20%;
     }
 
-    .byline-item {
-      padding: 0px 30px;
+    .inner .byline-item {
+      padding: 0px 5px;
+      display: inline-block;
+      margin: 0px;
+    }
+
+    .byline-box {
+      margin: 0px;
+      margin-bottom: 30px;
+      padding: 0px;
     }
 
     .col-md-7 {
@@ -418,28 +401,18 @@ animation-duration: 3s;
     .sidebar-icons {
       display: none;
     }
-    .story-section .row {
+    #inner-body .row {
       padding: 0 20px!important;
     }
+    #stepLinks.row{
+      padding: 0 0px!important;
+    }
+    .inner-title{
+      margin: auto;
+    }
 
 }
 
-@media only screen and (max-width: 650px) {
-
-    .title-line h1 {
-      font-size: 3.25em;
-    }
-
-    .title-line-two {
-      font-size: 3.4em;
-    }
-    .byline-item {
-      padding: 0px 20px;
-    }
-
-
-
-}
 
 
 @media only screen and (max-width: 600px) {
@@ -465,4 +438,74 @@ animation-duration: 3s;
 
 
 
+}
+
+// Individual title treatments
+
+#water-header{
+  .title-line-two{
+    font-size: 9.3em;
+    @include media('<=sm'){
+      font-size: 4.45em;
+    }
+  }
+    h1{
+      @include media('<=sm'){
+        font-size: 3em;
+      }
+
+  }
+}
+
+#health-header{
+    h1{
+      min-width: 103%;
+      @include media('<=sm'){
+        font-size: 2.5em;
+      }
+    }
+    & .title-line-two{
+      font-size: 10.7em;
+      line-height: 0.57em;
+      @include media('<=sm'){
+        font-size: 4.25em;
+      }
+    }
+}
+
+.health{
+  .title-line{
+    .offset-sm-1{
+      margin-left: 3.333333%;
+    }
+  }
+}
+
+#biodiversity-header{
+  h1{
+      font-size: 7em;
+      line-height: 1em;
+      @include media('<=sm'){
+        font-size: 3em;
+      }
+  }
+  .title-line-two{
+    @include media('<=sm'){
+      font-size: 2.87em;
+    }
+  }
+}
+///
+
+/// Coal ash videos
+
+.ash-interactive-video{
+  width: 100vw;
+}
+a{
+  color: $block-quote;
+  &:hover{
+    color: $block-quote;
+    text-decoration: none;
+  }
 }

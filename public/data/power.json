@@ -6,7 +6,7 @@
     "title-line-one": "Flipping",
     "title-line-two": "The Switch",
     "seo": "Flipping The Switch | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Beyond light and lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+    "subtitle": "Six months after Maria, thousands of Puerto Ricans are still in the dark. Residents have started taking the fallen electrical grid into their own hands to bring the island back into the light."
   },
   "reporters": [
     {
@@ -43,157 +43,151 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 11:37 p.m. — did he read that right? Orlando Ochoa Méndez is exhausted, hunched over his friends in the middle of the dance floor, but his tired brown eyes flicker to life when he realizes how late it is. He says frantic goodbyes, quick kisses on both cheeks flying through the air as he bolts out of Fábrica de Arte Cubano, a warehouse now transformed into one of Havana’s most well-known nightclubs. He scans the street for a taxi, his dark skin no longer livened by blankets of blue and green light from inside the club — everything feels dim now that he’s competing with the clock. Orlando chooses a classic Cuban ride, a baby blue Chevy born in 1956, somehow finding the driver who’s an old friend — or maybe they’re meeting for the first time, with Orlando you’re never quite sure. “Llevame a la lanchita de Regla,” he tells the driver."
+      "value": "“I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
     },
     {
       "type": "text",
-      "value": "He has to get to the Regla ferry by midnight."
+      "value": "Alberto de Jesus Mercado, the man who restored her power, is a 59-year-old electrician and environmental activist who has taken it upon himself to bring power back to hundreds of Puerto Ricans who were still in the dark."
+    },
+    {
+      "type": "text",
+      "value": "Mercado is known colloquially as “Tito Kayak.” Tito, short for Alberto, and Kayak, in reference to the many activist protests he has launched from a kayak. Kayak has been a certified electrician for more than 30 years."
+    },
+    {
+      "type": "text",
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid -- the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island --  and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
+    },
+    {
+      "type": "text",
+      "value": "Six months later, approximately 121,000 residents still don’t have power."
+    },
+    {
+      "type": "text",
+      "value": "“The cables didn’t let us leave the upstairs patio or the house,” said Torruellas’ daughter, Maritza Ramirez Cruz, 39. She and a cousin had to crawl underneath the cables to get out of the home. Once they did, she realized they wouldn’t be able to get the car out of the garage because a power pole had fallen on top of the metal fence on their property."
+    },
+    {
+      "type": "text",
+      "value": "They walked down the block onto the main road and found some workers from the Autoridad de Energía Eléctrica (“The Electric Power Authority”), known in English as the Puerto Rico Electric Power Authority, Puerto Rico’s main energy supplier."
+    },
+    {
+      "type": "text",
+      "value": "They begged the PREPA employees to help move the downed wires which would allow her mother to get out of the house and allow them to use their car."
+    },
+    {
+      "type": "text",
+      "value": "The workers moved the wires just enough to let the rest of their family into the yard and give them access to the garage. The men laid the wires between the pickets of the fence, stringing them mid-air about five feet off the ground across the front entrance of the house. That was the last time they saw anyone from the power authority."
+    },
+    {
+      "type": "text",
+      "value": "“We practically had to bring them by force-- after that they never came back,” Ramirez Cruz.said."
+    },
+    {
+      "type": "text",
+      "value": "For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard."
+    },
+    {
+      "type": "text",
+      "value": "“When [PREPA] would actually answer her call, they would tell her that the issue had already been reported,” Ramirez Cruz said. “Other times the call would ‘drop.’”"
+    },
+    {
+      "type": "text",
+      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to work, maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
+    },
+    {
+      "type": "text",
+      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga her with Kayak."
     },
     {
       "type": "video",
       "value": {
-        "id": "263099487",
-        "is360": "false"
+        "id": "263099487"
       }
     },
     {
       "type": "text",
-      "value": "He’s rattling off directions to his driver in Spanish — the Cuban kind, which sounds more like a song than a sentence. The taxi roars with every accelerating lunge, a symptom of the vehicle’s age, as it winds around the edges of ocean waves that confront the city’s border."
+      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE -- the actual power company."
     },
     {
       "type": "text",
-      "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
+      "value": "“The efforts that individuals make and the efforts that the government makes, I don’t think they’re parallel,” Kayak said."
     },
     {
       "type": "text",
-      "value": "He’s used to this hustle. The 28-year-old tour coordinator has spent the last 15 hours on his feet, carting visitors — recently, more Americans — around his island country. Enduring endless “Hola’s” with a little too much “H,” hailing convertible cabs so visitors can fully feel that Cuban breeze, reserving restaurants, reserving new restaurants when visitors decide they actually wanted something different — this is an hour of Orlando’s day at work."
+      "value": "But it’s not just them. They aren’t the only ones who feels like they need to step in. Desperation across Puerto Rico has forced people to pick up wires themselves."
     },
     {
       "type": "text",
-      "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
+      "value": "<a href='https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines' target='_blank'>NPR</a> and The Associated Press have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
     },
     {
       "type": "text",
-      "value": "When Orlando reaches Regla, there’s something about him that feels out of place, a part of him that his job in Havana has altered. Maybe it’s the collared shirts — he buys all his clothes in America, he says — or his enigmatic energy that feels foreign in Regla’s sleepy streets, or the fact that, unlike some of his neighbors, Orlando could afford to take a taxi around the harbor back home if he were to miss the boat."
+      "value": "Volunteers include police chiefs, former utility workers, teachers and accountants. They have managed to restore power to thousands of homes through large brigades."
     },
     {
       "type": "text",
-      "value": "“I have a feeling that people know who I am in my neighborhood, and that’s kind of weird,” he says. “But I don’t always know their name.”"
+      "value": "But unlike those groups, Kayak goes out on jobs alone, save the extra set of hands he will recruit from the “EEA” for particularly difficult jobs. And he’s in places that supposedly already have electricity -- places, like Vega Baja, the power company has marked as complete, and still many lack power."
     },
     {
       "type": "text",
-      "value": "Since December 2014, the doors that have kept Americans from traveling to Cuba for over 50 years have begun to crack open, ushering in an era of tourism that Cubans have never known. These jobs are changing families, introducing new household dynamics as children are making more money than their parents ever thought plausible. It’s forcing this generation of young workers to reconcile the hardships of their youth — the Special Period of economic collapse in Cuba during the 1990s — with a now-tangible notion of hope that lives in Havana."
+      "value": "González Claudio and Villalonga’s Vega Baja home is relying on a gas generator because it still doesn’t have power. To get to their home in the Almirante Sur neighborhood, they have to drive miles down a winding, dirt road hidden by the remains of a dense forest, making it hard for crews to get to them."
     },
     {
       "type": "text",
-      "value": "Beyond lessened airfare prices, old cars, rum and cigars, beyond the ways travel will impact the Cuban economy, this growing tourism industry is changing the lives of the Cubans that run it, the ones that live just across the harbor."
+      "value": "“When you come in through this road, there’s no light. All the poles are fallen, all the wiring, nothing has been picked up or worked on yet,” she said."
+    },
+    {
+      "type": "text",
+      "value": "Homes like theirs have fallen through the cracks, since everyone around them already had electricity restored."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "A notion of normalcy"
+        "text": "Why did Tito start & Power Grid"
       }
     },
     {
       "type": "text",
-      "value": "On December 17, 2014, fifteen words altered the relationship between two countries that had been estranged for 53 years."
+      "value": "In mid-March, Kayak arrived at Cruz Torruellas’ home, distinguishable by its patterned accents painted in pink, same as her fence."
     },
     {
       "type": "text",
-      "value": "“Today, the United States of America is changing its relationship with the people of Cuba.”"
+      "value": "Kayak lives a minimalist lifestyle, because of lack of resources. He drives his daughter's green Jeep Grand Cherokee because he doesn’t own a car and straps on a borrowed silver extension ladder with thick yellow straps to the roof rack. He uses a makeshift pulley system to extend the ladder by tugging on the straps, eliminating his need for a partner."
     },
     {
       "type": "text",
-      "value": "Though former President Obama didn’t detail the logistics of how this relationship would change in his address, both countries knew that, for the first time many of them could remember, there would be a notion of normalcy between the two nations. Now, Orlando’s job is entirely dependent on the success of an industry in Havana that seems to be broadening with each passing day as a result of those fifteen words: Tourism."
+      "value": "He said he knew right after the hurricanes that it would take months for the island to fully regain power."
     },
     {
       "type": "text",
-      "value": "Tourism existed while the U.S. and Cuba were estranged — Canadians, Spaniards and Italians are some of the main visitors — but now, it’s an industry that is rapidly changing as airlines shuttle in more Americans. In 2015, the Cuban government reported 145,000 Americans traveled to Cuba — a 79 percent increase from the year before. Tourism from visitors all over the world has been on the rise, too — over two million travelers visited Cuba during the first half of 2016, an 11.7 percent increase from 2015, according to the National Office of Statistics and Information."
+      "value": "Kayak is an independent contractor who has been performing electrical work since he was 14. He typically works for local businesses and sometimes gets one-time contracts from large corporations, but currently spends most of his time restoring power to houses that still lack it following the storms."
     },
     {
       "type": "text",
-      "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
+      "value": "He started a few weeks after Maria, reconnecting the home of an elderly woman in Manati, over an hour west from the capital, who had lost power during Irma. A friend asked Kayak to help her so she could use her dialysis machine."
     },
     {
       "type": "text",
-      "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and enjoying taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
+      "value": "Since then, Kayak has taken the government’s responsibility into his own hands."
     },
     {
       "type": "text",
-      "value": "“It’s the most attractive part of the city,” Orlando says. “So everything has been developed around there — so obviously all the opportunities will be happening there. Right?”"
+      "value": "“Geez, we can do this ourselves, for the community,’” he thought to himself. “It was so cool, the people were happy,” he said."
     },
     {
       "type": "text",
-      "value": "And maybe that’s why Regla has become Old Havana’s bedroom, the quiet borough Cubans retire to at the end of the day after working in Cuba’s capital. Places like Regla have little to show, he says, or at least that’s what people think. It’s why Cubans cock their heads and furrow their brows when they see Americans ferrying themselves away from Old Havana and across the harbor — why would they want to go there?"
+      "value": "Puerto Rico’s power grid is something that keeps coming up in the news as a main reason for the islands inability to regain and maintain electricity after the storms. Through the restoration process, sporadic blackouts have been a testament to the fragility of the commonwealth's power grid."
     },
     {
       "type": "text",
-      "value": "“Regla is less crowded than Havana, a lot quieter than Havana — less gentrified,” Orlando says. Though he thinks visitors will soon realize Regla for its charms, that’s not what’s happening now. “There’s no tourism there,” he says, “Not yet.”"
+      "value": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”"
     },
     {
       "type": "text",
-      "value": "This disparity is two sided; visitors aren’t coming in to Regla, but they aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "The $1,000 glisten"
-      }
+      "value": "And even with power now restored for much of the island, there have been set backs. A February explosion at an electric substation, which was blamed on mechanical failures, left northern parts of the island without power soon after they regained it through recovery efforts. The explosion was reported to have hit another two substations, extending the blackout further and inducing a loss of hundreds of megawatts of energy."
     },
     {
       "type": "text",
-      "value": "<span class='italic'>If you had one shot…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“If you had one shot,” Orlando repeats to his audience of one: The reflection in his bedroom mirror."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…or one opportunity, to seize everything you ever wanted in one moment…</span>"
-    },
-    {
-      "type": "text",
-      "value": "“Opp-or-tune-ih-tee,” — five syllables. That’s a hard one."
-    },
-    {
-      "type": "text",
-      "value": "<span class='italic'>…would you capture it or just let it slip?</span>"
-    },
-    {
-      "type": "text",
-      "value": "He looks away from the mirror, his chest sinking with a heavy sigh. His audience isn’t impressed — he tries again, rewinding Eminem’s “Lose Yourself” back to the beginning. He’s been into American rap for a while, though lately his friends have been making fun of his taste in music. “You’re listening to this white American rapper — you don’t even know what he’s talking about,” they tease. And they’re right. It’s seems strange to meticulously rehearse lyrics you don’t understand."
-    },
-    {
-      "type": "text",
-      "value": "So why not just learn English?"
-    },
-    {
-      "type": "text",
-      "value": "Music was — is — his Bible, he says. It’s how he learned a language almost no one else around him can comprehensively understand; it’s what fueled him through his two mandatory years of military service in the Cuban army. American hip-hop was an escape throughout his tough upbringing, but it was also a way to expand his mind, to grasp at a country just 90 miles away that sometimes felt like another world."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“People don’t even recognize me — they think I’m from somewhere else.”",
-        "attribution": "Orlando Méndez"
-      }
-    },
-    {
-      "type": "text",
-      "value": "That was nearly a decade ago. Orlando has been fluent in English for a while now, even taking his love of hip-hop to the next level by performing around Havana, though he’s too busy working to do that these days. English is an asset that, while necessary for his job, is one of the factors that muddles his Cuban identity. That annoying thing that happens when you’re clearly a tourist walking the streets of Havana, when people pester you to buy their cigars or ride in their taxis — they do it to Orlando, too. He says people don’t even recognize him, “They think I’m from somewhere else,” he says. He likes to turn it into a game, talking with waiters in the most American accent possible to see if they believe him. They always do."
-    },
-    {
-      "type": "text",
-      "value": "But sometimes, it can be sad. Sure, it’s fun when he gets to go through customs quickly because his English is so good, he says, but it’s hard explaining himself all the time. It’s hard not fitting in very well."
-    },
-    {
-      "type": "text",
-      "value": "Orlando doesn’t spend too much time worrying about how people perceive him, though — he’s too busy, and it shows. He’s always yawning, even in the middle of the day, with watery eyes that blink in slow motion. Even before he accepted the offer as a full-time tour coordinator, Orlando knew it would be more work than he’d ever done before. He starts most mornings before the sun, and he ends most nights squirming his way through his apartment so he won’t wake his parents, feeling his way around in the dark after another double-digit-hour workday."
-    },
-    {
-      "type": "text",
-      "value": "Much like their son, the Méndez’s front door stands out. It’s still wrapped up in protective cellophane, shielding a new coat of dark cherry paint that lusters amidst the weathered wooden doors surrounding it. Because of Orlando’s income, his family can afford renovations like this. Orlando’s dad, Orlando Sr., darts around the apartment like a kid on Christmas when he shows off the new tile floors he helped put down in his bedroom. They might as well be made of gold — they’re valued at over 1,000 dollars."
+      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. PREPA’s and other officials estimate that power may be fully restored until May."
     },
     {
       "type": "interactive",
@@ -203,63 +197,175 @@
     },
     {
       "type": "text",
-      "value": "Orlando Sr. wanted no part of such a massive expenditure at first. “He was like ‘We cannot pay for that,’” Orlando remembers. “And I was like ‘Dad, that’s okay. I have the money.’ I think this is when he understood that, economically, I was the alpha of the family.”"
+      "value": "In October, The American Public Power Association reported that the island needs 50,000 new utility poles and 6,500 miles of cables."
     },
     {
       "type": "text",
-      "value": "It’s not like Orlando always dreamed of being the financial frontrunner — he didn’t know he’d one day be working in a burgeoning tourism industry; he didn’t know he’d be making 200 times the salary of his father. Private businesses like Orlando’s employer often pay their employees in the Cuban convertible peso, which is worth 25 times a traditional peso, the currency Orlando Sr.’s government job paid him in."
+      "value": "PREPA's increasing debt due to years of fiscal and ethical problems, have left the company running on equipment nearly three times older than the national industry average. This means the hurricane-damaged equipment that repair crews are attempting to fix, has been long-overdue for replacement."
     },
     {
       "type": "text",
-      "value": "“I think his life is going to be a lot more prosperous than mine,” Orlando Sr. says about his son. “I don’t think he’ll have to go through the same challenges.”"
+      "value": "With about 80 percent of the electrical grid destroyed, it will take time just to rebuild the system, especially in the mountainous regions, not to mention accounting for the amount of time needed to restore power to everyone's homes."
     },
     {
       "type": "text",
-      "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
+      "value": "“The Power Unified Command set a goal to have 90 to 95 percent restored by the end of March with others into April and May in the mountainous, hard-hit areas,” said Ken Higginbotham, who works in FEMA’s External Affairs."
+    },
+    {
+      "type": "text",
+      "value": "Puerto Ricans fear the restoration will not be completed before hurricane season starts again in June. The six-month season of winds and rain will make the already vulnerable system susceptible to falling again."
+    },
+    {
+      "type": "text",
+      "value": "“I think that this government agency (PREPA) works in a very bureaucratic way. It has to pass information to FEMA, and, from FEMA, it passes it to those whom they decide can fix the problem. And that enlarges the process, making it inefficient, delayed,” said Kayak."
+    },
+    {
+      "type": "text",
+      "value": "Reconnecting power in Manati made him realize that he could help bring power back, that he could do it for more people.  “I thought ‘Geez, we can do this ourselves, for the community,’” said Kayak."
+    },
+    {
+      "type": "text",
+      "value": "“I don’t have to go to FEMA or The Electric Power Authority,” he said, “since I’m not with them, I just go directly there.”"
+    },
+    {
+      "type": "text",
+      "value": "When González Claudio and Villalonga called Kayak to tell him about her family’s situation, it didn’t take him long to get there."
+    },
+    {
+      "type": "text",
+      "value": "“They let him know about what we were going through. All but two days had passed after they told him when he arrived to our surprise,” said her daughter Ramirez Cruz."
+    },
+    {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
     },
     {
       "type": "subhead",
       "value": {
-        "text": "“Because we’re creative”"
+        "text": "Prepa debt & privatization"
       }
     },
     {
       "type": "text",
-      "value": "It’s only eight hours later, but Orlando is back on the ferry. His arm bends in a perfect “L” as he grips the railing above him, mouthing the words to a Kendrick Lamar song streaming through his earbuds."
+      "value": "Puerto Rico’s $73 billion debt crisis, which predated the storm, is another drag on rebuilding the power system. The island faces an unemployment rate in the double-digit and a declining population due to mass migration to the mainland. Forty percent of its population live below the poverty line."
     },
     {
       "type": "text",
-      "value": "His morning ferry proves it has also been the pumpkin for countless other Cinderellas, with white and blue paint chipping from the walls and worn green floors. It’s the size of a living room — fitting, since it seems like this is where Orlando does a lot of his living — with characters of every age hunched over the rail, their eyes locked on the nearing Havana harbor as the boat courses through the water."
+      "value": "PREPA, that filed for bankruptcy in July 2017 is responsible for $9 billion of that debt."
     },
     {
       "type": "text",
-      "value": "Orlando is on his way to pick up a group of Americans visiting for the week. He says a lot of the visitors he meets have predetermined conceptions of what Cuba is like before they arrive — the old cars, the limited access to the outside world — and decide the country must be stuck in the past."
+      "value": "Because it is government-run and the only energy company on the island, PREPA has held the island in a monopoly for nearly 80 years."
     },
     {
       "type": "text",
-      "value": "They’re wrong."
+      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was unable to pay for fuel and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
     },
     {
       "type": "text",
-      "value": "“How do you think [the cars] are still running?” he asks. “Because we’re creative.”"
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for fuel-purchasing irregularities."
     },
     {
       "type": "text",
-      "value": "This creativity is embedded into young people now — it’s as much of a genetic trait as their physical ones. It’s what inspired a kid without much money to learn English just for fun, to get a job that could provide his family with security in a country that hasn’t always felt so secure. In the same way that Orlando’s neighbors seem to know who he is just by watching him, the rest of the world has its eyes on Cuba — how it will grow, how America’s access will influence the island, how it will change."
+      "value": "In January, Gov. Ricardo Rosselló asked the Department of Justice to investigate whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
     },
     {
       "type": "text",
-      "value": "How Cuba’s tumultuous past will influence its future."
+      "value": "In January, Rosselló put forward a plan to privatize PREPA, which he argued would lower the island’s debt and make the power company more accountable."
     },
     {
       "type": "text",
-      "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
+      "value": "“The Puerto Rico Electric Power Authority has become a heavy burden on our people, who are now hostage to its poor service and high cost,” Rosselló said. “What we know today as the Puerto Rico Electric Power Authority does not work and cannot continue to operate like this.”"
+    },
+    {
+      "type": "text",
+      "value": "According to the Associated Press, privatizing PREPA and allowing competitors to bid for the islands customers would be the “largest restructuring of a public entity in U.S. history.”"
+    },
+    {
+      "type": "text",
+      "value": "Ricardo Santos Ramos, former president of Puerto Rico’s electrical workers union the Electrical Industry and Irrigation Workers Union, known as UTIER, compared the situation to cellular service suppliers. He said privatization works well in theory and sounds attractive to a large population of the Puerto Rican people, but only because they don’t understand the negative repercussions."
+    },
+    {
+      "type": "text",
+      "value": "“There is not a single country in the world where privatizing electricity and has lowered its cost,” he said, “Energy will be more expensive if it is private.”"
+    },
+    {
+      "type": "text",
+      "value": "Right now, he explained, PREPA sells energy at the price it costs to produce it."
+    },
+    {
+      "type": "text",
+      "value": "“If we privatize it, the private company is going to sell us what costs them, plus an increase to make the profit we will give them,” Ramos said."
+    },
+    {
+      "type": "text",
+      "value": "He is adamant that, as an island, Puerto Rico needs to have its own autonomous energy reserve. Independence from the foreign countries supplying fossil fuels, as well as autonomy from the U.S. mainland would allow the island to become reliant on its own electricity and not need to wait for aid from the federal government."
+    },
+    {
+      "type": "text",
+      "value": "Ramos believes that privatizing the power authority would not only raise costs for consumers, but would move Puerto Rico further away from a long-promised shift to other forms of energy."
+    },
+    {
+      "type": "text",
+      "value": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy,\" Ramos said."
+    },
+    {
+      "type": "text",
+      "value": "Ramos wants PREPA to move towards solar energy, asking that when the time comes to install solar panels, instead of using the islands rich agricultural land, that energy suppliers take advantage of roof space and make Puerto Ricans energy producers instead of holding power in private hands."
+    },
+    {
+      "type": "text",
+      "value": "Anna Sommer, an energy analyst for the Institute for Energy Economics and Financial Analysis, a group that studies economic issues dealing with energy and the environment, said that “PREPA can and should do better” when it comes to “promoting energy independence and affordability by aggressively pursuing energy-efficiency improvements and renewable-energy investments.”"
+    },
+    {
+      "type": "subhead",
+      "value": {
+        "text": "Tito’s work"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Kayak’s minimalism carries over into his style. He is easily recognized under his dark, greying hair when he wears shirts bearing the logos of his various activist causes or having to do with his electrical work."
+    },
+    {
+      "type": "text",
+      "value": "“People in Puerto Rico know me as an environmental activist. They don’t know that I am an electrician,” said Kayak. “People think that Fidel Castro, that Chávez sends me money and they state it openly on social media. ‘Look at that Chávez, at that Fidel! They sent him money,’ and they don’t know how hard it is for me to earn my bread daily.”"
+    },
+    {
+      "type": "text",
+      "value": "“People say, ‘Isn’t that the guy who’s always protesting around, starting revolutions? And now, turns out he’s an electrician,’” said Kayak."
+    },
+    {
+      "type": "text",
+      "value": "One of his main environmental causes, Amigos del MAR, or “Friends of the Sea,” began a protest camp called Las Playas Son Pa’l Pueblo, “The Beaches Are for the People,” which is among the longest-running civil disobedience resistance camps in the United States. Kayak and his friends established a large camping spot on a beach in San Juan, protesting in response to a large hotel company that wanted to buy the land and privatize the beach for its guests. MAR also stands for “Movimento Ambiental Revolucionario,” revolutionary environmental movement."
+    },
+    {
+      "type": "text",
+      "value": "Kayak is also known for protesting the U.S. military’s acquisition of land on the Puerto Rican island of Vieques for a training camp and bombing range. In 2000, Kayak flew to New York and climbed onto the crown of the Statue of Liberty to hang banners that said “Peace Vieques” during the New York marathon."
+    },
+    {
+      "type": "text",
+      "value": "Kayak sees his work restoring electrical service to dozens of homes, free of charge, as an extension of his activism. Most of the supplies he uses to install power, he finds in enormous junk piles that have accumulated on the sides of roads since Maria."
+    },
+    {
+      "type": "text",
+      "value": "“Sometimes it is as simple as taking a cable, raising it up and pinning it, that’s it,’” he said. “Even today, at six months  -- or more than six months -- there is still a lot of material lying in streets and they don’t pick it up.”"
+    },
+    {
+      "type": "text",
+      "value": "He does his work almost exclusively with borrowed equipment and the tools he has bought over the years from his contractor work. Even his ladder s borrowed, and it always even reach the top of the power poles he’s working on."
+    },
+    {
+      "type": "text",
+      "value": "But he gets the job done anyway."
     }
   ],
   "step-links": {
     "step-back-name": "health",
     "step-back-title": "The Healing Brigade",
     "step-forward-name": "biodiversity",
-    "step-forward-title": "Learning From The Forest"
+    "step-forward-title": "A Natural Revolution"
   }
 }

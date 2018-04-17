@@ -141,6 +141,13 @@ body, html {
   width: auto;
   margin-left: 15px;
 }
+
+.logo-in-corner-index{
+  height: 23px;
+  width: auto;
+  margin-left: 15px;
+}
+
 .navbar{
   background-color: black !important;
   height: 60px;
@@ -214,6 +221,9 @@ body, html {
     width: 100vw;
   }
 }
+.collapsing {
+  display:none;
+}
 
 .collapse.show{
   position: fixed;
@@ -265,7 +275,12 @@ body, html {
   .logo-in-corner{
     position: absolute;
     left: 21px;
-    bottom: 18px;
+    bottom: 19px;
+  }
+  .logo-in-corner-index{
+    position: absolute;
+    left: 21px;
+    bottom: 4px;
   }
   .es-and-about{
     display: none;

@@ -96,6 +96,12 @@ a.about-social-icon {
 .portfolio:hover {
     color: $title;
 }
+
+a.about-social-icon {
+  color: $title;
+}
+
+
 .team-name {
   font-family:"quasimoda",sans-serif;
   font-size: 18px;
@@ -122,6 +128,7 @@ font-size: 18px;
 
 .mixitup-control-active  {
   position: relative;
+  font-weight: 700 !important;
 }
 
 
@@ -143,6 +150,10 @@ font-size: 18px;
   font-weight: 400;
   cursor: pointer;
 }
+
+
+
+
 .about-video video {
   clip-path:circle();
 }
@@ -162,4 +173,25 @@ font-size: 18px;
   background-size: cover;
   margin-bottom: 50px;
   position: relative;
+}
+
+@media only screen and (max-width: 760px) {
+ .team-nav ul {
+   display: inline-block;
+   text-align: center;
+ }
+ .team-nav li {
+   display: inline-block;
+ }
+
+#abouttitle-box .title-line h1 {
+  font-size: 4em !important;
+}
+
+#abouttitle-box .title-line-two {
+  font-size: 6em;
+}
+
+
+
 }
