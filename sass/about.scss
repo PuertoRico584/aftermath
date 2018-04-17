@@ -96,6 +96,12 @@ a.about-social-icon {
 .portfolio:hover {
     color: $title;
 }
+
+a.about-social-icon {
+  color: $title;
+}
+
+
 .team-name {
   font-family:"quasimoda",sans-serif;
   font-size: 18px;
@@ -122,6 +128,7 @@ font-size: 18px;
 
 .mixitup-control-active  {
   position: relative;
+  font-weight: 700 !important;
 }
 
 
@@ -144,9 +151,7 @@ font-size: 18px;
   cursor: pointer;
 }
 
-.active  {
-  font-weight: 700 !important;
-}
+
 
 
 .about-video video {
