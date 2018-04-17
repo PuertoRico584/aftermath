@@ -889,16 +889,16 @@ h5 {
   color: #fff; }
 
 .plyr--video .plyr__controls .plyr__control:hover {
-  background: #309865; }
+  background: #55707b; }
 
 .plyr__control--overlaid {
-  background: #309865; }
+  background: #55707b; }
 
 .plyr__control--overlaid:hover {
   background: #348e60; }
 
 .plyr--full-ui input[type=range] {
-  color: #309865; }
+  color: #55707b; }
 
 .ash-interactive-video {
   margin-bottom: 50px;
@@ -986,9 +986,9 @@ h5 {
   width: 98.8vw; }
 
 a {
-  color: #309865; }
+  color: #55707b; }
   a:hover {
-    color: #309865;
+    color: #55707b;
     text-decoration: none; }
 
 .footer-wrapper {
@@ -2097,10 +2097,12 @@ a.about-social-icon {
   color: #0077B5 !important; }
 
 .portfolio:hover {
-  color: #309865; }
+  color: #309865;
+  text-decoration: underline; }
 
 a.about-social-icon {
-  color: #309865; }
+  color: #000; }
+
 
 .team-name {
   font-family: "quasimoda",sans-serif;
@@ -2146,6 +2148,10 @@ a.about-social-icon {
 .about-section {
   margin-top: 50px; }
 
+.about {
+  margin-left: 15px;
+  margin-right: 10px; }
+
 .about-background {
   width: 100%;
   height: 80vh;
@@ -2165,6 +2171,8 @@ a.about-social-icon {
   .team-nav li {
     display: inline-block; }
   #abouttitle-box .title-line h1 {
-    font-size: 4em !important; }
+    font-size: 3.2em !important; }
   #abouttitle-box .title-line-two {
-    font-size: 6em; } }
+    font-size: 4.7em !important; }
+  .title-line {
+    width: 100%; } }
