@@ -22,10 +22,15 @@
       flex-flow: nowrap;
       margin: auto;
       width: 22%;
+      & a{
+         & :hover{
+           opacity: 0.4;
+         }
       & img{
         width: 50px;
         padding: 5px 5px;
       }
+    }
     }
     & .centered{
       text-align: center;
