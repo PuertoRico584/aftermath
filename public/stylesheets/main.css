@@ -1259,7 +1259,7 @@ figure {
     margin: 0;
     background-color: rgba(255, 255, 255, 0.6); }
   .pollution-interactive .content-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1140px;
     position: relative;
@@ -1269,25 +1269,14 @@ figure {
     max-width: 30%; }
   .pollution-interactive #element-horiz {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
     padding-top: 2%;
     padding-bottom: 2%; }
 
 @media screen and (max-width: 768px) {
   /* =General */
-  .project {
-    margin: 0%; }
-  .project p {
-    max-width: 95%;
-    padding: 2%; }
-  #white-box {
-    background-color: yellow; }
-  #element-horiz {
-    max-width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%; }
-  #single-element {
-    max-width: 40%; } }
+  .pollution-interactive .project {
+    margin: 2%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
