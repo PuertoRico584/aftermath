@@ -1143,8 +1143,9 @@ p {
   font-size: 0px; }
 
 .tns-outer {
-  max-width: 100%;
-  height: auto; }
+  max-width: 52%;
+  height: auto;
+  float: left; }
 
 .tns-inner {
   margin: 0 auto; }

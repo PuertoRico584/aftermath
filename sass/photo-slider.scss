@@ -22,8 +22,9 @@ p {
 }
 
 .tns-outer {
-  max-width: 100%;
+  max-width: 52%;
   height: auto;
+  float: left;
 }
 
 .tns-inner {
@@ -31,7 +32,7 @@ p {
 }
 
 .tns-slider {
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 button {
