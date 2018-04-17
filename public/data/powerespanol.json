@@ -6,7 +6,7 @@
     "title-line-one": "Flipping",
     "title-line-two": "The Switch",
     "seo": "Flipping The Switch | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Six months post-Maria, thousands Puerto Ricans are still in the dark. For months locals have taken the fallen electrical grid into their own hands instead of waiting on officials, bringing the island back into the light."
+    "subtitle": "Six months after Maria, thousands of Puerto Ricans are still in the dark. Residents have started taking the fallen electrical grid into their own hands to bring the island back into the light."
   },
   "reporters": [
     {
@@ -42,30 +42,32 @@
   ],
   "text": [
     {
-      "type": "subhead",
-      "value": {
-        "text": "Section 1"
-      }
+      "type": "text",
+      "value": "“I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
     },
     {
       "type": "text",
-      "value": "“I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, standing on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
+      "value": "Alberto de Jesus Mercado, the man who restored her power, is a 59-year-old electrician and environmental activist who has taken it upon himself to bring power back to hundreds of Puerto Ricans who were still in the dark."
     },
     {
       "type": "text",
-      "value": "Alberto de Jesus Mercado, the man who brought light back into her home, is 59-year-old electrician and environmental activist who has taken it upon himself to bring power back to dozens of Puerto Ricans who are still in the dark."
+      "value": "Mercado is known colloquially as “Tito Kayak.” Tito, short for Alberto, and Kayak, in reference to the many activist protests he has launched from a kayak. Kayak has been a certified electrician for more than 30 years."
     },
     {
       "type": "text",
-      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja, Puerto Rico lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppling power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home."
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid -- the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island --  and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
     },
     {
       "type": "text",
-      "value": "“The cables didn’t let us leave the upstairs patio or the house,” said Torruellas’ daughter, Maritza Ramirez Cruz, 39. She and a cousin had to crawl underneath the cables to get out of the home and once they did, she realized they wouldn’t be able to get the car out of the garage because a power pole had fallen on top of their metal fence, onto the property."
+      "value": "Six months later, approximately 121,000 residents still don’t have power."
     },
     {
       "type": "text",
-      "value": "They walked down the block onto the main road and found some workers from the Autoridad de Energía Eléctrica (“The Electric Power Authority”), known in english as the Puerto Rico Electric Power Authority, Puerto Rico’s main energy supplier."
+      "value": "“The cables didn’t let us leave the upstairs patio or the house,” said Torruellas’ daughter, Maritza Ramirez Cruz, 39. She and a cousin had to crawl underneath the cables to get out of the home. Once they did, she realized they wouldn’t be able to get the car out of the garage because a power pole had fallen on top of the metal fence on their property."
+    },
+    {
+      "type": "text",
+      "value": "They walked down the block onto the main road and found some workers from the Autoridad de Energía Eléctrica (“The Electric Power Authority”), known in English as the Puerto Rico Electric Power Authority, Puerto Rico’s main energy supplier."
     },
     {
       "type": "text",
@@ -77,14 +79,7 @@
     },
     {
       "type": "text",
-      "value": "“We practically had to bring them by force, after that they never came back,” said Ramirez Cruz."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“We practically had to bring them by force, after that they never came back.”",
-        "attribution": "Maritza Ramirez Cruz"
-      }
+      "value": "“We practically had to bring them by force-- after that they never came back,” Ramirez Cruz.said."
     },
     {
       "type": "text",
@@ -92,60 +87,71 @@
     },
     {
       "type": "text",
-      "value": "A family friend recommended they call, Mercado, known colloquially as “Tito Kayak” the many activist protests he has launched from a kayak. Kayak has been a certified as an electrician for more than 30 years."
+      "value": "“When [PREPA] would actually answer her call, they would tell her that the issue had already been reported,” Ramirez Cruz said. “Other times the call would ‘drop.’”"
     },
     {
       "type": "text",
-      "value": "“When [PREPA] would actually answer her call, they would tell her that the issue had already been reported,” said Ramirez Cruz. “Other times the call would ‘drop.’”"
+      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to work, maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
     },
     {
       "type": "text",
-      "value": "The power outage was extremely difficult for her mother. Everyone in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to do her online work, such as maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to teach him and keep him up to speed with the public school curriculum, she needs basic access to online teaching materials for him, which just added onto the list of things she had to worry about after Maria."
-    },
-    {
-      "type": "text",
-      "value": "But Kayak isn’t the only one doing this. Desperation across Puerto Rico has forced people to pick wires up themselves."
-    },
-    {
-      "type": "text",
-      "value": "NPR and the Associated Press have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for FEMA and reconstruction crews to get to them."
-    },
-    {
-      "type": "text",
-      "value": "Volunteers made up from active police chiefs and former utility workers to teachers and accountants have managed to restore power to thousands of homes through large brigades."
-    },
-    {
-      "type": "text",
-      "value": "There is a difference between the self-proclaimed “Pepino Power Authority” in San Sebastian and the 50-person fleets in the town Cuomo and Kayak. San Sebastian and Cuomo are rural areas. Cuomo is high in the mountains and tough terrain has been a challenge to hurricane recovery. Cities like these places were expected to not have power for a while."
-    },
-    {
-      "type": "text",
-      "value": "Kayak is restoring it alone, with an extra set of hands only when he perceives the job as difficult, in places that are said to already have power. He actively restoring power in homes that are located in regions marked as completed."
-    },
-    {
-      "type": "text",
-      "value": "Because certain cities and municipalities (like the capital city of San Juan and its surrounding areas) have been reported as fully restored, homes like Cruz Torruellas’ have fallen through the cracks since everyone around her already had electricity. When authorities came in, Cruz Torruellas’ home was somehow the only one that didn’t get power back."
+      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga her with Kayak."
     },
     {
       "type": "video",
       "value": {
-        "id": "263099487",
-        "is360": "false"
+        "id": "263099487"
       }
+    },
+    {
+      "type": "text",
+      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE -- the actual power company."
+    },
+    {
+      "type": "text",
+      "value": "“The efforts that individuals make and the efforts that the government makes, I don’t think they’re parallel,” Kayak said."
+    },
+    {
+      "type": "text",
+      "value": "But it’s not just them. They aren’t the only ones who feels like they need to step in. Desperation across Puerto Rico has forced people to pick up wires themselves."
+    },
+    {
+      "type": "text",
+      "value": "<a href=”https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines” target=”_blank”>NPR</a> and The Associated Press have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
+    },
+    {
+      "type": "text",
+      "value": "Volunteers include police chiefs, former utility workers, teachers and accountants. They have managed to restore power to thousands of homes through large brigades."
+    },
+    {
+      "type": "text",
+      "value": "But unlike those groups, Kayak goes out on jobs alone, save the extra set of hands he will recruit from the “EEA” for particularly difficult jobs. And he’s in places that supposedly already have electricity -- places, like Vega Baja, the power company has marked as complete, and still many lack power."
+    },
+    {
+      "type": "text",
+      "value": "González Claudio and Villalonga’s Vega Baja home is relying on a gas generator because it still doesn’t have power. To get to their home in the Almirante Sur neighborhood, they have to drive miles down a winding, dirt road hidden by the remains of a dense forest, making it hard for crews to get to them."
+    },
+    {
+      "type": "text",
+      "value": "“When you come in through this road, there’s no light. All the poles are fallen, all the wiring, nothing has been picked up or worked on yet,” she said."
+    },
+    {
+      "type": "text",
+      "value": "Homes like theirs have fallen through the cracks, since everyone around them already had electricity restored."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Section 2"
+        "text": "Why did Tito start & Power Grid"
       }
     },
     {
       "type": "text",
-      "value": "In mid-March, Kayak drove up to Cruz Torruellas’ home, distinguishable by its patterned accents painted in pink, same as her fence"
+      "value": "In mid-March, Kayak arrived at Cruz Torruellas’ home, distinguishable by its patterned accents painted in pink, same as her fence."
     },
     {
       "type": "text",
-      "value": "Kayak lives a minimalist lifestyle, partially to lack of resource. He drives his daughter's green Jeep Grand Cherokee because he doesn’t own a car, and straps on a silver extension ladder with  thick yellow straps to the roof rack. He uses a makeshift pulley system to extend the ladder by tugging on the straps, eliminating his need for a partner."
+      "value": "Kayak lives a minimalist lifestyle, because of lack of resources. He drives his daughter's green Jeep Grand Cherokee because he doesn’t own a car and straps on a borrowed silver extension ladder with thick yellow straps to the roof rack. He uses a makeshift pulley system to extend the ladder by tugging on the straps, eliminating his need for a partner."
     },
     {
       "type": "text",
@@ -153,15 +159,15 @@
     },
     {
       "type": "text",
-      "value": "Kayak, who has been performing electrical work since he was 14, is certified by a vocational electrician training school called the Colegio de Peritos Electricistas de Puerto Rico. With his license, Kayak practices as an independent contractor. He typically works for local businesses and sometimes gets one-time contracts from large corporations, but he prefers his work restoring power for those hit by the hurricanes."
+      "value": "Kayak is an independent contractor who has been performing electrical work since he was 14. He typically works for local businesses and sometimes gets one-time contracts from large corporations, but currently spends most of his time restoring power to houses that still lack it following the storms."
     },
     {
       "type": "text",
-      "value": "His first time restoring power for anyone was only a few weeks after Maria hit, to an elderly woman who had lost power during Hurricane Irma. Because of his job as an electrician, a friend asked Kayak to help reconnect power to her home in Manati, over an hour west from the capital. The woman lives with cancer and needed power so that she could use her dialysis machine. “That’s where it started,” he said."
+      "value": "He started a few weeks after Maria, reconnecting the home of an elderly woman in Manati, over an hour west from the capital, who had lost power during Irma. A friend asked Kayak to help her so she could use her dialysis machine."
     },
     {
       "type": "text",
-      "value": "Kayak has since then taken the government’s responsibility into his own hands."
+      "value": "Since then, Kayak has taken the government’s responsibility into his own hands."
     },
     {
       "type": "text",
@@ -169,11 +175,19 @@
     },
     {
       "type": "text",
-      "value": "The Cruz family were among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid. Six months later, it has been reported that approximately 121,000 residents still don’t have power."
+      "value": "Puerto Rico’s power grid is something that keeps coming up in the news as a main reason for the islands inability to regain and maintain electricity after the storms. Through the restoration process, sporadic blackouts have been a testament to the fragility of the commonwealth's power grid."
     },
     {
       "type": "text",
-      "value": "The day Maria hit initiated the beginning of the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days. (An analysis from the Rhodium Group of the number of customers who lost service by the amount of time they were without it.)"
+      "value": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”"
+    },
+    {
+      "type": "text",
+      "value": "And even with power now restored for much of the island, there have been set backs. A February explosion at an electric substation, which was blamed on mechanical failures, left northern parts of the island without power soon after they regained it through recovery efforts. The explosion was reported to have hit another two substations, extending the blackout further and inducing a loss of hundreds of megawatts of energy."
+    },
+    {
+      "type": "text",
+      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. PREPA’s and other officials estimate that power may be fully restored until May."
     },
     {
       "type": "interactive",
@@ -182,52 +196,60 @@
       }
     },
     {
+      "type": "text",
+      "value": "In October, The American Public Power Association reported that the island needs 50,000 new utility poles and 6,500 miles of cables."
+    },
+    {
+      "type": "text",
+      "value": "PREPA's increasing debt due to years of fiscal and ethical problems, have left the company running on equipment nearly three times older than the national industry average. This means the hurricane-damaged equipment that repair crews are attempting to fix, has been long-overdue for replacement."
+    },
+    {
+      "type": "text",
+      "value": "With about 80 percent of the electrical grid destroyed, it will take time just to rebuild the system, especially in the mountainous regions, not to mention accounting for the amount of time needed to restore power to everyone's homes."
+    },
+    {
+      "type": "text",
+      "value": "“The Power Unified Command set a goal to have 90 to 95 percent restored by the end of March with others into April and May in the mountainous, hard-hit areas,” said Ken Higginbotham, who works in FEMA’s External Affairs."
+    },
+    {
+      "type": "text",
+      "value": "Puerto Ricans fear the restoration will not be completed before hurricane season starts again in June. The six-month season of winds and rain will make the already vulnerable system susceptible to falling again."
+    },
+    {
+      "type": "text",
+      "value": "“I think that this government agency (PREPA) works in a very bureaucratic way. It has to pass information to FEMA, and, from FEMA, it passes it to those whom they decide can fix the problem. And that enlarges the process, making it inefficient, delayed,” said Kayak."
+    },
+    {
+      "type": "text",
+      "value": "Reconnecting power in Manati made him realize that he could help bring power back, that he could do it for more people.  “I thought ‘Geez, we can do this ourselves, for the community,’” said Kayak."
+    },
+    {
+      "type": "text",
+      "value": "“I don’t have to go to FEMA or The Electric Power Authority,” he said, “since I’m not with them, I just go directly there.”"
+    },
+    {
+      "type": "text",
+      "value": "When González Claudio and Villalonga called Kayak to tell him about her family’s situation, it didn’t take him long to get there."
+    },
+    {
+      "type": "text",
+      "value": "“They let him know about what we were going through. All but two days had passed after they told him when he arrived to our surprise,” said her daughter Ramirez Cruz."
+    },
+    {
+      "type": "slider",
+      "value": {
+        "value": "{}"
+      }
+    },
+    {
       "type": "subhead",
       "value": {
-        "text": "Grid"
+        "text": "Prepa debt & privatization"
       }
     },
     {
       "type": "text",
-      "value": "Puerto Rico’s power grid is something that keeps coming up in the news as a main reason for the islands inability to regain and maintain electricity after the storms. Through the restoration process, sporadic blackouts have been a testament to the fragility of the commonwealth's power grid."
-    },
-    {
-      "type": "text",
-      "value": "An unexpected February explosion at an electric substation blamed on “mechanical failures” left northern parts of the island without power soon after they regained it through recovery efforts. The explosion was reported to have hit another two substations, extending the blackout further, inducing a loss of hundreds of megawatts of energy."
-    },
-    {
-      "type": "text",
-      "value": "Frequent smaller neighborhood blackouts are scattered and underreported, like in the Santurce district in the heart of San Juan that lasted over eight hours in the middle of March- the time when many thought that most people to have power fully restored. PREPA’s and other officials now project full restoration to take “at least until May.”"
-    },
-    {
-      "type": "text",
-      "value": "But why is it taking so long?"
-    },
-    {
-      "type": "text",
-      "value": "Puerto Rico’s grid suffered greatly after the back-to-back categories 4 and 5 hurricanes in September. The American Public Power Association reported the islands need for 50,000 utility poles and 6,500 miles of cables in an initial supply order placed by the USACE in October."
-    },
-    {
-      "type": "text",
-      "value": "PREPA's increasing debt is responsible for the company running on equipment nearly three times older than the national industry standard, meaning that repair crews are attempting to fix equipment damaged by the hurricanes that was already long-overdue for replacement."
-    },
-    {
-      "type": "text",
-      "value": "With about 80 percent of the electrical grid left destroyed, it will take a large chunk of time just to rebuild the system, especially in the mountainous regions, not even accounting for the amount of time needed to reinstall power into everyone's homes."
-    },
-    {
-      "type": "text",
-      "value": "Puerto Ricans fear the restoration will not be completed before the island enters into its next hurricane season, which lasts from June to November. The six-month season of winds and rain will make the already vulnerable system susceptible to falling again."
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Debt"
-      }
-    },
-    {
-      "type": "text",
-      "value": "Since the hurricanes, Puerto Rico’s debt crisis has been brought up in conversations dealing with disaster relief aid. The United States commonwealth has a $73 billion debt, due to a combination of a double digit unemployment rate, declining island population with mass migration to the mainland, the inability to devalue its currency to become more competitive and 40 percent of its population living below the poverty line."
+      "value": "Puerto Rico’s $73 billion debt crisis, which predated the storm, is another drag on rebuilding the power system. The island faces an unemployment rate in the double-digit and a declining population due to mass migration to the mainland. Forty percent of its population live below the poverty line."
     },
     {
       "type": "text",
@@ -235,76 +257,115 @@
     },
     {
       "type": "text",
-      "value": "Because they are the only energy company on the island, government-run PREPA places a monopoly on the Puerto Rican people that has been instated for nearly 80 years."
+      "value": "Because it is government-run and the only energy company on the island, PREPA has held the island in a monopoly for nearly 80 years."
     },
     {
       "type": "text",
-      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but, forcing customers to pay rates that follow foreign oil prices. In 2014, it was unable to pay for fuel and through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
+      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was unable to pay for fuel and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
     },
     {
       "type": "text",
-      "value": "Previously, they have been placed under investigation with FBI by the Puerto Rican senate for fuel-purchasing irregularities and, most recently, with the Department of Justice by Governor Rosselló for crimes “against the public interest” in the January case involving a report by the United States Army Corps of Engineers that hidden reconstruction materials were being hoarded by PREPA in a supply warehouse set up in Palo Seco, just across the bay from Old San Juan."
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for fuel-purchasing irregularities."
     },
     {
       "type": "text",
-      "value": "The Army Corps sets up supply warehouses across the island to distribute equipment that helps reestablish the island’s power grid, but the materials were reportedly “out-of-stock” and not having access to them has delayed the restoration process."
+      "value": "In January, Gov. Ricardo Rosselló asked the Department of Justice to investigate whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
+    },
+    {
+      "type": "text",
+      "value": "In January, Rosselló put forward a plan to privatize PREPA, which he argued would lower the island’s debt and make the power company more accountable."
+    },
+    {
+      "type": "text",
+      "value": "“The Puerto Rico Electric Power Authority has become a heavy burden on our people, who are now hostage to its poor service and high cost,” Rosselló said. “What we know today as the Puerto Rico Electric Power Authority does not work and cannot continue to operate like this.”"
+    },
+    {
+      "type": "text",
+      "value": "According to the Associated Press, privatizing PREPA and allowing competitors to bid for the islands customers would be the “largest restructuring of a public entity in U.S. history.”"
+    },
+    {
+      "type": "text",
+      "value": "Ricardo Santos Ramos, former president of Puerto Rico’s electrical workers union the Electrical Industry and Irrigation Workers Union, known as UTIER, compared the situation to cellular service suppliers. He said privatization works well in theory and sounds attractive to a large population of the Puerto Rican people, but only because they don’t understand the negative repercussions."
+    },
+    {
+      "type": "text",
+      "value": "“There is not a single country in the world where privatizing electricity and has lowered its cost,” he said, “Energy will be more expensive if it is private.”"
+    },
+    {
+      "type": "text",
+      "value": "Right now, he explained, PREPA sells energy at the price it costs to produce it."
+    },
+    {
+      "type": "text",
+      "value": "“If we privatize it, the private company is going to sell us what costs them, plus an increase to make the profit we will give them,” Ramos said."
+    },
+    {
+      "type": "text",
+      "value": "He is adamant that, as an island, Puerto Rico needs to have its own autonomous energy reserve. Independence from the foreign countries supplying fossil fuels, as well as autonomy from the U.S. mainland would allow the island to become reliant on its own electricity and not need to wait for aid from the federal government."
+    },
+    {
+      "type": "text",
+      "value": "Ramos believes that privatizing the power authority would not only raise costs for consumers, but would move Puerto Rico further away from a long-promised shift to other forms of energy."
+    },
+    {
+      "type": "text",
+      "value": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy,\" Ramos said."
+    },
+    {
+      "type": "text",
+      "value": "Ramos wants PREPA to move towards solar energy, asking that when the time comes to install solar panels, instead of using the islands rich agricultural land, that energy suppliers take advantage of roof space and make Puerto Ricans energy producers instead of holding power in private hands."
+    },
+    {
+      "type": "text",
+      "value": "Anna Sommer, an energy analyst for the Institute for Energy Economics and Financial Analysis, a group that studies economic issues dealing with energy and the environment, said that “PREPA can and should do better” when it comes to “promoting energy independence and affordability by aggressively pursuing energy-efficiency improvements and renewable-energy investments.”"
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Privatization"
+        "text": "Tito’s work"
       }
     },
     {
       "type": "text",
-      "value": "Governor Rosselló put forward a plan to privatize PREPA in an effort to prevent similar issues from reoccurring and in an attempt to lessen the island’s debt."
+      "value": "Kayak’s minimalism carries over into his style. He is easily recognized under his dark, greying hair when he wears shirts bearing the logos of his various activist causes or having to do with his electrical work."
     },
     {
       "type": "text",
-      "value": "“The Puerto Rico Electric Power Authority has become a heavy burden on our people, who are now hostage to its poor service and high cost. What we know today as the Puerto Rico Electric Power Authority does not work and cannot continue to operate like this,” said Rosselló."
+      "value": "“People in Puerto Rico know me as an environmental activist. They don’t know that I am an electrician,” said Kayak. “People think that Fidel Castro, that Chávez sends me money and they state it openly on social media. ‘Look at that Chávez, at that Fidel! They sent him money,’ and they don’t know how hard it is for me to earn my bread daily.”"
     },
     {
       "type": "text",
-      "value": "Privatizing PREPA would eliminate the governmental energy monopoly in place since World War II, but selling it off and allowing competitors to bid for the islands customers would cause the “largest restructuring of a public entity in U.S. history.”"
-    },
-    {
-      "type": "subhead",
-      "value": {
-        "text": "Section 4"
-      }
+      "value": "“People say, ‘Isn’t that the guy who’s always protesting around, starting revolutions? And now, turns out he’s an electrician,’” said Kayak."
     },
     {
       "type": "text",
-      "value": "Ricardo Santos Ramos, former president of Puerto Rico’s electrical workers union the Electrical Industry and Irrigation Workers Union, best known by its spanish acronym UTIER, compared the situation to cellular service suppliers. He said that the idea works well in theory and sounds attractive to a large population of the Puerto Rican people, but only because they don’t understand it holds negative repercussions."
+      "value": "One of his main environmental causes, Amigos del MAR, or “Friends of the Sea,” began a protest camp called Las Playas Son Pa’l Pueblo, “The Beaches Are for the People,” which is among the longest-running civil disobedience resistance camps in the United States. Kayak and his friends established a large camping spot on a beach in San Juan, protesting in response to a large hotel company that wanted to buy the land and privatize the beach for its guests. MAR also stands for “Movimento Ambiental Revolucionario,” revolutionary environmental movement."
     },
     {
       "type": "text",
-      "value": "“There is not a single country in the world where privatizing electricity and has lowered its cost,” he said, “energy will be more expensive if it is private.” Right now, he explained, PREPA sells energy at the price it costs to produce."
+      "value": "Kayak is also known for protesting the U.S. military’s acquisition of land on the Puerto Rican island of Vieques for a training camp and bombing range. In 2000, Kayak flew to New York and climbed onto the crown of the Statue of Liberty to hang banners that said “Peace Vieques” during the New York marathon."
     },
     {
       "type": "text",
-      "value": "“If we privatize it, the private company is going to sell us what costs them, plus an increase to make the profit we will give them,” said Ramos. He is adamant that, being that they are an island, Puerto Rico needs to have its own, autonomous energy reserve. Independence from the foreign countries supplying fossil fuels, as well as autonomy from the US mainland so that the island becomes reliant on its own electricity and does not need to wait for aid from the federal government."
+      "value": "Kayak sees his work restoring electrical service to dozens of homes, free of charge, as an extension of his activism. Most of the supplies he uses to install power, he finds in enormous junk piles that have accumulated on the sides of roads since Maria."
     },
     {
       "type": "text",
-      "value": "Ramos believed that not only will privatizing their power authority raise costs for consumers, but it also moves Puerto Rico further away from a long-promised shift to other forms of energy."
+      "value": "“Sometimes it is as simple as taking a cable, raising it up and pinning it, that’s it,’” he said. “Even today, at six months  -- or more than six months -- there is still a lot of material lying in streets and they don’t pick it up.”"
     },
     {
       "type": "text",
-      "value": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy,\" said Ramos."
+      "value": "He does his work almost exclusively with borrowed equipment and the tools he has bought over the years from his contractor work. Even his ladder s borrowed, and it always even reach the top of the power poles he’s working on."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy”",
-        "attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s electrical workers union the Electrical Industry and Irrigation Workers Union"
-      }
+      "type": "text",
+      "value": "But he gets the job done anyway."
     }
   ],
   "step-links": {
     "step-back-name": "health",
     "step-back-title": "The Healing Brigade",
     "step-forward-name": "biodiversity",
-    "step-forward-title": "Learning From The Forest"
+    "step-forward-title": "A Natural Revolution"
   }
 }

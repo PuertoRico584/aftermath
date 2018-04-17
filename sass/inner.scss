@@ -1,3 +1,4 @@
+
 .text-row{
   margin-top: 50px;
 }
@@ -500,4 +501,11 @@ animation-duration: 3s;
 
 .ash-interactive-video{
   width: 100vw;
+}
+a{
+  color: $block-quote;
+  &:hover{
+    color: $block-quote;
+    text-decoration: none;
+  }
 }

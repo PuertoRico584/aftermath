@@ -961,6 +961,12 @@ h5 {
 .ash-interactive-video {
   width: 100vw; }
 
+a {
+  color: #309865; }
+  a:hover {
+    color: #309865;
+    text-decoration: none; }
+
 .footer-wrapper {
   padding-top: 2px;
   padding-bottom: 30px;
