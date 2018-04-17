@@ -143,6 +143,12 @@ font-size: 18px;
   font-weight: 400;
   cursor: pointer;
 }
+
+.active  {
+  font-weight: 700 !important;
+}
+
+
 .about-video video {
   clip-path:circle();
 }
@@ -172,4 +178,15 @@ font-size: 18px;
  .team-nav li {
    display: inline-block;
  }
+
+#abouttitle .title-line h1 {
+  font-size: 4em;
+}
+
+#abouttitle .title-line-two {
+  font-size: 6em;
+}
+
+
+
 }
