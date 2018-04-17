@@ -153,3 +153,7 @@ function unfadeIcons(x){
          $(tempIdNav).css("opacity", "1");
         }
       }
+
+    function hamburger(x) {
+    x.classList.toggle("change");
+  }
