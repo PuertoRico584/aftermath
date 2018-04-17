@@ -1,6 +1,6 @@
 {
   "master-class": {
-    "class": "biodiversity"
+    "class": "ecology"
   },
   "header": {
     "title-line-one": "A Natural",
@@ -54,7 +54,7 @@
     },
     {
       "type": "text",
-      "value": "Pagan, a tall, gentle man with large brown hands, had tried to secure the essentials that sustained his farm. He dug trenches around his fields, removed the roof from his greenhouse and sheltered his two oxen, Caramelo and Josco, in his brother’s garage. He then took refuge in his concrete house, hoping that it would make it through the storm."
+      "value": "Pagán, a tall, gentle man with large brown hands, had tried to secure the essentials that sustained his farm. He dug trenches around his fields, removed the roof from his greenhouse and sheltered his two oxen, Caramelo and Josco, in his brother’s garage. He then took refuge in his concrete house, hoping that it would make it through the storm."
     },
     {
       "type": "text",
@@ -73,7 +73,7 @@
     },
     {
       "type": "text",
-      "value": "He awoke to a devastated landscape. A huge palm tree lay across the entrance to the farm. The surrounding forest, stripped of every leaf, looked like a scattering of giant sticks jammed into the ground. There were pools of standing water from the intense rains. The landscape looked anything but ready for growing vegetables."
+      "value": "He awoke to a devastated landscape. A huge palm tree lay across the entrance to the farm, and pools of water filled its valleys. The surrounding forest, stripped of every leaf, looked like a scattering of giant sticks jammed into the ground. There were pools of standing water from the intense rains. His land looked anything but ready for growing vegetables."
     },
     {
       "type": "text",
@@ -81,19 +81,15 @@
     },
     {
       "type": "text",
-      "value": "As an agroecologist, Pagan views his farm as an ecosystem, one as intricate and complex as the forests that surround it. These forests, like Pagan’s farm, are self-sufficient and resilient, and these two principles contributed to the regrowth post-hurricane of both places."
+      "value": "Pagán rebounded quickly because he views his farm as an ecosystem, one that should be self-sufficient and resilient just like a natural Puerto Rican forest. It was no coincidence that his farm that imitated these qualities recovered quickly from Hurricane Maria."
     },
     {
       "type": "text",
-      "value": "Pagan wasn’t the only one watching as Puerto Rico’s forests outpaced many of the human systems in regrowth after the storm. In places like El Yunque, the island’s 28,000 acre national forest, scientists watched as sun-loving plants sprang up under the opened canopy, providing shade for other species and making way for the recovery of the forest structure. These natural systems, shaped by centuries of evolution and adaptation, know how to rebuild after the disaster, but the scientists still hope to gain new insight on how the ecosystem works."
+      "value": "Across the island, Puerto Rico’s forests outpaced many of the human systems in regrowth after the storm, and Pagán was not the only one watching. In places like El Yunque, the island’s 28,000 acre national forest, sun-loving plants quickly sprang up under the opened canopy, providing shade for other species and making way for the reformation of the forest structure. These natural systems, shaped by centuries of evolution and adaptation, know how to rebuild after the disaster, but scientists in El Yunque and beyond still hope to gain new insight on how the ecosystem works and what humans can take away from it to prepare for the next big storm."
     },
     {
       "type": "text",
-      "value": "Research is also happening outside the national forest. At a small plot of land in the center of the island, a group of researchers are testing how to incorporate hurricane-resistant natives and other beneficial species into non-native forests, and their work has the possibility to change the aftermath of the next hurricane."
-    },
-    {
-      "type": "text",
-      "value": "But if Maria offered one overall lesson, it was that when disaster strikes, it is nature itself that holds the best lessons on resilience."
+      "value": "For many observing the island’s recovery, Maria offered one big lesson: when disaster strikes, it is nature itself that holds the best lessons on resilience."
     },
     {
       "type": "subhead",
@@ -107,11 +103,11 @@
     },
     {
       "type": "text",
-      "value": "In El Yunque National Forest, one of the oldest forest reserves in the Western hemisphere, the lush tree canopy stretches smoothly across the northeastern corner of the island, offering a shady respite to hikers wandering through the forest on a hot, sunny day."
+      "value": "In El Yunque National Forest, one of the oldest forest reserves in the Western hemisphere, the lush tree canopy stretches smoothly across the northeastern corner of the island. The thick foliage offers a shady respite to hikers wandering through the forest on a hot, sunny day."
     },
     {
       "type": "text",
-      "value": "Maria’s 155-mile winds, rains and subsequent landslides damaged or killed an estimated 23 to 31 million trees across the island. The gusts ripped smaller plants up by the roots. The lush canopy and foliage disappeared overnight."
+      "value": "That all changed after Maria. The 155-mile winds, rains and subsequent landslides damaged or killed an estimated 23-31 million trees across the island. The gusts ripped smaller plants up by the roots. The lush canopy and foliage disappeared overnight."
     },
     {
       "type": "text",
@@ -120,16 +116,16 @@
     {
       "type": "interactive",
       "value": {
-        "filename": "biodiversity-interactive.ejs"
+        "filename": "ecology-interactive.ejs"
       }
     },
     {
       "type": "text",
-      "value": "Gonzalez works in El Yunque and lives several kilometers north of the forest in the town of Luquillo. During the storm, she felt the house shake, and water came in horizontally through the metal shutters covering her windows. The sounds of growling, cracking and whistling surrounded her as Maria hit the Luquillo Mountains, one of Puerto Rico’s primary topographic barriers against storms."
+      "value": "Gonzalez works in El Yunque and lives several kilometers north of the forest in the town of Luquillo. During the storm, she felt her house shake, and water came in horizontally through the metal shutters covering her windows. The sounds of growling, cracking and whistling surrounded her as Maria hit the Luquillo Mountains, one of Puerto Rico’s primary topographic barriers against storms."
     },
     {
       "type": "text",
-      "value": "This was not Gonzalez’s first hurricane. The 46-year-old, who wears bright pink lipstick with her muted tan and green forest service uniform, was also here for Hurricane Hugo in September 1989. But when she finally made it outside a day after landfall, the sight of the decimated forest still shocked her."
+      "value": "This was not Gonzalez’s first hurricane. The 46-year-old, who wears bright pink lipstick with her muted tan and green U.S. Forest Service uniform, was also on the island for Hurricane Hugo in September 1989. But when she finally made it outside a day after landfall, the sight of the decimated forest still shocked her."
     },
     {
       "type": "text",
@@ -147,15 +143,15 @@
     },
     {
       "type": "text",
-      "value": "Right after Hurricane Maria, Ariel Lugo, director of the International Institute of Tropical forestry, went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s recovery timeline, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
+      "value": "Right after Hurricane Maria, Ariel Lugo, the 74-year-old director of the International Institute of Tropical forestry, went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s recovery timeline, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
     },
     {
       "type": "text",
-      "value": "But he also went to check on one specific type of tree -- the tabonuco."
+      "value": "But he also went to check on one specific type of tree–the tabonuco."
     },
     {
       "type": "text",
-      "value": "Tabonuco trees grow on the ridges of the mountains where the wind blows strongest. They are one of the tallest species in the forest, but despite their height, tabonucos hold their ground during storms that rip away their leaves. This is because of their interconnected root systems, Lugo said. An entire stand can be united and deeply entrenched in the ground. Surrounded by fallen trees, Lugo wanted to see if the tabonucos were still standing."
+      "value": "Tabonuco trees grow on the ridges of the mountains where the wind blows strongest. They are one of the tallest species in the forest, but despite their height, tabonucos hold their ground during storms that rip away their leaves. This is because of their interconnected root systems, Lugo said. An entire stand can be united and deeply entrenched in the ground. Though fallen trees littered the forest, Lugo wanted to see if the tabonucos were still standing."
     },
     {
       "type": "text",
@@ -167,15 +163,15 @@
     },
     {
       "type": "text",
-      "value": "Another resilient tree species is the Cecropia schreberiana, a pioneer species and one of the first to occupy a disturbed landscape. The post-hurricane landscape of open sky and bare ground provides a perfect nursery for its hardy seedlings. Cecropia can rapidly grow to 50 feet, and the shade cast by its giant leaves provides the optimal conditions for slow-growing, shade-tolerant species."
+      "value": "Another resilient tree species is the Cecropia schreberiana, a pioneer species and one of the first to occupy a disturbed area. The post-hurricane landscape of open sky and bare ground provides a perfect nursery for its hardy seedlings. Cecropia can rapidly grow to 50 feet, and the shade cast by its giant leaves provides the optimal conditions for slow-growing, shade-tolerant species to take root beneath it."
     },
     {
       "type": "text",
-      "value": "Six months after the hurricane, the growth of Cecropia and other sun-lovers like ferns, grasses, and shrubs is in full swing, and they dominate the forest floor. Trees rising above the bushy foliage sport tufts of leaves at their crowns and around their stubby branches. Eventually the Cecropias will die and the understory will clear, allowing the other plants to close the canopy."
+      "value": "Six months after the hurricane, the growth of Cecropia and other sun-lovers like ferns, grasses and shrubs is in full swing, and they dominate the forest floor. Trees rising above the bushy undergrowth sport tufts of leaves at their crowns and around their stubby branches. Eventually the Cecropias will die and the understory will clear, allowing the other plants to close the canopy."
     },
     {
       "type": "text",
-      "value": "In 10 to 15 years, an average person--a non-scientist--walking into El Yunque will not be able to tell that anything happened there, Lugo said. In 25 years, dead trees will be decomposed and recycled. The canopy will have fewer pioneer species and more slow-growers settled in. In 100 years, only scientific research and acute observation will be able to reveal the marks of the hurricane left in the forests incredible recovery system."
+      "value": "In 10-15 years, an average person–a non-scientist–walking into El Yunque will not be able to tell that anything happened there, Lugo said. In 25 years, dead trees will be decomposed and recycled. The canopy will have fewer pioneer species and more slow-growers settled in. In 100 years, only scientific research and acute observation will be able to reveal the marks of the hurricane left after the forest’s incredible recovery system."
     },
     {
       "type": "text",
@@ -190,11 +186,11 @@
     },
     {
       "type": "text",
-      "value": "While scientists like Lugo and Gonzales have been studying forests and hurricanes for decades, Maria’s strength and impact gives them new insights to the recovery process, and may offer insight into predicting what may happen in future storms."
+      "value": "While scientists like Lugo and Gonzales have been studying forests and hurricanes for decades, Maria’s strength and impact gives them new insights to the recovery process. It may also offer insight into predicting what may happen in future storms."
     },
     {
       "type": "text",
-      "value": "“If you can predict what's going to happen fairly confidently, then you can take steps to manage it or tolerate it,” said Nick Brokaw, an environmental science professor at the University of Puerto Rico-Rio Piedras. “That's our goal in science.”"
+      "value": "“If you can predict what's going to happen fairly confidently, then you can take steps to manage it or tolerate it,” said Nicholas Brokaw, an environmental science professor at the University of Puerto Rico-Rio Piedras. “That's our goal in science.”"
     },
     {
       "type": "text",
@@ -202,7 +198,7 @@
     },
     {
       "type": "text",
-      "value": "“This actually the first major hurricane that hit the whole island, and that we have the research infrastructure to really document,” she said."
+      "value": "“This is actually the first major hurricane that hit the whole island, and that we have the research infrastructure to really document,” she said."
     },
     {
       "type": "text",
@@ -222,24 +218,24 @@
     {
       "type": "subhead",
       "value": {
-        "text": "A sustainable model"
+        "text": "Success at El Josco Bravo"
       }
     },
     {
       "type": "text",
-      "value": "Farmers are one group that is rebuilding from a clean slate. Pagan’s farm, which recovered more quickly than most after the hurricane, offers a model for regrowth based on nature’s resilience. The young farmer, clad in tall rubber boots and a straw hat during his busy days at El Josco Bravo, attributed his success to three strategies."
+      "value": "Farmers are one group that is rebuilding from this clean slate. Pagán’s farm, which recovered more quickly than most after the hurricane, offers a model for regrowth based on nature’s resilience. The young farmer, clad in tall rubber boots and a straw hat during his busy days at El Josco Bravo, attributed his success to three strategies."
     },
     {
       "type": "text",
-      "value": "One was his preparation for the storm, including removing his greenhouse roof and digging trenches. The winds blew around the empty skeleton of the greenhouse, and the trenches around his fields gathered the water and prevented runoff of the soil Pagan spent three years cultivating. Pagan said other farmers failed take these preventative measures partly out of complacency--the relative mildness of Hurricane Irma gave them false confidence, he said. But Pagan had too much at stake to take any chances."
+      "value": "One was his preparation for the storm, including removing his greenhouse roof and digging trenches. The winds blew through the empty skeleton of the greenhouse, and the trenches around his fields gathered the water and prevented erosion of the soil Pagán has spent three years cultivating. Pagán said other farmers failed to take these preventative measures partly out of complacency–the relative mildness of Hurricane Irma gave them false confidence, he said. But Pagán had too much at stake to take any chances."
     },
     {
       "type": "text",
-      "value": "His second strategy was his permanent infrastructure, mainly his greenhouse and his lake, which meant he didn’t have to spend time rebuilding his nursery or water supply. But his third strategy was most important, and it was his agroecological philosophy."
+      "value": "His second strategy was his permanent infrastructure, mainly his greenhouse and his lake. These structures meant he didn’t have to spend time rebuilding his nursery or water supply. But his third strategy was most important, and it was his agroecological philosophy."
     },
     {
       "type": "text",
-      "value": "As a part of this philosophy, Pagan doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagan’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On October 3, two weeks after Maria, Pagán harnessed up his oxen and started ploughing his two acres of land."
+      "value": "As a part of this philosophy, Pagán doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagán’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On Oct. 3, two weeks after Maria, Pagán harnessed up his oxen and started ploughing his two acres of land."
     },
     {
       "type": "slider",
@@ -249,24 +245,24 @@
     },
     {
       "type": "text",
-      "value": "He also uses cover crops and makes compost from his neighbor’s yard waste to increase nutrients and water retention in his soil, which increase its fertility without the use of chemical fertilizers. Pagan, who did his master’s thesis at University of Puerto Rico-Mayaguez on organic methods of soil recovery, could place his young crops in the rich brown earth as soon as they were big enough to come out of the greenhouse."
+      "value": "Pagán also uses cover crops and makes compost from his neighbor’s yard waste to increase nutrients and water retention in his soil, which boost its fertility without the use of chemical fertilizers. Pagán, who did his master’s thesis at the University of Puerto Rico-Mayaguez on organic methods of soil recovery, could place his young crops in the rich brown earth as soon as they were big enough to come out of the greenhouse."
     },
     {
       "type": "text",
-      "value": "Pagan’s recovery paralleled that of El Yunque--both places built their regrowth on animals, sunlight, water and other resources that didn’t need to come in from overseas. This is the result of agroecology, and Pagan saw his ability to produce food so quickly after the storm as evidence that his methods give farmers the tools to produce food even after great disturbances."
+      "value": "Pagán’s recovery paralleled that of El Yunque–both places built their regrowth on animals, sunlight, water and natural resources that didn’t need to come in from overseas. This is the result of agroecology, and Pagán saw his ability to produce food so quickly after the storm as evidence that his methods give farmers the tools to produce food even after great disturbances."
     },
     {
       "type": "text",
-      "value": "He hopes this self-sufficiency will also change the conventional agriculture systems that colonialism imposed on the island. Ever since the Spanish claimed Puerto Rico in 1493, most of the island’s agricultural land has been devoted to the demands of export markets, with coffee, sugar and tobacco plantations pushing out subsistence farmers and causing a decline in the amount of food produced on-island for Puerto Ricans. The island currently imports 80-85 percent of its food. In recent years, young farmers like Pagan have been trying to shift the island to more sustainable practices -- installing rain barrels, saving seeds and cultivating compost, all measures that reduce the need for the outside inputs that became so scarce after the hurricane."
+      "value": "He hopes this self-sufficiency will also change the conventional agriculture systems that colonialism imposed on the island. Ever since the Spanish claimed Puerto Rico in 1493, most of the island’s agricultural land has been devoted to the demands of export markets, with coffee, sugar and tobacco plantations pushing out subsistence farmers and causing a decline in the amount of food produced on-island for Puerto Ricans. The island currently imports 80-85 percent of its food. In recent years, young farmers like Pagán have been trying to shift the island to more sustainable practices–installing rain barrels, saving seeds and cultivating compost, all measures that reduce the need for the outside inputs that became so scarce after the hurricane."
     },
     {
       "type": "text",
-      "value": "“The hurricane basically made us understand how important [agroecology] is,” Pagan said. “The hurricane suddenly changed our reality.”"
+      "value": "“The hurricane basically made us understand how important [agroecology] is,” Pagán said. “The hurricane suddenly changed our reality.”"
     },
     {
       "type": "subhead",
       "value": {
-        "text": "A New Future"
+        "text": "Moving forward"
       }
     },
     {
@@ -279,11 +275,11 @@
     },
     {
       "type": "text",
-      "value": "Cruz Aguilar started helping in the garden at 13, and loved the feeling of harvesting his own food after three to five months of hard work and cultivation. He couldn’t stick a machete in the ground without splitting a potato, but he still wanted to become a farmer after he graduated high school."
+      "value": "Cruz Aguilar started helping in the garden at 13 and loved the feeling of harvesting his own food after three to five months of hard work and cultivation. He couldn’t stick a machete in the ground without splitting a potato, but he still wanted to become a farmer after he graduated high school."
     },
     {
       "type": "text",
-      "value": "He got his bachelor’s degree in agronomy from University of Puerto Rico-Mayaguez, but found that his courses explained agriculture as a chemistry lesson, a series of methods for mixing water and chemicals in certain quantities to produce results. He wanted to gain a better understanding of ecosystems and the animals, bacteria and soil conditions unique to each place that could be used to help farmers."
+      "value": "He got his bachelor’s degree in agronomy from the University of Puerto Rico-Mayaguez, but found that his courses explained agriculture as a chemistry lesson, a series of methods for mixing water and chemicals in certain quantities to produce results. He wanted to gain a better understanding of ecosystems and the animals, bacteria and soil conditions unique to each place that could be used to help farmers."
     },
     {
       "type": "text",
@@ -295,11 +291,11 @@
     },
     {
       "type": "text",
-      "value": "“Maybe one day, this tree will grow and dominate part of the canopy,” he said. “And more will come out and more of this species can keep a presence.”"
+      "value": "“Maybe one day, this tree will grow and dominate part of the canopy,” he said. “And more will come out, and more of this species can keep a presence.”"
     },
     {
       "type": "text",
-      "value": "Many farmers in Puerto Rico own land currently overrun by the African tulip tree and its bright orange flowers, but the ability of the Pterocarpus to grow and thrive within the system means those terrains are not lost, Cruz Aguilar said, and it means that the research also holds methods for building more sustainable farms."
+      "value": "Many farmers in Puerto Rico own land currently overrun by the African tulip tree and its bright orange flowers, but the ability of the Pterocarpus to grow and thrive within the system means those terrains are not lost, Cruz Aguilar said. And it means that the research also holds methods for building more sustainable farms."
     },
     {
       "type": "text",
@@ -315,7 +311,7 @@
     },
     {
       "type": "text",
-      "value": "New farmers are trying to break that traditional sense of agriculture, Cruz said, by expanding and sharing knowledge about the new methods that combine environmental systems and farming practices."
+      "value": "New farmers are trying to break that traditional sense of agriculture, Cruz Aguilar said, by expanding and sharing knowledge about the new methods that combine environmental systems and farming practices."
     },
     {
       "type": "text",
@@ -323,7 +319,7 @@
     },
     {
       "type": "text",
-      "value": "The relationship between the two is what helped Pagan successfully survive Hurricane Maria, and it is what Gonzalez hopes Puerto Ricans see when they look at how the forest systems are continuously evolving."
+      "value": "The relationship between the two is what helped Pagán successfully survive Hurricane Maria, and it is what Gonzalez hopes Puerto Ricans see when they look at how the forest systems are continuously evolving."
     },
     {
       "type": "text",
@@ -335,79 +331,5 @@
     "step-back-title": "Where’s The Light",
     "step-forward-name": "water",
     "step-forward-title": "Dredging With Hope"
-  },
-  "slider-images": [
-    {
-      "src": "biodiversity_sl_01.jpg",
-      "alt": "Reyna in the studio",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Reyna Mercedes Hernadez Sandoval (La Reyna) rehearses in the studio located in her manager, Moisés Whittaker Alvarez’s, house."
-    },
-    {
-      "src": "biodiversity_sl_02.jpg",
-      "alt": "Yadira stands in the doorframe of her home.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Yadira Pintado Lazcano (La Real) stands in the doorframe of her home. One half of the popular rap duo, La Reyna y La Real, she is dedicated to her craft and works each day to improve her skills."
-    },
-    {
-      "src": "biodiversity_sl_03.jpg",
-      "alt": "Yadira mops her living room floor.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Yadira Pintado Lazcano mops her living room floor."
-    },
-    {
-      "src": "biodiversity_sl_04.jpg",
-      "alt": "Reyna works out.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Reyna works out several times a week, often with Yadira. Staying in shape is important to her as it helps her prepare for performances."
-    },
-    {
-      "src": "biodiversity_sl_05.jpg",
-      "alt": "Group of children, Reyna and Yadira watch a video on Michel’s phone.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Michel, Reyna’s son, shows his friends a video on his phone. Michel plays drums and is encouraged by his mother to express himself in a positive way through music."
-    },
-    {
-      "src": "biodiversity_sl_06.jpg",
-      "alt": "Michel and friends sitting on porch.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Michel, Reyna’s son outside his house with friends and family after school. Reyna hopes her music will inspire Michel to respect and support women."
-    },
-    {
-      "src": "biodiversity_sl_07.jpg",
-      "alt": "Renya shows off her tattoo in front of her house which bears the same emblem, a chess queen.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Reyna shows off her tattoo in front of her house which bears the same emblem, a chess queen. Reyna is not only a musician but a visual artist having painted the piece on the front her home as a symbol of strength."
-    },
-    {
-      "src": "biodiversity_sl_08.jpg",
-      "alt": "yadira sits in her home.",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Yadira at home watching her favorite show. She frequently buys the “paquete,” a common way for Cubans to consume popular media."
-    },
-    {
-      "src": "biodiversity_sl_09.jpg",
-      "alt": "Yadira stands on her roof",
-      "attribution": "Alexis Fairbanks",
-      "caption": "Yadira stands on her roof overlooking her neighborhood after fixing her water tank. She often has issues with consistent water flow which is problematic when doing chores around her house."
-    },
-    {
-      "src": "biodiversity_sl_10.jpg",
-      "alt": "Dark room under construction",
-      "attribution": "Alexis Fairbanks",
-      "caption": "La Reyna and La Real are represented by the state-run Agency of Rap. The main office is under construction while a space is created for artists to perform. The Agency represents 34 artists, 6 of which are women."
-    },
-    {
-      "src": "biodiversity_sl_11.jpg",
-      "alt": "Dark room under construction",
-      "attribution": "Alexis Fairbanks",
-      "caption": "La Reyna and La Real are represented by the state-run Agency of Rap. The main office is under construction while a space is created for artists to perform. The Agency represents 34 artists, 6 of which are women."
-    },
-    {
-      "src": "biodiversity_sl_12.jpg",
-      "alt": "Dark room under construction",
-      "attribution": "Alexis Fairbanks",
-      "caption": "La Reyna and La Real are represented by the state-run Agency of Rap. The main office is under construction while a space is created for artists to perform. The Agency represents 34 artists, 6 of which are women."
-    }
-  ]
+  }
 }
