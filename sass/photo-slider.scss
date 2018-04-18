@@ -2,8 +2,9 @@
   overflow: hidden;
 }
 
-p {
+.tns-outer p {
   padding-top: 2%;
+  padding-left: 5%;
 }
 
 .tns-controls {
@@ -22,7 +23,7 @@ p {
 }
 
 .tns-outer {
-  max-width: 52%;
+  max-width: 100%;
   height: auto;
   float: left;
 }
@@ -69,6 +70,10 @@ button:hover {
   display: inline-block;
   vertical-align: top;
   white-space: normal;
+}
+
+#inner-body .row .tns-outer{
+  padding: 0px !important;
 }
 
 

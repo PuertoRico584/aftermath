@@ -1153,8 +1153,9 @@ figure {
 .tns-ovh {
   overflow: hidden; }
 
-p {
-  padding-top: 2%; }
+.tns-outer p {
+  padding-top: 2%;
+  padding-left: 5%; }
 
 .tns-controls {
   text-align: center;
@@ -1169,7 +1170,7 @@ p {
   font-size: 0px; }
 
 .tns-outer {
-  max-width: 52%;
+  max-width: 100%;
   height: auto;
   float: left; }
 
@@ -1208,6 +1209,9 @@ button:hover {
   display: inline-block;
   vertical-align: top;
   white-space: normal; }
+
+#inner-body .row .tns-outer {
+  padding: 0px !important; }
 
 @media screen and (min-width: 768px) {
   .tns-outer {
@@ -2098,11 +2102,7 @@ a.about-social-icon {
   text-decoration: underline; }
 
 a.about-social-icon {
-<<<<<<< HEAD
-  color: #309865; }
-=======
   color: #000; }
->>>>>>> 77adb16417f5925a31f24b6368fbb0321fec546e
 
 .team-name {
   font-family: "quasimoda",sans-serif;
