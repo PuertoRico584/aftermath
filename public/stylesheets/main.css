@@ -427,6 +427,9 @@ body, html {
 .nav-up {
   top: -60px; }
 
+.navbar-nav {
+  width: auto; }
+
 @media (max-width: 1280px) {
   .navbar-nav {
     width: 97%;
@@ -481,6 +484,10 @@ body, html {
   @media (max-width: 320px) {
     .nav-item {
       width: 92px; } }
+  @media (min-width: 1280px) {
+    .nav-item {
+      padding-left: 30px;
+      padding-right: 30px; } }
 
 .nav-link {
   color: white !important;
