@@ -44,7 +44,7 @@
   }
 
   .content-wrapper{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1140px;
     position: relative;
@@ -58,7 +58,7 @@
 
   #element-horiz {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
     padding-top: 2%;
     padding-bottom: 2%;
   }
@@ -67,26 +67,7 @@
 @media screen and (max-width: 768px) {
   /* =General */
 
-  .project {
-    margin: 0%;
-  }
-
-  .project p {
-    max-width: 95%;
-    padding: 2%;
-  }
-
-  #white-box {
-    background-color: yellow;
-  }
-
-  #element-horiz {
-    max-width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-
-  #single-element {
-    max-width: 40%;
+  .pollution-interactive .project {
+    margin: 2%;
   }
 }
