@@ -1150,12 +1150,17 @@ figure {
   #photo-gallery {
     display: none; } }
 
+.slider-title {
+  text-align: center; }
+
 .tns-ovh {
   overflow: hidden; }
 
 .tns-outer p {
-  padding-top: 2%;
-  padding-left: 5%; }
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 130%; }
 
 .tns-controls {
   text-align: center;

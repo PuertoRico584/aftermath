@@ -1,6 +1,9 @@
 var slider = tns({
     container: '.my-slider',
     items: 1,
+    controls: false,
+    arrowKeys: true,
+    mouseDrag: true, 
     responsive: {
       640: {
         edgePadding: 20,
