@@ -2,10 +2,12 @@
 	  function showAM() {
      document.getElementById("amclock").style.display = "flex";
      document.getElementById("pmclock").style.display = "none";
+     document.getElementsByClassName("ambutton").style.border = "1px solid red";
    }
    function showPM() {
      document.getElementById("amclock").style.display = "none";
      document.getElementById("pmclock").style.display = "flex";
+     document.getElementsByClassName("pmbutton").style.background = "red";
    }
 	</script>
 
@@ -23,6 +25,9 @@
   #amclock .clock path#Path_135_4_:hover {
 	fill: #ffffff;
 	}
+  .timeofday {
+    border: 1px red solid;
+  }
   .tabcontent {
     display:none;
   }
@@ -81,9 +86,9 @@
 	<div class="row interactive" id="amclock" style="display:flex;">
 	  <div class="col-md-3 offset-md-1">
 		  <h3>Day in the Life of a Brigade</h3>
-		  <p>Since Hurricane Maria, Iniciativa Communitaria has helped more than 6,000 people in Puerto Rico between its clinic and its brigades. Explore a typical day brigade shift and night brigade shift.</p>
-			<button onclick="showAM();" class="btn btn-outline-secondary">AM HOURS</button>
-			<button onclick="showPM();" class="btn btn-outline-secondary">PM HOURS</button>
+		  <p>Since Hurricane Maria, Iniciativa Comunitaria has helped more than 6,000 people in Puerto Rico between its clinic and its brigades. Explore a typical day brigade shift and night brigade shift.</p>
+			<button onclick="showAM();" class="btn btn-outline-secondary ambutton">AM HOURS</button>
+			<button onclick="showPM();" class="btn btn-outline-secondary pmbutton">PM HOURS</button>
 		</div>
       <div class="col-md-4 clock">
 
