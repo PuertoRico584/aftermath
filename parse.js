@@ -13,12 +13,12 @@ var fileIds = {
     "water": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ",
     "power": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
     "health": "1q5BVQq4zkL0LT_OYdajZgNxdpLUpFvI2crz3shV4YmI",
-    "biodiversity": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
+    "ecology": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
     "pollution": "171kC7IfFFOCsuIxSukghsUF2Cn0GIrhBeKHPfTMyq-M",
     "waterespanol": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ",
     "powerespanol": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
     "healthespanol": "1q5BVQq4zkL0LT_OYdajZgNxdpLUpFvI2crz3shV4YmI",
-    "biodiversityespanol": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
+    "ecologyespanol": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
     "pollutionespanol": "171kC7IfFFOCsuIxSukghsUF2Cn0GIrhBeKHPfTMyq-M"
 }
 

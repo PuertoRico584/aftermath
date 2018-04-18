@@ -55,7 +55,7 @@
     },
     {
       "type": "text",
-      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid -- the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island --  and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
     },
     {
       "type": "text",
@@ -79,7 +79,14 @@
     },
     {
       "type": "text",
-      "value": "“We practically had to bring them by force-- after that they never came back,” Ramirez Cruz.said."
+      "value": "“We practically had to bring them by force — after that they never came back,” Ramirez Cruz.said."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“We practically had to bring them by force — after that they never came back”",
+        "Attribution": "Maritza Ramirez Cruz"
+      }
     },
     {
       "type": "text",
@@ -105,7 +112,7 @@
     },
     {
       "type": "text",
-      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE -- the actual power company."
+      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE — the actual power company."
     },
     {
       "type": "text",
@@ -117,7 +124,7 @@
     },
     {
       "type": "text",
-      "value": "<a href=”https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines” target=”_blank”>NPR</a> and The Associated Press have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
+      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and <a href=’https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power’ target=’_blank’>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
     },
     {
       "type": "text",
@@ -125,7 +132,7 @@
     },
     {
       "type": "text",
-      "value": "But unlike those groups, Kayak goes out on jobs alone, save the extra set of hands he will recruit from the “EEA” for particularly difficult jobs. And he’s in places that supposedly already have electricity -- places, like Vega Baja, the power company has marked as complete, and still many lack power."
+      "value": "But unlike those groups, Kayak goes out on jobs alone, save the extra set of hands he will recruit from the “EEA” for particularly difficult jobs. And he’s in places that supposedly already have electricity — places, like Vega Baja, the power company has marked as complete, and still many lack power."
     },
     {
       "type": "text",
@@ -180,6 +187,13 @@
     {
       "type": "text",
       "value": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”",
+        "Attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
+      }
     },
     {
       "type": "text",
@@ -244,7 +258,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Prepa debt & privatization"
+        "text": "Prepa debt and privatization"
       }
     },
     {
@@ -261,15 +275,11 @@
     },
     {
       "type": "text",
-      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was unable to pay for fuel and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
+      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was <a href=’https://www.nytimes.com/2017/07/02/business/puerto-ricos-electric-power-authority-effectively-files-for-bankruptcy.html’ target=’_blank’>unable to pay for fuel</a> and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
     },
     {
       "type": "text",
-      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for fuel-purchasing irregularities."
-    },
-    {
-      "type": "text",
-      "value": "In January, Gov. Ricardo Rosselló asked the Department of Justice to investigate whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href=’http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html’ target=’blank’>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href=’https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU’ target=’_blank’>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
     },
     {
       "type": "text",
@@ -312,6 +322,13 @@
       "value": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy,\" Ramos said."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy.\"",
+        "Attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
+      }
+    },
+    {
       "type": "text",
       "value": "Ramos wants PREPA to move towards solar energy, asking that when the time comes to install solar panels, instead of using the islands rich agricultural land, that energy suppliers take advantage of roof space and make Puerto Ricans energy producers instead of holding power in private hands."
     },
@@ -351,7 +368,7 @@
     },
     {
       "type": "text",
-      "value": "“Sometimes it is as simple as taking a cable, raising it up and pinning it, that’s it,’” he said. “Even today, at six months  -- or more than six months -- there is still a lot of material lying in streets and they don’t pick it up.”"
+      "value": "“Sometimes it is as simple as taking a cable, raising it up and pinning it, that’s it,’” he said. “Even today, at six months  — or more than six months — there is still a lot of material lying in streets and they don’t pick it up.”"
     },
     {
       "type": "text",
@@ -365,7 +382,7 @@
   "step-links": {
     "step-back-name": "health",
     "step-back-title": "The Healing Brigade",
-    "step-forward-name": "biodiversity",
+    "step-forward-name": "ecology",
     "step-forward-title": "A Natural Revolution"
   }
 }
