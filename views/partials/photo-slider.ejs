@@ -1,35 +1,26 @@
-<script>
-				var captionArray = [];
-				</script>
-						<div id="photo-slider">
+<div class="tns-outer">
+	<div class="tns-inner tns-ovh tns-ah" id="autoHeight-iw" style="transition-duration: 0.4s;">
+		<div class="autoHeight my-slider tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="autoHeight" style="transform: translateX(-72%); transition-duration: 0.4s;">
+		  <div id="autoHeight-item0" class="tns-item tns-slide-active" aria-hidden="false">
+				<img src="../assets/images/photo-gallery/biodiversity/biodiversity_sl_01.jpg" class="pic img-fluid"/>
+				<p>This is a dummy caption. It has been placed here to demonstrate the look and feel of a caption. <br><small>Photo: Alexis Fairbanks</small></p>
+			</div>
+		  <div id="autoHeight-item1" class="tns-item" aria-hidden="true" tabindex="-1">
+				<img src="../assets/images/photo-gallery/biodiversity/biodiversity_sl_02.jpg" class="pic img-fluid"/>
+				<p>This is a dummy caption. It has been placed here to demonstrate the look and feel of a caption. <br><small>Photo: Alexis Fairbanks</small></p>
+			</div>
+		  <div id="autoHeight-item2" class="tns-item" aria-hidden="true" tabindex="-1">
+				<img src="../assets/images/photo-gallery/biodiversity/biodiversity_sl_03.jpg" class="pic img-fluid"/>
+				<p>This is a dummy caption. It has been placed here to demonstrate the look and feel of a caption. <br><small>Photo: Alexis Fairbanks</small></p>
+			</div>
+		</div>
+	</div>
+</div>
 
-						  <div id="custom-slider">
 
-						    <ul id="slider-ul">
-									<% for (s in body["slider-images"]){%>
-							      <li class="slider-section">
-							        <div class="pic-style">
-							          <img src="../assets/images/photo-gallery/<%=body["master-class"]["class"]%>/<%=body["slider-images"][s]["src"]%>" class="pic"/>
-							        </div>
-											<script>
-												captionArray.push("<figcaption class='pg-figcaption " + "<%=body["master-class"]["class"]%>" +"'>" +
-													"<p class='fig-descr'><%=body['slider-images'][s]['caption']%></p>" +
-													"<p class='fig-attr'>Photo by&nbsp</p>" +
-													"<p class='fig-attr'><%=body['slider-images'][s]['attribution']%></p>" +
-												"</figcaption>");
-											</script>
-							      </li>
-								<% } %>
-							</ul>
-						  </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
 
-							<div class="caption">
-								 <div class="arrow-wrapper">
-									<button class="slider-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-									<button class="slider-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-								</div>
-								<div id="inner-caption">
-								</div>
-						</div>
-							</div>
-							<script src="/js/photo-slider.js"></script>
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.js"></script>
+
+<!-- NOTE: from v2.2.1 tiny-slider.js is no longer required to be in <body> -->
