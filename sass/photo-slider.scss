@@ -89,3 +89,9 @@ button:hover {
     display: none;
   }
 }
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%;
+  }
+}

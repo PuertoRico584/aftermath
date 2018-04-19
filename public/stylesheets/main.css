@@ -1222,6 +1222,10 @@ button:hover {
   .photo-slider {
     display: none; } }
 
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%; } }
+
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
   .pollution-interactive h1, .pollution-interactive h2 {
