@@ -500,7 +500,6 @@ article,
 aside,
 details,
 figcaption,
-figure,
 footer,
 header,
 hgroup,
@@ -837,9 +836,6 @@ svg:not(:root) {
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
 
-figure {
-    margin: 0;
-}
 
 /* ==========================================================================
    Forms

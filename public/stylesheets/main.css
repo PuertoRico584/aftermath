@@ -757,8 +757,7 @@ h5 {
   z-index: 3; }
 
 #video_area {
-  position: relative;
-  max-height: 100vh; }
+  position: relative; }
 
 .video-snapper {
   top: 0px; }
@@ -1156,6 +1155,12 @@ figure {
 @media screen and (max-width: 768px) {
   #photo-gallery {
     display: none; } }
+
+@media only screen and (min-width: 1100px) {
+  .row1 {
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-count: 5; } }
 
 .slider-title {
   text-align: center; }
@@ -1836,7 +1841,6 @@ button:hover {
   .power-interactive aside,
   .power-interactive details,
   .power-interactive figcaption,
-  .power-interactive figure,
   .power-interactive footer,
   .power-interactive header,
   .power-interactive hgroup,
@@ -1964,8 +1968,6 @@ button:hover {
     /* 2 */ }
   .power-interactive svg:not(:root) {
     overflow: hidden; }
-  .power-interactive figure {
-    margin: 0; }
   .power-interactive form {
     margin: 0; }
   .power-interactive fieldset {
