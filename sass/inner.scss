@@ -436,8 +436,9 @@ animation-duration: 3s;
       text-align: center;
     }
 
-
-
+    .water, .pollution, .ecology, .health, .power {
+      background-attachment: scroll;
+    }
 }
 
 // Individual title treatments
