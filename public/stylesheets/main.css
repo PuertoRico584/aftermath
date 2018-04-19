@@ -6,7 +6,7 @@ html {
   font-size: .7em; }
 
 body {
-  font-size: 1.375em;
+  font-size: 1.475em;
   background-color: white;
   font-weight: 400;
   line-height: 1.45;
@@ -694,7 +694,7 @@ h5 {
   display: block;
   text-align: left;
   vertical-align: text-top;
-  margin-bottom: 1.3em; }
+  margin-bottom: 2.3em; }
   .inner .byline-item p {
     line-height: 0.6em;
     margin-top: 5px;
@@ -710,7 +710,7 @@ h5 {
   text-align: center; }
 
 .byline-item p.byline-head {
-  margin-top: 20px; }
+  margin-top: 5px; }
 
 .pull-quote {
   text-align: left;
@@ -937,7 +937,7 @@ h5 {
   .icon {
     height: 100px; }
   .byline-item p {
-    font-size: 10px;
+    font-size: 9px;
     text-align: center; }
   .byline-item {
     padding: 0px 5px; }
@@ -1136,6 +1136,9 @@ a {
   transform: scale(1.1); }
 
 figure {
+  margin: 2px 0px; }
+
+.photo-row figure {
   margin: 2px 0px; }
 
 .row1 {
@@ -2158,15 +2161,46 @@ a.about-social-icon {
   margin-bottom: 50px;
   position: relative; }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1091px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 6em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 8.5em !important; } }
+
+@media only screen and (max-width: 995px) {
+  .team-nav ul {
+    text-align: left; }
+  .team-nav li {
+    padding-left: 0px; }
+  .team-nav h3 {
+    text-align: left; } }
+
+@media only screen and (max-width: 940px) {
+  .title-line {
+    width: 90%; } }
+
+@media only screen and (max-width: 768px) {
   .team-nav ul {
     display: inline-block;
     text-align: center; }
   .team-nav li {
-    display: inline-block; }
-  #abouttitle-box .title-line h1 {
-    font-size: 3.2em !important; }
-  #abouttitle-box .title-line-two {
-    font-size: 4.7em !important; }
+    display: inline-block;
+    padding: 8px 0px 8px 30px; }
+  .team-nav h3 {
+    text-align: center; } }
+
+@media only screen and (max-width: 778px) {
   .title-line {
     width: 100%; } }
+
+@media only screen and (max-width: 700px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 4.4em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 6.4em !important; } }
+
+@media only screen and (max-width: 514px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 3.4em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 4.9em !important; } }
