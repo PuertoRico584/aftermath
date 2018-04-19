@@ -85,7 +85,7 @@
       "type": "pullquote",
       "value": {
         "text": "“We practically had to bring them by force — after that they never came back”",
-        "Attribution": "Maritza Ramirez Cruz"
+        "attribution": "Maritza Ramirez Cruz"
       }
     },
     {
@@ -191,8 +191,8 @@
     {
       "type": "pullquote",
       "value": {
-        "text": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”",
-        "Attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
+        "text": "“The electrical devastation was incredible, my God. One hundred percent of the electrical system collapsed.”",
+        "attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
       }
     },
     {
@@ -325,7 +325,7 @@
       "type": "pullquote",
       "value": {
         "text": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy.\"",
-        "Attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
+        "attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
       }
     },
     {

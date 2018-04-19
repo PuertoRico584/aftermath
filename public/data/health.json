@@ -83,7 +83,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Continual Healing"
+        "text": "Long-term risks"
       }
     },
     {
@@ -114,7 +114,7 @@
       "type": "pullquote",
       "value": {
         "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
-        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
+        "attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
       }
     },
     {
@@ -205,7 +205,7 @@
       "type": "pullquote",
       "value": {
         "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
-        "Attribution": "Luz Bonilla"
+        "attribution": "Luz Bonilla"
       }
     },
     {
@@ -268,7 +268,7 @@
       "type": "pullquote",
       "value": {
         "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
-        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
+        "attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
       }
     },
     {
@@ -366,8 +366,8 @@
   ],
   "step-links": {
     "step-back-name": "pollution",
-    "step-back-title": "Covered in Ash",
+    "step-back-title": "A Fight For Life",
     "step-forward-name": "power",
-    "step-forward-title": "Where’s The Light"
+    "step-forward-title": "Flipping the Switch"
   }
 }

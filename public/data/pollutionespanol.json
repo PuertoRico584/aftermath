@@ -51,11 +51,15 @@
     },
     {
       "type": "text",
-      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a five-story pile of ash on site."
+      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a <a href=’https://grist.org/article/puerto-rico-had-towering-landfills-and-coal-ash-pollution-then-maria-hit/’ target=’_blank’>five-story</a> pile of ash on site."
     },
     {
       "type": "text",
-      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the Centro de Periodismo Investigativo, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated  400,000 tons of ash to landfills in Humacao and Peñuelas (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
+      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico,"
+    },
+    {
+      "type": "text",
+      "value": "<a href=’http://periodismoinvestigativo.com/2018/03/epa-en-ruta-a-desregular-los-depositos-de-cenizas-de-carbon/’ target=’_blank’>according to the Centro de Periodismo Investigativo</a>, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated href=’http://periodismoinvestigativo.com/2018/03/epa-en-ruta-a-desregular-los-depositos-de-cenizas-de-carbon/’ target=’_blank’>400,000 tons of ash to landfills in Humacao and Peñuelas</a> (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
     },
     {
       "type": "text",
@@ -375,7 +379,7 @@
   ],
   "step-links": {
     "step-back-name": "water",
-    "step-back-title": "Dredging With Hope",
+    "step-back-title": "Rooted in El Caño",
     "step-forward-name": "health",
     "step-forward-title": "The Healing Brigade"
   }
