@@ -20,9 +20,13 @@
 
   .project {
     z-index: 1;
-    margin: 40px 30%;
+    margin: 40px 20%;
     text-align: center;
     padding-bottom: 5%;
+  }
+
+  .info {
+    clear: both;
   }
 
   .project img {
@@ -53,7 +57,7 @@
 
   #single-element {
     float: left;
-    max-width: 30%;
+    max-width: 15%;
   }
 
   #element-horiz {
@@ -69,5 +73,9 @@
 
   .pollution-interactive .project {
     margin: 2%;
+  }
+
+  .pollution-interactive #single-element {
+    max-width: 30%; 
   }
 }

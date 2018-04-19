@@ -1244,9 +1244,11 @@ button:hover {
     background-size: contain; }
   .pollution-interactive .project {
     z-index: 1;
-    margin: 40px 30%;
+    margin: 40px 20%;
     text-align: center;
     padding-bottom: 5%; }
+  .pollution-interactive .info {
+    clear: both; }
   .pollution-interactive .project img {
     max-width: 20%; }
   .pollution-interactive .project p {
@@ -1267,7 +1269,7 @@ button:hover {
     z-index: 2; }
   .pollution-interactive #single-element {
     float: left;
-    max-width: 30%; }
+    max-width: 15%; }
   .pollution-interactive #element-horiz {
     margin: 0 auto;
     max-width: 80%;
@@ -1277,7 +1279,9 @@ button:hover {
 @media screen and (max-width: 768px) {
   /* =General */
   .pollution-interactive .project {
-    margin: 2%; } }
+    margin: 2%; }
+  .pollution-interactive #single-element {
+    max-width: 30%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
