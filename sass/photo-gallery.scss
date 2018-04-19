@@ -15,6 +15,7 @@
  transition: all 0.4s ease;
 
 
+
   small {
     text-transform: uppercase;
     display: block;
@@ -83,4 +84,12 @@ figure {
   #photo-gallery {
     display: none;
   }
+}
+
+@media only screen and (min-width: 1100px) {
+    .row1 {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
 }
