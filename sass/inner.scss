@@ -3,6 +3,15 @@
   margin-top: 50px;
 }
 
+.desk-title{
+  height: 26vh;
+  width: auto;
+  margin: auto;
+}
+.phone-title{
+  height: 30vh;
+  margin: auto;
+}
 .inner {
   &-hero{
     display: flex;
@@ -91,7 +100,7 @@
       display: block;
       text-align: left;
       vertical-align: text-top;
-      margin-bottom: 1.3em;
+      margin-bottom: 2.3em;
     p{
       line-height: 0.6em;
       margin-top: 5px;
@@ -115,7 +124,7 @@
 }
 
 .byline-item p.byline-head {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
   .pull-quote {
@@ -177,7 +186,7 @@
 
 #video_area {
   position: relative;
-  max-height: 100vh;
+
 }
 
 .video-snapper {
@@ -351,7 +360,7 @@ animation-duration: 3s;
 }
 
 .plyr__control--overlaid:hover {
-  background: #348e60;
+  background: #70b8d5;
 }
 
 .plyr--full-ui input[type=range] {
@@ -422,7 +431,7 @@ animation-duration: 3s;
     }
 
     .byline-item p {
-      font-size: 10px;
+      font-size: 9px;
       text-align: center;
     }
 
@@ -436,8 +445,9 @@ animation-duration: 3s;
       text-align: center;
     }
 
-
-
+    .water, .pollution, .ecology, .health, .power {
+      background-attachment: scroll;
+    }
 }
 
 // Individual title treatments
@@ -509,3 +519,5 @@ a{
     text-decoration: none;
   }
 }
+
+// 360 styles

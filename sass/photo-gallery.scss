@@ -15,6 +15,7 @@
  transition: all 0.4s ease;
 
 
+
   small {
     text-transform: uppercase;
     display: block;
@@ -67,14 +68,24 @@ figure {
   margin: 2px 0px;
 }
 
+.photo-row figure {
+  margin: 2px 0px;
+}
+
 .row1 {
 	/* column width */
-	-moz-column-width: 20em;
-	-webkit-column-width: 20em;
+
+	-moz-column-width: 10em;
+	-webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 
 	/* space between columns */
 	-moz-column-gap: 4px;
 	-webkit-column-gap: 4px;
+  column-gap:4px;
 
 }
 

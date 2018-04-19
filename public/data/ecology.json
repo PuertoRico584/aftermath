@@ -34,7 +34,7 @@
   ],
   "upr": [
     {
-      "name": "Hyam Colon"
+      "name": "Hyam Colón"
     },
     {
       "name": "Denelys Estevez"
@@ -46,7 +46,7 @@
   "text": [
     {
       "type": "text",
-      "value": "Ian Pagán Roig went to bed on the night of September 19, 2018 not knowing what his world would look like when he woke up."
+      "value": "Ian Pagán Roig went to bed on the night of September 19, 2017 not knowing what his world would look like when he woke up."
     },
     {
       "type": "text",
@@ -143,7 +143,7 @@
     },
     {
       "type": "text",
-      "value": "Right after Hurricane Maria, Ariel Lugo, the 74-year-old director of the International Institute of Tropical forestry, went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s recovery timeline, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
+      "value": "Right after Hurricane Maria, Ariel Lugo, the 74-year-old director of the International Institute of Tropical Forestry, went into the forest to take a picture. It was of a site, identifiable by data collection instruments, that he had been photographing since the day after Hurricane Hugo hit the island 28 years ago. He wanted to document the forest’s recovery timeline, and the post-Maria picture would be the last in the series, a way to bring the project full circle."
     },
     {
       "type": "text",
@@ -156,6 +156,12 @@
     {
       "type": "text",
       "value": "They were."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "video-slider-ecology.ejs"
+      }
     },
     {
       "type": "text",
@@ -235,7 +241,7 @@
     },
     {
       "type": "text",
-      "value": "As a part of this philosophy, Pagán doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagán’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On Oct. 3, two weeks after Maria, Pagán harnessed up his oxen and started ploughing his two acres of land."
+      "value": "As a part of this philosophy, Pagán doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagán’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On Oct. 3, two weeks after Maria, Pagán harnessed up his oxen and started plowing his two acres of land."
     },
     {
       "type": "slider",
@@ -328,8 +334,8 @@
   ],
   "step-links": {
     "step-back-name": "power",
-    "step-back-title": "Where’s The Light",
+    "step-back-title": "Flipping the Switch",
     "step-forward-name": "water",
-    "step-forward-title": "Dredging With Hope"
+    "step-forward-title": "Rooted in El Caño"
   }
 }

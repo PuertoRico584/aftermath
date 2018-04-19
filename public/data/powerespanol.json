@@ -18,7 +18,7 @@
       "name": "Rob Gourley"
     },
     {
-      "name": "Ruija Zhang"
+      "name": "Ruijia Zhang"
     },
     {
       "name": "Alexis Fairbanks"
@@ -55,7 +55,7 @@
     },
     {
       "type": "text",
-      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, that transfer electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
     },
     {
       "type": "text",
@@ -71,11 +71,11 @@
     },
     {
       "type": "text",
-      "value": "They begged the PREPA employees to help move the downed wires which would allow her mother to get out of the house and allow them to use their car."
+      "value": "They begged the PREPA employees to help move the downed wires, which would allow her mother to get out of the house and allow them to use their car."
     },
     {
       "type": "text",
-      "value": "The workers moved the wires just enough to let the rest of their family into the yard and give them access to the garage. The men laid the wires between the pickets of the fence, stringing them mid-air about five feet off the ground across the front entrance of the house. That was the last time they saw anyone from the power authority."
+      "value": "The workers moved the wires just enough to let the rest of their family into the yard and give them access to the garage. The men laid the wires between the pickets of the fence, stringing them mid-air across the front entrance of the house about five feet off the ground. That was the last time they saw anyone from the power authority."
     },
     {
       "type": "text",
@@ -85,12 +85,12 @@
       "type": "pullquote",
       "value": {
         "text": "“We practically had to bring them by force — after that they never came back”",
-        "Attribution": "Maritza Ramirez Cruz"
+        "attribution": "Maritza Ramirez Cruz"
       }
     },
     {
       "type": "text",
-      "value": "For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard."
+      "value": "For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that had fallen. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard."
     },
     {
       "type": "text",
@@ -98,11 +98,11 @@
     },
     {
       "type": "text",
-      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to work, maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
+      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to do her work, which includes maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
     },
     {
       "type": "text",
-      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga her with Kayak."
+      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga told her about Kayak."
     },
     {
       "type": "video",
@@ -120,15 +120,15 @@
     },
     {
       "type": "text",
-      "value": "But it’s not just them. They aren’t the only ones who feels like they need to step in. Desperation across Puerto Rico has forced people to pick up wires themselves."
+      "value": "But it’s not just them. They aren’t the only ones who feel like they need to step in. Desperation across Puerto Rico has forced people to pick up wires themselves."
     },
     {
       "type": "text",
-      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and <a href=’https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power’ target=’_blank’>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino on the far west side of the island to Coamo in the deep south where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
+      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and <a href=’https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power’ target=’_blank’>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino, on the far west side of the island, to Coamo, deep in the south, where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
     },
     {
       "type": "text",
-      "value": "Volunteers include police chiefs, former utility workers, teachers and accountants. They have managed to restore power to thousands of homes through large brigades."
+      "value": "Their workers include volunteers from police chiefs, former utility workers, teachers and accountants. They have managed to restore power to thousands of homes through large brigades."
     },
     {
       "type": "text",
@@ -144,12 +144,12 @@
     },
     {
       "type": "text",
-      "value": "Homes like theirs have fallen through the cracks, since everyone around them already had electricity restored."
+      "value": "Homes like theirs have fallen through the cracks, since everyone around them has already had electricity restored."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Why did Tito start & Power Grid"
+        "Text": "The first connection"
       }
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "type": "text",
-      "value": "Kayak lives a minimalist lifestyle, because of lack of resources. He drives his daughter's green Jeep Grand Cherokee because he doesn’t own a car and straps on a borrowed silver extension ladder with thick yellow straps to the roof rack. He uses a makeshift pulley system to extend the ladder by tugging on the straps, eliminating his need for a partner."
+      "value": "Kayak lives a minimalist lifestyle, partly due to lack of resources. He doesn’t own a car, driving his daughter's green Jeep Grand Cherokee and strapping on a borrowed silver extension ladder with thick yellow ties to the roof rack. He uses a makeshift pulley system to extend the ladder by tugging on the straps, eliminating his need for a partner."
     },
     {
       "type": "text",
@@ -166,7 +166,7 @@
     },
     {
       "type": "text",
-      "value": "Kayak is an independent contractor who has been performing electrical work since he was 14. He typically works for local businesses and sometimes gets one-time contracts from large corporations, but currently spends most of his time restoring power to houses that still lack it following the storms."
+      "value": "Kayak is an independent contractor who has been performing electrical work since he was 14. He typically works for local businesses and sometimes gets one-time contracts from large corporations, but he currently spends most of his time restoring power to houses that still lack it following the storms."
     },
     {
       "type": "text",
@@ -182,7 +182,7 @@
     },
     {
       "type": "text",
-      "value": "Puerto Rico’s power grid is something that keeps coming up in the news as a main reason for the islands inability to regain and maintain electricity after the storms. Through the restoration process, sporadic blackouts have been a testament to the fragility of the commonwealth's power grid."
+      "value": "Puerto Rico’s power grid continues to be discussed as a main reason for the islands inability to regain and maintain electricity after the storms. Through the restoration process, sporadic blackouts have been a testament to the fragility of the commonwealth's power grid."
     },
     {
       "type": "text",
@@ -191,8 +191,8 @@
     {
       "type": "pullquote",
       "value": {
-        "text": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”",
-        "Attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
+        "text": "“The electrical devastation was incredible, my God. One hundred percent of the electrical system collapsed.”",
+        "attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
       }
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. PREPA’s and other officials estimate that power may be fully restored until May."
+      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. PREPA’s and other officials estimate that power may not be fully restored until May."
     },
     {
       "type": "interactive",
@@ -215,11 +215,11 @@
     },
     {
       "type": "text",
-      "value": "PREPA's increasing debt due to years of fiscal and ethical problems, have left the company running on equipment nearly three times older than the national industry average. This means the hurricane-damaged equipment that repair crews are attempting to fix, has been long-overdue for replacement."
+      "value": "PREPA's increasing debt due to years of fiscal and ethical problems has left the company running on equipment nearly three times older than the national industry average. This means the hurricane-damaged equipment that repair crews are attempting to fix, has been long-overdue for replacement."
     },
     {
       "type": "text",
-      "value": "With about 80 percent of the electrical grid destroyed, it will take time just to rebuild the system, especially in the mountainous regions, not to mention accounting for the amount of time needed to restore power to everyone's homes."
+      "value": "With about 80 percent of the electrical grid destroyed, it will take time just to rebuild the system, especially in the mountainous regions-- not to mention accounting for the amount of time needed to restore power to everyone's homes."
     },
     {
       "type": "text",
@@ -258,7 +258,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Prepa debt and privatization"
+        "text": "PREPA debt and privatization"
       }
     },
     {
@@ -325,7 +325,7 @@
       "type": "pullquote",
       "value": {
         "text": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy.\"",
-        "Attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
+        "attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
       }
     },
     {
@@ -339,7 +339,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Tito’s work"
+        "Text": "Tito’s work"
       }
     },
     {

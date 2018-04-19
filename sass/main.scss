@@ -6,7 +6,7 @@
 html {font-size:.7em;}
 
 body {
-  font-size: 1.375em;
+  font-size: 1.475em;
   background-color: white;
   font-weight: 400;
   line-height: 1.45;
@@ -21,7 +21,7 @@ body a{
 }
 
 p {margin-bottom: 1.3em;
-line-height: 2em;}
+line-height: 1.7em;}
 
 h1, h2, h3, h4 {
   font-family: $heading-font;
@@ -322,6 +322,7 @@ left: 50%;
 @import 'photo-gallery';
 @import 'photo-slider';
 @import 'pollution-interactive';
+@import 'water-interactive2';
 @import 'power-interactive';
 @import 'ecology-interactive';
 @import 'about';

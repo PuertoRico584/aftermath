@@ -4,12 +4,13 @@
   position: relative;
 }
 .box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   width: 100px;
   padding: 10px;
   border-radius: 10px;
 }
+
 .three {
   left: 20%;
   bottom: 200px;
@@ -18,6 +19,8 @@
   right: 50%;
   bottom: 200px;
 }
+
+
 .one {
   right: 30%;
   bottom: 200px;
@@ -30,7 +33,10 @@
   margin-bottom: 0px;
   padding-bottom: 5px;
   color: #6c6c6c;
+
 }
+
+
 .pulse {
 box-shadow: 0 0 0 rgba(204,169,44, 0.4);
 animation: pulse 2s infinite;
@@ -145,6 +151,7 @@ transform: scale(1.1);
   .zoomViewport {
     margin:0px;
     padding:0px;
+    height: 380px;
   }
 
   .house p{
@@ -152,21 +159,28 @@ transform: scale(1.1);
   }
 
 }
+
+@media only screen and (max-width: 450px) {
+  .zoomViewport {
+    height: 280px;
+  }
+}
+
 </style>
 
         <div class="row interactive">
-            <div class="col-sm-12 col-md-3 interactive-title">
+            <div class="col-sm-12 offset-md-1 col-md-3 interactive-title">
               <h3>Money In, Money Out</h3>
               <p>Congress approved <strong>$15 billion</strong> for the U.S. Corps of Engineers in February 2018. Of that, $10 billion are for the recovery efforts of Hurricanes Harvey, Maria and Irma.</p>
               <p>Proyecto Enlace is asking the federal government to allocate $800 million to repair El Caño. That is only 5.3 percent of the funding.</p>
               <p class="house-text">Click on a section to see how the money will be used.</p>
             </div>
-          <div class="zoomViewport col-sm-12 col-md-9">
+          <div class="zoomViewport col-sm-12 col-md-8">
           <div class="house zoomContainer">
             <img src="../assets/images/house.png" alt="house" width="100%" height="auto" onclick="switchBack()">
               <div class="box one zoomTarget pulse" onclick="switchContent1()">
               <i class="fa fa-home"></i>
-              <h1>Housing and Development</h1>
+              <h1>Housing</h1>
               <p id="text1">$275 million dollars will go towards the efforts of relocating the community members and redeveloping the area after dredging El Caño. </p>
               </div>
               <div class="box two zoomTarget pulse" onclick="switchContent2()">

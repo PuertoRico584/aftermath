@@ -51,33 +51,23 @@
     },
     {
       "type": "text",
-      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a five-story pile of ash on site."
+      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a <a href=‘https://grist.org/article/puerto-rico-had-towering-landfills-and-coal-ash-pollution-then-maria-hit/’ target=‘_blank’>five-story</a> 430,000-ton stockpile of “coal combustion residuals” on site."
     },
     {
       "type": "text",
-      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the Centro de Periodismo Investigativo, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated  400,000 tons of ash to landfills in Humacao and Peñuelas (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "ash-pile-interactive.ejs"
-      }
+      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the <a href=’http://periodismoinvestigativo.com/2018/03/epa-en-ruta-a-desregular-los-depositos-de-cenizas-de-carbon/’ target=’_blank’>Centro de Periodismo Investigativo</a>, a nonprofit center for investigative journalism in Puerto Rico. Timmy Boyle, the spokesperson of this protest group, Alianza Comunitaria Ambiental del Sureste, or ACASE, estimates the plant has sent <a href=’http://periodismoinvestigativo.com/2018/03/epa-en-ruta-a-desregular-los-depositos-de-cenizas-de-carbon/’ target=’_blank’>400,000 tons</a> of ash to landfills in Humacao and Peñuelas. Another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
     },
     {
       "type": "text",
-      "value": "The Environmental Protection Agency has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can leach into groundwater and soil, and breathing the dust can cause respiratory issues."
+      "value": "The <a href=’https://nepis.epa.gov/Exe/ZyNET.exe?Client=EPA&Index=2011+Thru+2015&Docs=&Query=%28cancer%29+OR+FNAME%3D%22P100G02B.txt%22+AND+FNAME%3D%22P100G02B.txt%22&FuzzyDegree=0&ZyAction=ZyActionD&User=ANONYMOUS&Password=anonymous&SortMethod=h%7C-&MaximumDocuments=1&ImageQuality=r75g8%2Fr75g8%2Fx150y150g16%2Fi425&Display=hpfr&DefSeekPage=x&Time=&EndTime=&SearchMethod=1&Toc=&TocEntry=&TocRestrict=n&QField=&QFieldYear=&QFieldMonth=&QFieldDay=&UseQField=&IntQFieldOp=0&ExtQFieldOp=0&XmlQuery=&SearchBack=ZyActionL&Back=ZyActionS&BackDesc=Results+page&MaximumPages=1&ZyEntry=&SeekPage=x&ZyActionID=&File=D%3A%5C%5CZYFILES%5C%5CINDEX+DATA%5C%5C11THRU15%5C%5CTXT%5C%5C00000006%5C%5CP100G02B.txt&Doc=%3Cdocument+name%3D%22P100G02B.txt%22+path%3D%22D%3A%5CZYFILES%5CINDEX+DATA%5C11THRU15%5CTXT%5C00000006%5C%22+index%3D%222011+Thru+2015%22%2F%3E&QueryTerms’ target=’_blank’>Environmental Protection Agency</a> has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can <a href=’http://www.psr.org/assets/pdfs/coal-ash.pdf’ target=’_blank’>leach into groundwater and soil</a>, and breathing the <a href=’https://earthjustice.org/sites/default/files/files/Ash_In_Lungs_1.pdf’ target=’_blank’>dust can</a> cause respiratory issues."
     },
     {
       "type": "text",
-      "value": "Exposure to the chemicals in coal ash has been linked to bladder, stomach, skin, lung and kidney cancers,  asthma, emphysema and infertility, according to a 2010 study by Physicians for Social Responsibility. The ash is also radioactive, and long-term exposure to radiation can result in cancer and genetic issues, the EPA has found."
+      "value": "Exposure to the chemicals in coal ash has been linked to bladder, stomach, skin, lung and kidney cancers, asthma, emphysema and infertility, according to a 2010 study by Physicians for Social Responsibility. <a href=’http://periodismoinvestigativo.com/wp-content/uploads/2016/03/TestAmerica-1.pdf’ target=’_blank’>The ash is also radioactive</a>, and long-term exposure to radiation can result in cancer and genetic issues, <a href=’http://periodismoinvestigativo.com/wp-content/uploads/2016/03/TestAmerica-1.pdf’ target=’_blank’>the EPA has found.</a> Many of the protesters gathered at the Humacao landfill this balmy morning say they’ve already seen these health effects in their friends and relatives."
     },
     {
       "type": "text",
-      "value": "Many of the protesters gathered at the Humacao landfill this balmy morning say they’ve already seen these health effects in their friends and relatives."
-    },
-    {
-      "type": "text",
-      "value": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone,” said Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste, or ACASE, speaking into a makeshift speaker system from the top of a red pickup truck."
+      "value": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone,” said Boyle, speaking into a makeshift speaker system from the top of a red pickup truck."
     },
     {
       "type": "pullquote",
@@ -88,7 +78,7 @@
     },
     {
       "type": "text",
-      "value": "It’s been more than a year since new coal ash was dumped in the landfill, but ACASE believes the dumping will resume soon, as the island’s coal-burning plant returns to its level of generation pre-hurricane (TK for specific level of generation — full?). They want to stop it before it starts again, and demand the closure of the plant and an end to ash deposits in Puerto Rico."
+      "value": "It’s been more than a year since new coal ash was dumped in the landfill, but ACASE believes the dumping will resume soon, as the island’s coal-burning plant returns to its level of generation pre-hurricane. They want to stop it before it starts again, and demand the closure of the plant and an end to ash deposits in Puerto Rico."
     },
     {
       "type": "text",
@@ -109,23 +99,23 @@
     },
     {
       "type": "text",
-      "value": "When Hurricane María made landfall in Puerto Rico on Sept. 20, it destroyed the island’s power grid, rendering the AES plant in Guayama, the island’s sole coal-burning power plant, inoperable for five days (TK — taken from this article, but is it valid?)."
+      "value": "When Hurricane María made landfall in Puerto Rico on Sept. 20, it destroyed the island’s power grid, rendering the AES plant in Guayama, the island’s <a href=’https://www.eia.gov/state/analysis.php?sid=RQ#71’ target=’_blank’>sole coal-burning power plant</a>, inoperable for five days (TK — taken from this article, but is it valid?)."
     },
     {
       "type": "text",
-      "value": "Though the Puerto Rican Board of Environmental Quality ordered AES to cover its ash piles before the hurricane, it did not. The largest ash piles, in Guayama and Peñuelas, lost meters of  ash in the storm, and ashes floated free all over the island, turning the air gray and contaminating the groundwater with heavy metals and radioactivity, according to the newspaper El Nuevo Día and a study for AES released earlier this year. AES could face fines of up to $75,000 for failing to cover the ash, according to an article from September, but there has been little update since."
+      "value": "Though the Puerto Rican Board of Environmental Quality ordered AES to cover its ash piles before the hurricane, it did not. The largest ash piles, in Guayama and Peñuelas,<a href=’http://cb.pr/preocupa-situacion-de-cenizas-tras-paso-de-huracan-maria/’ target=’_blank’>lost meters of</a> ash in the storm, and ashes floated free all over the island, turning the air gray and contaminating the groundwater with heavy metals and radioactivity, <a href=’https://www.elnuevodia.com/noticias/locales/nota/ambientalistasexigenresponsabilidadaaesporcontaminarelagua-2413103/’ target=’_blank’>according to the newspaper El Nuevo Día</a> and a <a href=’http://periodismoinvestigativo.com/wp-content/uploads/2018/03/2017_01_31_AES_Groundwater-Monitoring-and-Corrective-Action_Annual-Report.pdf’ target=’_blank’>study for AES</a> released earlier this year. AES could face fines of up to $75,000 for failing to cover the ash, according to an article from September, but there has been little update since."
     },
     {
       "type": "text",
-      "value": "While the storm brought new attention to the coal ash here, the movement against it is much older. AES used to send its coal ash to Santo Domingo, the Dominican Republic — they brought 57,000 tons of ash there between 2003 and 2004 — until residents of the municipality Arroyo Barril filed a lawsuit to stop it in 2009, citing concerns about miscarriages and birth defects, according to the Centro de Periodismo Investigativo. AES stopped depositing ash in the Dominican Republic, and now primarily deposits it in Puerto Rico (TK a definitive timeline...hard to find a definitive one); however, an April 11 article from the newspaper La Perla states AES is shipping an undisclosed tonnage of ashes to Jacksonville, Florida."
+      "value": "While the storm brought new attention to the coal ash here, the movement against it is much older. AES used to send its coal ash to Santo Domingo, the Dominican Republic — <a href=’http://periodismoinvestigativo.com/2018/03/epa-en-ruta-a-desregular-los-depositos-de-cenizas-de-carbon/’ target=’_blank’>they brought 57,000 tons of ash there between 2003 and 2004</a> — until residents of the municipality Arroyo Barril filed a lawsuit to stop it in 2009, citing concerns about miscarriages and birth defects, <a href=’http://periodismoinvestigativo.com/2016/04/aes-transa-multimillonaria-demanda-por-danos/’ target=’_blank’>according to the Centro de Periodismo Investigativo</a>. AES stopped depositing ash in the Dominican Republic, and now primarily deposits it in Puerto Rico (TK a definitive timeline...hard to find a definitive one); however, an <a href=’https://docs.google.com/document/d/1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40/edit’ target=’_blank’>April 11 article from the newspaper La Perla</a> states AES is shipping an undisclosed tonnage of ashes to Jacksonville, Florida."
     },
     {
       "type": "text",
-      "value": "The Puerto Rican legislature approved a new law last July that prohibits the disposal of coal ash on the island. Coal plant operators would have 180 days from the production to remove the ash — which could be done by converting it to cement, concrete or another commercially beneficial use."
+      "value": "The Puerto Rican legislature approved <a href=’http://rec-end.gfrcdn.net/docs/editor/ley-40-04-Jul-2017.pdf’ target=’_blank’>a new law last July</a> that prohibits the disposal of coal ash on the island. Coal plant operators would have 180 days from the production to remove the ash — which could be done by converting it to cement, concrete or another commercially beneficial use."
     },
     {
       "type": "text",
-      "value": "But many say the new law is ineffectual. AES does not consider its coal combustion residuals to be coal ash. It’s a mix of ash and water they call “AGREMAX” that can be used in construction. This classification has resulted in the continued storage of thousands of tons of coal ash on the island."
+      "value": "But many say the new law <a href=’https://www.elnuevodia.com/noticias/locales/nota/elestatutosobrelascenizasnotieneunefectopractico-2339999/’ target=’_blank’>is ineffectual</a>. AES does not consider its coal combustion residuals to be coal ash. It’s <a href=’http://cb.pr/10-cosas-que-debes-saber-sobre-el-agremax-y-su-uso-en-puerto-rico/’target=’_blank’>a mix of ash and water they call “Agremax”</a> that can be used in construction. This classification has resulted in the continued storage of thousands of tons of coal ash on the island."
     },
     {
       "type": "interactive",
@@ -135,11 +125,11 @@
     },
     {
       "type": "text",
-      "value": "The Environmental Protection Agency also issued new rules for coal ash disposal in December 2014 that called for the closure of impoundments and landfills that don’t comply with engineering and  structural standards. The new rule classified coal ash as non-hazardous industrial solid waste, and leave the enforcement largely up to states and local governments."
+      "value": "The Environmental Protection Agency also issued <a href=’https://www.epa.gov/coalash/coal-ash-rule’ target=’_blank’>new rules</a> for coal ash disposal in December 2014 that called for the closure of impoundments and landfills that don’t comply with engineering and  structural standards. The new rule classified coal ash as non-hazardous industrial solid waste, and leave the enforcement largely up to states and local governments."
     },
     {
       "type": "text",
-      "value": "For Puerto Rican activists, the storm has reinvigorated concerns about how coal ash will be handled on the island going forward -- as well as the pressure on the government to find a solution."
+      "value": "For Puerto Rican activists, the storm has reinvigorated concerns about how coal ash will be handled on the island going forward — as well as the pressure on the government to find a solution."
     },
     {
       "type": "subhead",
@@ -161,7 +151,7 @@
     },
     {
       "type": "text",
-      "value": "Moreno is the spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas, where the local landfill has also been receiving ash from the AES plant. The Peñuelas Valley Landfill was cited by Puerto Rican news organization Metro in August as containing 12 thousand tons of coal ash transported from the AES plant in Guayama (TK checking definitive figures of tonnages — this suggests a higher number than before, 393k tons)."
+      "value": "Moreno is the spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas, where the local landfill has also been receiving ash from the AES plant. The Peñuelas Valley Landfill was <a href=’https://www.metro.pr/pr/noticias/2017/08/24/sobre-12-mil-toneladas-de-cenizas-se-han-depositado-en-penuelas.html’ target=’_blank’>cited by Puerto Rican news organization Metro in August as containing 12 thousand tons of coal ash</a> transported from the AES plant in Guayama (TK checking definitive figures of tonnages — this suggests a higher number than before, 393k tons)."
     },
     {
       "type": "text",
@@ -189,7 +179,7 @@
     },
     {
       "type": "text",
-      "value": "Six of her neighbors died of cancer and respiratory illnesses in a span of just three weeks last summer, she said. Moreno and other protesters suspect the ash is making people sick in a town that has the third-highest rate of cancer on the island, according to the Cancer Register of Puerto Rico."
+      "value": "Six of her neighbors died of cancer and respiratory illnesses in a span of just three weeks last summer, she said. Moreno and other protesters suspect the ash is making people sick in a town that has the third-highest rate of cancer on the island, according to the <a href=’http://www.rcpr.org:81/’ target=’_blank’>Cancer Register of Puerto Rico</a>."
     },
     {
       "type": "text",
@@ -331,7 +321,7 @@
     },
     {
       "type": "text",
-      "value": "Protest groups from across southeast Puerto Rico are present, including Campamento Contra Cenizas de Carbón and ACASE. The air thrums with a sense of urgency. A few days before, news had broken about the presence of chemicals and radioactive materials in groundwater near AES’s plant in Guayama, evidence that the coal ash was leaching these chemicals into the environment."
+      "value": "Protest groups from across southeast Puerto Rico are present, including Campamento Contra Cenizas de Carbón and ACASE. The air thrums with a sense of urgency. A few days before, <a href=’http://periodismoinvestigativo.com/2018/03/los-toxicos-de-las-cenizas-de-aes-estan-contaminando-aguas-subterraneas/’ target=’_blank’>news had broken about the presence of chemicals and radioactive materials</a> in groundwater near AES’s plant in Guayama, evidence that the coal ash was leaching these chemicals into the environment."
     },
     {
       "type": "text",
@@ -346,12 +336,25 @@
       "value": "“The problem of the ashes is real,” she said."
     },
     {
+      "type": "video",
+      "value": {
+        "id": "265289787",
+        "is360": "true"
+      }
+    },
+    {
       "type": "text",
       "value": "The groups had penned a letter with a list of demands and planned to deliver it to the Senate President Thomas Rivera Schatz outlining their list of demands."
     },
     {
       "type": "text",
       "value": "“We are demanding, among other things, first that the Department of Health and the Board of Environmental Quality intervene immediately in the contamination,” said Víctor Alvarado, the spokesperson for the Comité Diálogo Ambiental de Salinas, an environmental advocacy group from Salinas, a town along the path the ash trucks took from Guayama to Peñuelas."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "ash-pile-interactive.ejs"
+      }
     },
     {
       "type": "text",
@@ -368,7 +371,7 @@
   ],
   "step-links": {
     "step-back-name": "water",
-    "step-back-title": "Dredging With Hope",
+    "step-back-title": "Rooted in El Caño",
     "step-forward-name": "health",
     "step-forward-title": "The Healing Brigade"
   }

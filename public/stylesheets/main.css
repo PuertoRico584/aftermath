@@ -6,7 +6,7 @@ html {
   font-size: .7em; }
 
 body {
-  font-size: 1.375em;
+  font-size: 1.475em;
   background-color: white;
   font-weight: 400;
   line-height: 1.45;
@@ -20,7 +20,7 @@ body a {
 
 p {
   margin-bottom: 1.3em;
-  line-height: 2em; }
+  line-height: 1.7em; }
 
 h1, h2, h3, h4 {
   font-family: "Quasimoda", sans-serif;
@@ -281,6 +281,9 @@ header {
 body, html {
   height: 100%; }
 
+#navButton {
+  background: transparent; }
+
 .homepage {
   background-image: url("../assets/images/option1.jpg");
   background-size: cover;
@@ -345,9 +348,14 @@ body, html {
 .homepage-logo {
   margin-top: 5%;
   text-align: center;
-  height: 100px; }
+  height: 100px;
+  font-weight: 100; }
   .homepage-logo img {
-    width: 25%; }
+    width: 29%; }
+  .homepage-logo p {
+    position: relative;
+    right: -32px;
+    top: -6px; }
   @media (max-width: 1020px) {
     .homepage-logo {
       margin-top: 30vh;
@@ -361,7 +369,8 @@ body, html {
     .homepage-logo img {
       width: 75%; }
     .homepage-logo p {
-      font-size: 1em; } }
+      font-size: 0.95em;
+      right: -26px; } }
 
 .homepage-icon-row {
   display: flex;
@@ -389,7 +398,7 @@ body, html {
 
 .homepage-subtitle {
   color: white;
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
 
 /* ------------------  NAV BAR ------------------ */
@@ -426,6 +435,9 @@ body, html {
 
 .nav-up {
   top: -60px; }
+
+.navbar-nav {
+  width: auto; }
 
 @media (max-width: 1280px) {
   .navbar-nav {
@@ -481,6 +493,10 @@ body, html {
   @media (max-width: 320px) {
     .nav-item {
       width: 92px; } }
+  @media (min-width: 1280px) {
+    .nav-item {
+      padding-left: 30px;
+      padding-right: 30px; } }
 
 .nav-link {
   color: white !important;
@@ -629,6 +645,15 @@ h5 {
 .text-row {
   margin-top: 50px; }
 
+.desk-title {
+  height: 26vh;
+  width: auto;
+  margin: auto; }
+
+.phone-title {
+  height: 30vh;
+  margin: auto; }
+
 .inner-hero {
   display: flex;
   justify-content: center;
@@ -694,7 +719,7 @@ h5 {
   display: block;
   text-align: left;
   vertical-align: text-top;
-  margin-bottom: 1.3em; }
+  margin-bottom: 2.3em; }
   .inner .byline-item p {
     line-height: 0.6em;
     margin-top: 5px;
@@ -710,7 +735,7 @@ h5 {
   text-align: center; }
 
 .byline-item p.byline-head {
-  margin-top: 20px; }
+  margin-top: 5px; }
 
 .pull-quote {
   text-align: left;
@@ -750,8 +775,7 @@ h5 {
   z-index: 3; }
 
 #video_area {
-  position: relative;
-  max-height: 100vh; }
+  position: relative; }
 
 .video-snapper {
   top: 0px; }
@@ -895,7 +919,7 @@ h5 {
   background: #55707b; }
 
 .plyr__control--overlaid:hover {
-  background: #348e60; }
+  background: #70b8d5; }
 
 .plyr--full-ui input[type=range] {
   color: #55707b; }
@@ -937,13 +961,15 @@ h5 {
   .icon {
     height: 100px; }
   .byline-item p {
-    font-size: 10px;
+    font-size: 9px;
     text-align: center; }
   .byline-item {
     padding: 0px 5px; }
   .inner .byline-head {
     font-size: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .water, .pollution, .ecology, .health, .power {
+    background-attachment: scroll; } }
 
 #water-header .title-line-two {
   font-size: 9.3em; }
@@ -1138,13 +1164,21 @@ a {
 figure {
   margin: 2px 0px; }
 
+.photo-row figure {
+  margin: 2px 0px; }
+
 .row1 {
   /* column width */
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
   /* space between columns */
   -moz-column-gap: 4px;
-  -webkit-column-gap: 4px; }
+  -webkit-column-gap: 4px;
+  column-gap: 4px; }
 
 @media screen and (max-width: 768px) {
   #photo-gallery {
@@ -1189,7 +1223,6 @@ button {
   background-color: black;
   border: none;
   border-radius: 5px;
-  color: white;
   padding: 4%;
   margin: 2%;
   text-align: center;
@@ -1219,8 +1252,12 @@ button:hover {
   padding: 0px !important; }
 
 @media screen and (min-width: 768px) {
-  .tns-outer {
+  .photo-slider {
     display: none; } }
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%; } }
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
@@ -1237,9 +1274,11 @@ button:hover {
     background-size: contain; }
   .pollution-interactive .project {
     z-index: 1;
-    margin: 40px 30%;
+    margin: 40px 20%;
     text-align: center;
     padding-bottom: 5%; }
+  .pollution-interactive .info {
+    clear: both; }
   .pollution-interactive .project img {
     max-width: 20%; }
   .pollution-interactive .project p {
@@ -1260,7 +1299,7 @@ button:hover {
     z-index: 2; }
   .pollution-interactive #single-element {
     float: left;
-    max-width: 30%; }
+    max-width: 15%; }
   .pollution-interactive #element-horiz {
     margin: 0 auto;
     max-width: 80%;
@@ -1270,7 +1309,23 @@ button:hover {
 @media screen and (max-width: 768px) {
   /* =General */
   .pollution-interactive .project {
-    margin: 2%; } }
+    margin: 2%; }
+  .pollution-interactive #single-element {
+    max-width: 30%; } }
+
+.water-interactive .water-left-side button {
+  background-color: #359766;
+  color: black;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  width: 50%;
+  text-transform: uppercase; }
+
+.water-interactive #imagearea {
+  margin-top: 65px;
+  margin-bottom: 60px; }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
@@ -1561,10 +1616,10 @@ button:hover {
     color: white;
     font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
-    width: 28%;
+    width: 50%;
     height: auto;
     margin: auto;
-    margin-left: 35%; }
+    margin-left: 25%; }
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
@@ -1656,21 +1711,36 @@ button:hover {
     color: white;
     font-family: "quasimoda",sans-serif;
     text-align: center; }
-  .power-interactive #project01 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project02 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project03 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project04 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project05 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project01 {
+    background-image: url("../assets/images/power-interactive/lights-1.png");
+    background-size: cover; }
+    .power-interactive #project01 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project02 {
+    background-image: url("../assets/images/power-interactive/lights-2.png");
+    background-size: cover; }
+    .power-interactive #project02 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project03 {
+    background-image: url("../assets/images/power-interactive/lights-3.png");
+    background-size: cover; }
+    .power-interactive #project03 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project04 {
+    background-image: url("../assets/images/power-interactive/lights-4.png");
+    background-size: cover; }
+    .power-interactive #project04 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project05 {
+    background-image: url("../assets/images/power-interactive/lights-5.png");
+    background-size: cover; }
+    .power-interactive #project05 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
   .power-interactive #main {
     position: relative;
     /* background-color: #000; */ }
@@ -1796,7 +1866,6 @@ button:hover {
   .power-interactive aside,
   .power-interactive details,
   .power-interactive figcaption,
-  .power-interactive figure,
   .power-interactive footer,
   .power-interactive header,
   .power-interactive hgroup,
@@ -1924,8 +1993,6 @@ button:hover {
     /* 2 */ }
   .power-interactive svg:not(:root) {
     overflow: hidden; }
-  .power-interactive figure {
-    margin: 0; }
   .power-interactive form {
     margin: 0; }
   .power-interactive fieldset {
@@ -2015,7 +2082,7 @@ button:hover {
 #imagesequence {
   margin-left: 0px; }
   #imagesequence #myimg {
-    width: 90%;
+    width: 100%;
     height: auto; }
 
 .side-title {
@@ -2158,15 +2225,50 @@ a.about-social-icon {
   margin-bottom: 50px;
   position: relative; }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1170px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 6em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 8.5em !important; } }
+
+@media only screen and (max-width: 995px) {
+  .team-nav ul {
+    text-align: left; }
+  .team-nav li {
+    padding-left: 0px; }
+  .team-nav h3 {
+    text-align: left; } }
+
+@media only screen and (max-width: 1100px) {
+  .title-line {
+    width: 90%; } }
+
+@media only screen and (max-width: 768px) {
   .team-nav ul {
     display: inline-block;
     text-align: center; }
   .team-nav li {
-    display: inline-block; }
-  #abouttitle-box .title-line h1 {
-    font-size: 3.2em !important; }
-  #abouttitle-box .title-line-two {
-    font-size: 4.7em !important; }
+    display: inline-block;
+    padding: 8px 0px 8px 30px; }
+  .team-nav h3 {
+    text-align: center; } }
+
+@media only screen and (max-width: 900px) {
   .title-line {
-    width: 100%; } }
+    width: 100%; }
+  #abouttitle-box .title-line h1 {
+    font-size: 4.1em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 6.0em !important; } }
+
+@media only screen and (max-width: 700px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 4.1em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 6.0em !important; } }
+
+@media only screen and (max-width: 580px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 3.1em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 4.8em !important; } }

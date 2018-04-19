@@ -2,14 +2,18 @@
 	<div class="<%= body["master-class"]["class"] %>">
 		<div class="title-line">
 			<div class="row offset-sm-1 inner-title">
-				<div class="col-sm-3 icon">
+				<img class="desk-title img-fluid hidden-sm-down" src="assets/images/story-titles/<%= body["master-class"]["class"]%>-desktop.png">
+				<img class="phone-title img-fluid hidden-md-up" src="assets/images/story-titles/<%= body["master-class"]["class"]%>-phone.png">
+
+
+				<!-- <div class="col-sm-3 icon">
 					<img class="img-fluid" src="assets/images/homepage-icons/<%= body["master-class"]["class"] %>.png">
 					<!-- <img src="/assets/images/<%= body["master-class"]["class"] %>-title.png"> -->
-				</div>
+				<!-- </div>
 				<div class="col-sm-9" id="<%=body["master-class"]["class"]%>-header">
 					<h1><%=body["header"]["title-line-one"]%><span style="display: none"><%=body["header"]["title-line-two"]%></span></h1>
 					<p class="title-line-two"><%=body["header"]["title-line-two"] %></p>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="deck">
@@ -61,11 +65,11 @@
 				<div id="video-top"></div>
 			</div>
 		</section>
-	</div>
 
 
 <% include ../partials/video.ejs %>
-</div>
+
+
 <div class="row">
 	<div class="left-box col-4"></div>
 	<section class="col-md-6">
@@ -94,7 +98,6 @@
 							 	<div class="left-box col-4"></div>
 								<section class="col-md-6">
 
-			<!-- This is the lil bit of code that is killing my spirit. -->
 			<% var filepath = body["text"][i]["value"]["filename"] %>
 
 			<% } else if (body["text"][i]["type"] == "pullquote") {%>
@@ -112,7 +115,6 @@
       <% } else if (body["text"][i]["type"] == "image") { %>
     </section>
 </div>
-
-
+</div>
 
 		<%} } %>
