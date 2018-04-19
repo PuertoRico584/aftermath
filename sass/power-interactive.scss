@@ -111,11 +111,11 @@
     font-family: "Source Sans Pro", sans-serif;
   }
   .battery{
-    width: 28%;
+    width: 50%;
     height: auto;
     margin: auto;
     // text-align: center;
-    margin-left: 35%;
+    margin-left: 25%;
   }
   .testing{
     margin: auto;
@@ -255,25 +255,45 @@ body {
     font-family: "quasimoda",sans-serif;
     text-align: center;
 }
-#project01 h2 {
+#project01{
+  background-image: url('../assets/images/power-interactive/lights-1.png');
+  background-size: cover;
+  h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+  }
 }
-#project02 h2 {
+#project02 {
+  background-image: url('../assets/images/power-interactive/lights-2.png');
+  background-size: cover;
+  h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+  }
 }
-#project03 h2 {
+#project03 {
+  background-image: url('../assets/images/power-interactive/lights-3.png');
+  background-size: cover;
+  h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+  }
 }
-#project04 h2 {
+#project04 {
+  background-image: url('../assets/images/power-interactive/lights-4.png');
+  background-size: cover;
+  h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+  }
 }
-#project05 h2 {
+#project05{
+  background-image: url('../assets/images/power-interactive/lights-5.png');
+  background-size: cover;
+  h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
+  }
 }
 #main{
   position: relative;
