@@ -788,11 +788,11 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.biodiversity {
+.ecology {
   width: 100%;
   height: 100vh;
   z-index: -2;
-  background-image: url("../../assets/images/biodiversity-hero.jpg");
+  background-image: url("../../assets/images/ecology-hero.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -971,19 +971,19 @@ h5 {
 .health .title-line .offset-sm-1 {
   margin-left: 3.333333%; }
 
-#biodiversity-header h1 {
+#ecology-header h1 {
   font-size: 7em;
   line-height: 1em; }
   @media (max-width: 570px) {
-    #biodiversity-header h1 {
+    #ecology-header h1 {
       font-size: 3em; } }
 
 @media (max-width: 570px) {
-  #biodiversity-header .title-line-two {
+  #ecology-header .title-line-two {
     font-size: 2.87em; } }
 
 .ash-interactive-video {
-  width: 100vw; }
+  width: 98.8vw; }
 
 a {
   color: #55707b; }
@@ -1010,7 +1010,9 @@ a {
   flex-flow: nowrap;
   margin: auto;
   width: 22%; }
-  .footer-icons img {
+  .footer-icons a :hover {
+    opacity: 0.4; }
+  .footer-icons a img {
     width: 50px;
     padding: 5px 5px; }
 
@@ -1145,86 +1147,80 @@ figure {
   -webkit-column-gap: 4px; }
 
 @media screen and (max-width: 768px) {
-  #grid {
+  #photo-gallery {
     display: none; } }
 
-#photo-slider {
-  display: flex;
-  flex-wrap: wrap;
+.slider-title {
+  text-align: center; }
+
+.tns-ovh {
+  overflow: hidden; }
+
+.tns-outer p {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 130%; }
+
+.tns-controls {
+  text-align: center;
   margin: 0 auto;
-  align-items: flex-start; }
-  #photo-slider #custom-slider {
-    width: 80vw;
-    height: auto;
-    overflow: hidden;
-    margin-right: 1vw; }
-  #photo-slider #custom-slider > ul {
-    width: 100%;
-    left: -100%;
-    transition: 0.5s left;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: inline-flex; }
-  #photo-slider #custom-slider > ul > li {
-    width: 100%;
-    color: black;
-    font-size: 3rem; }
-  #photo-slider .pic {
-    width: 100%; }
-  #photo-slider .arrow-wrapper {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    width: 160px;
-    margin-left: 1.2vw; }
-  #photo-slider .arrow-wrapper .slider-left {
-    padding: 0; }
-  #photo-slider .arrow-wrapper .slider-right {
-    padding: 0; }
-  #photo-slider button {
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 4em;
-    color: #000; }
-  #photo-slider .caption {
-    color: #000;
-    width: 25%;
-    position: relative;
-    display: flex;
-    flex-direction: column; }
-  #photo-slider .pg-figcaption {
-    padding-top: .6em;
-    margin-top: 1.1em;
-    width: 80%; }
-  #photo-slider .fig-descr {
-    line-height: 1.6em; }
-  #photo-slider .fig-attr {
-    margin-bottom: -1.3em; }
+  padding-bottom: 2%; }
 
-@media screen and (min-width: 766px) {
-  #photo-slider {
+.tns-nav {
+  display: none; }
+
+#autoHeight {
+  width: calc(2500%);
+  font-size: 0px; }
+
+.tns-outer {
+  max-width: 100%;
+  height: auto;
+  float: left; }
+
+.tns-inner {
+  margin: 0 auto; }
+
+.tns-slider {
+  margin: 0 auto; }
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }
+
+button:hover {
+  background-color: white;
+  color: black; }
+
+.tns-horizontal.tns-subpixel {
+  white-space: nowrap; }
+
+#autoHeight > .tns-item {
+  width: calc(4%);
+  padding-right: 0px; }
+
+#autoHeight > .tns-item {
+  font-size: 16px; }
+
+.tns-horizontal.tns-subpixel > .tns-item {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal; }
+
+#inner-body .row .tns-outer {
+  padding: 0px !important; }
+
+@media screen and (min-width: 768px) {
+  .tns-outer {
     display: none; } }
-
-@media screen and (max-width: 766px) {
-  #photo-slider {
-    display: block; } }
-
-@media screen and (max-width: 570px) {
-  #photo-slider {
-    display: block; }
-    #photo-slider .arrow-wrapper {
-      margin: 0 1em 0 1em; } }
-
-@media screen and (max-width: 300px) {
-  #photo-slider #custom-slider {
-    height: auto; }
-  #photo-slider {
-    display: block; }
-    #photo-slider .pic {
-      height: auto; } }
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
@@ -1257,7 +1253,7 @@ figure {
     margin: 0;
     background-color: rgba(255, 255, 255, 0.6); }
   .pollution-interactive .content-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1140px;
     position: relative;
@@ -1267,27 +1263,21 @@ figure {
     max-width: 30%; }
   .pollution-interactive #element-horiz {
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
     padding-top: 2%;
     padding-bottom: 2%; }
 
 @media screen and (max-width: 768px) {
   /* =General */
-  .project {
-    margin: 0%; }
-  .project p {
-    max-width: 95%;
-    padding: 2%; }
-  #white-box {
-    background-color: yellow; }
-  #element-horiz {
-    max-width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%; }
-  #single-element {
-    max-width: 40%; } }
+  .pollution-interactive .project {
+    margin: 2%; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+.light-video {
+  width: 100%;
+  height: auto;
+  z-index: auto; }
+
 .power-interactive {
   /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
@@ -1625,7 +1615,6 @@ figure {
     color: #000;
     padding: 0.2em 0; }
   .power-interactive body {
-    font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
     /* background-color: black; */ }
   .power-interactive .wrapper {
     width: 90%;
@@ -1656,9 +1645,10 @@ figure {
     margin: 0 auto;
     color: white;
     font-family: "source sans pro",sans-serif;
-    font-size: 12pt; }
+    font-size: 20pt; }
   .power-interactive .project h2 {
-    text-align: left; }
+    text-align: left;
+    font-size: 30pt; }
   .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
     max-width: 70%;
     margin: auto; }
@@ -2013,6 +2003,11 @@ figure {
   .power-interactive table {
     border-collapse: collapse;
     border-spacing: 0; }
+  @media (max-width: 990px) {
+    .power-interactive .project p {
+      font-size: 12pt; }
+    .power-interactive .project h2 {
+      font-size: 20pt; } }
 
 .spacerzz {
   height: 100px; }

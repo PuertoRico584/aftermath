@@ -37,7 +37,7 @@
       "name": "Roberto Santana"
     },
     {
-      "name": "Shirley Colon"
+      "name": "Shirley Colón"
     }
   ],
   "text": [
@@ -50,19 +50,12 @@
       "value": "The family isn’t sleeping at the makeshift clinic because they were displaced, like so many Puerto Ricans after hurricanes Irma and Maria battered the island. The family lives nearby, and while they lost some clothes, appliances and mattresses, the home itself was unscathed."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
-        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
-      }
-    },
-    {
       "type": "text",
       "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
     },
     {
       "type": "text",
-      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the Morales family at the clinic. Now, it’s just the Morales family. As a member of the administrative staff, Morales feels the responsibility is too important to abandon, which is why she still spends the night there. But she also has a personal reason to stay."
+      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the Morales family at the clinic. As a member of the administrative staff, Morales feels the responsibility is too important to abandon, which is why she still spends the night there. But she also has a personal reason to stay."
     },
     {
       "type": "text",
@@ -102,15 +95,8 @@
       "value": "Even before the storm, Puerto Rico’s financial crisis had driven doctors away from the island in search of jobs elsewhere. Between 2006 and 2016, 5,000 doctors emigrated from the island. An estimated 10 doctors have left the island per day since the storm, according to local news outlet El Nuevo Día, furthering the medical care crisis."
     },
     {
-      "type": "pullquote",
-      "value": {
-        "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
-        "Attribution": "Luz Bonilla"
-      }
-    },
-    {
       "type": "text",
-      "value": "“Everything was so disrupted that their income stopped, their offices were destroyed,” said Dr. Wendy Matos, executive director of the University of Puerto Rico's faculty practice plan. “It’s like the rug was taken out from under their feet. People made decisions to survive.”"
+      "value": "“Everything was so disrupted that their income stopped; their offices were destroyed,” said Dr. Wendy Matos, executive director of the University of Puerto Rico's School of Medicine faculty practice plan. “It’s like the rug was taken out from under their feet. People made decisions to survive.”"
     },
     {
       "type": "text",
@@ -125,12 +111,19 @@
       "value": "“You have to do it, because if not you, then who is going to do it?”"
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
+        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
+      }
+    },
+    {
       "type": "text",
       "value": "As the sun rose in Toa Baja on a Wednesday morning in March, the clinic brimmed with volunteers preparing to set off on the mission."
     },
     {
       "type": "text",
-      "value": "They packed duffle bags full of medications and supplies: blood sugar monitors, vaccines, antibiotics. Franchely Soto, Iniciativa Comunitaria’s logistics coordinator, darted around volunteers with a clipboard, checking off her list with precision."
+      "value": "They packed duffle bags full of medications and supplies, such as blood sugar monitors, vaccines, antibiotics. Franchely Soto, Iniciativa Comunitaria’s logistics coordinator, darted around volunteers with a clipboard, checking off her list with precision."
     },
     {
       "type": "text",
@@ -156,7 +149,7 @@
     },
     {
       "type": "text",
-      "value": "Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa Comunitaria to address HIV among drug users and the homeless. The program has grown to offer 12 different services."
+      "value": "Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa Comunitaria to provide education and treatment for HIV and AIDS for at-risk groups. The program has grown to offer services in five different categories, including addiction and substance abuse, health education and international projects."
     },
     {
       "type": "text",
@@ -168,7 +161,7 @@
     },
     {
       "type": "text",
-      "value": "The community they’re about to serve—Aguada, a small town on the island’s west coast—is more than 80 miles away, but Vargas Tapia talks about patients whom he’s never met like they’re family. Some still don’t have power or water. Fallen trees still line many roads."
+      "value": "The community they’re about to serve—Aguada, a small town on the island’s west coast—is more than 70 miles away, but Vargas Tapia talks about patients whom he’s never met like they’re family. Some still don’t have power or water. Fallen trees still line many roads."
     },
     {
       "type": "text",
@@ -190,11 +183,11 @@
     },
     {
       "type": "text",
-      "value": "One of them is Isidra Perez. Iniciativa Comunitaria’s van pulls up to her house, and a doctor and nursing student hop out."
+      "value": "One of them is 86-year-old Isidra Pérez Feliciano. Iniciativa Comunitaria’s van pulls up to her house, and a doctor and nursing student hop out."
     },
     {
       "type": "text",
-      "value": "Perez, who is bedridden, has suffered from multiple ailments, including severe bronchitis and ulcers. A lack of electricity can be life-threatening for the elderly population, so after losing power in the storm, Perez’s family used their generator between five and seven hours per day for five months to run the air conditioning."
+      "value": "Pérez Feliciano, who is bedridden, has suffered from multiple ailments, including severe bronchitis, Type 2 diabetes, hypertension and ulcers. A lack of electricity can be life-threatening for the elderly population, so after losing power in the storm, Pérez Feliciano’s family used their generator between five and seven hours per day for five months to run the air conditioning."
     },
     {
       "type": "text",
@@ -202,11 +195,18 @@
     },
     {
       "type": "text",
-      "value": "Perez needed to be taken to the hospital not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital. Her family struggled to keep her healthy in the long weeks with no power or access to medical care.  Luz Bonilla, Perez’s daughter, was finally able to heal her mother using natural remedies."
+      "value": "Pérez needed to be taken to the hospital not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital. Her family struggled to keep her healthy in the long weeks with no power or access to medical care.  Luz Bonilla, Pérez’s daughter, was finally able to heal her mother using natural remedies."
     },
     {
       "type": "text",
-      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” said Luz Bonilla, Perez’s daughter. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
+      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” Bonilla said. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
+        "Attribution": "Luz Bonilla"
+      }
     },
     {
       "type": "text",
@@ -214,15 +214,15 @@
     },
     {
       "type": "text",
-      "value": "Although hospitals are open now, they face supply and staff shortages, and in the storm’s wake, some did not accept patients from other areas. Some patients have had to wait nearly a full day to receive treatment."
+      "value": "Although hospitals are open now, in the storm’s wake, they faced supply shortages, and Vargas Tapia said some hospitals turned away patients from other areas. He and other volunteers said some patients experienced long wait times to receive treatment."
     },
     {
       "type": "text",
-      "value": "But it’s patients with long-term diseases like diabetes who are most at risk."
+      "value": "But it’s patients with long-term diseases like diabetes who are most at risk, yet Matos said specialists she works with at the University of Puerto Rico’s School of Medicine have seen fewer patients since the storm."
     },
     {
       "type": "text",
-      "value": "According to the Centers for Disease Control and Prevention, nearly 16 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A study from the University of Puerto Rico’s Medical School found that nearly 40 percent of adults in San Juan suffered from hypertension."
+      "value": "According to the Centers for Disease Control and Prevention, nearly 16 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A <a href=’https://www.omicsonline.org/unequal-burden-of-diabetes-and-hypertension-in-the-adult-population-of-the-san-juan-metropolitan-area-of-puerto-rico-2155-6156.1000261.php?aid=13551’ target=’_blank’> study from the University of Puerto Rico’s Medical School </a> found that nearly 40 percent of adults in San Juan suffered from hypertension."
     },
     {
       "type": "text",
@@ -234,7 +234,7 @@
     },
     {
       "type": "text",
-      "value": "Chronic illness fatalities aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos of the University of Puerto Rico says there are other long-term health consequences that often get overlooked, such as mental health issues and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline."
+      "value": "Chronic illness fatalities aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos said there are other long-term health consequences that often get overlooked, such as mental health issues and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline."
     },
     {
       "type": "text",
@@ -258,11 +258,18 @@
     },
     {
       "type": "text",
-      "value": "Since the storm, experts say it’s only gotten worse. As of January, more than 200,000 Puerto Ricans had fled the island for the mainland. Most of them are the island’s youth."
+      "value": "Since the storm, experts say it’s only gotten worse. While it’s difficult to track exactly how many Puerto Ricans have fled the island, estimates indicate that several hundred hundred thousand have arrived on the mainland. Most of them are the island’s youth."
     },
     {
       "type": "text",
-      "value": "“The young people are the future, and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts island, who doubles as a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
+      "value": "“The young people are the future, and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island, who doubles as a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
+        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
+      }
     },
     {
       "type": "text",
@@ -286,11 +293,7 @@
     },
     {
       "type": "text",
-      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of"
-    },
-    {
-      "type": "text",
-      "value": "Recinto Pa’ la Calle, a program associated with Iniciativa Comunitaria that provides services at night for people who are homeless and drug users."
+      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of Recinto Pa’ la Calle, a program associated with Iniciativa Comunitaria that provides services at night for people who are homeless and drug users."
     },
     {
       "type": "text",
@@ -299,13 +302,6 @@
     {
       "type": "text",
       "value": "The camp’s residents brightened as she shouted, “Hola, Iniciativa!” from her car. After exchanging a few words with them, Rodriguez waved to her peers, who emerged from a caravan of cars donning Iniciativa Comunitaria’s logo."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
-        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts island and a volunteer with the brigade"
-      }
     },
     {
       "type": "text",

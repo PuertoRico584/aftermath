@@ -72,30 +72,30 @@ function unfadeIcons(x){
 
 // FOOTER HOVER OPACITY
 
- var tempIdFooter;
- function fadeIconsFooter(x){
-   var idBucketFooter = ['#footer-0', '#footer-1', '#footer-2', '#footer-3'];
-   for(i=0; i<idBucketFooter.length; i++){
-     tempNumberFooter = i;
-     tempStringFooter = tempNumberFooter.toString();
-     tempIdFooter = '#footer-' + tempStringFooter;
-      if (i == x){
-
-      }else{
-        $(tempIdFooter).css("opacity", "0.4");
-      }
-    }
- }
-
- function unfadeIconsFooter(x){
-   var idBucketFooter = ['#footer-0', '#footer-1', '#footer-2', '#footer-3'];
-   for(i=0; i<idBucketFooter.length; i++){
-     tempNumberFooter = i;
-     tempStringFooter = tempNumberFooter.toString();
-     tempIdFooter = '#footer-' + tempStringFooter;
-     $(tempIdFooter).css("opacity", "1");
-    }
-  }
+ // var tempIdFooter;
+ // function fadeIconsFooter(x){
+ //   var idBucketFooter = ['#footer-0', '#footer-1', '#footer-2', '#footer-3'];
+ //   for(i=0; i<idBucketFooter.length; i++){
+ //     tempNumberFooter = i;
+ //     tempStringFooter = tempNumberFooter.toString();
+ //     tempIdFooter = '#footer-' + tempStringFooter;
+ //      if (i == x){
+ //
+ //      }else{
+ //        $(tempIdFooter).css("opacity", "0.4");
+ //      }
+ //    }
+ // }
+ //
+ // function unfadeIconsFooter(x){
+ //   var idBucketFooter = ['#footer-0', '#footer-1', '#footer-2', '#footer-3'];
+ //   for(i=0; i<idBucketFooter.length; i++){
+ //     tempNumberFooter = i;
+ //     tempStringFooter = tempNumberFooter.toString();
+ //     tempIdFooter = '#footer-' + tempStringFooter;
+ //     $(tempIdFooter).css("opacity", "1");
+ //    }
+ //  }
 
 
 // SIDEBAR HOVER OPACITY
