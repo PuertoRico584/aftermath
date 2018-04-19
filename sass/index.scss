@@ -175,7 +175,9 @@ body, html {
 .nav-up {
     top: -60px;
 }
-
+.navbar-nav {
+  width:auto;
+}
 .navbar-nav {
   @include media('<=lg'){
     width: 97%;
@@ -230,6 +232,10 @@ body, html {
   }
   @include media('<=iphone5'){
     width: 92px;
+  }
+  @include media('>=lg'){
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 .nav-link{
