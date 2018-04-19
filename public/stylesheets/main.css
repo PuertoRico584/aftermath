@@ -1283,6 +1283,20 @@ button:hover {
   .pollution-interactive #single-element {
     max-width: 30%; } }
 
+.water-interactive .water-left-side button {
+  background-color: #359766;
+  color: black;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  width: 50%;
+  text-transform: uppercase; }
+
+.water-interactive #imagearea {
+  margin-top: 65px;
+  margin-bottom: 60px; }
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
   width: 100%;
@@ -1572,10 +1586,10 @@ button:hover {
     color: white;
     font-family: "Source Sans Pro", sans-serif; }
   .power-interactive .battery {
-    width: 28%;
+    width: 50%;
     height: auto;
     margin: auto;
-    margin-left: 35%; }
+    margin-left: 25%; }
   .power-interactive .testing {
     margin: auto;
     text-align: center; }
@@ -1667,21 +1681,36 @@ button:hover {
     color: white;
     font-family: "quasimoda",sans-serif;
     text-align: center; }
-  .power-interactive #project01 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project02 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project03 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project04 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
-  .power-interactive #project05 h2 {
-    color: white;
-    font-family: "quasimoda",sans-serif; }
+  .power-interactive #project01 {
+    background-image: url("../assets/images/power-interactive/lights-1.png");
+    background-size: cover; }
+    .power-interactive #project01 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project02 {
+    background-image: url("../assets/images/power-interactive/lights-2.png");
+    background-size: cover; }
+    .power-interactive #project02 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project03 {
+    background-image: url("../assets/images/power-interactive/lights-3.png");
+    background-size: cover; }
+    .power-interactive #project03 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project04 {
+    background-image: url("../assets/images/power-interactive/lights-4.png");
+    background-size: cover; }
+    .power-interactive #project04 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
+  .power-interactive #project05 {
+    background-image: url("../assets/images/power-interactive/lights-5.png");
+    background-size: cover; }
+    .power-interactive #project05 h2 {
+      color: white;
+      font-family: "quasimoda",sans-serif; }
   .power-interactive #main {
     position: relative;
     /* background-color: #000; */ }
@@ -2026,7 +2055,7 @@ button:hover {
 #imagesequence {
   margin-left: 0px; }
   #imagesequence #myimg {
-    width: 90%;
+    width: 100%;
     height: auto; }
 
 .side-title {

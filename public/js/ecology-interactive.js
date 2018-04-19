@@ -41,12 +41,12 @@ var tween = TweenMax.to(obj, 0.5,
 var controller = new ScrollMagic.Controller();
 
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 320, triggerHook: 0.2})
+var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
         .setTween(tween)
         // .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
 // build scene
-var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 320, triggerHook: 0.2})
+var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
         .setPin(".spacerz")
         // .addIndicators() // add indicators (requires plugin)
         .addTo(controller);
