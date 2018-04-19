@@ -181,26 +181,73 @@ font-size: 18px;
   position: relative;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1091px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 6em !important;
+  }
+
+  #abouttitle-box .title-line-two {
+    font-size: 8.5em !important;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .team-nav ul {
+    text-align: left;
+  }
+  .team-nav li {
+    padding-left: 0px;
+  }
+  .team-nav h3 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .title-line {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
  .team-nav ul {
    display: inline-block;
    text-align: center;
  }
  .team-nav li {
    display: inline-block;
+   padding: 8px 0px 8px 30px;
+ }
+ .team-nav h3 {
+   text-align: center;
  }
 
-#abouttitle-box .title-line h1 {
-  font-size: 3.2em !important;
 }
 
-#abouttitle-box .title-line-two {
-  font-size: 4.7em !important;
-}
+@media only screen and (max-width: 778px) {
 
 .title-line {
   width: 100%;
 }
 
+}
 
+@media only screen and (max-width: 700px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 4.4em !important;
+  }
+
+  #abouttitle-box .title-line-two {
+    font-size: 6.4em !important;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  #abouttitle-box .title-line h1 {
+    font-size: 3.4em !important;
+  }
+
+  #abouttitle-box .title-line-two {
+    font-size: 4.9em !important;
+  }
 }
