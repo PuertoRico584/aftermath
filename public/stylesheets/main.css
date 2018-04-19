@@ -967,7 +967,9 @@ h5 {
     padding: 0px 5px; }
   .inner .byline-head {
     font-size: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .water, .pollution, .ecology, .health, .power {
+    background-attachment: scroll; } }
 
 #water-header .title-line-two {
   font-size: 9.3em; }
@@ -1167,21 +1169,20 @@ figure {
 
 .row1 {
   /* column width */
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
   /* space between columns */
   -moz-column-gap: 4px;
-  -webkit-column-gap: 4px; }
+  -webkit-column-gap: 4px;
+  column-gap: 4px; }
 
 @media screen and (max-width: 768px) {
   #photo-gallery {
     display: none; } }
-
-@media only screen and (min-width: 1100px) {
-  .row1 {
-    -moz-column-count: 5;
-    -webkit-column-count: 5;
-    column-count: 5; } }
 
 .slider-title {
   text-align: center; }
