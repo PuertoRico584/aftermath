@@ -58,12 +58,6 @@
       "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the Centro de Periodismo Investigativo, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated  400,000 tons of ash to landfills in Humacao and Peñuelas (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "ash-pile-interactive.ejs"
-      }
-    },
-    {
       "type": "text",
       "value": "The Environmental Protection Agency has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can leach into groundwater and soil, and breathing the dust can cause respiratory issues."
     },
@@ -346,12 +340,25 @@
       "value": "“The problem of the ashes is real,” she said."
     },
     {
+      "type": "video",
+      "value": {
+        "id": "265289787",
+        "is360": "true"
+      }
+    },
+    {
       "type": "text",
       "value": "The groups had penned a letter with a list of demands and planned to deliver it to the Senate President Thomas Rivera Schatz outlining their list of demands."
     },
     {
       "type": "text",
       "value": "“We are demanding, among other things, first that the Department of Health and the Board of Environmental Quality intervene immediately in the contamination,” said Víctor Alvarado, the spokesperson for the Comité Diálogo Ambiental de Salinas, an environmental advocacy group from Salinas, a town along the path the ash trucks took from Guayama to Peñuelas."
+    },
+    {
+      "type": "interactive",
+      "value": {
+        "filename": "ash-pile-interactive.ejs"
+      }
     },
     {
       "type": "text",
