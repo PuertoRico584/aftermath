@@ -636,6 +636,15 @@ h5 {
 .text-row {
   margin-top: 50px; }
 
+.desk-title {
+  height: 26vh;
+  width: auto;
+  margin: auto; }
+
+.phone-title {
+  height: 30vh;
+  margin: auto; }
+
 .inner-hero {
   display: flex;
   justify-content: center;
