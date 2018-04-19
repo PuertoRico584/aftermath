@@ -1252,8 +1252,12 @@ button:hover {
   padding: 0px !important; }
 
 @media screen and (min-width: 768px) {
-  .tns-outer {
+  .photo-slider {
     display: none; } }
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%; } }
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
