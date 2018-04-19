@@ -78,12 +78,9 @@ figure {
 
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   //If screen size smaller than 768px, hide the photo gallery.
-  #grid {
+  #photo-gallery {
     display: none;
   }
 }
