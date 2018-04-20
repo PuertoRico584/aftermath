@@ -281,6 +281,9 @@ header {
 body, html {
   height: 100%; }
 
+#navButton {
+  background: transparent; }
+
 .homepage {
   background-image: url("../assets/images/option1.jpg");
   background-size: cover;
@@ -345,9 +348,14 @@ body, html {
 .homepage-logo {
   margin-top: 5%;
   text-align: center;
-  height: 100px; }
+  height: 100px;
+  font-weight: 100; }
   .homepage-logo img {
-    width: 25%; }
+    width: 29%; }
+  .homepage-logo p {
+    position: relative;
+    right: -32px;
+    top: -6px; }
   @media (max-width: 1020px) {
     .homepage-logo {
       margin-top: 30vh;
@@ -361,7 +369,8 @@ body, html {
     .homepage-logo img {
       width: 75%; }
     .homepage-logo p {
-      font-size: 1em; } }
+      font-size: 0.95em;
+      right: -26px; } }
 
 .homepage-icon-row {
   display: flex;
@@ -389,7 +398,7 @@ body, html {
 
 .homepage-subtitle {
   color: white;
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
 
 /* ------------------  NAV BAR ------------------ */
@@ -635,6 +644,15 @@ h5 {
 
 .text-row {
   margin-top: 50px; }
+
+.desk-title {
+  height: 26vh;
+  width: auto;
+  margin: auto; }
+
+.phone-title {
+  height: 30vh;
+  margin: auto; }
 
 .inner-hero {
   display: flex;
@@ -1234,8 +1252,12 @@ button:hover {
   padding: 0px !important; }
 
 @media screen and (min-width: 768px) {
-  .tns-outer {
+  .photo-slider {
     display: none; } }
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%; } }
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }

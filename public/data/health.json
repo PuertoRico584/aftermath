@@ -6,7 +6,7 @@
     "title-line-one": "The Healing",
     "title-line-two": "Brigade",
     "seo": "The Healing Brigade | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "With their community in crisis, Puerto Ricans are stepping up to care for those who have been forgotten. One organization is turning desperation into hope."
+    "subtitle": "Puerto Rico is facing a health care crisis after chronic mental and physical health issues often went untreated in the aftermath of Hurricane Maria. Many doctors have left the island, but one volunteer group isn’t going anywhere."
   },
   "reporters": [
     {
@@ -25,6 +25,9 @@
     },
     {
       "name": "Kaitlin Harlow"
+    },
+    {
+      "name": "MaryRachel Bulkeley"
     }
   ],
   "designers": [
@@ -51,7 +54,7 @@
     },
     {
       "type": "text",
-      "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
+      "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just nine days after Hurricane Maria made landfall, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
     },
     {
       "type": "text",
@@ -127,7 +130,7 @@
     },
     {
       "type": "text",
-      "value": "Things weren’t always so organized. To set up a clinic in six days, they had to make do with the facilities and limited supplies they had at the time. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
+      "value": "Things weren’t always so organized. To set up a clinic in nine days, they had to make do with the facilities and limited supplies they had at the time. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
     },
     {
       "type": "text",

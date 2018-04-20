@@ -84,7 +84,13 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   //If screen width is larger than 768px, don't show the slider.
-  .tns-outer {
+  .photo-slider {
     display: none;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%;
   }
 }

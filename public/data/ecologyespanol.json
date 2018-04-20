@@ -158,6 +158,12 @@
       "value": "They were."
     },
     {
+      "type": "interactive",
+      "value": {
+        "filename": "video-slider-ecology.ejs"
+      }
+    },
+    {
       "type": "text",
       "value": "The tabonucos are one example of a species that has taken adaptive measures to withstand Puerto Rico’s hurricane cycle. With intact root systems, the tabonucos can quickly restart water and nutrient uptake, and begin regrowing leaves."
     },
@@ -235,7 +241,7 @@
     },
     {
       "type": "text",
-      "value": "As a part of this philosophy, Pagán doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagán’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On Oct. 3, two weeks after Maria, Pagán harnessed up his oxen and started ploughing his two acres of land."
+      "value": "As a part of this philosophy, Pagán doesn’t rely on machinery, because it requires non-renewable fuel inputs that, in Puerto Rico, come in as imports. After the hurricane, other farmers waited in 10-hour lines to get gas to fill their tractors, but Pagán’s tractors ran on grass, and occupied themselves during the storm munching on breadfruit from a fallen tree nearby. On Oct. 3, two weeks after Maria, Pagán harnessed up his oxen and started plowing his two acres of land."
     },
     {
       "type": "slider",
