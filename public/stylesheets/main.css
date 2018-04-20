@@ -742,13 +742,15 @@ h5 {
   font-family: "Quasimoda", sans-serif;
   font-weight: 100;
   color: #309865;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3em; }
 
 .pull-quote-box .attribution {
   font-weight: 400;
   font-family: "Quasimoda", sans-serif;
-  text-align: left; }
+  text-align: left;
+  color: #309865;
+  font-size: 0.9em; }
 
 .interactive {
   padding: 40px 0;
