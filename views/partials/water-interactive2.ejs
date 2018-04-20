@@ -51,25 +51,28 @@ $(document).ready(function(e) {
 <div class="row water-interactive">
   <div class="col-md-3 offset-md-1 left-box water-left-side">
     <h3>Explore El Caño</h3>
-    <button class="water-button" onclick=justin();>El Caño Drone Footage 1</button><br/>
-    <button class="water-button" onclick=justin2();>El Caño Drone Footage 2</button><br/>
-    <button class="water-button" onclick=justin3();>Back to Map</button>
+    <p>El Caño Martín Peña stretches for nearly 4 miles, connecting the San Juan Bay with the San José Lagoon, the two biggest
+      bodies of water in San Juan. After María struck, fallen trees, debris, garbage and untreated water dumped in the channel
+      for decades worsened its condition. This map features drone footage of the area.</p>
+    <button class="water-button" onclick=justin();>1</button>
+    <button class="water-button" onclick=justin2();>2</button>
+    <button class="water-button" onclick=justin3();>Map</button>
     <p></p>
   </div>
   <div class="col-md-8">
     <div id="imagearea">
-      <img class="img-fluid cano" src="assets/images/water-interactive/zoomedout.png">
+      <img class="img-fluid cano" src="assets/images/water-interactive/cropped.png">
     </div>
   </div>
 </div>
 <script>
 function justin() {
-  document.getElementById("imagearea").innerHTML = "<video class='img-fluid' src='assets/images/water-interactive/little_circle.mp4' autoplay prelaod='auto' loop></video>";
+  document.getElementById("imagearea").innerHTML = "<video class='img-fluid' src='assets/images/water-interactive/narrow_canal_drone_1.mp4' autoplay prelaod='auto' loop></video>";
 }
 function justin2() {
-  document.getElementById("imagearea").innerHTML = "<video class='img-fluid' src='assets/images/water-interactive/big_circle 2.mp4' autoplay prelaod='auto' loop></video>";
+  document.getElementById("imagearea").innerHTML = "<video class='img-fluid' src='assets/images/water-interactive/narrow_canal_drone.mp4' autoplay prelaod='auto' loop></video>";
 }
 function justin3() {
-  document.getElementById("imagearea").innerHTML = "<img class='img-fluid' src='assets/images/water-interactive/zoomedout.png'>";
+  document.getElementById("imagearea").innerHTML = "<img class='img-fluid' src='assets/images/water-interactive/cropped.png'>";
 }
 </script>

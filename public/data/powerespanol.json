@@ -55,7 +55,7 @@
     },
     {
       "type": "text",
-      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, transfers electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, that transfer electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
     },
     {
       "type": "text",
@@ -71,11 +71,11 @@
     },
     {
       "type": "text",
-      "value": "They begged the PREPA employees to help move the downed wires which would allow her mother to get out of the house and allow them to use their car."
+      "value": "They begged the PREPA employees to help move the downed wires, which would allow her mother to get out of the house and allow them to use their car."
     },
     {
       "type": "text",
-      "value": "The workers moved the wires just enough to let the rest of their family into the yard and give them access to the garage. The men laid the wires between the pickets of the fence, stringing them mid-air about five feet off the ground across the front entrance of the house. That was the last time they saw anyone from the power authority."
+      "value": "The workers moved the wires just enough to let the rest of their family into the yard and give them access to the garage. The men laid the wires between the pickets of the fence, stringing them mid-air across the front entrance of the house about five feet off the ground. That was the last time they saw anyone from the power authority."
     },
     {
       "type": "text",
@@ -85,12 +85,12 @@
       "type": "pullquote",
       "value": {
         "text": "“We practically had to bring them by force — after that they never came back”",
-        "Attribution": "Maritza Ramirez Cruz"
+        "attribution": "Maritza Ramirez Cruz"
       }
     },
     {
       "type": "text",
-      "value": "For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard."
+      "value": "For weeks, Cruz Torruellas called the power authority, trying to get workers to come fix the electrical pole that had fallen. It wasn’t safe for her 11-year-old grandson, Nahuel, to play in the yard."
     },
     {
       "type": "text",
@@ -98,11 +98,11 @@
     },
     {
       "type": "text",
-      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to work, maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
+      "value": "The power outage was extremely difficult for her mother. Many in Puerto Rico struggled with the loss of power, but Cruz Torruellas depends on the internet to do her work, which includes maintaining her blog and participating in writers workshops. She also homeschools Nahuel and, in order to keep him up to speed with the public school curriculum, she needs to access online teaching materials."
     },
     {
       "type": "text",
-      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga her with Kayak."
+      "value": "Family friends Orlando González Claudio and his wife Rosa Villalonga told her about Kayak."
     },
     {
       "type": "video",
@@ -149,7 +149,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Why did Tito start & Power Grid"
+        "Text": "The first connection"
       }
     },
     {
@@ -191,8 +191,8 @@
     {
       "type": "pullquote",
       "value": {
-        "text": "“The electrical devastation was incredible, my God,” said Kayak, “One hundred percent of the electrical system collapsed.”",
-        "Attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
+        "text": "“The electrical devastation was incredible, my God. One hundred percent of the electrical system collapsed.”",
+        "attribution": "Tito Kayak, a Puerto Rican electrician and environmental activist"
       }
     },
     {
@@ -258,7 +258,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Prepa debt and privatization"
+        "text": "PREPA debt and privatization"
       }
     },
     {
@@ -325,7 +325,7 @@
       "type": "pullquote",
       "value": {
         "text": "“Privatizing electrical power plants is to forever bury the possibility for us to make an orderly transition into renewable energy.\"",
-        "Attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
+        "attribution": "Ricardo Santos Ramos, former president of Puerto Rico’s Electrical Industry and Irrigation Workers Union (UTIER)"
       }
     },
     {
@@ -339,7 +339,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Tito’s work"
+        "Text": "Tito’s work"
       }
     },
     {

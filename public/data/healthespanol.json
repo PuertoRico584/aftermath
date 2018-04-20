@@ -6,7 +6,7 @@
     "title-line-one": "The Healing",
     "title-line-two": "Brigade",
     "seo": "The Healing Brigade | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "With their community in crisis, Puerto Ricans are stepping up to care for those who have been forgotten. One organization is turning desperation into hope."
+    "subtitle": "Puerto Rico is facing a health care crisis after chronic mental and physical health issues often went untreated in the aftermath of Hurricane Maria. Many doctors have left the island, but one volunteer group isn’t going anywhere."
   },
   "reporters": [
     {
@@ -25,6 +25,9 @@
     },
     {
       "name": "Kaitlin Harlow"
+    },
+    {
+      "name": "MaryRachel Bulkeley"
     }
   ],
   "designers": [
@@ -51,7 +54,7 @@
     },
     {
       "type": "text",
-      "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just six days after Hurricane Maria, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
+      "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just nine days after Hurricane Maria made landfall, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
     },
     {
       "type": "text",
@@ -83,7 +86,7 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Continual Healing"
+        "text": "Long-term risks"
       }
     },
     {
@@ -114,7 +117,7 @@
       "type": "pullquote",
       "value": {
         "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
-        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
+        "attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
       }
     },
     {
@@ -127,7 +130,7 @@
     },
     {
       "type": "text",
-      "value": "Things weren’t always so organized. To set up a clinic in six days, they had to make do with the facilities and limited supplies they had at the time. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
+      "value": "Things weren’t always so organized. To set up a clinic in nine days, they had to make do with the facilities and limited supplies they had at the time. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
     },
     {
       "type": "text",
@@ -205,7 +208,7 @@
       "type": "pullquote",
       "value": {
         "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
-        "Attribution": "Luz Bonilla"
+        "attribution": "Luz Bonilla"
       }
     },
     {
@@ -268,7 +271,7 @@
       "type": "pullquote",
       "value": {
         "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
-        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
+        "attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
       }
     },
     {
@@ -366,8 +369,8 @@
   ],
   "step-links": {
     "step-back-name": "pollution",
-    "step-back-title": "Covered in Ash",
+    "step-back-title": "A Fight For Life",
     "step-forward-name": "power",
-    "step-forward-title": "Where’s The Light"
+    "step-forward-title": "Flipping the Switch"
   }
 }
