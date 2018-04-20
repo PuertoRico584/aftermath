@@ -132,13 +132,15 @@
     font-family: $heading-font;
     font-weight: 100;
     color: $block-quote;
-    font-size:1.2em;
+    font-size: 1em;
     line-height:1.3em;
   }
   .pull-quote-box .attribution {
     font-weight: 400;
     font-family: $heading-font;
     text-align:left;
+    color: $block-quote;
+    font-size: 0.9em;
   }
 
 .interactive {
