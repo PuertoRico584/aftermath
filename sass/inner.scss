@@ -3,6 +3,15 @@
   margin-top: 50px;
 }
 
+.desk-title{
+  height: 26vh;
+  width: auto;
+  margin: auto;
+}
+.phone-title{
+  height: 30vh;
+  margin: auto;
+}
 .inner {
   &-hero{
     display: flex;
@@ -123,13 +132,15 @@
     font-family: $heading-font;
     font-weight: 100;
     color: $block-quote;
-    font-size:1.2em;
+    font-size: 1em;
     line-height:1.3em;
   }
   .pull-quote-box .attribution {
     font-weight: 400;
     font-family: $heading-font;
     text-align:left;
+    color: $block-quote;
+    font-size: 0.9em;
   }
 
 .interactive {
@@ -436,8 +447,9 @@ animation-duration: 3s;
       text-align: center;
     }
 
-
-
+    .water, .pollution, .ecology, .health, .power {
+      background-attachment: scroll;
+    }
 }
 
 // Individual title treatments

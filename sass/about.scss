@@ -181,7 +181,7 @@ font-size: 18px;
   position: relative;
 }
 
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 1170px) {
   #abouttitle-box .title-line h1 {
     font-size: 6em !important;
   }
@@ -203,7 +203,7 @@ font-size: 18px;
   }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1100px) {
   .title-line {
     width: 90%;
   }
@@ -224,30 +224,37 @@ font-size: 18px;
 
 }
 
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 900px) {
 
 .title-line {
   width: 100%;
+}
+#abouttitle-box .title-line h1 {
+  font-size: 4.1em !important;
+}
+
+#abouttitle-box .title-line-two {
+  font-size: 6.0em !important;
 }
 
 }
 
 @media only screen and (max-width: 700px) {
   #abouttitle-box .title-line h1 {
-    font-size: 4.4em !important;
+    font-size: 4.1em !important;
   }
 
   #abouttitle-box .title-line-two {
-    font-size: 6.4em !important;
+    font-size: 6.0em !important;
   }
 }
 
-@media only screen and (max-width: 514px) {
+@media only screen and (max-width: 580px) {
   #abouttitle-box .title-line h1 {
-    font-size: 3.4em !important;
+    font-size: 3.1em !important;
   }
 
   #abouttitle-box .title-line-two {
-    font-size: 4.9em !important;
+    font-size: 4.8em !important;
   }
 }

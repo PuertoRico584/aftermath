@@ -281,6 +281,9 @@ header {
 body, html {
   height: 100%; }
 
+#navButton {
+  background: transparent; }
+
 .homepage {
   background-image: url("../assets/images/option1.jpg");
   background-size: cover;
@@ -345,9 +348,14 @@ body, html {
 .homepage-logo {
   margin-top: 5%;
   text-align: center;
-  height: 100px; }
+  height: 100px;
+  font-weight: 100; }
   .homepage-logo img {
-    width: 25%; }
+    width: 29%; }
+  .homepage-logo p {
+    position: relative;
+    right: -32px;
+    top: -6px; }
   @media (max-width: 1020px) {
     .homepage-logo {
       margin-top: 30vh;
@@ -361,7 +369,8 @@ body, html {
     .homepage-logo img {
       width: 75%; }
     .homepage-logo p {
-      font-size: 1em; } }
+      font-size: 0.95em;
+      right: -26px; } }
 
 .homepage-icon-row {
   display: flex;
@@ -389,7 +398,7 @@ body, html {
 
 .homepage-subtitle {
   color: white;
-  font-size: 18pt;
+  font-size: 15pt;
   font-family: "quasimoda",sans-serif; }
 
 /* ------------------  NAV BAR ------------------ */
@@ -636,6 +645,15 @@ h5 {
 .text-row {
   margin-top: 50px; }
 
+.desk-title {
+  height: 26vh;
+  width: auto;
+  margin: auto; }
+
+.phone-title {
+  height: 30vh;
+  margin: auto; }
+
 .inner-hero {
   display: flex;
   justify-content: center;
@@ -724,13 +742,15 @@ h5 {
   font-family: "Quasimoda", sans-serif;
   font-weight: 100;
   color: #309865;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3em; }
 
 .pull-quote-box .attribution {
   font-weight: 400;
   font-family: "Quasimoda", sans-serif;
-  text-align: left; }
+  text-align: left;
+  color: #309865;
+  font-size: 0.9em; }
 
 .interactive {
   padding: 40px 0;
@@ -949,7 +969,9 @@ h5 {
     padding: 0px 5px; }
   .inner .byline-head {
     font-size: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .water, .pollution, .ecology, .health, .power {
+    background-attachment: scroll; } }
 
 #water-header .title-line-two {
   font-size: 9.3em; }
@@ -1149,21 +1171,20 @@ figure {
 
 .row1 {
   /* column width */
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
   /* space between columns */
   -moz-column-gap: 4px;
-  -webkit-column-gap: 4px; }
+  -webkit-column-gap: 4px;
+  column-gap: 4px; }
 
 @media screen and (max-width: 768px) {
   #photo-gallery {
     display: none; } }
-
-@media only screen and (min-width: 1100px) {
-  .row1 {
-    -moz-column-count: 5;
-    -webkit-column-count: 5;
-    column-count: 5; } }
 
 .slider-title {
   text-align: center; }
@@ -1204,7 +1225,6 @@ button {
   background-color: black;
   border: none;
   border-radius: 5px;
-  color: white;
   padding: 4%;
   margin: 2%;
   text-align: center;
@@ -1234,8 +1254,12 @@ button:hover {
   padding: 0px !important; }
 
 @media screen and (min-width: 768px) {
-  .tns-outer {
+  .photo-slider {
     display: none; } }
+
+@media screen and (max-width: 766px) {
+  .photo-slider .tns-inner .tns-item {
+    max-width: 100%; } }
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
@@ -2204,7 +2228,7 @@ a.about-social-icon {
   margin-bottom: 50px;
   position: relative; }
 
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 1170px) {
   #abouttitle-box .title-line h1 {
     font-size: 6em !important; }
   #abouttitle-box .title-line-two {
@@ -2218,7 +2242,7 @@ a.about-social-icon {
   .team-nav h3 {
     text-align: left; } }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1100px) {
   .title-line {
     width: 90%; } }
 
@@ -2232,18 +2256,22 @@ a.about-social-icon {
   .team-nav h3 {
     text-align: center; } }
 
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 900px) {
   .title-line {
-    width: 100%; } }
+    width: 100%; }
+  #abouttitle-box .title-line h1 {
+    font-size: 4.1em !important; }
+  #abouttitle-box .title-line-two {
+    font-size: 6.0em !important; } }
 
 @media only screen and (max-width: 700px) {
   #abouttitle-box .title-line h1 {
-    font-size: 4.4em !important; }
+    font-size: 4.1em !important; }
   #abouttitle-box .title-line-two {
-    font-size: 6.4em !important; } }
+    font-size: 6.0em !important; } }
 
-@media only screen and (max-width: 514px) {
+@media only screen and (max-width: 580px) {
   #abouttitle-box .title-line h1 {
-    font-size: 3.4em !important; }
+    font-size: 3.1em !important; }
   #abouttitle-box .title-line-two {
-    font-size: 4.9em !important; } }
+    font-size: 4.8em !important; } }
