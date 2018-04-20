@@ -291,7 +291,8 @@ body, html {
   height: 100%;
   background-position: center;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow: hidden; }
 
 .video-wrapper {
   position: fixed;
