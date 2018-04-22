@@ -1,0 +1,83 @@
+.slider-title {
+  text-align: center;
+}
+
+.tns-ovh {
+  overflow: hidden;
+}
+
+.tns-outer p {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 130%;
+}
+
+.tns-controls {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+
+.tns-nav {
+  display: none;
+}
+
+#autoHeight {
+  width: calc(2500%);
+  font-size: 0px;
+}
+
+.tns-outer {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+.tns-inner {
+  margin: 0 auto;
+}
+
+.tns-slider {
+  margin: 0 auto;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.tns-horizontal.tns-subpixel {
+  white-space: nowrap;
+}
+
+#autoHeight > .tns-item {
+    width: calc(4%);
+    padding-right: 0px;
+}
+
+#autoHeight > .tns-item {
+    font-size: 16px;
+}
+
+.tns-horizontal.tns-subpixel>.tns-item {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+}
+
+#inner-body .row .tns-outer{
+  padding: 0px !important;
+}
