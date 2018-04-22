@@ -43,7 +43,7 @@
   "text": [
     {
       "type": "text",
-      "value": "“I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
+      "value": "VEGA BAJA, PUERTO RICO -- “I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
     },
     {
       "type": "text",
@@ -112,7 +112,7 @@
     },
     {
       "type": "text",
-      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE — the actual power company."
+      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción,” or EEA, a play on the Autoridad de Energía Eléctrica, or AEE — the actual power company."
     },
     {
       "type": "text",
@@ -359,6 +359,13 @@
     {
       "type": "text",
       "value": "“People say, ‘Isn’t that the guy who’s always protesting around, starting revolutions? And now, turns out he’s an electrician,’” said Kayak."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "265986855",
+        "is360": "true"
+      }
     },
     {
       "type": "text",

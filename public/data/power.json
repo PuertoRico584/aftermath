@@ -43,7 +43,7 @@
   "text": [
     {
       "type": "text",
-      "value": "“I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
+      "value": "VEGA BAJA, PUERTO RICO -- “I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
     },
     {
       "type": "text",
@@ -112,7 +112,7 @@
     },
     {
       "type": "text",
-      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción, or EEA, a play on the Autoridad de Energía Eléctrica, or AEE — the actual power company."
+      "value": "Kayak isn’t the only one taking it upon himself to restore power. Some of his friends help him every now and then and when they do, they refer to themselves as the “Electricistas En Acción,” or EEA, a play on the Autoridad de Energía Eléctrica, or AEE — the actual power company."
     },
     {
       "type": "text",
@@ -124,7 +124,7 @@
     },
     {
       "type": "text",
-      "value": "<a href=’https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines’ target=’_blank’>NPR</a> and <a href=’https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power’ target=’_blank’>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino, on the far west side of the island, to Coamo, deep in the south, where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
+      "value": "<a href='https://www.npr.org/2018/01/19/579196353/after-four-months-without-power-a-puerto-rico-town-strings-its-own-lines' target='_blank'>NPR</a> and <a href='https://www.apnews.com/394fe201adf64649a92fe8e9b82000e1/Puerto-Ricans-grab-machetes,-shovels-to-help-restore-power' target='_blank'>The Associated Press</a> have reported stories from San Sebastián de las Vegas del Pepino, on the far west side of the island, to Coamo, deep in the south, where tired Puerto Ricans are fed up with waiting for the Federal Emergency Management Agency and construction crews to get to them."
     },
     {
       "type": "text",
@@ -281,11 +281,11 @@
     },
     {
       "type": "text",
-      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was <a href=’https://www.nytimes.com/2017/07/02/business/puerto-ricos-electric-power-authority-effectively-files-for-bankruptcy.html’ target=’_blank’>unable to pay for fuel</a> and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
+      "value": "The entity relies on purchasing imported fossil fuels and burning oil to generate electricity, not only contributing to pollution but also forcing customers to pay rates that follow foreign oil prices. In 2014, PREPA was <a href='https://www.nytimes.com/2017/07/02/business/puerto-ricos-electric-power-authority-effectively-files-for-bankruptcy.html' target='_blank'>unable to pay for fuel</a> and, through many negotiations, unpopular bill increases were instituted to help pay the company’s debt while making no efforts to move toward its long-awaited shift toward renewable energy."
     },
     {
       "type": "text",
-      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href=’http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html’ target=’blank’>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href=’https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU’ target=’_blank’>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href='http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html’ target=’blank’>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href='https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU' target='_blank'>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
     },
     {
       "type": "text",
@@ -359,6 +359,13 @@
     {
       "type": "text",
       "value": "“People say, ‘Isn’t that the guy who’s always protesting around, starting revolutions? And now, turns out he’s an electrician,’” said Kayak."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "265986855",
+        "is360": "true"
+      }
     },
     {
       "type": "text",
