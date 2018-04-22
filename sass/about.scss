@@ -222,6 +222,10 @@ font-size: 18px;
    text-align: center;
  }
 
+ .about-background {
+   background-attachment: scroll;
+ }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -251,10 +255,10 @@ font-size: 18px;
 
 @media only screen and (max-width: 580px) {
   #abouttitle-box .title-line h1 {
-    font-size: 3.1em !important;
+    font-size: 3em !important;
   }
 
   #abouttitle-box .title-line-two {
-    font-size: 4.8em !important;
+    font-size: 4.3em !important;
   }
 }
