@@ -102,7 +102,7 @@
       vertical-align: text-top;
       margin-bottom: 2.3em;
     p{
-      line-height: 0.6em;
+      line-height: 1em;
       margin-top: 5px;
       margin-bottom: 10px;
 
@@ -140,7 +140,7 @@
     font-family: $heading-font;
     text-align:left;
     color: $block-quote;
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 
 .interactive {
@@ -418,8 +418,15 @@ animation-duration: 3s;
     #stepLinks.row{
       padding: 0 0px!important;
     }
+    #byline.row.byline-row {
+      padding: 0px !important;
+      margin: 0px !important;
+    }
     .inner-title{
       margin: auto;
+    }
+    #video-player-trigger {
+      height: 20px;
     }
 
 }
@@ -435,10 +442,12 @@ animation-duration: 3s;
     .byline-item p {
       font-size: 9px;
       text-align: center;
+        line-height: 0.7em !important;
     }
 
     .byline-item {
       padding: 0px 5px;
+      line-height: 0.7em;
 
     }
 
@@ -449,6 +458,14 @@ animation-duration: 3s;
 
     .water, .pollution, .ecology, .health, .power {
       background-attachment: scroll;
+    }
+
+    .deck {
+      width: 90%;
+      font-size: 15px;
+    }
+    .interactive {
+      background: linear-gradient(#fff, #c7c6c6, #fff);
     }
 }
 
@@ -515,9 +532,9 @@ animation-duration: 3s;
   width: 98.8vw;
 }
 a{
-  color: $video;
+  color: $block-quote;
   &:hover{
-    color: $video;
+    color: #206442;
     text-decoration: none;
   }
 }

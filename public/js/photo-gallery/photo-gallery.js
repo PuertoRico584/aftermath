@@ -249,18 +249,7 @@ if (mq.matches) {
   var container_7_1 = document.querySelector("#photo-gallery");
   var msnry;
 
-  // initialize  after all images have loaded
-  imagesLoaded(container_7_1, function() {
-  // initialize Masonry after all images have loaded
-    new Masonry(container_7_1, {
-      // options...
-      itemSelector: ".grid-item",
-      //columnWidth: 150,
-      isFitWidth: true
-    });
 
-    container_7_1.className += " photoswipe_showme";
-  });
   var totalWidth = 0;
   var totalHeight = 0;
 
