@@ -62,19 +62,19 @@
       "value": "The <a href=’https://nepis.epa.gov/Exe/ZyNET.exe?Client=EPA&Index=2011+Thru+2015&Docs=&Query=%28cancer%29+OR+FNAME%3D%22P100G02B.txt%22+AND+FNAME%3D%22P100G02B.txt%22&FuzzyDegree=0&ZyAction=ZyActionD&User=ANONYMOUS&Password=anonymous&SortMethod=h%7C-&MaximumDocuments=1&ImageQuality=r75g8%2Fr75g8%2Fx150y150g16%2Fi425&Display=hpfr&DefSeekPage=x&Time=&EndTime=&SearchMethod=1&Toc=&TocEntry=&TocRestrict=n&QField=&QFieldYear=&QFieldMonth=&QFieldDay=&UseQField=&IntQFieldOp=0&ExtQFieldOp=0&XmlQuery=&SearchBack=ZyActionL&Back=ZyActionS&BackDesc=Results+page&MaximumPages=1&ZyEntry=&SeekPage=x&ZyActionID=&File=D%3A%5C%5CZYFILES%5C%5CINDEX+DATA%5C%5C11THRU15%5C%5CTXT%5C%5C00000006%5C%5CP100G02B.txt&Doc=%3Cdocument+name%3D%22P100G02B.txt%22+path%3D%22D%3A%5CZYFILES%5CINDEX+DATA%5C11THRU15%5CTXT%5C00000006%5C%22+index%3D%222011+Thru+2015%22%2F%3E&QueryTerms’ target=’_blank’>Environmental Protection Agency</a> has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can <a href=’http://www.psr.org/assets/pdfs/coal-ash.pdf’ target=’_blank’>leach into groundwater and soil</a>, and breathing the <a href=’https://earthjustice.org/sites/default/files/files/Ash_In_Lungs_1.pdf’ target=’_blank’>dust can</a> cause respiratory issues."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone.”",
+        "attribution": "Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste"
+      }
+    },
+    {
       "type": "text",
       "value": "Exposure to the chemicals in coal ash has been linked to bladder, stomach, skin, lung and kidney cancers, asthma, emphysema and infertility, according to a 2010 study by Physicians for Social Responsibility. <a href=’http://periodismoinvestigativo.com/wp-content/uploads/2016/03/TestAmerica-1.pdf’ target=’_blank’>The ash is also radioactive</a>, and long-term exposure to radiation can result in cancer and genetic issues, <a href=’http://periodismoinvestigativo.com/wp-content/uploads/2016/03/TestAmerica-1.pdf’ target=’_blank’>the EPA has found.</a> Many of the protesters gathered at the Humacao landfill this balmy morning say they’ve already seen these health effects in their friends and relatives."
     },
     {
       "type": "text",
       "value": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone,” said Boyle, speaking into a makeshift speaker system from the top of a red pickup truck."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone.”",
-        "attribution": "Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste"
-      }
     },
     {
       "type": "text",
@@ -194,6 +194,13 @@
       "value": "Moreno wants the dumping in her community to end, but she doesn’t stop there."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now.”",
+        "attribution": "Yanina Moreno, spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas"
+      }
+    },
+    {
       "type": "text",
       "value": "“Our final goal is that the plant closes down operations in Puerto Rico,” she said."
     },
@@ -212,13 +219,6 @@
     {
       "type": "text",
       "value": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now,” she said."
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now.”",
-        "attribution": "Yanina Moreno, spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas"
-      }
     },
     {
       "type": "slider",
@@ -245,6 +245,13 @@
       "value": "He said he started protesting coal ash pollution five years ago, after he noticed his grandmother’s asthma worsening after trucks carrying the ash started passing through his hometown of Maunabo. His scientific and chemical background — he has a doctorate in chemistry and teaches it at the University of Puerto Rico at Humacao — led him to investigate why his grandmother was getting sicker when everything else in her life was constant, and his research led him to evidence that the ashes were affecting her lungs."
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb. The only option was to join the movement and to help them”",
+        "attribution": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao"
+      }
+    },
+    {
       "type": "text",
       "value": "In his search for answers, he came across the coal ash protest movement in Peñuelas and got in contact with the group there and with Moreno. The Peñuelas group welcomed him to the cause, happy to have someone on the team with a scientific background to educate others on the toxicity of the ash, especially as the government was claiming it was safe."
     },
@@ -255,13 +262,6 @@
     {
       "type": "text",
       "value": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb,” he said. “The only option was to join the movement and to help them.”"
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb. The only option was to join the movement and to help them”",
-        "attribution": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao"
-      }
     },
     {
       "type": "text",
