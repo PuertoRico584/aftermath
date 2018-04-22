@@ -647,7 +647,7 @@ h5 {
   margin-top: 50px; }
 
 .desk-title {
-  height: 26vh;
+  max-height: 26vh;
   width: auto;
   margin: auto; }
 
