@@ -291,7 +291,8 @@ body, html {
   height: 100%;
   background-position: center;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow: hidden; }
 
 .video-wrapper {
   position: fixed;
@@ -742,13 +743,15 @@ h5 {
   font-family: "Quasimoda", sans-serif;
   font-weight: 100;
   color: #309865;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3em; }
 
 .pull-quote-box .attribution {
   font-weight: 400;
   font-family: "Quasimoda", sans-serif;
-  text-align: left; }
+  text-align: left;
+  color: #309865;
+  font-size: 0.9em; }
 
 .interactive {
   padding: 40px 0;
@@ -1314,14 +1317,15 @@ button:hover {
     max-width: 30%; } }
 
 .water-interactive .water-left-side button {
-  background-color: #359766;
+  background-color: #55707b;
   color: black;
-  padding: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 20px;
-  width: 50%;
-  text-transform: uppercase; }
+  padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 15%;
+  text-transform: uppercase;
+  border-radius: 30px; }
 
 .water-interactive #imagearea {
   margin-top: 65px;
