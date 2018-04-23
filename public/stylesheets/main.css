@@ -1382,8 +1382,14 @@ button {
   /* =General */
   .pollution-interactive .project {
     margin: 2%; }
+  html, body {
+    width: 100%;
+    height: 100%; }
   .pollution-interactive #con-trigger {
-    background-size: initial; }
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; }
   .pollution-interactive #single-element {
     max-width: 30%; } }
 
