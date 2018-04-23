@@ -40,16 +40,34 @@ var tween = TweenMax.to(obj, 0.5,
 // init controller
 var controller = new ScrollMagic.Controller();
 
-// build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
-        .setTween(tween)
-        // .addIndicators() // add indicators (requires plugin)
-        .addTo(controller);
-// build scene
-var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
-        .setPin(".spacerz")
-        // .addIndicators() // add indicators (requires plugin)
-        .addTo(controller);
+const mq = window.matchMedia( "(min-width: 990px)" );
+// https://www.sitepoint.com/javascript-media-queries/
+
+if (mq.matches) {
+  // window width is at least 500px
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
+          .setTween(tween)
+          // .addIndicators() // add indicators (requires plugin)
+          .addTo(controller);
+  // build scene
+  var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.2})
+          .setPin(".spacerz")
+          // .addIndicators() // add indicators (requires plugin)
+          .addTo(controller);
+} else {
+  // window width is less than 500px
+  var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.05})
+          .setTween(tween)
+          // .addIndicators() // add indicators (requires plugin)
+          .addTo(controller);
+  // build scene
+  var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 2000, triggerHook: 0.05})
+          .setPin(".spacerz")
+          // .addIndicators() // add indicators (requires plugin)
+          .addTo(controller);
+}
+
 
 
 
