@@ -931,6 +931,10 @@ h5 {
   margin-bottom: 50px;
   margin-top: 50px; }
 
+.line {
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 25px; }
+
 @media only screen and (max-width: 800px) {
   .deck {
     font-size: 16px;
@@ -2283,6 +2287,6 @@ a.about-social-icon {
 
 @media only screen and (max-width: 580px) {
   #abouttitle-box .title-line h1 {
-    font-size: 3em !important; }
+    font-size: 2.4em !important; }
   #abouttitle-box .title-line-two {
-    font-size: 4.3em !important; } }
+    font-size: 3.5em !important; } }

@@ -81,13 +81,14 @@
 				<%} else if (body["text"][i]["type"] == "interactive") {%>
 		</div>
 	    </section>
+
 	    <% var filepath = body["text"][i]["value"]["filename"] %>
 	      <%- include("../partials/" + filepath); %>
 
 							 <div class="row">
 							 	<div class="left-box col-4"></div>
 								<section class="col-md-6">
-
+										<div class="line"></div>
 			<% var filepath = body["text"][i]["value"]["filename"] %>
 
 			<% } else if (body["text"][i]["type"] == "pullquote") {%>
