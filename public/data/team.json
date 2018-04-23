@@ -215,12 +215,12 @@
         "social": "http://www.instagram.com/alexkormann12",
         "handle": "alexkormann12",
         "socialid": "instagram",
-        "social": "http://www.twitter.com/kormannalex",
-        "handle": "Kormannalex",
-        "socialid": "twitter",
-        "social2": "https://www.linkedin.com/in/alex-kormann-223573bb/",
-        "handle2": "alex-kormann-223573bb",
-        "socialid2": "linkedin"
+        "social2": "http://www.twitter.com/kormannalex",
+        "handle2": "Kormannalex",
+        "socialid2": "twitter",
+        "social3": "https://www.linkedin.com/in/alex-kormann-223573bb/",
+        "handle3": "alex-kormann-223573bb",
+        "socialid3": "linkedin"
     },
     {
         "fullname": "Marissa O'Neill",
