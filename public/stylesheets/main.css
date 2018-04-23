@@ -1383,7 +1383,7 @@ button {
   .pollution-interactive .project {
     margin: 2%; }
   .pollution-interactive #con-trigger {
-    background-size: cover; }
+    background-size: initial; }
   .pollution-interactive #single-element {
     max-width: 30%; } }
 
