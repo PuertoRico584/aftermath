@@ -935,6 +935,9 @@ h5 {
   margin-bottom: 50px;
   margin-top: 50px; }
 
+.mobile-video {
+  display: none; }
+
 @media only screen and (max-width: 800px) {
   .deck {
     font-size: 16px;
@@ -998,7 +1001,11 @@ h5 {
   .line.number31 {
     display: none; }
   .line.number26 {
-    display: none; } }
+    display: none; }
+  #player, .plyr--video {
+    display: none; }
+  .mobile-video {
+    display: inherit; } }
 
 #water-header .title-line-two {
   font-size: 9.3em; }
