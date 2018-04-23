@@ -287,6 +287,9 @@
     position: absolute;
     align-items: center;
     width: 75%;
+    @include media('<=sm'){
+      top: 34%
+    }
 }
 
 
@@ -389,7 +392,8 @@ animation-duration: 3s;
     }
 
     .deck p {
-      margin-top: -20%;
+      position:absolute;
+      bottom: -100px;
     }
 
     .inner .byline-item {

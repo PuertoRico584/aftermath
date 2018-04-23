@@ -862,6 +862,9 @@ h5 {
   position: absolute;
   align-items: center;
   width: 75%; }
+  @media (max-width: 570px) {
+    .title-line {
+      top: 34%; } }
 
 .title-line h1 {
   font-weight: 300;
@@ -941,7 +944,8 @@ h5 {
     font-size: 16px;
     bottom: 20%; }
   .deck p {
-    margin-top: -20%; }
+    position: absolute;
+    bottom: -100px; }
   .inner .byline-item {
     padding: 0px 5px;
     display: inline-block;
@@ -1329,7 +1333,7 @@ button {
   .pollution-interactive .project {
     margin: 2%; }
   .pollution-interactive #con-trigger {
-    background-repeat: repeat-y; }
+    background-size: cover; }
   .pollution-interactive #single-element {
     max-width: 30%; } }
 
