@@ -1,11 +1,15 @@
 .water-interactive{
   .water-left-side{
     button{
-      background-color: $video;
-      color: black;
-      padding: 6px;
+      background-color: #da6757;
+      color: white;
+      font-family: 'quasimoda', sans-serif;
+      // text-align: center;
+      font-weight: bold;
       padding-top: 10px;
       padding-bottom: 10px;
+      padding-left: 2px;
+      padding-right: 2px;
       margin-top: 10px;
       width: 15%;
       text-transform: uppercase;
@@ -13,7 +17,7 @@
     }
   }
   #imagearea{
-    margin-top: 65px;
+    margin-top: 25px;
     margin-bottom: 60px;
   }
 }
