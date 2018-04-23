@@ -143,7 +143,7 @@
     font-size: 0.7em;
   }
 
-.interactive {
+.interactive, .interactive-health {
   padding: 40px 0;
   margin: 20px 0;
 }
@@ -377,10 +377,6 @@ animation-duration: 3s;
   margin-top: 50px;
 }
 
-.line {
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 25px;
-}
 
 
 @media only screen and (max-width: 800px) {
@@ -479,6 +475,17 @@ animation-duration: 3s;
     }
     .interactive {
       background: linear-gradient(#fff, #c7c6c6, #fff);
+    }
+
+    .line {
+      border-bottom: solid 1px #ccc;
+      margin-bottom: 30px;
+    }
+    .line.number31 {
+      display: none;
+    }
+    .line.number26 {
+      display: none;
     }
 }
 
