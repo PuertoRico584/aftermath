@@ -83,16 +83,6 @@
     width: 100%;
     height: 500px;
   }
-  .fade-png2{
-    width: 100%;
-    height: 500px;
-    -webkit-transform: rotate(180deg);
-      -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      transform: rotate(180deg);
-    z-index: 100;
-  }
   .lights-out{
     width: 100%;
     height: auto;
@@ -109,6 +99,7 @@
     text-align: center;
     color: white;
     font-family: "Source Sans Pro", sans-serif;
+    opacity: 0.5;
   }
   .battery{
     width: 50%;
@@ -247,7 +238,7 @@ body {
 }
 
 #project00, #project01, #project02, #project03, #project04, #project05 {
-  max-width: 70%;
+  max-width: 90%;
   margin: auto;
 }
 #project00 h2 {
