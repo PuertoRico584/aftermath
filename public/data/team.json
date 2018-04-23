@@ -412,7 +412,16 @@
         "rolespanish": "Productor Ejecutivo/Instructor",
         "role": "Executive Producer/Coach",
         "roleid": "coach",
-        "portfolio": "http://patdavison.com"
+        "portfolio": "http://patdavison.com",
+        "handle": "pdavison1",
+        "social": "http://twitter.com/pdavison1",
+        "socialid": "twitter",
+        "social2": "https://www.linkedin.com/in/patrickdavison",
+        "handle2": "patrickdavison",
+        "socialid2": "linkedin",
+        "social3": "https://www.instagram.com/patdavison",
+        "handle3": "patdavison",
+        "socialid3": "instagram"
     },
     {
         "fullname": "Christa Gala",

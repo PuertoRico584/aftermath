@@ -252,6 +252,13 @@
       "value": "“The government disregarded the effect of a disaster on the emotional state of people,” Matos said. “That affects directly not only the thinking process and decision making, but their physical conditions too.”"
     },
     {
+      "type": "pullquote",
+      "value": {
+        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
+        "attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
+      }
+    },
+    {
       "type": "text",
       "value": "During their brigades, the volunteers keep that concept in mind, focusing on both emotional and physical health. One volunteer plays guitar for the patients. It’s a remedy for the loneliness the increasing number of elderly face."
     },
@@ -266,13 +273,6 @@
     {
       "type": "text",
       "value": "“The young people are the future, and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island, who doubles as a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
-        "attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
-      }
     },
     {
       "type": "text",
