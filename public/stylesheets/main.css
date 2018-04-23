@@ -660,7 +660,7 @@ h5 {
 
 .embed-container {
   position: relative;
-  padding-bottom: 40.25%;
+  padding-bottom: 50.25%;
   height: 0;
   overflow: hidden;
   max-width: 80%;
@@ -672,10 +672,6 @@ h5 {
   left: 10.5%;
   width: 80%;
   height: 80%; }
-
-.explore-the-recovery {
-  text-align: center;
-  margin-top: 20px; }
 
 .w3-center {
   width: 65%;
