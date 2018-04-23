@@ -256,9 +256,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "ecology",
-    "step-back-title": "A Natural Revolution",
-    "step-forward-name": "pollution",
-    "step-forward-title": "A Fight For Life"
+    "step-back-name": "health",
+    "step-back-title": "The Healing Brigade",
+    "step-forward-name": "ecology",
+    "step-forward-title": "A Natural Revolution"
   }
 }

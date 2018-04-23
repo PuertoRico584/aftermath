@@ -400,7 +400,8 @@ body, html {
 .homepage-subtitle {
   color: white;
   font-size: 15pt;
-  font-family: "quasimoda",sans-serif; }
+  font-family: "quasimoda",sans-serif;
+  font-weight: 300; }
 
 /* ------------------  NAV BAR ------------------ */
 .logo-in-corner {
