@@ -75,7 +75,11 @@
     margin: 2%;
   }
 
+  .pollution-interactive #con-trigger {
+    background-repeat: repeat-y; 
+  }
+
   .pollution-interactive #single-element {
-    max-width: 30%; 
+    max-width: 30%;
   }
 }
