@@ -935,6 +935,8 @@ h5 {
   .deck {
     font-size: 16px;
     bottom: 20%; }
+  .deck p {
+    margin-top: -20%; }
   .inner .byline-item {
     padding: 0px 5px;
     display: inline-block;
