@@ -29,3 +29,15 @@
     margin: 0;
   }
 }
+@media (max-width: 800px) {
+  .map {
+    padding-left:0;
+    padding-right:0;
+  }
+  #inner-body .row.water-interactive {
+    padding:0!important;
+  }
+  .water-interactive #imagearea {
+      margin-bottom: 25px;
+  }
+}
