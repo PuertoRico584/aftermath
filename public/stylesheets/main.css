@@ -1273,6 +1273,12 @@ figure {
 .slider-title {
   text-align: center; }
 
+.bts-slider h4 {
+  padding: 5%; }
+
+.bts-spacer {
+  padding: 40%; }
+
 .tns-ovh {
   overflow: hidden; }
 
