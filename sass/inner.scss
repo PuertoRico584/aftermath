@@ -149,13 +149,19 @@
 }
 
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   .text {
     &-row {
-      max-width: 90%;
+      max-width: 100%;
       margin: 0 auto;
     }
   }
+
+.col-md-6, .col-md-2, .col-md-3 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
 
   .byline {
     &-box {
