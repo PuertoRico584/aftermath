@@ -1276,8 +1276,9 @@ figure {
 .bts-slider h4 {
   padding: 5%; }
 
-.bts-spacer {
-  padding: 40%; }
+@media (max-width: 650px) {
+  .bts-spacer {
+    padding: 40%; } }
 
 .tns-ovh {
   overflow: hidden; }

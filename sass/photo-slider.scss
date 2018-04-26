@@ -7,7 +7,9 @@
 }
 
 .bts-spacer {
-  padding: 40%; 
+  @include media('<=photog-sm'){
+      padding: 40%;
+  }
 }
 
 .tns-ovh {
