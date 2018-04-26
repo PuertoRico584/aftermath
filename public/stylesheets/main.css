@@ -370,8 +370,9 @@ body, html {
     .homepage-logo img {
       width: 75%; }
     .homepage-logo p {
-      font-size: 0.95em;
-      right: -26px; } }
+      font-size: 0.80em;
+      right: -26px;
+      font-weight: 600; } }
 
 .homepage-icon-row {
   display: flex;
@@ -643,6 +644,52 @@ h5 {
     width: 30%; }
   .nav-item {
     width: 33%; } }
+
+.mySlides {
+  display: none; }
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer; }
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0; }
+
+.w3-display-container {
+  margin-bottom: 50px; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 50.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 80%;
+  margin: auto; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 10.5%;
+  left: 10.5%;
+  width: 80%;
+  height: 80%; }
+
+.w3-center {
+  width: 65%;
+  margin: auto; }
+
+@media (max-width: 990px) {
+  .embed-container {
+    max-width: 100%; }
+  .embed-container iframe, .embed-container object, .embed-container embed {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%; }
+  .explore-the-recovery {
+    margin-bottom: 30px; }
+  .w3-center {
+    margin-top: 20px; } }
 
 .text-row {
   margin-top: 50px; }
@@ -1345,28 +1392,48 @@ button {
   /* =General */
   .pollution-interactive .project {
     margin: 2%; }
+  html, body {
+    width: 100%;
+    height: 100%; }
   .pollution-interactive #con-trigger {
-    background-size: cover; }
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; }
   .pollution-interactive #single-element {
     max-width: 30%; } }
 
 .water-interactive .water-left-side button {
   background-color: #da6757;
-  color: white;
-  font-family: 'quasimoda', sans-serif;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 2px;
-  padding-right: 2px;
+  clip-path: circle();
   margin-top: 10px;
-  width: 15%;
-  text-transform: uppercase;
-  border-radius: 30px; }
+  width: 20%;
+  margin: auto; }
+  .water-interactive .water-left-side button p {
+    color: white;
+    font-family: 'quasimoda', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto; }
 
 .water-interactive #imagearea {
   margin-top: 25px;
   margin-bottom: 60px; }
+
+@media (max-width: 990px) {
+  #imagearea {
+    width: 100%;
+    height: auto;
+    margin: 0; } }
+
+@media (max-width: 800px) {
+  .map {
+    padding-left: 0;
+    padding-right: 0; }
+  #inner-body .row.water-interactive {
+    padding: 0 !important; }
+  .water-interactive #imagearea {
+    margin-bottom: 25px; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
@@ -1577,6 +1644,8 @@ button {
   /**
  * Remove most spacing between table cells.
  */ }
+  .power-interactive .power-spacerz {
+    height: 400px; }
   .power-interactive .bottom-infographic .headers-info .top-info-div .why-is-it-taking-so {
     font-size: 25pt;
     text-align: center;
@@ -1647,7 +1716,7 @@ button {
     text-align: center;
     color: white;
     font-family: "Source Sans Pro", sans-serif;
-    opacity: 0.5; }
+    font-weight: lighter; }
   .power-interactive .battery {
     width: 50%;
     height: auto;
@@ -1733,12 +1802,12 @@ button {
     margin: 0 auto;
     color: white;
     font-family: "source sans pro",sans-serif;
-    font-size: 20pt; }
+    font-size: 15pt; }
   .power-interactive .project h2 {
     text-align: left;
     font-size: 30pt; }
   .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
-    max-width: 90%;
+    max-width: 70%;
     margin: auto; }
   .power-interactive #project00 h2 {
     color: white;
@@ -1746,7 +1815,8 @@ button {
     text-align: center; }
   .power-interactive #project01 {
     background-image: url("../assets/images/power-interactive/lights-1.png");
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: repeat; }
     .power-interactive #project01 h2 {
       color: white;
       font-family: "quasimoda",sans-serif; }
@@ -2107,7 +2177,9 @@ button {
     .power-interactive .project p {
       font-size: 12pt; }
     .power-interactive .project h2 {
-      font-size: 20pt; } }
+      font-size: 20pt; }
+    .power-interactive #project00, .power-interactive #project01, .power-interactive #project02, .power-interactive #project03, .power-interactive #project04, .power-interactive #project05 {
+      max-width: 90%; } }
 
 .spacerzz {
   height: 100px; }

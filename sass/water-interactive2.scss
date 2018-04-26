@@ -2,22 +2,42 @@
   .water-left-side{
     button{
       background-color: #da6757;
-      color: white;
-      font-family: 'quasimoda', sans-serif;
-      // text-align: center;
-      font-weight: bold;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 2px;
-      padding-right: 2px;
+      clip-path: circle();
       margin-top: 10px;
-      width: 15%;
-      text-transform: uppercase;
-      border-radius: 30px;
+      width: 20%;
+      margin: auto;
+      p{
+        color: white;
+        font-family: 'quasimoda', sans-serif;
+        text-align: center;
+        // font-weight: bold;
+        text-transform: uppercase;
+        margin: auto;
+      }
     }
   }
   #imagearea{
     margin-top: 25px;
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 990px){
+  #imagearea{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+@media (max-width: 800px) {
+  .map {
+    padding-left:0;
+    padding-right:0;
+  }
+  #inner-body .row.water-interactive {
+    padding:0!important;
+  }
+  .water-interactive #imagearea {
+      margin-bottom: 25px;
   }
 }
