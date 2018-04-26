@@ -1,6 +1,6 @@
 .pollution-interactive {
 
-  h1, h2 {
+  h1, h3 {
     text-align: center;
   }
 
@@ -84,7 +84,7 @@
     width: 100%;
     height: 100%;
     overflow: scroll;
-    -webkit-overflow-scrolling: touch; 
+    -webkit-overflow-scrolling: touch;
   }
 
   .pollution-interactive #single-element {
