@@ -376,6 +376,9 @@ animation-duration: 3s;
   margin-top: 50px;
 }
 
+.mobile-video {
+  display: none;
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -485,6 +488,12 @@ animation-duration: 3s;
     }
     .line.number26 {
       display: none;
+    }
+    #player, .plyr--video {
+      display: none;
+    }
+    .mobile-video {
+      display: inherit;
     }
 }
 
