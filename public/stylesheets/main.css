@@ -370,8 +370,9 @@ body, html {
     .homepage-logo img {
       width: 75%; }
     .homepage-logo p {
-      font-size: 0.95em;
-      right: -26px; } }
+      font-size: 0.80em;
+      right: -26px;
+      font-weight: 600; } }
 
 .homepage-icon-row {
   display: flex;
@@ -660,7 +661,7 @@ h5 {
 
 .embed-container {
   position: relative;
-  padding-bottom: 40.25%;
+  padding-bottom: 50.25%;
   height: 0;
   overflow: hidden;
   max-width: 80%;
@@ -672,10 +673,6 @@ h5 {
   left: 10.5%;
   width: 80%;
   height: 80%; }
-
-.explore-the-recovery {
-  text-align: center;
-  margin-top: 20px; }
 
 .w3-center {
   width: 65%;
@@ -804,14 +801,17 @@ h5 {
   color: #309865;
   font-size: 0.7em; }
 
-.interactive {
+.interactive, .interactive-health {
   padding: 40px 0;
   margin: 20px 0; }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   .text-row {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto; }
+  .col-md-6, .col-md-2, .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%; }
   .byline-box {
     text-align: center; }
   .byline-item {
@@ -985,9 +985,8 @@ h5 {
   margin-bottom: 50px;
   margin-top: 50px; }
 
-.line {
-  border-bottom: solid 1px #ccc;
-  margin-bottom: 25px; }
+.mobile-video {
+  display: none; }
 
 @media only screen and (max-width: 800px) {
   .deck {
@@ -1045,7 +1044,18 @@ h5 {
     width: 90%;
     font-size: 15px; }
   .interactive {
-    background: linear-gradient(#fff, #c7c6c6, #fff); } }
+    background: linear-gradient(#fff, #c7c6c6, #fff); }
+  .line {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 30px; }
+  .line.number31 {
+    display: none; }
+  .line.number26 {
+    display: none; }
+  #player, .plyr--video {
+    display: none; }
+  .mobile-video {
+    display: inherit; } }
 
 #water-header .title-line-two {
   font-size: 9.3em; }
@@ -1418,6 +1428,15 @@ button {
     width: 100%;
     height: auto;
     margin: 0; } }
+
+@media (max-width: 800px) {
+  .map {
+    padding-left: 0;
+    padding-right: 0; }
+  #inner-body .row.water-interactive {
+    padding: 0 !important; }
+  .water-interactive #imagearea {
+    margin-bottom: 25px; } }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 .light-video {
