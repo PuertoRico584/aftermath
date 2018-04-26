@@ -5,7 +5,9 @@
   z-index: auto;
 }
 .power-interactive {
-
+  .power-spacerz{
+    height: 400px;
+  }
   .bottom-infographic{
     .headers-info{
       .top-info-div{
@@ -99,7 +101,8 @@
     text-align: center;
     color: white;
     font-family: "Source Sans Pro", sans-serif;
-    opacity: 0.5;
+    font-weight: lighter;
+    // opacity: 0.5;
   }
   .battery{
     width: 50%;
@@ -229,7 +232,7 @@ body {
     margin: 0 auto;
     color: white;
     font-family: "source sans pro",sans-serif;
-    font-size: 20pt;
+    font-size: 15pt;
 }
 
 .project h2{
@@ -238,7 +241,7 @@ body {
 }
 
 #project00, #project01, #project02, #project03, #project04, #project05 {
-  max-width: 90%;
+  max-width: 70%;
   margin: auto;
 }
 #project00 h2 {
@@ -249,6 +252,7 @@ body {
 #project01{
   background-image: url('../assets/images/power-interactive/lights-1.png');
   background-size: cover;
+  background-repeat: repeat;
   h2 {
     color: white;
     font-family: "quasimoda",sans-serif;
@@ -1007,6 +1011,9 @@ table {
   }
   .project h2{
     font-size: 20pt;
+  }
+  #project00, #project01, #project02, #project03, #project04, #project05 {
+    max-width: 90%;
   }
 }
 
