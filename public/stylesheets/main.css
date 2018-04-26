@@ -1343,7 +1343,7 @@ button {
 
 .pollution-interactive {
   /*============================= CSS Parallax ===========================*/ }
-  .pollution-interactive h1, .pollution-interactive h2 {
+  .pollution-interactive h1, .pollution-interactive h3 {
     text-align: center; }
   .pollution-interactive #con-trigger {
     background-image: url("/assets/images/ash-illustration.png");
