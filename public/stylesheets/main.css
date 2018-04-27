@@ -936,7 +936,7 @@ h5 {
   margin: auto;
   display: block;
   width: 66%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   top: 70%;
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -1261,6 +1261,19 @@ figure {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
+  /* space between columns */
+  -moz-column-gap: 4px;
+  -webkit-column-gap: 4px;
+  column-gap: 4px; }
+
+.row1.about-gallery {
+  /* column width */
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
   /* space between columns */
   -moz-column-gap: 4px;
   -webkit-column-gap: 4px;
