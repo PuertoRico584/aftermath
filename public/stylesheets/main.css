@@ -936,7 +936,7 @@ h5 {
   margin: auto;
   display: block;
   width: 66%;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   top: 70%;
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -1272,6 +1272,13 @@ figure {
 
 .slider-title {
   text-align: center; }
+
+.bts-slider h4 {
+  padding: 5%; }
+
+@media (max-width: 650px) {
+  .bts-spacer {
+    padding: 40%; } }
 
 .tns-ovh {
   overflow: hidden; }
