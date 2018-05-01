@@ -86,7 +86,22 @@ figure {
 	-moz-column-gap: 4px;
 	-webkit-column-gap: 4px;
   column-gap:4px;
+}
 
+.row1.about-gallery {
+  /* column width */
+
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+  -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+  /* space between columns */
+  -moz-column-gap: 4px;
+  -webkit-column-gap: 4px;
+  column-gap:4px;
 }
 
 @media screen and (max-width: 768px) {
