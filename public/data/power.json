@@ -43,7 +43,7 @@
   "text": [
     {
       "type": "text",
-      "value": "VEGA BAJA, PUERTO RICO -- “I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
+      "value": "VEGA BAJA, PUERTO RICO — “I thought I was never going to see light in my home again,” said Elsia Cruz Torruellas, 65, as she stood on the front porch of her beige house, looking out at the electrical wires that had just been lifted from the ground and reconnected by a man she had known for only a few minutes."
     },
     {
       "type": "text",
@@ -55,7 +55,7 @@
     },
     {
       "type": "text",
-      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, that transfer electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island was without power for an estimated accumulation of 1,248 hours: 52 days."
+      "value": "It had been six months since Cruz Torruellas’ home in Vega Baja lost power during Hurricane Irma. Hurricane Maria came through 14 days later, toppled power posts and brought electrical wires down across her front yard and driveway, trapping her and her family inside the home. The family was among the 3.3 million Puerto Ricans who lost power during hurricanes Irma and Maria, which severely damaged the island’s electrical grid — the system of power poles, electrical towers, wires and transformers, that transfer electricity from power plants to homes and businesses across the island — and initiated the longest blackout in United States history. The entire island lost an estimated 1,248 million consumer hours — hours of potential energy consumption that Puerto Ricans lived without."
     },
     {
       "type": "text",
@@ -79,7 +79,7 @@
     },
     {
       "type": "text",
-      "value": "“We practically had to bring them by force — after that they never came back,” Ramirez Cruz.said."
+      "value": "“We practically had to bring them by force — after that they never came back,” Ramirez Cruz said."
     },
     {
       "type": "pullquote",
@@ -149,7 +149,7 @@
     {
       "type": "subhead",
       "value": {
-        "Text": "The first connection"
+        "text": "The first connection"
       }
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "type": "text",
-      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. PREPA’s and other officials estimate that power may not be fully restored until May."
+      "value": "There are also frequent smaller neighborhood blackouts that aren’t reported. The Santurce district in the heart of San Juan had a blackout lasted over eight hours in the middle of March. In April another two major outages took power from Puerto Ricans. On April 12, as electrical crews attempted to clear land, a tree downed a main line to San Juan and left 870,000 customers without power. Not even a week later, on April 18, other reparation attempts threw the island back into a total blackout — the first since Hurricane Maria. PREPA’s and other officials estimate that power may not be fully restored from Maria’s initial hit until May."
     },
     {
       "type": "interactive",
@@ -285,7 +285,7 @@
     },
     {
       "type": "text",
-      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href='http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html’ target=’blank’>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href='https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU' target='_blank'>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
+      "value": "In 2016, the Puerto Rican Senate asked the FBI to investigate PREPA for <a href='http://www.foxnews.com/world/2016/05/09/puerto-rico-senate-hands-off-probe-power-authority-to-fbi.html' target='_blank'>fuel-purchasing irregularities</a>. In January, Gov. Ricardo Rosselló <a href='https://www.reuters.com/article/us-puertorico-storm-energy/puerto-rico-governor-orders-probe-of-discovery-of-hurricane-recovery-materials-idUSKBN1F02VU' target='_blank'>asked the Department of Justice to investigate</a> whether PREPA had committed crimes “against the public interest,” following a United States Army Corps of Engineers report on construction materials PREPA was allegedly hoarding in a supply warehouse in Palo Seco. The supplies were supposed to be distributed equipment to helps re-establish the island’s power grid, but PREPA reported the materials “out-of-stock.” Not having access to them has delayed the restoration process."
     },
     {
       "type": "text",
@@ -393,9 +393,9 @@
     }
   ],
   "step-links": {
-    "step-back-name": "ecology",
-    "step-back-title": "A Natural Revolution",
-    "step-forward-name": "pollution",
-    "step-forward-title": "A Fight for Life"
+    "step-back-name": "health",
+    "step-back-title": "The Healing Brigade",
+    "step-forward-name": "ecology",
+    "step-forward-title": "A Natural Revolution"
   }
 }
