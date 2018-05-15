@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <% include ../partials/header.ejs %>
-
+  <script>
+  var currentPage = "<%= page %>";
+  console.log(currentPage);
+  </script>
     <title><%= body["header"]["seo"] %></title>
     <meta property="og:title" content="<%= body["header"]["seo"] %>" />
 

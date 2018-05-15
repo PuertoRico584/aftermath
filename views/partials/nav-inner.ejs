@@ -5,7 +5,7 @@
 
 <nav class="navbar hidden navbar-expand-lg nav-down">
 
-  <div class="mobile-nav-bar"><a class="navbar-brand" href="/"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
+  <div class="mobile-nav-bar"><a class="navbar-brand" href="/<%= URL_LANG%>"><img class="logo-in-corner" src="../assets/images/aftermath_web.png"></a>
     <div class="navbar-toggler" onclick="toggleTitleInner()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <!-- <span class="navbar-toggler-icon"></span> -->
       <div class="hamburger-menu" onclick="hamburger(this)">
@@ -18,38 +18,44 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" onmouseover="fadeIconsNav(3)" onmouseout="unfadeIconsNav(3)">
-        <a class="nav-link" href="pages/power" id="link-3">
+        <a class="nav-link" href="pages/power<%=URL_LANG%>" id="link-3">
           <img class="nav-icon" src="assets/images/homepage-icons/power.png">
-          <h3 class="nav-header">power</h3><h5>flipping the switch</h5>
+            <h3 class="nav-header"><%= espanol ? navSpan[0] : navEng[0] %></h3>
+            <h5><%= espanol ? navSpan[7] : navEng[7] %></h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(1)" onmouseout="unfadeIconsNav(1)">
-        <a class="nav-link" href="pages/pollution" id="link-1">
+        <a class="nav-link" href="pages/pollution<%=URL_LANG%>" id="link-1">
           <img class="nav-icon" src="assets/images/homepage-icons/pollution.png">
-          <h3 class="nav-header">pollution</h3><h5>a fight for life</h5>
+          <h3 class="nav-header"><%= espanol ? navSpan[1] : navEng[1] %></h3>
+          <h5><%= espanol ? navSpan[8] : navEng[8] %></h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(2)" onmouseout="unfadeIconsNav(2)">
-        <a class="nav-link" href="pages/health" id="link-2">
-          <img  class="nav-icon" src="assets/images/homepage-icons/health.png">
-          <h3 class="nav-header">health</h3><h5>the healing brigade</h5>
+        <a class="nav-link" href="pages/health<%=URL_LANG%>" id="link-2">
+          <img class="nav-icon" src="assets/images/homepage-icons/health.png">
+          <h3 class="nav-header"><%= espanol ? navSpan[2] : navEng[2] %></h3>
+          <h5><%= espanol ? navSpan[9] : navEng[9] %></h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(0)" onmouseout="unfadeIconsNav(0)">
-        <a class="nav-link" href="pages/water" id="link-0">
+        <a class="nav-link" href="pages/water<%=URL_LANG%>" id="link-0">
           <img class="nav-icon" src="assets/images/homepage-icons/water.png">
-          <h3 class="nav-header">water</h3><h5>rooted in el caño</h5>
+          <h3 class="nav-header"><%= espanol ? navSpan[3] : navEng[3] %></h3>
+          <h5><%= espanol ? navSpan[10] : navEng[10] %></h5>
         </a>
       </li>
       <li class="nav-item" onmouseover="fadeIconsNav(4)" onmouseout="unfadeIconsNav(4)">
-        <a class="nav-link" href="pages/ecology" id="link-4">
+        <a class="nav-link" href="pages/ecology<%=URL_LANG%>" id="link-4">
           <img class="nav-icon" src="assets/images/homepage-icons/ecology.png">
-          <h3 class="nav-header">ecology</h3><h5>a natural revolution</h5>
+          <h3 class="nav-header"><%= espanol ? navSpan[4] : navEng[4] %></h3>
+          <h5><%= espanol ? navSpan[11] : navEng[11] %></h5>
         </a>
       </li>
         </ul>
     </div>
       <div class="es-and-about">
+        <a class="trans-link" href="pages/"><span><%= espanol ? "EN":"ES" %></span></a>
         <p><a href="about">ABOUT</a></p>
         <div class="mobile-social-icons">
              <a class="facebook" href="https://www.facebook.com/aftermath.unc" target="_blank" onmouseover="fadeIconsFooter(0)" onmouseout="unfadeIconsFooter(0)"><img id="footer-0" src="../../assets/images/social/facebook.png"></a>
@@ -60,3 +66,14 @@
 </nav>
 </div>
 </div>
+<script>
+var currentPage = '<%= page %>';
+ var espanol = <%= espanol ? "true":"false" %>;
+$('.trans-link').attr("href", espanol ? currentPage : currentPage + '?lang=es' );
+
+//
+// var transLink = document.getElementsByClassName('trans-link');
+// var espanol = <%= espanol ? "true":"false" %>;
+// transLink.setAttribute("href", espanol ? currentPage : currentPage + '?lang=es');
+
+</script>

@@ -3,10 +3,10 @@
     "class": "health"
   },
   "header": {
-    "title-line-one": "The Healing",
-    "title-line-two": "Brigade",
-    "seo": "The Healing Brigade | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Puerto Rico is facing a health care crisis after chronic mental and physical health issues often went untreated in the aftermath of Hurricane Maria. Many doctors have left the island, but one volunteer group isn’t going anywhere."
+    "title-line-one": "La Brigada",
+    "title-line-two": "Curativa",
+    "seo": "La Brigada Curativa | Aftermath: Puerto Ricans Rebuild After Maria",
+    "subtitle": "Con su comunidad en crisis, los puertorriqueños están dando pasos adelante para cuidar a quienes han sido olvidados. Una organización está convirtiendo la desesperación en esperanza."
   },
   "reporters": [
     {
@@ -25,9 +25,6 @@
     },
     {
       "name": "Kaitlin Harlow"
-    },
-    {
-      "name": "MaryRachel Bulkeley"
     }
   ],
   "designers": [
@@ -46,35 +43,46 @@
   "text": [
     {
       "type": "text",
-      "value": "Every night, Ingrid Morales settles down to sleep on a thin canvas cot, surrounded by water bottles, medications and other supplies soon to be on their way to the survivors of Hurricane Maria. Her 7-year-old daughter sleeps on a cot next to her, and her husband sleeps in an adjacent room also stacked with boxes of supplies."
+      "value": "Cada noche, Ingrid Morales se prepara para dormir en un catre, rodeada de botellas de agua, medicinas y otros suministros que pronto van a estar en camino hacia los sobrevivientes del Huracán María. Su hija de 7 años duerme a su lado, también en un catre, y su esposo duerme en una habitación adyacente llena de cajas con suministros."
     },
     {
       "type": "text",
-      "value": "The family isn’t sleeping at the makeshift clinic because they were displaced, like so many Puerto Ricans after hurricanes Irma and Maria battered the island. The family lives nearby, and while they lost some clothes, appliances and mattresses, the home itself was unscathed."
+      "value": "La familia no está durmiendo en la clínica improvisada por ser desplazada, como muchos puertorriqueños después de que los huracanes Irma y María abollaron la isla."
     },
     {
       "type": "text",
-      "value": "But Morales is responsible for handling the donations that clínica Bantiox, a health clinic set up in a preschool just nine days after Hurricane Maria made landfall, receives from organizations around the world. She stays there to ensure that everything—from the blood sugar meters to diapers—stays safe overnight."
+      "value": "La familia vive cerca, y aunque perdieron algunas electrodomésticos, ropa y colchones, el hogar salió ileso."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
+        "Attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz”"
+      }
     },
     {
       "type": "text",
-      "value": "At one point, more than 100 doctors, nurses and other volunteers slept alongside the Morales family at the clinic. As a member of the administrative staff, Morales feels the responsibility is too important to abandon, which is why she still spends the night there. But she also has a personal reason to stay."
+      "value": "Pero Morales es responsable por manejar las donaciones de la clínica Bantiox, un centro ambulatorio establecido en un pre-escolar solo seis días después del Huracán María, recibe del mundo entero. Ella se queda ahí para asegurarse que todo — desde los medidores de azúcar en la sangre hasta los pañales — estén a salvo por las noches."
     },
     {
       "type": "text",
-      "value": "“I think that giving is healing,” she said."
+      "value": "En un punto, más de 100 doctores, enfermeras y otros voluntarios durmieron junto a la familia Morales en la clínica. Ahora, son nada más los Morales. Como miembro del personal administrativo, Morales siente que la responsabilidad es muy importante para abandonarla, por lo cual pasa la noche allí. Pero también tiene una razón personal para quedarse."
     },
     {
       "type": "text",
-      "value": "The clinic is just one component of Iniciativa Comunitaria, a nonprofit that is helping address health care needs after the storm. It also runs brigades that bring mobile clinics to communities around the island. The Puerto Rico-based organization has been around for over 25 years, sending groups of volunteers they call brigades to respond to crises in Haiti, Guatemala and across the world."
+      "value": "“Creo que dar es curar”, dijo."
     },
     {
       "type": "text",
-      "value": "Now, the volunteers’ homeland is in crisis. The water levels in Toa Baja, the low-lying suburb where the clinic is located, reached nearly 20 feet during the storm, leaving some residents stranded on their roofs. In the aftermath, Iniciativa Comunitaria has helped more than 6,000 people between its clinic and its brigades."
+      "value": "La clínica es solo un componente de Iniciativa Comunitaria, una organización sin fines de lucro que está ayudando a responder a las necesidades de cuidado médico después de la tormenta. También llevan a cabo brigadas que llevan las clínicas ambulatorias móviles a comunidades alrededor de la isla. La organización, basada en Puerto Rico, tiene más de 25 años, enviando grupos de voluntarios que llaman brigadas a responder  las crisis en Haití, Guatemala y en el mundo."
     },
     {
       "type": "text",
-      "value": "The members of the brigade started their journey more than 200 days ago. It’s their longest mission ever."
+      "value": "Ahora, la patria de los voluntarios está en crisis. En Toa Baja, un suburbio que recibe su nombre por la escasa altura sobre el nivel del mar a la que está, los niveles de agua alcanzaron casi 20 pies de alto durante la tormenta, dejando a algunos residentes varados en sus techos. En la secuela, Iniciativa Comunitaria ha ayudado a más de 6,000 personas entre la clínica y las brigadas."
+    },
+    {
+      "type": "text",
+      "value": "Los miembros de la brigada comenzaron su travesía hace más de 200 días. Es su misión más larga."
     },
     {
       "type": "video",
@@ -86,63 +94,63 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Long-term risks"
+        "text": "Continual Healing"
       }
     },
     {
       "type": "text",
-      "value": "While Hurricane Maria no longer makes headlines every day on the U.S. mainland, Puerto Ricans are still recovering physically and emotionally from the island’s most devastating storm in decades. Doctors and medical professionals are needed more than ever."
+      "value": "Aunque María no ya esté en los titulares de noticias en estadounidenses a diario, los puertorriqueños están todavía recuperándose física y emocionalmente de la tormenta más devastadora en la isla en décadas. Doctores y profesionales médicos se necesitan más que nunca."
     },
     {
       "type": "text",
-      "value": "Even before the storm, Puerto Rico’s financial crisis had driven doctors away from the island in search of jobs elsewhere. Between 2006 and 2016, 5,000 doctors emigrated from the island. An estimated 10 doctors have left the island per day since the storm, according to local news outlet El Nuevo Día, furthering the medical care crisis."
-    },
-    {
-      "type": "text",
-      "value": "“Everything was so disrupted that their income stopped; their offices were destroyed,” said Dr. Wendy Matos, executive director of the University of Puerto Rico's School of Medicine faculty practice plan. “It’s like the rug was taken out from under their feet. People made decisions to survive.”"
-    },
-    {
-      "type": "text",
-      "value": "Those who remain are picking up the pieces."
-    },
-    {
-      "type": "text",
-      "value": "“You have to go out to serve,” said José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz.” His father, José Antonio Vargas Vidot, started Iniciativa Comunitaria in 1990."
-    },
-    {
-      "type": "text",
-      "value": "“You have to do it, because if not you, then who is going to do it?”"
+      "value": "Incluso antes de la tormenta, la crisis fiscal de Puerto Rico ha impulsado a que los doctores de la isla emigren, buscando trabajo en otros lugares. Entre el 2006 y el 2016, 5,000 doctores emigraron de la isla. Cada día después de la tormenta, un estimado de 10 doctores diarios han dejado la isla empeorando la crisis médica, de acuerdo al periódico local El Nuevo Día."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“You have to go out to serve. You have to do it, because if not you, then who is going to do it?”",
-        "attribution": "José Luis Vargas Tapia, the leader of Iniciativa Comunitaria’s brigades, called “Iniciativas de Paz"
+        "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
+        "Attribution": "Luz Bonilla"
       }
     },
     {
       "type": "text",
-      "value": "As the sun rose in Toa Baja on a Wednesday morning in March, the clinic brimmed with volunteers preparing to set off on the mission."
+      "value": "“Todo estaba tan interrumpido que sus ingresos pararon; sus oficinas estaban destruidas”, dijo la Dra. Wendy Matos, quien es la directora ejecutiva del Faculty Practice Plan de la Universidad de Puerto Rico. “Es como si les hubiesen quitado la alfombra bajo sus pies. La gente tomó decisiones para sobrevivir.”"
     },
     {
       "type": "text",
-      "value": "They packed duffle bags full of medications and supplies, such as blood sugar monitors, vaccines, antibiotics. Franchely Soto, Iniciativa Comunitaria’s logistics coordinator, darted around volunteers with a clipboard, checking off her list with precision."
+      "value": "Los que se quedan están recogiendo las piezas."
     },
     {
       "type": "text",
-      "value": "Things weren’t always so organized. To set up a clinic in nine days, they had to make do with the facilities and limited supplies they had at the time. The clinic inhabits one of the rooms in the preschool, and several other classrooms hold supplies, including the one where Morales sleeps."
+      "value": "“Tienes que salir a servir”, dijo José Luis Vargas Tapia, el líder de las brigadas de Iniciativa Comunitaria, llamadas “Iniciativas de Paz”. Su padre, José Antonio Vargas Vidot, implementó Iniciativa Comunitaria en 1990."
     },
     {
       "type": "text",
-      "value": "Stethoscopes hang on plastic hooks, Post-its and papers plaster the walls, and the staff sit at card tables. A curtain divides the waiting area and administrative offices from where patients are seen."
+      "value": "“Tienes que hacerlo, porque si no tú, ¿quién?”"
     },
     {
       "type": "text",
-      "value": "In front of the door, a sign greets patients: “We are a big hug.”"
+      "value": "Mientras salía el sol en Toa Baja un miércoles por la mañana en marzo, la clínica se rebosaba con voluntarios preparándose para comenzar la misión."
     },
     {
       "type": "text",
-      "value": "The brigade has been on nearly 70 missions, and they have the process down like clockwork."
+      "value": "Empacaron bolsas de viaje llenas de medicamentos y suministros: monitores de azúcar en la sangre, vacunas, antibióticos. Franchely Soto, la coordinadora de logística de Iniciativa Comunitaria, se movía rápidamente entre los voluntarios, marcando su lista con precisión."
+    },
+    {
+      "type": "text",
+      "value": "Las cosas no fueron siempre tan organizadas. Para establecer una clínica en seis días, tenían que arreglárselas con las instalaciones y suministros limitados que tenían al momento. La clínica habita uno de los salones en el preescolar, y muchos otros salones de clases contienen suministros, incluyendo el salón donde duerme Morales."
+    },
+    {
+      "type": "text",
+      "value": "Los estetoscopios cuelgan de ganchos plásticos. Las notas Post-it y papeles cubren las paredes, y los empleados se sientan en mesas plegables. Una cortina divide la sala de espera y las oficinas administrativas donde se reciben los pacientes."
+    },
+    {
+      "type": "text",
+      "value": "En frente de la puerta, un letrero saluda a los pacientes, “Somos un gran abrazo”."
+    },
+    {
+      "type": "text",
+      "value": "La brigada ha completado casi 70 misiones, y conocen el proceso como las palmas de sus manos."
     },
     {
       "type": "interactive",
@@ -152,31 +160,31 @@
     },
     {
       "type": "text",
-      "value": "Vargas Vidot, who is now a senator in the Puerto Rican legislature, started Iniciativa Comunitaria to provide education and treatment for HIV and AIDS for at-risk groups. The program has grown to offer services in five different categories, including addiction and substance abuse, health education and international projects."
+      "value": "Vargas Vidot, quien ahora es un senador en la legislatura de Puerto Rico, comenzó Iniciativa Comunitaria en respuesta al Virus de Inmunodeficiencia Humano (VIH) entre drogadictos y quienes viven en las calles."
     },
     {
       "type": "text",
-      "value": "Around a year after he was elected in November 2016, his son, José Luis Vargas Tapia, took over leading Iniciativa Comunitaria’s brigades."
+      "value": "Aproximadamente un año después de que fue elegido en noviembre del 2016, su hijo, José Luis Vargas Tapia, tomó las riendas como dirigente de las brigadas de Iniciativa Comunitaria."
     },
     {
       "type": "text",
-      "value": "Vargas Tapia gathers around 20 volunteers for their morning briefing: doctors, medical students, nurses, administrators and anyone else who happens to be on hand that day."
+      "value": "Vargas Tapia reúne más o menos 20 voluntarios para su briefing matutino: doctores, estudiantes de medicina, enfermeros, administradores y quien sea que esté disponible ese día."
     },
     {
       "type": "text",
-      "value": "The community they’re about to serve—Aguada, a small town on the island’s west coast—is more than 70 miles away, but Vargas Tapia talks about patients whom he’s never met like they’re family. Some still don’t have power or water. Fallen trees still line many roads."
+      "value": "La comunidad que están a punto de servir — Aguada, un pequeño pueblo en la costa oeste de la isla — está a más de 80 millas, pero Vargas Tapia habla de los pacientes quienes nunca ha conocido en persona como si fueran familia. Algunos todavía no tienen agua o electricidad. Los árboles caídos todavía bloquean muchas carreteras."
     },
     {
       "type": "text",
-      "value": "“Here we have no titles; here we are human beings serving other humans,” Vargas Tapia told the volunteers. “That's it.”"
+      "value": "“Aquí no tenemos títutlos; aquí somos seres humanos sirviendo a otros humanos”, le dijo Vargas Tapia a los voluntarios. “Eso es todo”."
     },
     {
       "type": "text",
-      "value": "The volunteers load into a caravan of cars and set off through the countryside, watching as the buildings of San Juan give way to lush rolling hills, where Aguada overlooks a valley and a glimmer of the coastline."
+      "value": "Los voluntarios se montan en una caravana de carros y parten hacia el campo, observando mientras los edificios de San Juan abren el camino a las colinas exhuberantes, donde Aguada mira desde arriba a un valle y la luz tenue de la costa."
     },
     {
       "type": "text",
-      "value": "After unpacking their supplies in the hot sun, Vargas Tapia and his team split up to visit patients, some of whom are bedridden. They have 37 people on their list."
+      "value": "Después de desempacar sus suministros bajo el sol ardiente, Vargas Tapia y su equipo se dividen para visitar pacientes, de los cuales algunos son encamados. Tienen 37 personas en su lista."
     },
     {
       "type": "interactive",
@@ -186,58 +194,55 @@
     },
     {
       "type": "text",
-      "value": "One of them is 86-year-old Isidra Pérez Feliciano. Iniciativa Comunitaria’s van pulled up to her house, and a doctor and nursing student hopped out."
+      "value": "Uno de ellos es Isidra Perez. La van de Iniciativa Comunitaria se estaciona en su casa, y un doctor junto a un estudiante de enfermería salen de un salto."
     },
     {
       "type": "text",
-      "value": "Pérez Feliciano, who is bedridden, has suffered from multiple ailments, including severe bronchitis, Type 2 diabetes, hypertension and ulcers. A lack of electricity can be life-threatening for the elderly population, so after losing power in the storm, Pérez Feliciano’s family used their generator between five and seven hours per day for five months to run the air conditioning."
+      "value": "Perez, quien es encamada, ha sufrido de distintos padecimientos, incluyendo una bronquitis severa y úlceras. La falta de electricidad puede ser de vida o muerte para la población de edad, por lo que después de la tormenta, la familia de Perez usó un generador entre cinco y siete horas al día por cinco meses para operar el aire acondicionado."
     },
     {
       "type": "text",
-      "value": "They only ran the generator in bursts, but the cost of the gasoline to fuel it added up quickly. The family struggled to afford the near $1,000 cost."
+      "value": "Nada más prendían el generador de a rato, pero el costo de la gasolina que consumió subió rápidamente. La familia bregó para costear el costo de casi $1.000."
     },
     {
       "type": "text",
-      "value": "Pérez needed to be taken to the hospital not long after the storm hit, but because the roads were blocked with debris, there was no way to get to the hospital. Her family struggled to keep her healthy in the long weeks with no power or access to medical care.  Luz Bonilla, Pérez’s daughter, was finally able to heal her mother using natural remedies."
+      "value": "Perez tenía que ir al hospital poco después de que la tormenta golpeó la isla, pero las calles, bloqueadas con escombros, impidieron que llegara al hospital. Su familia luchó para mantenerla saludable durante las largas semanas sin electricidad ni acceso a cuidado médico. Finalmente, Luz Bonilla, la hija de Perez, logró curar a su madre usando remedios naturales."
     },
     {
       "type": "text",
-      "value": "“At the beginning you feel desperate: no water, no light, no this, no that,” Bonilla said. “But little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.”"
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“At the beginning you feel desperate: no water, no light, no this, no that, but little by little you say, ‘hello, this is something I can overcome,’ and little by little we settled.",
-        "attribution": "Luz Bonilla"
-      }
+      "value": "“Al principio uno se desespera sin agua, sin luz, sin esto, sin lo otro”, dijo Bonilla, “pero poco vas diciendo ‘Hello, esto es algo que puedo superar,’ y poco a poco nos arreglamos”."
     },
     {
       "type": "text",
-      "value": "Because Bonilla works at a local hospital, she was able to get in touch with her doctor and take care of her mother, but others still struggle to access medical care."
+      "value": "Porque Bonilla trabaja en el hospital local, ella pudo ponerse en contacto con el doctor y cuidar a su madre, pero todavía luchan para acceder al cuidado médico."
     },
     {
       "type": "text",
-      "value": "Although hospitals are open now, in the storm’s wake, they faced supply shortages, and Vargas Tapia said some hospitals turned away patients from other areas. He and other volunteers said some patients experienced long wait times to receive treatment."
+      "value": "A pesar de que los hospitales están abiertos, enfrentan la escasez de suministros y empleados, y en la víspera de la tormenta, algunos no aceptaron pacientes de otras áreas. Algunos pacientes han tenido que esperar un día entero para recibir tratamiento."
     },
     {
       "type": "text",
-      "value": "But it’s patients with long-term diseases like diabetes who are most at risk, yet Matos said specialists she works with at the University of Puerto Rico’s School of Medicine have seen fewer patients since the storm."
+      "value": "Pero son los pacientes con enfermedades crónicas, como la diabetes quienes están bajo mayor riesgo."
     },
     {
       "type": "text",
-      "value": "According to the Centers for Disease Control and Prevention, nearly 16 percent of Puerto Ricans reported having diabetes in 2014, compared to 10.1 percent for the U.S. population as a whole. A <a href=’https://www.omicsonline.org/unequal-burden-of-diabetes-and-hypertension-in-the-adult-population-of-the-san-juan-metropolitan-area-of-puerto-rico-2155-6156.1000261.php?aid=13551’ target=’_blank’> study from the University of Puerto Rico’s Medical School </a> found that nearly 40 percent of adults in San Juan suffered from hypertension."
+      "value": "De acuerdo a los Centros para el Control y Prevención de Enfermedades, casi 16 por ciento de los puertorriqueños eran diabéticos en el 2014, comparado con 10.1 por ciento de la población estadounidense. Un estudio del Recinto de Ciencias Médicas de la Universidad de Puerto Rico encontró que casi 40 por ciento de los adultos en San Juan sufren de hipertensión."
     },
     {
       "type": "text",
-      "value": "And a loss of power for some diabetics can be a life or death situation, as insulin needs to be refrigerated."
+      "value": "Y la pérdida de electricidad para los diabéticos puede ser mortal, ya que los suministros de insulina deben ser refrigerados."
     },
     {
       "type": "text",
-      "value": "“The deaths after a disaster come from untreated chronic illnesses,” Vargas Vidot said. “So diabetes is endemic here. Hypertension is endemic. Cardiovascular problems are endemic.”"
+      "value": "“Las muertes después de un desastre vienen de enfermedades crónicas que no son tratadas”, dijo Vargas Vidot, “entonces la diabetes es endémica aquí. Los problemas cardiovasculares son endémicos”."
     },
     {
       "type": "text",
-      "value": "Chronic illness fatalities aren’t reflected in the storm’s death toll, even if many wouldn’t have happened otherwise. And Matos said there are other long-term health consequences that often get overlooked, such as mental health issues and suicide risk. The number of deaths by suicide increased by 29 percent between 2016 and 2017, after years of decline."
+      "value": "Las fatalidades de las enfermedades crónicas no son contadas en el número de muertos por el huracán, incluso aunque muchas no hubiesen ocurrido de otra manera. Y Matos, de la Universidad de Puerto Rico, dice que hay otras consecuencias a largo plazo que pasan por alto, como los problemas de salud mental y el riesgo de suicidios. El número de muertes por suicidio aumentó 29 por ciento entre 2016 y 2017, después de años de descenso."
+    },
+    {
+      "type": "text",
+      "value": "Es posible que otras condiciones de salud mental hayan sido impactadas también. Un estudio conducido en 2012 que evalúo a los pacientes de cuidado primario"
     },
     {
       "type": "text",
@@ -245,38 +250,31 @@
     },
     {
       "type": "text",
-      "value": "While it’s too early for most research to track the long-term impacts Hurricane Maria could have had on PTSD, research on Hurricane Katrina can provide clues. A study of low-income parents in the 18 months following Hurricane Katrina found that nearly half exhibited signs of probable PTSD."
+      "value": "Aunque es muy temprano para que los investigadores hagan seguimiento del impacto a largo plazo que el Huracán María tuvo en el Trastorno de Estrés Postraumático, las publicaciones del Huracán Katrina, pueden dar pistas. Un estudio que evaluó a padres de bajos ingresos durante 18 meses después de Katrina encontró que casi la mitad exhibía síntomas de TEPT."
     },
     {
       "type": "text",
-      "value": "“The government disregarded the effect of a disaster on the emotional state of people,” Matos said. “That affects directly not only the thinking process and decision making, but their physical conditions too.”"
+      "value": "“El gobierno desatendió el efecto de un desastre en el estado emocional de la gente”, dijo Matos. “Eso afecta directamente no sólo al proceso de pensamiento y a la toma de decisiones, pero también a su condición física”."
     },
     {
       "type": "text",
-      "value": "During their brigades, the volunteers keep that concept in mind, focusing on both emotional and physical health. One volunteer plays guitar for the patients. It’s a remedy for the loneliness the increasing number of elderly face."
+      "value": "Durante las brigadas, los voluntarios mantienen ese concepto en mente, enfocándose en ambas, la salud mental y emocional. Un voluntario toca la guitarra para los pacientes. Es un remedio para la soledad que cada vez más personas mayores enfrentan."
     },
     {
       "type": "text",
-      "value": "Between 2014 and 2016, the share of the population older than 65 increased from 14.5 percent to nearly 19 percent while the share of people under 18 declined, according to U.S. Census Bureau estimates."
+      "value": "Entre el 2014 y 2016, la porción de la población mayor de 65 años incrementó de 14.5 a casi 19 por ciento, mientras que la porción de gente menor de 18 declinó, de acuerdo a los estimados del Censo de los Estados Unidos."
     },
     {
       "type": "text",
-      "value": "Since the storm, experts say it’s only gotten worse. While it’s difficult to track exactly how many Puerto Ricans have fled the island, estimates indicate that several hundred hundred thousand have arrived on the mainland. Most of them are the island’s youth."
+      "value": "Desde la tormenta, los expertos dicen, que la situación ha empeorado. En enero, más de 200,000 puertorriqueños habían abandonado la isla en rumbo al área continental estadounidense. La mayoría son jóvenes."
     },
     {
       "type": "text",
-      "value": "“The young people are the future, and if they are leaving, what’s gonna happen?” said Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island, who doubles as a volunteer with the brigade. “Puerto Rico needs more young people to rebuild.”"
-    },
-    {
-      "type": "pullquote",
-      "value": {
-        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
-        "attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on St. Kitts island and a volunteer with the brigade"
-      }
+      "value": "“La gente joven es el futuro, y si se están yendo, ?Qué va a pasar”? dijo Carla Santiago, una estudiante de medicina de tercer año en la Universidad de Medicina y Ciencias de la Salud en la isla de Saint Kitts, quien es una voluntaria de la brigada. “Puerto Rico necesita más gente joven para reconstruir”."
     },
     {
       "type": "text",
-      "value": "Sometimes, the elderly just need someone to talk to, or share a song with. And that’s where Iniciativa Comunitaria comes in."
+      "value": "A veces, la gente mayor solo necesita alguien con quien hablar o con quien compartir una canción. Y ahí es donde entra Iniciativa Comunitaria."
     },
     {
       "type": "slider",
@@ -292,59 +290,70 @@
     },
     {
       "type": "text",
-      "value": "As Inciativa Comunitaria’s daytime volunteers pack up and head back to Toa Baja, the night brigades are just getting started."
+      "value": "Mientras los voluntarios diurnos de Iniciativa Comunitaria empacan y regresan a Toa Baja, las brigadas nocturnas a penas están empezando."
     },
     {
       "type": "text",
-      "value": "The group of undergraduate and medical students at the University of Puerto Rico is part of Recinto Pa’ la Calle, a program that collaborates with Iniciativa Comunitaria that provides services at night for people who are homeless and drug users."
+      "value": "El grupo de estudiantes de pregrado y medicina de la Universidad de Puerto Rico, es parte de Recinto Pa’ la Calle, un programa asociado a Iniciativa Comunitaria que provee servicios por la noche para quienes son adictos a las drogas o no tienen techo."
     },
     {
       "type": "text",
-      "value": "After loading cars with supplies, the volunteers pulled their cars up to an empty bus station, where just one other car was parked. Adriana Rodriguez, a third-year medical student at the University of Puerto Rico, hopped out of her car and approached a homeless camp, scattered with tents, mattresses and bicycles."
+      "value": "Después de llenar los carros con suministros, los voluntarios estacionan en una estación de autobús vacía, donde nada más un carro estaba estacionado. Adriana Rodriguez, una estudiante de medicina de tercer año en la UPR, se bajó del carro y se acercó a un campamento para quienes no tienen donde dormir, lleno de carpas, colchones y bicicletas."
     },
     {
       "type": "text",
-      "value": "The camp’s residents brightened as she shouted, “Hola, Iniciativa!” from her car. After exchanging a few words with them, Rodriguez waved to her peers, who emerged from a caravan of cars donning Iniciativa Comunitaria’s logo."
+      "value": "Los residentes del campamento se alegraron mientras gritaba, “Hola Iniciativa!” desde su carro. Después de intercambiar unas palabras con ellos, Rodriguez hizo señas a sus compañeros, que surgieron de una caravana de carros portando el logo de Iniciativa Comunitaria."
+    },
+    {
+      "type": "pullquote",
+      "value": {
+        "text": "“The young people are the future and if they are leaving, what’s gonna happen? Puerto Rico needs more young people to rebuild.”",
+        "Attribution": "Carla Santiago, a third-year medical student at the University of Medicine and Health Sciences on Saint Kitts island and a volunteer with the brigade"
+      }
     },
     {
       "type": "text",
-      "value": "The students handed out orange juice, coffee, sandwiches, clothes, toothpaste and condoms — anything they had in their supply of donations, they provided. Several of the students dressed wounds, while others just took time to listen to the stories of people in the camps."
+      "value": "Los estudiantes repartieron jugo de naranja, café, sandwiches, ropa, pasta de diente y condones — lo que tenían de donaciones, lo dejaron allí. Muchos de los estudiantes cubrieron heridas, mientras que otros tomaron el tiempo para escuchar las historias de la gente en el campamento."
     },
     {
       "type": "text",
-      "value": "René, who asked that his last name not be used, is the leader of this homeless camp. The other residents call him “the Veteran.”"
+      "value": "René, quien pidió que no se usara su apellido, es el líder de su campamento. El resto de los residentes lo llaman El Veterano."
     },
     {
       "type": "text",
-      "value": "René’s been homeless for years, but his four children have never been far away. His two daughters left for New York after the storm destroyed the roof of their home."
+      "value": "René no ha tenido un techo donde dormir durante años, pero sus cuatro hijos nunca han estado lejos. Sus dos hijas se fueron a vivir a Nueva York después de la tormenta destruyera el techo de su hogar."
     },
     {
       "type": "text",
-      "value": "His daughters are receiving government assistance, but René said the Puerto Rican government hasn’t done anything for the people his homeless camp."
+      "value": "Sus hijas están recibiendo asistencia médica, pero René dijo que que el gobierno de Puerto Rico no ha hecho nada para la gente en el campamento para personas sin hogar."
     },
     {
       "type": "text",
-      "value": "The members of the camp survived the storm thanks in part to Iniciativa Comunitaria’s volunteers, who brought them and others to a temporary shelter at the group’s headquarters."
+      "value": "Los miembros del campamento sobrevivieron la tormenta en parte gracias a los voluntarios de Iniciativa Comunitaria, quienes los llevaron a un refugio temporal en la sede principal del grupo."
     },
     {
       "type": "text",
-      "value": "Volunteers dropped off René and the others at the camp two days later. The storm destroyed what few things they had. Some of their mattresses were strewn against the fence along the other side of the wide lot. The bus terminal they rely on for light was without power."
+      "value": "Los voluntarios dejaron a René y a los demás en el campamento dos días más tarde. La tormenta destrozó las pocas pertenencias que tenían. Algunos de los colchones quedaron desparramados en la cerca del lado opuesto del terreno. La terminal del autobús de la cual depende la luz del campamento, no tenía electricidad."
     },
     {
       "type": "text",
-      "value": "But still, René stayed."
+      "value": "Incluso con eso, René se quedó."
     },
     {
       "type": "text",
-      "value": "“I would be leaving all my people behind,” he said. “People need me to be here.”"
+      "value": "“Estaría dejando a mi gente atrás”, dijo. “La gente necesita que yo esté aquí”."
     },
     {
       "type": "text",
-      "value": "The camp members have new belongings now, and the power returned a month later."
+      "value": "Los miembros del campamento tienen nuevas pertenencias, y la electricidad regresó un mes después."
     },
     {
       "type": "text",
-      "value": "During the storm, many of Puerto Rico’s homeless stayed on the streets. It’s the homeless, the elderly, drug users and other “forgotten” populations that Iniciativa Comunitaria focuses much of its efforts on. And many of those residents and volunteers alike say government assistance is not reaching those who need it most."
+      "value": "Durante la tormenta, muchas de las personas sin hogar en Puerto Rico se quedaron en las calles. Es la gente sin casa, la gente mayor, los adictos a las drogas y otras poblaciones “olvidadas” en las cuales Iniciativa Comunitaria enfoca sus esfuerzos. Y muchos de esos residentes y voluntarios dicen que la asistencia del gobierno no está alcanzando a los que más la necesitan."
+    },
+    {
+      "type": "text",
+      "value": "“La mayoría de los pacientes que hemos estado viendo, ellos no han sido vistos por un médico o ningún grupo”, dijo Soto."
     },
     {
       "type": "text",
@@ -352,25 +361,25 @@
     },
     {
       "type": "text",
-      "value": "Many of those communities are used to helping themselves. Cantera, an impoverished community in San Juan recently visited by the brigade, has operated as a nonprofit for years, as have several others. The nonprofit leaders helped coordinate Iniciativa Comunitaria’s visit and identify patients."
+      "value": "Muchas de esas comunidades están acostumbradas a ayudarse a sí mismas. Cantera, una de las comunidades empobrecidas de San Juan que la brigada visitó recientemente, ha operado como una organización sin fines de lucro por años. Los líderes de la organización, ayudaron a coordinar la visita de Iniciativa Comunitaria y a identificar a los pacientes."
     },
     {
       "type": "text",
-      "value": "“There’s a concept of community that doesn’t represent a geographic thing,” Vargas Vidot said."
+      "value": "“Hay un concepto de comunidad que no representa una cuestión geográfica”, Vargas Vidot dijo."
     },
     {
       "type": "text",
-      "value": "That’s what drives Iniciativa Comunitaria’s volunteers to rebuild their community—whether it’s a town on the opposite coast of the island, a poor neighborhood in San Juan or a bus station just outside of the University of Puerto Rico’s medical school where the homeless sleep."
+      "value": "Eso es lo que empuja a los voluntarios de iniciativa communitaria a reconstruir su comunidad — no importa si es un pueblo en la costa opuesta de la isla, un vecindario pobre en San Juan o una estación de autobús justo afuera de la facultad de medicina de la Universidad de Puerto Rico."
     },
     {
       "type": "text",
-      "value": "“We saw Puerto Rico literally broken,” said Sofia Muns, a first-year medical student at the University of Puerto Rico. “If you see something broken, it’s human that you want to bring it back together.”"
+      "value": "“Vimos a Puerto Rico literalmente quebrado”, dijo Sofía Muns, una estudiante de primer año en la UPR. “Si ves que algo está roto, es humano querer arreglarlo”."
     }
   ],
   "step-links": {
     "step-back-name": "pollution",
-    "step-back-title": "A Fight For Life",
+    "step-back-title": "Covered in Ash",
     "step-forward-name": "power",
-    "step-forward-title": "Flipping the Switch"
+    "step-forward-title": "Where’s The Light"
   }
 }

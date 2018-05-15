@@ -8,8 +8,9 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
-var navEnglish = ["Nav Item 1", "Nav Item 2", "Nav Item 3", "Nav Item 4", "Nav Item 5", "About", "About the Project"];
-var navSpanish = ["Navigacion 1", "Navigacion 2", "Navigacion 3", "Navigacion 4", "Navigacion 5", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["POWER", "POLLUTION", "HEALTH", "WATER", "ECOLOGY", "ABOUT", "About the Project", "flipping the switch", "a fight for life", "the healing brigade", "rooted in el caño", "a natural revolution"];
+var navSpanish = ["POLUCIÓN", "AGUA", "ELECTRICIDAD", "SALUD", "ECOLOGIA", "Sobre nosotros", "Sobre el proyecto"];
+
 
 
 var usingHeroku = false;

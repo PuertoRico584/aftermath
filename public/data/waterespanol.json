@@ -3,14 +3,14 @@
     "class": "water"
   },
   "header": {
-    "title-line-one": "Rooted In",
-    "title-line-two": "El Caño",
-    "seo": "Rooted in El Caño | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Although Hurricane María devastated the island, neighbors of a strangled channel in the heart of San Juan are hoping federal recovery funds will salvage a project to improve the living conditions in their communities."
+    "title-line-one": "Arraigados",
+    "title-line-two": "en El Caño",
+    "seo": "Arraigados en El Caño | Secuelas: Los puertorriqueños reconstruyen después de María",
+    "subtitle": "A pesar de que el Huracán María devastó la isla, los vecinos de un canal estrangulado en el corazón de San Juan, esperan que fondos federales de recuperación van a salvar un proyecto que mejoraría las condiciones de vida en sus comunidades."
   },
   "reporters": [
     {
-      "name": "Maria Elena Vizcaino"
+      "name": "María Elena Vizcaíno"
     }
   ],
   "videographers": [
@@ -49,46 +49,46 @@
   "text": [
     {
       "type": "text",
-      "value": "On rainy days, Blanquita Santiago Arroyo stacks empty beer cases under the furniture of her nearly empty house. Her refrigerator — the third she’s bought in 10 years — and washing machine already sit atop three sets of worn cinder blocks."
+      "value": "En días lluviosos, Blanquita Santiago Arroyo apila cartuchos de cerveza vacíos debajo de los muebles de su casa, que está casi vacía. Su refrigerador — el tercero que ha comprado en 10 años — y su lavadora ya reposan encima de bloques de cemento deteriorados."
     },
     {
       "type": "text",
-      "value": "Three-foot-high water marks remind her it’s unsafe to sleep in her wooden bed, even when it’s lifted on milk crates. As bedtime approaches, Santiago Arroyo sets up in a plastic chair, where she tries to rest until the morning comes."
+      "value": "Marcas de agua de tres pies de alto, le recuerdan que no es seguro dormir en su cama de madera cuando está levantada con cajas de leche. Cuando viene la hora de dormir, Santiago Arroyo se acomoda en una silla plástica, donde trata de conciliar el sueño hasta la mañana siguiente."
     },
     {
       "type": "text",
-      "value": "“You can’t live here anymore because you get tired,” she said. “There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed because you have to keep an eye out for how high the water will rise.”"
+      "value": "“Uno no puede vivir aquí ya porque se agota”, dijo, “llega un momento cuando estás agotada, y ves a todo el mundo durmiendo, y no te puedes ir a la cama para estar pendiente hasta donde va a subir el agua.”"
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“You can’t live here anymore because you get tired. There comes a time where you’re exhausted, and you see everyone sleeping, and you can’t go to bed to keep an eye out for how high the water will rise.”",
+        "text": "“Uno no puede vivir aquí ya porque se agota”, dijo, “llega un momento cuando estás agotada, y ves a todo el mundo durmiendo, y no te puedes ir a la cama para estar pendiente hasta donde va a subir el agua.”",
         "attribution": "Blanquita Santiago Arroyo"
       }
     },
     {
       "type": "text",
-      "value": "The constant threat of flooding makes Santiago Arroyo yearn to leave her home of more than 30 years. But the water also forces her to stay."
+      "value": "La amenaza constante de inundaciones hace que Santiago Arroyo añore irse de su hogar de más de 30 años. Pero el agua también la obliga a quedarse."
     },
     {
       "type": "text",
-      "value": "“It’s going to be very difficult to sell the house,” she said. “Because once you tell the people what the problem is, they won’t buy it, unless they have money and are thinking of investing.”"
+      "value": "“Va a ser muy difícil vender la casa”, dijo, “porque una vez que se le diga a la gente cuál es el problema, no la van a comprar, al menos que tengan dinero y estén pensando invertir”."
     },
     {
       "type": "text",
-      "value": "Three years after her grandmother purchased the property in the 1980s, the house flooded for the first time. Santiago Arroyo and her family were taken to a shelter."
+      "value": "Tres años después de que su abuela comprara la propiedad en la década de 1980, la casa se inundó por primera vez. Santiago Arroyo y su familia fueron llevados a un refugio."
     },
     {
       "type": "text",
-      "value": "“I almost drowned because the water was so high and we didn’t know,” she recalls."
+      "value": "“Casi me ahogué porque el agua subió tan alto y no sabíamos nada”, ella recuerda."
     },
     {
       "type": "text",
-      "value": "For decades in Calle Martinó, where her home stands, the storm drains have been clogged with trash and sediment from El Caño Martín Peña — a now-stagnate tidal channel that once flowed across San Juan, the capital of Puerto Rico."
+      "value": "Por décadas en la Calle Martinó, donde su casa está, los alcantarillados pluviales han estado obstruidos con sedimentos del Caño Martín Peña — un canal de marea, ahora estancado, que antes fluía a través de San Juan, la capital de Puerto Rico."
     },
     {
       "type": "text",
-      "value": "El Caño Martín Peña stretches for nearly 4 miles, connecting the San Juan Bay with the San José Lagoon, the two biggest bodies of water in San Juan. After María struck, the fallen trees and remnants of houses added to the naturally-occurring sedimentation, garbage and untreated water dumped in the channel for decades worsened its condition."
+      "value": "El Caño se estira por casi 4 millas, conectando la Bahía de San Juan con la Laguna San José, los dos cuerpos de agua más grandes en la capital de la isla. Después de que el Huracán María arrazara en la isla, los árboles caídos y los residuos de techos, añadidos a la sedimentación que ocurre naturalmente, la basura y aguas negras desechadas en el canal por más de un siglo, empeoraron su condición."
     },
     {
       "type": "video",
@@ -99,19 +99,19 @@
     },
     {
       "type": "text",
-      "value": "The polluted channel is the root of numerous problems concerning the residents in eight the surrounding neighborhoods, San Juan’s most densely populated area, with about 25,000 residents."
+      "value": "El canal contaminado es la raíz de los numerosos problemas que preocupan a los residentes de los ocho vecindarios que lo rodean, el área más densamente poblada de San Juan, con 25,000 residentes."
     },
     {
       "type": "text",
-      "value": "Most houses in the eight communities adjacent to the channel were built on a flood plain without government permits or professional supervision, like nearly half the homes on the island, government officials estimate. Because El Caño is a tidal channel, the ebb and flow of ocean tides dictate its level. Storm surges and even moderate rainfall, as well as the lack of an adequate sewage system in some streets, result in regular flooding episodes in which water from the overflowing channel surges into houses. This puts the residents at a higher risk of asthma, gastrointestinal diseases as well as  mosquito-borne diseases."
+      "value": "La mayoría de las casas en las ocho comunidades aledañas al Caño Martín Peña fueron construidas sin permisos gubernamentales o supervisión profesional. Oficiales de la isla estiman que casi la mitad de los hogares de la isla fueron construidos de esa manera. Porque el Caño es un canal de marea, la fluctuación del nivel del océano también dictan su nivel. Leves mareadas en la isla y lluvias moderadas, junto a la falta de un sistema de alcantarillado adecuado en algunas calles, resultan en recurrentes episodios de inundaciones, en los cuales agua del canal se rebosa, entrando a las casas. La situación pone a los residentes a un alto riesgo de asma, enfermedades gastrointestinales y transmitidas por mosquitos."
     },
     {
       "type": "text",
-      "value": "María left roughly 1,200 homes near El Caño roofless, 75 completely crumbled and streets like Santiago Arroyo’s flooded for weeks. But a public corporation established by the Puerto Rican government 16 years ago, Proyecto ENLACE,  has studied the possibility to dredge almost 2,500 tons of materials that are strangling the channel. With a detailed plan already designed, Proyecto ENLACE sees the possibility to obtain federal recovery and flood mitigation funds to implement the $800 million project and give life back to the once healthy waterway and its adjacent communities."
+      "value": "María dejo unos 1,200 hogares cerca del Caño sin techo, 75 hechas escombros y calles como la de Santiago Arroyo inundadas por semanas. Pero una corporación establecida por el gobierno de Puerto Rico 16 años atrás, llamada Proyecto ENLACE, ha estudiado la posibilidad de dragar aproximadamente 2,500 toneladas de materiales que están estrangulando en canal. Con un plan detallado ya diseñado, Proyecto ENLACE está tratando de obtener fondos federales para la recuperación y la mitigación de inundaciones para implementarlo. El proyecto, que costaría $800 millones, le devolvería la vida al canal y a las comunidades aledañas."
     },
     {
       "type": "text",
-      "value": "“Before September, the strategy was to get funding to begin the project,” said Estrella Santiago, the environmental affairs manager at ENLACE. “Now there’s a window to carry out the dredging and get all the funding at once.”"
+      "value": "“Antes de septiembre, la estrategia era obtener fondos para empezar el proyecto”, dijo Estrella Santiago, la directora de asuntos medioambientales de ENLACE. “Ahora, hay una ventana para llevar a cabo el dragado y obtener todos los fondos de una vez”."
     },
     {
       "type": "interactive",
@@ -121,11 +121,15 @@
     },
     {
       "type": "text",
-      "value": "The dredging costs about $215 million, which would come from the U.S. Army Corps of Engineers’ $15 billion supplemental funds approved in February for disaster relief. The infrastructural repairs — including rehousing families, installing proper storm sewage systems and modernizing the drinking water pipelines that cross El Caño — amount to $585 million and would come from the U.S. Department of Housing and Urban Development’s Community Development Block Grant Disaster Recovery Program."
+      "value": "El dragado solamente cuesta $215 millones, que vendrían de los $15 mil millones de fondos suplementarios aprobados por el Congreso en febrero para que el Cuerpo de Ingenieros del Ejército de Estados Unidos, como parte de la respuesta a los desastres naturales ocurridos. Las reparaciones de infraestructura — incluyendo el realojo de familias, la instalación de sistemas de alcantarillados modernos y la modernización de las tuberías de agua potable que cruzan el canal — suman $585 millones. Esos fondos vendrían de subvenciones del Departamento de Vivienda y Desarrollo Urbano de EE.UU."
     },
     {
       "type": "text",
-      "value": "Livia Rodríguez del Valle, the executive director of Proyecto ENLACE, said the benefits outweigh the cost. A healthy waterway in the heart of the capital could pump the island’s economy by creating 4,000 jobs in the tourism industry and adding more than $500 million to the island’s gross domestic product, according to a document submitted to the U.S. House of Representatives last November."
+      "value": "The infrastructural repairs — including rehousing families, installing proper storm sewage systems and modernizing the drinking water pipelines that cross El Caño — amount to $585 million and would come from the U.S. Department of Housing and Urban Development’s Community Development Block Grant Disaster Recovery Program."
+    },
+    {
+      "type": "text",
+      "value": "Livia Rodriguez del Valle, la directora ejecutiva del Proyecto ENLACE, dijo que los beneficios exceden el costo. Un canal salubre en el corazón de la capital podrían bombearle $500 millones al producto interno bruto de la isla y crear mas de 4,000 empleos en la industria del turismo, de acuerdo a un documento presentado a la Cámara de Representantes de EE.UU."
     },
     {
       "type": "interactive",
@@ -141,19 +145,23 @@
     },
     {
       "type": "text",
-      "value": "Sitting on a stool on the porch of his house, wearing a T-shirt that reads ‘El CAÑO’ and a newsboy cap, José Caraballo Pagán stops carving wooden ornaments to attend to what he says is the call of duty — serving his community. For the next two hours, he and seven of his neighbors determine who will vacate their home first."
+      "value": "Sentado en un taburete en el porche de su casa, portando una camiseta que dice ‘EL CAÑO!’ y una cachucha, José Caraballo Pagán para de esculpir adornos en madera para atender lo que él dice que es su vocación — servir a la comunidad.  Durante las próximas horas, José y otros siete vecinos se sientan a planificar quién va a evacuar su hogar primero."
     },
     {
       "type": "text",
-      "value": "For the dredging to occur, around 1,000 houses that sit near the channel must be vacant to make room for the heavy machinery and for the channel’s widening."
+      "value": "Para que ocurra el dragado, alrededor de 1,000 casas construidas cerca del Caño deben estar vacantes para hacer espacio para la maquinaria y el ensanchamiento del canal."
     },
     {
       "type": "text",
-      "value": "José, 72, is one of the eight leaders of G-8 Inc., a nonprofit run by members of the communities around El Caño. Every Thursday afternoon he sits in the rehousing committee that could soon move him out of his home of 55 years — located just 25 feet away from the channel."
+      "value": "José, de 72 años, es uno de los ocho líderes del G-8 Inc., una organización sin fines de lucro manejada por miembros de las comunidades del Caño."
     },
     {
       "type": "text",
-      "value": "“It’s not that I want to go, but I know I have to do it for the well-being of my community, for the people here,” he said. “You have to be conscientious and leave behind 50 years of your life for the well-being of the people but also for the waterway.”"
+      "value": "Cada jueves en la tarde él se sienta en el comité de realojo que podría mudarlo de su hogar de 55 años — ubicado solo a 25 pies del canal."
+    },
+    {
+      "type": "text",
+      "value": "“No es que me quiera ir, pero se que debo hacerlo por el bienestar de mi comunidad, por la gente aquí”, dijo. “Uno debe ser consciente y dejar atrás 50 años de tu vida para el bienestar de la gente, pero también por la vía de agua”."
     },
     {
       "type": "slider",
@@ -163,46 +171,46 @@
     },
     {
       "type": "text",
-      "value": "Like many farm laborers in the first half of the 20th century, Caraballo Pagán’s father moved to San Juan from the countryside as the island’s economy shifted from agriculture to industry. In 1955, he bought a house in Fanguito, a neighborhood that once sat on the western edge of the channel."
+      "value": "Como muchos trabajadores del campo en la primera mitad del siglo 20, el padre de José se mudaron a San Juan desde el interior de la isla, por políticas económicas de la isla que cambiaban el foco en la agricultura hacia la industria. En 1955, él compró una casa en Fanguito, una comunidad que existía en el lado oeste del canal."
     },
     {
       "type": "text",
-      "value": "By the second half of the century, Fanguito disappeared as the government claimed the land through eminent domain. In the 1960s, 2 miles of the channel were dredged to allow an aquatic transportation system from San Juan International Airport Luis Muñoz Marín to Old San Juan."
+      "value": "Para la segunda mitad del siglo, Fanguito desapareció a medida de que el gobierno reclamó la tierra — en la cual habían asentamientos informales — a través de expropiación forzosa. En la década del 1960, 2 millas del canal fueron dragadas para permitir el paso de un sistema de transportación acuática que conectaría el Aeropuerto Internacional Luis Muñoz Marín con el Viejo San Juan."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“It’s not that I want to go, but I know I have to do it for the wellbeing of my community, for the people here. You have to be conscientious and leave behind 50 years of your life for the wellbeing of the people but also for the waterway.”",
+        "text": "“No es que me quiera ir, pero se que debo hacerlo por el bienestar de my comunidad, por la gente aquí”, dijo. “Uno debe ser consciente y dejar atrás 50 años de tu vida para el bienestar de la gente, pero también por la vía de agua”.",
         "attribution": "Caraballo Pagán, one of the eight leaders of the G8"
       }
     },
     {
       "type": "text",
-      "value": "In 1955, Caraballo Pagán said his father obtained $500 from the government to vacate the house in Fanguito and moved to Barrio Obrero Marina, a neighborhood north of the channel, where he bought the house José has called home ever since."
+      "value": "En 1965, Caraballo Pagán dijo que su padre obtuvo $500 del gobierno para evacuar la casa en Fanguito y se mudó a Barrio Obrero Marina, un vecindario al noreste del canal, donde compró la casa que José ha llamado su hogar desde entonces."
     },
     {
       "type": "text",
-      "value": "“I’ve been fixing it here and there throughout the years,” he said. “Poco a poco (little by little). But what’s the worth of a million-dollar house if you have a waterway you can’t even look at.”"
+      "value": "“La he estado arreglando aquí y allá con el tiempo, poco a poco”, dijo. “¿Pero cuánto vale una casa de un millón de dólares si tienes un canal que ni siquiera lo puedes mirar?”"
     },
     {
       "type": "text",
-      "value": "Today his two-story house has a double-height ceiling and cozy living spaces on the first floor, a small kitchen and a front yard where José sits to carve artisanal ornaments."
+      "value": "Hoy, su casa de dos plantas tiene una sala con techo de altura doble, con espacios acogedores en el primer piso, una pequeña cocina y un patio donde José se sienta a esculpir su artesanía."
     },
     {
       "type": "text",
-      "value": "He’s watched El Caño, as he fondly calls it, shrink over the years. At its widest, he said, it was 400 feet. Now it’s so blocked with vegetation and garbage in some areas that people can walk from shore to shore."
+      "value": "Él ha visto al Caño, como lo llama de cariño, encogerse con el pasar del tiempo. En su mejor momento, el canal tenía 400 pies de ancho. Ahora está tan bloqueado con vegetación y basura, que en algunas partes se puede caminar de costa a costa."
     },
     {
       "type": "text",
-      "value": "“It was a navigable body of water,” he said. “People used to fish, the youth swam in it.”"
+      "value": "“Era un cuerpo de agua navegable”, dijo, “la gente pescaba; la juventud nadaba dentro del Caño”."
     },
     {
       "type": "text",
-      "value": "Caraballo Pagán retired 10 years ago from his job as a building maintenance worker at the Institute of Puerto Rican Culture. Since then, he’s been a champion of his community’s fight for environmental justice."
+      "value": "Caraballo Pagán se retiró hace 10 años de su trabajo como obrero de mantenimiento en el Instituto de Cultura Puertorriqueña. Desde entonces, ha abogado por la lucha de su comunidad por justicia medioambiental."
     },
     {
       "type": "text",
-      "value": "“If you have a healthy environment, you have clean water,” he said. “You have healthy people.”"
+      "value": "“Si tienes un medio ambiente salubre, si tienes agua limpia, tienes gente saludable”, dijo."
     },
     {
       "type": "subhead",
@@ -212,53 +220,53 @@
     },
     {
       "type": "text",
-      "value": "According to Livia Rodríguez del Valle, the director of Proyecto ENLACE, throughout the years the state and municipal government gradually installed storm sewage systems in some streets. Three years ago, every home in the area received clean drinking water for the first time."
+      "value": "De acuerdo a Livia Rodríguez del Valle, la directora del Proyecto ENLACE, a través de los años, el gobierno central y municipal han instalado sistemas de alcantarillado pluvial en ciertas calles. Hace solamente tres años, todos las casas en las comunidades del Caño recibieron servicio de agua potable por primera vez."
     },
     {
       "type": "text",
-      "value": "The problems persist."
+      "value": "Los problemas persisten."
     },
     {
       "type": "text",
-      "value": "Like the rest of the island, the corroded drinking water pipes often break, which interrupts service to homes. In many streets, when water enters the houses toilets overflow, mixing up sewage with rainfall."
+      "value": "Como en el resto de la isla, las tuberías de agua potable, que están corroídas se quiebran, lo que interrumpe el servicio a los hogares. En muchas calles, cuando el agua de lluvia entra a las casas, los retretes se rebosan, mezclándose con el agua de la inundación."
     },
     {
       "type": "text",
-      "value": "In Puerto Rico, only 45 percent of homes have sanitary drains managed by the Puerto Rican Aqueduct and Sewer Authority, a number officials estimate is also representative of the neighborhoods in El Caño. While some residents have septic wells, more than 3,000 structures still discharge raw sewage into the remains of the canal according to the U.S. Environmental Protection Agency."
+      "value": "En Puerto Rico solamente 45 por ciento de los hogares tienen servicio de drenaje sanitario proveído por la Autoridad de de Acueductos y Alcantarillados, un número que los oficiales estiman es representativo de los vecindarios del Caño. Aunque algunos residentes tienen pozos sépticos, más de 3,000 estructuras descargan aguas negras en el canal, de acuerdo a la Agencia de Protección Medioambiental de EE.UU."
     },
     {
       "type": "text",
-      "value": "In preparation for the channel’s dredging, two major drinking water pipes that were built close to the water’s surface must be rebuilt to avoid the machinery from breaking the already existing pipes. As a consequence of the island’s debt problems PRASA can’t borrow money from the federal government for capital expenses. However, funds for one of the plumbing projects has already been allocated."
+      "value": "En preparación para el dragado, dos tuberías de agua potable que fueron construidas cerca de la superficie del agua del Caño, deben ser reconstruidas para evitar que se rompan mientras se trabaja en el dragado. Como consecuencia de la crisis fiscal de la isla, la AAA, no puede pedir préstamos del gobierno federal. Sin embargo, los fondos para uno de los proyectos de plomería ya fueron identificados."
     },
     {
       "type": "text",
-      "value": "Proyecto ENLACE calculates delaying the dredging would cost more than $700 million during a 100-year period of recurrent flooding events."
+      "value": "Proyecto ENLACE calcula que demorar el dragado le costaría al gobierno más de $700 millones en 100 años de inundaciones recurrentes."
     },
     {
       "type": "text",
-      "value": "Apart from the inundations, Blanquita Santiago Arroyo feels fortunate that only a small parcel of her roof was blown away by María. In December, before the power was restored, her 82-year-old uncle, whom she cared for, fell in the dark as he attempted to climb over the knee-high walls built to keep water off of their porch. He broke his hip, and, after complications from the operation, he died in February."
+      "value": "Aparte del agua, Blanquita Santiago Arroyo se siente afortunada porque María arrancó solo una pequeña parcela de su techo. Pero en diciembre, antes de que volviera la electricidad, su tío de 82 años se cayó en la oscuridad mientras trataba de cruzar uno de los muritos en el porche, que fue construido para evitar que agua entrara a la casa. Se rompió la cadera y después de que complicaciones surgieran por una cirugía, murió en febrero."
     },
     {
       "type": "text",
-      "value": "It’s been only Santiago Arroyo and her 11-year-old Dachshund, Poppy, in the house."
+      "value": "Desde entonces, solo Blanquita y su perro salchicha de 11 años, Poppy, viven en la casa."
     },
     {
       "type": "text",
-      "value": "The number of people in El Caño who fled after the hurricane hasn’t been counted. But on Santiago Arroyo’s street alone, there’s one house for sale, one abandoned and one that collapsed as María made its way through the island."
+      "value": "El número de personas que huyeron del Caño después de la tormenta no ha sido contado. Pero en la Calle Martinó nada más, hay una casa a la venta, una abandonada y otra que colapsó cuando María hizo su camino por la isla."
     },
     {
       "type": "text",
-      "value": "The plans to dredge entail installing a proper storm sewage system in her street. Her house doesn’t have to be empty because it’s not close enough to the canal. But as funding remains uncertain, she hopes to move within the next two years."
+      "value": "Los planes para dragar implican también instalar alcantarillas en la calle de Blanquita. Su casa no debe ser evacuada porque está lo suficientemente retirada del canal. Sin embargo, como el financiamiento del proyecto está en veremos, ella espera mudarse en los próximos dos años."
     },
     {
       "type": "text",
-      "value": "“I’m going to be older, and I won’t be able to get the water out by myself,” Blanquita said. “I don’t have the same strength, but nobody will buy this house to struggle.”"
+      "value": "“Voy a estar mayor, y no voy a poder sacar el agua yo sola”, dijo. “Ya no tengo la misma fuerza, pero nadie va a comprar esta casa para pasar trabajo.”"
     }
   ],
   "step-links": {
     "step-back-name": "ecology",
-    "step-back-title": "A Natural Revolution",
+    "step-back-title": "Learning From The Forest",
     "step-forward-name": "pollution",
-    "step-forward-title": "A Fight For Life"
+    "step-forward-title": "Covered in Ash"
   }
 }
