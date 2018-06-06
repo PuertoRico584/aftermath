@@ -10,16 +10,16 @@ module.exports = exports;
 // Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
 //var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 var fileIds = {
-    "water": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ",
-    "power": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
-    "health": "1q5BVQq4zkL0LT_OYdajZgNxdpLUpFvI2crz3shV4YmI",
-    "ecology": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
-    "pollution": "171kC7IfFFOCsuIxSukghsUF2Cn0GIrhBeKHPfTMyq-M",
-    "waterespanol": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ",
-    "powerespanol": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
-    "healthespanol": "1q5BVQq4zkL0LT_OYdajZgNxdpLUpFvI2crz3shV4YmI",
-    "ecologyespanol": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
-    "pollutionespanol": "171kC7IfFFOCsuIxSukghsUF2Cn0GIrhBeKHPfTMyq-M"
+    // "water": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ",
+    // "power": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
+    // "health": "1q5BVQq4zkL0LT_OYdajZgNxdpLUpFvI2crz3shV4YmI",
+    // "ecology": "1jh_IAZiWvM0ekRoluBYqUZkX1LAsmxa2iIiwtcYfTLo",
+    // "pollution": "171kC7IfFFOCsuIxSukghsUF2Cn0GIrhBeKHPfTMyq-M",
+    "waterespanol": "1lokTj8O96nMjFNItII1u9BGbscGkcS3iCuUDuJh6xUA",
+    "powerespanol": "10kkIm5cKQVfyhNZj76xeOLjGFwbPm6n7hbYsCumx2B8",
+    "healthespanol": "1yxN7NvGkusg4Bhac-cBhBU9pzUKOhXetrCDofd0UDiI",
+    "ecologyespanol": "1J4XXZrIDxx7lsi46IY4oWfqJGQwBQlq7KgGM3gKubro",
+    "pollutionespanol": "11tbTKCR38xo66KCvgjpj5IYkHTaJKHnxfWWSYING_Cg"
 }
 
 module.exports.sendIds = function(){

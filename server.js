@@ -7,8 +7,9 @@ var bodyParser = require('body-parser');
 var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
-var navEnglish = ["Pollution", "Water", "Power", "Health", "Ecology", "About", "About the Project"];
-var navSpanish = ["Polución", "Agua", "Poder", "Salud", "Ecologia", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["POWER", "POLLUTION", "HEALTH", "WATER", "ECOLOGY", "ABOUT", "About the Project", "flipping the switch", "a fight for life", "the healing brigade", "rooted in el caño", "a natural revolution"];
+var navSpanish = ["ELECTRICIDAD", "POLUCIÓN", "SALUD", "AGUA", "ECOLOGIA", "Sobre nosotros", "Sobre el proyecto", ""];
+
 var usingHeroku = false;
 if (usingHeroku){
   app.set('port', (process.env.PORT || 5000));
