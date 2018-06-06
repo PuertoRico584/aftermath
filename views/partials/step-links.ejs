@@ -1,9 +1,10 @@
 </div>
 </div>
+<% var URL_LANG = espanol ? "?lang=es":"";  %>
 
 <div id="stepLinks" class="row">
   <div class="col-6">
-    <a href="/pages/<%= body["step-links"]["step-back-name"]%>" class="steplinksvideo">
+    <a href="/pages/<%= body["step-links"]["step-back-name"]%><%=URL_LANG%>" class="steplinksvideo">
       <video class="thevideo" muted loop preload="auto">
       <source src="../assets/images/<%= body["step-links"]["step-back-name"]%>.mp4" type="video/mp4">
       </video>
@@ -15,7 +16,7 @@
     </a>
   </div>
   <div class="col-6">
-    <a href="/pages/<%= body["step-links"]["step-forward-name"]%>" class="steplinksvideo">
+    <a href="/pages/<%= body["step-links"]["step-forward-name"]%><%=URL_LANG%>" class="steplinksvideo">
       <video class="thevideo" muted loop preload="auto">
       <source src="../assets/images/<%= body["step-links"]["step-forward-name"]%>.mp4" type="video/mp4">
       </video>

@@ -93,7 +93,7 @@
     {
       "type": "video",
       "value": {
-        "id": "264156328",
+        "id": "268464019",
         "is360": "false"
       }
     },
@@ -265,8 +265,8 @@
   ],
   "step-links": {
     "step-back-name": "ecology",
-    "step-back-title": "Learning From The Forest",
+    "step-back-title": "Una revolución natural",
     "step-forward-name": "pollution",
-    "step-forward-title": "Covered in Ash"
+    "step-forward-title": "Una lucha por la vida"
   }
 }

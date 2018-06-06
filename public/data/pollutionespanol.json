@@ -3,10 +3,10 @@
     "class": "pollution"
   },
   "header": {
-    "title-line-one": "A Fight",
-    "title-line-two": "For Life",
-    "seo": "A Fight For Life | Aftermath: Puerto Ricans Rebuild After Maria",
-    "subtitle": "Toxic coal ash has spread throughout Puerto Rico, and is suspected to have a role in high cancer rates in towns where the ash has been deposited. After Hurricane María spread ash from landfills into the air and groundwater of the island, the situation has become even more dire, but protest groups fight for a future without coal."
+    "title-line-one": "Una lucha",
+    "title-line-two": "por la vida",
+    "seo": "Una lucha por la vida | Aftermath: Puerto Ricans Rebuild After Maria",
+    "subtitle": "Cenizas tóxicas se han extendido por todo Puerto Rico, y se sospeche que las cenizas tienen un rol en las tasas de cáncer elevadas en pueblos donde se han depositado las cenizas. Huracán María extendió cenizas de los vertederos al aire y aguas subterráneas de la isla, y la situación ha empeorado, pero grupos de protesta luchan por un futuro sin carbón."
   },
   "reporters": [
     {
@@ -43,19 +43,19 @@
   "text": [
     {
       "type": "text",
-      "value": "It’s 7 a.m. on a Monday, but already 19 people are at the gates of the Humacao landfill to protest disposal of coal ash here. Five of them, including Carmelo García, have been here since before dawn."
+      "value": "Es 7 de la mañana en un lunes, pero ya 19 personas están en las puertas del vertedero de Humacao para protestar el depósito de cenizas de carbón aquí. Cinco de las personas, incluído Carmelo García, ha estado aquí desde la madrugada."
     },
     {
       "type": "text",
-      "value": "Some protesters wear white T-shirts that read “For Your Health, Zero Ashes” in Spanish, and others hold a banner that reads “No Ash Cancer.” Nine police officers and company security guards watch the protest from behind."
+      "value": "Algunos de los manifestantes llevan camisetas blancas que dicen “Por Tu Salud: Cero Cenizas,” y otros tienen un estandarte que dice “No Cenizas Cáncer.” Nueve oficiales de policía y agentes de seguridad miran la protesta desde detrás."
     },
     {
       "type": "text",
-      "value": "The Humacao landfill belongs to EC Waste, a waste management company, and already contains 7,000 tons of coal ash, the byproduct of burning coal for electricity. It is one of several coal ash deposits across Puerto Rico. The ash is shipped here from a coal-fired power plant in Guayama, about 37 miles away. Applied Energy Systems, the plant’s owner, also stores a five-story pile of ash on site."
+      "value": "El vertedero de Humacao pertenece a EC Waste, una compañía de gestión de residuos, y ya contiene 7.000 toneladas de cenizas de carbón, el producto secundario de quemar carbón para generar electricidad. Es uno de varios depósitos de cenizas de carbón en todo Puerto Rico. Las cenizas se envían de una planta de carbón en Guayama, casi 37 millas fuera. Applied Energy Systems, el propietario de la planta, almacena un montón de cinco pisos de cenizas en sitio."
     },
     {
       "type": "text",
-      "value": "Between 2004 and 2011, the AES plant converted two million tons of ash into filler for construction of housing developments across Puerto Rico, according to the Centro de Periodismo Investigativo, a nonprofit center for investigative journalism in Puerto Rico. The plant has sent an estimated  400,000 tons of ash to landfills in Humacao and Peñuelas (TK — fact-check against Timmy’s claim) — and another 1.1 million tons of ash are unaccounted for, widely assumed to have been deposited in other areas of the island."
+      "value": "Entre 2004 y 2011, la planta AES convirtió dos millones de toneladas de cenizas en relleno para la construcción de urbanizaciones de todo Puerto Rico, según el Centro de Periodismo Investigativo, un centro sin fines de lucro para periodismo investigativo en Puerto Rico. La planta ha enviado un estimado 400.000 toneladas de cenizas a vertederos en Humacao en Peñuelas — y otro 1.1 millón toneladas se desconoce, y se han considerados depositados en otras áreas de la isla."
     },
     {
       "type": "interactive",
@@ -65,67 +65,67 @@
     },
     {
       "type": "text",
-      "value": "The Environmental Protection Agency has found that coal ash contains arsenic, boron, chloride and chromium — all of which have negative health effects. That ash residue can leach into groundwater and soil, and breathing the dust can cause respiratory issues."
+      "value": "La Agencia de Protección Ambiental (EPA) ha encontrado que las cenizas de carbón contienen arsénico, boro, cloruro y chromo — todos que tienen efectos negativos en la salud. El residuo de cenizas puede filtrar en las aguas subterráneas y el suelo, y respirar el polvo puede causar enfermedades respiratorias."
     },
     {
       "type": "text",
-      "value": "Exposure to the chemicals in coal ash has been linked to bladder, stomach, skin, lung and kidney cancers,  asthma, emphysema and infertility, according to a 2010 study by Physicians for Social Responsibility. The ash is also radioactive, and long-term exposure to radiation can result in cancer and genetic issues, the EPA has found."
+      "value": "Exposición a químicas en cenizas de carbón han sido vinculados a cáncer de vejiga, estómago, piel, pulmón y riñones, la asma, el enfisema e infertilidad, según un estudio de 2010 de Físicos para la Responsabilidad Social. Las cenizas también son radiactivas, y exposición a largo plazo puede resultar en el cáncer y asuntos genéticos, según la EPA."
     },
     {
       "type": "text",
-      "value": "Many of the protesters gathered at the Humacao landfill this balmy morning say they’ve already seen these health effects in their friends and relatives."
+      "value": "Muchas de los manifestantes que se han reunidos al vertedero de Humacao esta mañana suave dicen que ya han visto estos efectos negativos sanitarios en sus amigos y parientes."
     },
     {
       "type": "text",
-      "value": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone,” said Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste, or ACASE, speaking into a makeshift speaker system from the top of a red pickup truck."
+      "value": "“Ya, a la administración de EC Waste, estamos diciendo que esas cenizas no pueden estar allí, que no se pueden salir más cenizas, porque contaminan y enferman a todo el mundo”, dijo Timmy Boyle, portavoz de la Alianza Comunitaria Ambiental del Sureste, o ACASE, hablando en un sistema de orador improvisado encima de una camioneta roja."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“To the administration of EC Waste, we’re saying that these ashes can’t be there, more ashes can’t come out, because they contaminate and sicken everyone.”",
-        "attribution": "Timmy Boyle, spokesperson for the Alianza Comunitaria Ambiental del Sureste"
+        "text": "“Ya, a la administración de EC Waste, estamos diciendo que esas cenizas no pueden estar allí, que no se pueden salir más cenizas, porque contaminan y enferman a todo el mundo”.",
+        "attribution": "Timmy Boyle, portavoz de la Alianza Comunitaria Ambiental del Sureste, o ACASE,"
       }
     },
     {
       "type": "text",
-      "value": "It’s been more than a year since new coal ash was dumped in the landfill, but ACASE believes the dumping will resume soon, as the island’s coal-burning plant returns to its level of generation pre-hurricane (TK for specific level of generation — full?). They want to stop it before it starts again, and demand the closure of the plant and an end to ash deposits in Puerto Rico."
+      "value": "Ha pasado más que un año desde el depósito de nuevas cenizas de carbón en el vertedero, pero ACASE cree que el depósito empezará de nuevo pronto, mientras las plantas de la quema de carbón regresarán al nivel de generación pre-huracán. Ellos quieren parar la quema antes de su regreso, y demandan el cierre de la planta y un fin al depósito de cenizas en Puerto Rico."
     },
     {
       "type": "text",
-      "value": "“En contra a las cenizas, el pueblo se moviliza!” they chant: “Against the ashes, the people mobilize!”"
+      "value": "“En contra a las cenizas, el pueblo se moviliza”! Ellos cantan."
     },
     {
       "type": "video",
       "value": {
-        "id": "263094335",
+        "id": "266729262",
         "is360": "false"
       }
     },
     {
       "type": "subhead",
       "value": {
-        "text": "The history of coal ash"
+        "text": "La historia de cenizas de carbón"
       }
     },
     {
       "type": "text",
-      "value": "When Hurricane María made landfall in Puerto Rico on Sept. 20, it destroyed the island’s power grid, rendering the AES plant in Guayama, the island’s sole coal-burning power plant, inoperable for five days (TK — taken from this article, but is it valid?)."
+      "value": "Cuando el huracán María golpeó Puerto Rico en el 20 de septiembre, destruyó la red eléctrica de la isla, y la planta AES en Guayama, la única planta de la quema de carbón en la isla, quedó sin operaciones por cinco días."
     },
     {
       "type": "text",
-      "value": "Though the Puerto Rican Board of Environmental Quality ordered AES to cover its ash piles before the hurricane, it did not. The largest ash piles, in Guayama and Peñuelas, lost meters of  ash in the storm, and ashes floated free all over the island, turning the air gray and contaminating the groundwater with heavy metals and radioactivity, according to the newspaper El Nuevo Día and a study for AES released earlier this year. AES could face fines of up to $75,000 for failing to cover the ash, according to an article from September, but there has been little update since."
+      "value": "Aunque la Junta de Calidad Ambiental ordenó que AES cubriera sus montones de cenizas antes del huracán, AES no cumplió. Los montones más grandes, en Guayama y Peñuelas, perdieron metros de cenizas en la tormenta, dejando que las cenizas volaran libres por toda la isla, tiñendo el aire el color gris y contaminando el agua subterránea con metales pesados y radioactividad, según el periódico El Nuevo Día y un estudio por AES publicado este año. AES puede enfrentarse contra multas hasta $75.000 por no cubrir las cenizas, según un artículo de septiembre, pero ha sido poca actualización desde entonces."
     },
     {
       "type": "text",
-      "value": "While the storm brought new attention to the coal ash here, the movement against it is much older. AES used to send its coal ash to Santo Domingo, the Dominican Republic — they brought 57,000 tons of ash there between 2003 and 2004 — until residents of the municipality Arroyo Barril filed a lawsuit to stop it in 2009, citing concerns about miscarriages and birth defects, according to the Centro de Periodismo Investigativo. AES stopped depositing ash in the Dominican Republic, and now primarily deposits it in Puerto Rico (TK a definitive timeline...hard to find a definitive one); however, an April 11 article from the newspaper La Perla states AES is shipping an undisclosed tonnage of ashes to Jacksonville, Florida."
+      "value": "Mientras la tormenta llevó nueva atención a las cenizas en Puerto Rico, el movimiento en contra a las cenizas lleva más tiempo. AES solía mandar sus cenizas de carbón a Santo Domingo, la República Dominicana — ellos llevaron 57.000 toneladas allí entre 2003 y 2004 — hasta que los residentes de la municipalidad Arroyo Barril presentaron demandas para dejar el depósito en 2009, citando preocupaciones de abortos y defectos congénitos, según el Centro de Periodismo Investigativo. AES dejó de depositar cenizas en la República Dominicana, y ahora las deposita primariamente en Puerto Rico; sin embargo, un artículo del periódico La Perla dijo que AES está enviando una cantidad de cenizas no divulgada a Jacksonville, Florida."
     },
     {
       "type": "text",
-      "value": "The Puerto Rican legislature approved a new law last July that prohibits the disposal of coal ash on the island. Coal plant operators would have 180 days from the production to remove the ash — which could be done by converting it to cement, concrete or another commercially beneficial use."
+      "value": "La legislatura de Puerto Rico aprobó una nueva ley el julio pasado que prohíbe el depósito de cenizas de carbón en la isla. Operadores de la planta tendrían 180 días desde la producción de cenizas para removerlas — lo que podría hacerse convirtiéndolo en cemento, hormigón u otro uso comercialmente beneficioso."
     },
     {
       "type": "text",
-      "value": "But many say the new law is ineffectual. AES does not consider its coal combustion residuals to be coal ash. It’s a mix of ash and water they call “AGREMAX” that can be used in construction. This classification has resulted in the continued storage of thousands of tons of coal ash on the island."
+      "value": "Pero muchos dicen que la nueva ley es ineficaz. AES no considera sus residuos de carbón como cenizas de carbón. Los considera una mezcla de cenizas y agua que los llama “AGREMAX” que se puede utilizar en construcción. Esta clasificación ha resultado en el almacenamiento continuo de miles de toneladas de cenizas de carbón en la isla."
     },
     {
       "type": "interactive",
@@ -135,99 +135,99 @@
     },
     {
       "type": "text",
-      "value": "The Environmental Protection Agency also issued new rules for coal ash disposal in December 2014 that called for the closure of impoundments and landfills that don’t comply with engineering and  structural standards. The new rule classified coal ash as non-hazardous industrial solid waste, and leave the enforcement largely up to states and local governments."
+      "value": "La EPA también publicó nuevas reglas para el depósito de cenizas de carbón en diciembre de 2014 que pidieron el cierre de embalses y vertederos que no cumplen con estándares de ingeniería y estructura. La nueva regla clasificó cenizas de carbón como residuo sólido no peligroso, y encarga estados y gobiernos locales con la aplicación de la regla."
     },
     {
       "type": "text",
-      "value": "For Puerto Rican activists, the storm has reinvigorated concerns about how coal ash will be handled on the island going forward -- as well as the pressure on the government to find a solution."
+      "value": "Para activistas puertorriqueñas, la tormenta ha revitilizado preocupaciones de la gestión de cenizas de carbón de aquí en adelante — y ha aumentado la presión en el gobierno para buscar una solución."
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Yanina Moreno and Campamento"
+        "text": "Yanina Moreno y Campamento"
       }
     },
     {
       "type": "text",
-      "value": "Yanina Moreno stands at the fence outside the AES plant in Guayama with her camera, documenting the change in the ash pile adjacent to the plant. She came here with her family after the hurricane, she said, and she saw the pile significantly shrink after the winds of the hurricane blew ash across Puerto Rico."
+      "value": "Yanina Moreno se sitúa frente de la verja frente de la planta AES en Guayama con su cámara, documentando el cambio en el montón junto a la planta. Ella vino aquí con su familia después del huracán, dijo, y vio que el montón redujo debido a los vientos del huracán, que sopló las cenizas a través de Puerto Rico."
     },
     {
       "type": "text",
-      "value": "On a Sunday in March, she and two activists from the Comunidad Guayamesa Unidos por tu Salud take pictures from the public road outside the plant, discussing the issues the ash has caused them. Their conversation pauses as a security van pulls up alongside them and slowly passes the group. Its driver radios for backup, and moments later two employees in AES jumpsuits arrive to confront the activists."
+      "value": "En un domino en marzo, ella y dos activistas de la Comunidad Guayamesa Unidos por tu Salud toman fotos de la calle pública fuera de la planta, discutiendo los asuntos que les causó las cenizas. Su conversación pausa mientras un camión de seguridad les acerca y pasa lentamente. Su conductor llama para apoyo, y momentos después dos empleados en overoles de AES llegan a confrontar a los activistas."
     },
     {
       "type": "text",
-      "value": "The three say they aren’t doing anything illegal, but an argument ensues. Moreno records it all on her phone. This has happened every time she has come to take photos and videos of the plant. She says she believes AES keeps track of the people who approach their property, and pays special attention to the protesters."
+      "value": "Los tres dicen que no están haciendo algo ilegal, pero un argumento empieza. Moreno graba todo en su teléfono. La misma cosa ha pasado cada vez que ella ha llegado a tomar fotos y vídeos de la planta. Ella dice que cree que AES nota quien se acerca a su propiedad, y presta atención especial a los manifestantes."
     },
     {
       "type": "text",
-      "value": "Moreno is the spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas, where the local landfill has also been receiving ash from the AES plant. The Peñuelas Valley Landfill was cited by Puerto Rican news organization Metro in August as containing 12 thousand tons of coal ash transported from the AES plant in Guayama (TK checking definitive figures of tonnages — this suggests a higher number than before, 393k tons)."
+      "value": "Moreno es la portavoz de Campamento Contra Cenizas de Carbón en Peñuelas, donde el vertedero local también ha estado recibiendo cenizas de la planta AES. El Peñuelas Valley Landfill tenía 12 miles de toneladas de cenizas de carbón en agosto, transportados de la planta de AES en Guayama, según la agencia de noticias Metro."
     },
     {
       "type": "text",
-      "value": "The Peñuelas Valley Landfill has held coal ash since 2015, Moreno said, and she has been protesting it for just as long."
+      "value": "El Peñuelas Valley Landfill ha retenido cenizas de carbón desde 2015, dijo Moreno, y ella ha sido protestándolo por el mismo tiempo."
     },
     {
       "type": "text",
-      "value": "Hurricane Maria only increased the group’s concerns of coal ash contamination.  Between July and August 2017, 709 new truckloads of ash were brought to Peñuelas (TK fact-check dates), according to Metro. The Peñuelas community didn’t know about the new deposits, Moreno said — but figured it out when they saw trucks driving to the landfill with ash flying behind them. Residents began to notice a persistent, fine layer of black dust coating their floors, furniture and yards."
+      "value": "El huracán María aumentó los preocupaciones del grupo en cuanto a la contaminación de cenizas de carbón. Entre julio y agosto de 2017, 709 camiones lleno de cenizas fueron traídos a Peñuelas, según Metro. La comunidad de Peñuelas no sabía de los depósitos nuevos en avance, dijo Moreno — pero lo descubrieron cuando vieron camiones conduciendo hacia el vertedero con cenizas volando detrás. Residentes empezaron a notar una capa fina persistente de polvo negro cubriendo sus suelos, muebles, y patios."
     },
     {
       "type": "text",
-      "value": "“The cleaning was so continuous,” Moreno said. “You would see glass tables with this layer of dust.”"
+      "value": "“La limpieza era continua”, dijo. “Que tú veas las mesas de cristal, que tú ves esa capa de polvo — era como un cambio bien drástico”."
     },
     {
       "type": "text",
-      "value": "They worry the ash was spread further during the hurricane."
+      "value": "Ellos se preocupan que las cenizas se extendieron más fuera durante el huracán."
     },
     {
       "type": "text",
-      "value": "Over the past five decades, Peñuelas has also been home to petrochemical and petroleum plants and incinerators, said Moreno, so pollution isn’t new here. The influx of coal ash was the most recent and possibly the most dangerous."
+      "value": "Durante los últimos cinco años, Peñuelas ha sido el hogar de petroquímicas e incineradores, dijo Moreno, entonces la polución no es nuevo aquí. El influjo de cenizas de carbón fue lo más reciente y posiblemente lo más peligroso."
     },
     {
       "type": "text",
-      "value": "“We are in a zone that has been highly contaminated,” ” she said."
+      "value": "“Estamos una zona que ha sido altamente contaminada”, dijo."
     },
     {
       "type": "text",
-      "value": "Six of her neighbors died of cancer and respiratory illnesses in a span of just three weeks last summer, she said. Moreno and other protesters suspect the ash is making people sick in a town that has the third-highest rate of cancer on the island, according to the Cancer Register of Puerto Rico."
+      "value": "Seis de sus vecinos murieron de cáncer y enfermedades respiratorias en tres semanas el verano pasado, dijo. Moreno y otros manifestantes sospechan que las cenizas están enfermando la gente en un pueblo que tiene la tercera tasa más alta de cáncer en la isla, según el Registro de Cáncer de Puerto Rico."
     },
     {
       "type": "text",
-      "value": "Moreno said the government refuses to acknowledge the community’s health problems as consequences of the ash, and has not yet conducted the health studies in the area that her group has demanded."
+      "value": "Moreno dijo que el gobierno se niega a reconocer las problemas de salud comunitarias como consecuencia de las cenizas, y aún no ha conducido los estudios de salud en la área que el grupo de Moreno ha exigido."
     },
     {
       "type": "text",
-      "value": "“Our worry is to not keep paying the consequences, to not keep bringing other industries, other contaminants that aggravate the situation,” she said. “Because then our community will disappear.”"
+      "value": "“Nuestra preocupación es no seguir abonando, no seguir trayendo otras industrias, otros contaminantes que agravan la situación”, dijo. “Porque entonces nuestra comunidad va a desaparecer”."
     },
     {
       "type": "text",
-      "value": "Moreno wants the dumping in her community to end, but she doesn’t stop there."
+      "value": "Moreno quiere que el vertido en su comunidad se detenga, pero ella no se detiene allí."
     },
     {
       "type": "text",
-      "value": "“Our final goal is that the plant closes down operations in Puerto Rico,” she said."
+      "value": "“Nuestra meta final que la planta AES cierre operaciones en Puerto Rico”, dijo."
     },
     {
       "type": "text",
-      "value": "Instead of relying on coal, Puerto Rico should look to other sources of energy, she said. Campamento Contra Cenizas de Carbón advocates for a future of renewable energy for Puerto Rico."
+      "value": "En lugar de depender en carbón, Puerto Rico debe buscar otras fuentes de energía, dijo Moreno. Campamento Contra Cenizas de Carbón aboga por un futuro de energía renovable para Puerto Rico."
     },
     {
       "type": "text",
-      "value": "“As a tropical island, we have all the tools, all the opportunities, all the alternatives to develop these projects,” she said."
+      "value": "“Como isla tropical, tenemos todas las herramientas, todas las oportunidades, todas las alternativas para desarrollar esos proyectos”, dijo."
     },
     {
       "type": "text",
-      "value": "Though regular activities for the group have waned after the hurricane, Campamento Contra Cenizas de Carbón has been a vocal presence in the fight against coal ash across Puerto Rico. The group has maintained a camp on the Road #2 exit into Peñuelas, blocked trucks from transporting coal ash into the town and attended events to raise awareness of the dangers of coal ash — and they’re not going to give up."
+      "value": "Aunque actividades regulares para el grupo han disminuido después del huracán, Campamento Contra Cenizas de Carbón ha sido una presencia vocal en la lucha contra cenizas de carbón a través de Puerto Rico. El grupo ha mantenido un campamento en la salida de la carretera PR-2 en Peñuelas, ha bloqueado camiones transportando cenizas de carbón en el pueblo y ha asistido a eventos para aumentar conciencia sobre los peligros de cenizas de carbón — y ellos no van a rendirse."
     },
     {
       "type": "text",
-      "value": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now,” she said."
+      "value": "“Mantienes esa lucha porque tú quieres que esa gente se mantengan vivos, porque tú quieres que esos niños, esos jóvenes, tú les quieres dar un futuro mejor que — incluso que nosotros tenemos ahora”, dijo."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“You keep the fight because you want these people to stay alive, (and) because you want to give these children, these youths, a better future than the one we have now.”",
-        "attribution": "Yanina Moreno, spokesperson of Campamento Contra Cenizas de Carbón in Peñuelas"
+        "text": "“Mantienes esa lucha porque tú quieres que esa gente se mantengan vivos, porque tú quieres que esos niños, esos jóvenes, tú les quieres dar un futuro mejor que — incluso que nosotros tenemos ahora”, dijo.",
+        "attribution": "Yanina Moreno, portavoz de Campamento Contra Cenizas de Carbón in Peñuelas"
       }
     },
     {
@@ -239,137 +239,137 @@
     {
       "type": "subhead",
       "value": {
-        "text": "Carmelo García and ACASE"
+        "text": "Carmelo García y ACASE"
       }
     },
     {
       "type": "text",
-      "value": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao, believes ACASE’s activism and constant protesting have helped prevent new ash from being dumped there for nearly a year. Hurricane María drastically changed the landscape for the movement."
+      "value": "Carmelo García, un miembro de ACASE quien vive menos de cinco millas del vertedero de EC Waste en Humacao, cree que el activismo y protesta constante de ACASE ha ayudado prevenir el depósito de nuevas cenizas en más que un año. El huracán María cambió el paisaje del movimiento drásticamente."
     },
     {
       "type": "text",
-      "value": "García has not had electricity in the six months since María, and does not expect to have it for another two. He and his wife run a generator for three hours every morning and evening to sustain their home. Despite the limits on his lifestyle, García still protests coal ash pollution in Humacao and is an active member of ACASE."
+      "value": "García no ha tenido electricidad en los seis meses después de María, y no espera tenerla para otros dos. Él y su esposa ejecuta un generador para tres horas cada mañana y noche para mantener su casa. A pesar de los límites en su estilo de vida, García sigue protestando la polución de cenizas de carbón en Humacao y es un miembro activo de ACASE."
     },
     {
       "type": "text",
-      "value": "He said he started protesting coal ash pollution five years ago (TK fact-check timeline — articles like this one say the protest movement has really only been going since 2014), after he noticed his grandmother’s asthma worsening after trucks carrying the ash started passing through his hometown of Maunabo. His scientific and chemical background — he has a doctorate in chemistry and teaches it at the University of Puerto Rico at Humacao — led him to investigate why his grandmother was getting sicker when everything else in her life was constant, and his research led him to evidence that the ashes were affecting her lungs."
+      "value": "Él dijo que empezó a protestar la polución de cenizas de carbón hace cinco años, después de que notó el asma de su abuela empeoraba cuando los camiones que transportaban las cenizas comenzaron a pasar por su pueblo natal de Maunabo. Su fondo científico y químico — él tiene un doctorado en química y la enseña en la Universidad de Puerto Rico Humacao — le conduce a investigar porque su abuela estaba cada vez más enferma cuando todo lo demás en su vida era constante, y su investigación le condujo a evidencia que las cenizas estaba afectando a sus pulmones."
     },
     {
       "type": "text",
-      "value": "In his search for answers, he came across the coal ash protest movement in Peñuelas and got in contact with the group there and with Moreno. The Peñuelas group welcomed him to the cause, happy to have someone on the team with a scientific background to educate others on the toxicity of the ash, especially as the government was claiming it was safe."
+      "value": "En su búsqueda para soluciones, él encontró el movimiento de protesta en Peñuelas, y se puso en contacto con el grupo allí y con Moreno. El grupo de Peñuelas lo recibió en la causa, felices a tener alguien en el grupo con un fondo científico para educar a los demás en la toxicidad de las cenizas, especialmente mientras el gobierno estaba reclamando que las cenizas eran seguros."
     },
     {
       "type": "text",
-      "value": "The more research he did, the more concerned he became."
+      "value": "La más investigación que hizo, lo más preocupado se sentía."
     },
     {
       "type": "text",
-      "value": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb,” he said. “The only option was to join the movement and to help them.”"
+      "value": "“Tan pronto que me senté y empecé a leer algunas de las páginas, dije, ‘Por dios, esa es una cosa ilegal que están haciendo. Esta es una bomba de tiempo’”, dijo. “La única opción que tenía era juntarme al movimiento y ayudarlo”."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“As soon as I sat down and read some of the pages, I said, ‘Oh my god, this is a criminal thing they are doing. This is a time bomb. The only option was to join the movement and to help them”",
-        "attribution": "Carmelo García, a member of ACASE who lives less than five miles from the EC Waste landfill in Humacao"
+        "text": "“Tan pronto que me senté y empecé a leer algunas de las páginas, dije, ‘Por dios, esa es una cosa ilegal que están haciendo. Esta es una bombe de tiempo’”, dijo. “La única opción que tenía era juntarme al movimiento y ayudarlo”.",
+        "attribution": "Carmelo García, un miembro de ACASE quien vive menos de cinco millas del vertedero de EC Waste en Humacao"
       }
     },
     {
       "type": "text",
-      "value": "García said he has spent the last five years working to communicate the dangers of coal ash to populations affected by the landfills and the transport of coal ash."
+      "value": "García dijo que él ha pasado años trabajando para comunicar los peligros de cenizas de carbón a las poblaciones afectadas por los vertederos y el transporte de cenizas de carbón."
     },
     {
       "type": "text",
-      "value": "“Here at stake is the very life of the people living not only in Guayama, Peñuelas and Humacao,” he said. “Here at stake is the life of the people living on the island, because this is not a big island.”"
+      "value": "“Aquí en juego son las vidas de personas viviendo no solo en Guayama, Peñuelas y Humacao”, dijo. “Aquí en juego son las vidas de la gente viviendo en la isla, porque esta no es una isla grande”."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“Here at stake is the very life of the people living not only in Guayama, Peñuelas and Humacao. Here at stake is the life of the people living on the island, because this is not a big island.”",
+        "text": "“Aquí en juego son las vidas de personas viviendo no solo en Guayama, Peñuelas y Humacao”, dijo. “Aquí en juego son las vidas de la gente viviendo en la isla, porque esta no es una isla grande”.",
         "attribution": "Carmelo García"
       }
     },
     {
       "type": "text",
-      "value": "García said the landfills are not equipped to contain the ash in the event of Puerto Rico’s frequent hurricanes."
+      "value": "García dijo que los vertederos no están equipados para contener las cenizas en el evento de los huracanes frecuentes de Puerto Rico."
     },
     {
       "type": "text",
-      "value": "“The ashes in the company, the ashes in Peñuelas and the ashes in Humacao, they are all around the island,” he said."
+      "value": "“Las cenizas de la compañía, las cenizas en Peñuelas y las cenizas en Humacao, están por toda la isla”, dijo."
     },
     {
       "type": "text",
-      "value": "While the storm slowed coal-burning on the island for months, he worries the drive to dump will resume."
+      "value": "Mientras la tormenta desaceleró la quema de carbón en la isla por meses, él se preocupa que el depósito de cenizas resumirá."
     },
     {
       "type": "text",
-      "value": "“We know (that) as soon as the grid is up, they are planning to start burning like hell, and we will start getting not only the ashes they produce, but the ashes they already had,” he said. “And we are talking here, thousands and thousands of tons of ashes.”"
+      "value": "“Sabemos que tan pronto como la red eléctrica esté lista, ellos están planeando a comenzar a arder como el infierno, y nosotros vamos a recibir no solo las cenizas que producirán, pero las cenizas que ya tenían”, dijo. “Y estamos hablando de miles y miles de toneladas de cenizas”."
     },
     {
       "type": "text",
-      "value": "García said it is hard to get people to care about the long-term effects coal ash has on human health, since the links between coal ash exposure and illness are not always straightforward or immediate."
+      "value": "García dijo que es difícil hacer que la gente se preocupe de los efectos a largo plazo que tiene cenizas de carbón en la salud humana, porque el enlace entre exposición a las cenizas y enfermedades no siempre son sencillos ni inmediatos."
     },
     {
       "type": "text",
-      "value": "“The real problem is that, and I told them … none of you are going to get sick because of the ashes, but your sons and your grandsons, they will. And you won’t be here to explain to them why you did nothing to stop them.”"
+      "value": "“La problema verdadera es que, y les dije … ninguno de ustedes se van a enfermar debido a las cenizas, pero sus hijos y nietos, ellos si se van a enfermar”, dijo. “Y no estarás aquí para explicarles porque no hiciste nunca para detenerlos”."
     },
     {
       "type": "pullquote",
       "value": {
-        "text": "“The real problem is that, and I told them … none of you are going to get sick because of the ashes, but your sons and your grandsons, they will. And you won’t be here to explain to them why you did nothing to stop them.”",
+        "text": "“La problema verdadera es que, y les dije … ninguno de ustedes se van a enfermar debido a las cenizas, pero sus hijos y nietos, ellos si se van a enfermar”, dijo. “Y no estarás aquí para explicarles porque no hiciste nunca para detenerlos”.",
         "attribution": "Carmelo García"
       }
     },
     {
       "type": "subhead",
       "value": {
-        "text": "Press conference"
+        "text": "Conferencia de prensa"
       }
     },
     {
       "type": "text",
-      "value": "Under a tent in front of the Capitol in San Juan in the early afternoon of March 15, protesters and journalists mingle among pictures of the Guayama landfill at one of the first coal ash protest events since the storm. There’s a giant banner highlighting the communities in Puerto Rico that have been affected by the transport or deposit of ash, with the words “CONTAMINATED WITH ASH.”"
+      "value": "Debajo de una tienda enfrente del Capitolio en San Juan temprano en la tarde del 15 de marzo, manifestantes y periodistas mezclan debajo de fotos del vertedero de Guayama en uno de los primeros eventos de protesta de cenizas de carbón desde la tormenta. Hay un estandarte destacando las comunidades en Puerto Rico que han sido afectadas por el transporte o depósito de cenizas, con las palabras “CONTAMINADOS CON CENIZAS”."
     },
     {
       "type": "text",
-      "value": "Protest groups from across southeast Puerto Rico are present, including Campamento Contra Cenizas de Carbón and ACASE. The air thrums with a sense of urgency. A few days before, news had broken about the presence of chemicals and radioactive materials in groundwater near AES’s plant in Guayama, evidence that the coal ash was leaching these chemicals into the environment."
+      "value": "Grupos de protesta de todo el sureste de Puerto Rico están presentes, incluso Campamento Contra Cenizas de Carbón y ACASE. El aire vibra con un sentido de urgencia. Unos días antes, se publicó noticias sobre la presencia de químicas y materiales radioactivos en el agua subterránea cerca de la planta AES en Guayama, evidencia que las cenizas de carbón estaban lixiviando estas químicas en el medioambiente."
     },
     {
       "type": "text",
-      "value": "Speaking on behalf of ACASE, Boyle reminded the crowd of the numerous studies conducted on coal ash that demonstrated health hazards, and claimed AES and EC Waste never had permission to store and dump their ashes in Puerto Rico."
+      "value": "Hablando por ACASE, Boyle recordó a la multitud sobre los estudios numerosos conducidos en cenizas de carbón que demostraban riesgos sanitarios, y clamó que AES y EC Waste nunca tuvieron permiso a almacenar y depositar sus cenizas en Puerto Rico."
     },
     {
       "type": "text",
-      "value": "Miriam Gallardo Gonzalez of the Frente Afirmación Sureste (FAST), a group based in Guayama, gave an emotional speech about miscarriages and animals born with defects in her community — both caused by the ash, she said."
+      "value": "Miriam Gallardo Gonzalez del Frente Afirmación Sureste (FAST), un grupo basado en Guayama, dio un discurso emocional sobre abortos y animales nacidos con defectos en su comunidad — ambos causados por las cenizas, dijo."
     },
     {
       "type": "text",
-      "value": "“The problem of the ashes is real,” she said."
+      "value": "“El problema de las cenizas es real”, dijo."
     },
     {
       "type": "text",
-      "value": "The groups had penned a letter with a list of demands and planned to deliver it to the Senate President Thomas Rivera Schatz outlining their list of demands."
+      "value": "Los grupos habían escrito una carta presentando una lista de demandas y la planearon entregar al presidente del senado, Thomas Rivera Schatz."
     },
     {
       "type": "text",
-      "value": "“We are demanding, among other things, first that the Department of Health and the Board of Environmental Quality intervene immediately in the contamination,” said Víctor Alvarado, the spokesperson for the Comité Diálogo Ambiental de Salinas, an environmental advocacy group from Salinas, a town along the path the ash trucks took from Guayama to Peñuelas."
+      "value": "“Estamos exigiendo, entre otras cosas, primero lo que hablamos ahorita de que el Departamento de Salud y la Junta de Calidad Ambiental de que intervengan inmediatamente en toda la contaminación”, dijo Víctor Alvarado, el portavoz del Comité Diálogo Ambiental de Salinas, un grupo de defensa del medioambiente de Salinas, un pueblo en la ruta que tuvieron los camiones de cenizas de Guayama a Peñuelas."
     },
     {
       "type": "text",
-      "value": "The protesters want the Board of Environmental Quality to classify coal ash as a hazardous waste, change the way the ash is tested and perform tests for radioactivity on the ash. The biggest request, however, was simple: They want the coal plant shut down for good."
+      "value": "Los manifestantes quieren que la Junta de Calidad Ambiental clasifique las cenizas de carbón como un residuo peligroso, cambie la manera en que se prueba las cenizas y conduzca pruebas de radioactividad en las cenizas. La solicitud más grande era sencilla: Ellos quieren que la planta de cenizas se cierre de una vez por todas."
     },
     {
       "type": "text",
-      "value": "After the conference, the activists huddled in a light drizzle outside entrance to the Senate. Some of the activists began to get antsy, with one yelling at a security guard that it’s the people who pay the legislator’s salaries. Another group member subdued him, and after about 15 minutes, a small group of activists were allowed in to deliver their letter to the senate president."
+      "value": "Después de la conferencia, los activistas se acurrucaba en una llovizna ligera fuera de la entrada al Senado. Algunas de las activistas empezaron a ponerse ansiosos, y una gritaba a la guarda de seguridad que la gente paga los sueldos de los legisladores. Otro miembro del grupo lo sometió, y después de casi 15 minutos, dejaron entrar un grupo pequeño de activistas al Senado para entregar su carta al presidente del senado."
     },
     {
       "type": "text",
-      "value": "A press secretary told them Rivera Schatz was not there, but he would pass along the the letter."
+      "value": "Una secretaria de prensa les dijo que Rivera Schatz no estaba allí, pero él pasaría el mensaje."
     }
   ],
   "step-links": {
     "step-back-name": "water",
-    "step-back-title": "Dredging With Hope",
+    "step-back-title": "Arraigado en el Caño",
     "step-forward-name": "health",
-    "step-forward-title": "The Healing Brigade"
+    "step-forward-title": "La brigada curativa"
   }
 }

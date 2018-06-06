@@ -9,7 +9,7 @@ var parsed = archieml.load('key: value');
 var fs = require('fs');
 
 var navEnglish = ["POWER", "POLLUTION", "HEALTH", "WATER", "ECOLOGY", "ABOUT", "About the Project", "flipping the switch", "a fight for life", "the healing brigade", "rooted in el caño", "a natural revolution"];
-var navSpanish = ["ELECTRICIDAD", "POLUCIÓN", "SALUD", "AGUA", "ECOLOGIA", "Sobre nosotros", "Sobre el proyecto", "pasándose el switche", "la lucha por la vida", "la brigada curativa", "arraigados en el caño", "la revolución natural"];
+var navSpanish = ["ELECTRICIDAD", "POLUCIÓN", "SALUD", "AGUA", "ECOLOGIA", "Sobre nosotros", "Sobre el proyecto", "pasándose el switche", "una lucha por la vida", "la brigada curativa", "arraigados en el caño", "una revolución natural"];
 
 gulp.task('connect', function(){
 
