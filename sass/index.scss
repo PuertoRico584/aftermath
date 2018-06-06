@@ -355,11 +355,14 @@ h5{
   color: white;
   text-align: center;
   float: right;
+  display: flex;
+  align-items: center;
   a{
     color: white;
+    margin: 5px;
   }
   p{
-    margin-bottom: 0px;
+    margin-bottom: -1px;
   }
   @include media('<=md'){
     position: fixed;

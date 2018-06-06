@@ -588,11 +588,14 @@ h5 {
 .es-and-about {
   color: white;
   text-align: center;
-  float: right; }
+  float: right;
+  display: flex;
+  align-items: center; }
   .es-and-about a {
-    color: white; }
+    color: white;
+    margin: 5px; }
   .es-and-about p {
-    margin-bottom: 0px; }
+    margin-bottom: -1px; }
   @media (max-width: 1020px) {
     .es-and-about {
       position: fixed;
